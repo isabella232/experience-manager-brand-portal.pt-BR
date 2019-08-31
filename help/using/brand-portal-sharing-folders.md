@@ -9,7 +9,7 @@ topic-tags: compartilhamento
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: 2332 c 16 f -40 be -4673-8 cc 6-2360 d 5 b 74116
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
@@ -23,8 +23,8 @@ Os ativos precisam ser publicados no Brand Portal a partir de uma instância pr�
 A seguir, descreva o fluxo de trabalho de compartilhamento de pasta e o acesso do usuário:
 
 * Por padrão, todas as pastas publicadas do AEM Assets para o Brand Portal são visíveis somente para o Administrador do Brand Portal, a menos que marcadas como públicas ao configurar a replicação.
-* O administrador usa o **console Propriedades** da pasta para compartilhar uma pasta com usuários ou grupos seletivos. Somente os usuários ou grupos com os quais a pasta é compartilhada podem ver a pasta depois de fazerem logon no Brand Portal. A pasta não está visível para outros usuários.
-* O administrador também pode escolher tornar uma pasta pública por meio da **caixa de seleção Pasta** pública no **console Propriedades** da pasta. Uma pasta pública é visível para todos os usuários.
+* O administrador usa o [!UICONTROL console Propriedades] da pasta para compartilhar uma pasta com usuários ou grupos seletivos. Somente os usuários ou grupos com os quais a pasta é compartilhada podem ver a pasta depois de fazerem logon no Brand Portal. A pasta não está visível para outros usuários.
+* O administrador também pode escolher tornar uma pasta pública por meio da [!UICONTROL caixa de seleção Pasta] pública no [!UICONTROL console Propriedades] da pasta. Uma pasta pública é visível para todos os usuários.
 
 * Independentemente das funções e dos privilégios do usuário, quando os usuários fizerem logon no Brand Portal, eles verão todas as pastas públicas e as pastas compartilhadas diretamente com eles ou com um grupo ao qual pertencem. Pastas privadas ou pastas compartilhadas com outros usuários não estão visíveis para todos os usuários.
 
@@ -36,15 +36,15 @@ Da mesma forma, os grupos de usuários (ou usuários) com permissões para acess
 
 ### Public folder publish {#public-folder-publish}
 
-A menos que a **opção Publicação** de pasta pública esteja selecionada ao configurar a replicação do Brand Portal, os usuários não administradores (como Editores e Visualizadores) não terão acesso aos ativos publicados nos ativos AEM para o Portal da marca.
+A menos que a [!UICONTROL opção Publicação] de pasta pública esteja selecionada ao configurar a replicação do Brand Portal, os usuários não administradores (como Editores e Visualizadores) não terão acesso aos ativos publicados nos ativos AEM para o Portal da marca.
 
 ![](assets/assetbpreplication.png)
 
-Se a opção **Publicar** pasta pública estiver desativada, os administradores precisarão compartilhar especificamente esses ativos com usuários não administradores usando o recurso compartilhar.
+Se a opção [!UICONTROL Publicar] pasta pública estiver desativada, os administradores precisarão compartilhar especificamente esses ativos com usuários não administradores usando o recurso compartilhar.
 
 >[!NOTE]
 >
->A opção para habilitar **a Publicação pública está** disponível no AEM 6.3.2.1 em diante.
+>A opção para habilitar [!UICONTROL a Publicação pública está] disponível no AEM 6.3.2.1 em diante.
 
 ## Acesso a pastas compartilhadas {#access-to-shared-folders}
 
@@ -57,11 +57,11 @@ A seguinte matriz discute os direitos de acesso e os direitos de compartilhar/ca
 | Visualizador | Não* | Sim, somente se compartilhados com eles ou com o grupo ao qual pertencem | Não |
 | Usuário convidado | Não* | Sim, somente se compartilhados com eles ou com o grupo ao qual pertencem | Não |
 
-** Por padrão,**a opção Publicação**de pasta pública está desativada ao configurar a replicação do Portal de marcas com Autor de AEM. Se a opção estiver ativada, as pastas publicadas no Brand Portal estarão acessíveis a todos os usuários (usuários não administradores também) por padrão.*
+** Por padrão,[!UICONTROL a opção Publicação]de pasta pública está desativada ao configurar a replicação do Portal de marcas com Autor de AEM. Se a opção estiver ativada, as pastas publicadas no Brand Portal estarão acessíveis a todos os usuários (usuários não administradores também) por padrão.*
 
 ### Acesso de usuário não administrador a pastas compartilhadas {#non-admin-user-access-to-shared-folders}
 
-Usuários não administradores podem acessar apenas as pastas compartilhadas com eles no Brand Portal. No entanto, como essas pastas são exibidas no portal quando o logon depende das configurações da configuração Ativar hierarquia de pastas.
+Usuários não administradores podem acessar apenas as pastas compartilhadas com eles no Brand Portal. No entanto, como essas pastas são exibidas no portal quando o logon depende das configurações [!UICONTROL da configuração Ativar hierarquia] de pastas.
 
 **Se a configuração estiver desativada**
 
@@ -75,7 +75,7 @@ Os usuários não administradores veem a árvore de pastas (começando pela past
 
 Essas pastas pai são pastas virtuais e nenhuma ação pode ser executada neles. Você pode reconhecer essas pastas virtuais com um ícone de cadeado.
 
-Nenhuma tarefa de ação é visível ao passar o mouse ou selecioná-las na Exibição de cartão, ao contrário das pastas compartilhadas. O botão Visão geral é mostrado na seleção de uma pasta virtual na Exibição de coluna e na Exibição de lista.
+Nenhuma tarefa de ação é visível ao passar o mouse ou selecioná-las na Exibição [!UICONTROL de cartão], ao contrário das pastas compartilhadas. [!UICONTROL O] botão Visão geral é mostrado na seleção de uma pasta virtual na Exibição [!UICONTROL de coluna] e na Exibição [!UICONTROL de lista].
 
 >[!NOTE]
 >
@@ -87,11 +87,11 @@ Nenhuma tarefa de ação é visível ao passar o mouse ou selecioná-las na Exib
 
 Para compartilhar uma pasta com usuários no Brand Portal, siga estas etapas:
 
-1. Clique no ícone de sobreposição à esquerda e escolha **Navegação**.
+1. Clique no ícone de sobreposição à esquerda e escolha **[!UICONTROL Navegação]**.
 
    ![](assets/selectorrail.png)
 
-2. Na extremidade à esquerda, selecione **Arquivos**.
+2. Na extremidade à esquerda, selecione **[!UICONTROL Arquivos]**.
 
    ![](assets/access_files.png)
 
@@ -99,26 +99,26 @@ Para compartilhar uma pasta com usuários no Brand Portal, siga estas etapas:
 
    ![](assets/share-folders.png)
 
-4. Na barra de ferramentas na parte superior, selecione **Compartilhar**.
+4. Na barra de ferramentas na parte superior, selecione **[!UICONTROL Compartilhar]**.
 
    ![](assets/share_icon.png)
 
-   O **console Propriedades** da pasta é exibido.
+   O [!UICONTROL console Propriedades] da pasta é exibido.
 
    ![](assets/folder_properties.png)
 
-5. No console **Propriedades** da pasta, especifique o título da pasta no campo **Título** da pasta se você não quiser que o nome padrão seja exibido aos usuários.
-6. Na lista **Adicionar usuário** , selecione os usuários ou grupos com os quais você deseja compartilhar a pasta e clique **em Adicionar**.
-Para compartilhar a pasta somente com usuários convidados e nenhum outro usuário, selecione **Usuários** anônimos na lista suspensa **Membros** .
+5. No console [!UICONTROL Propriedades] da pasta, especifique o título da pasta no campo [!UICONTROL Título] da pasta se você não quiser que o nome padrão seja exibido aos usuários.
+6. Na lista [!UICONTROL Adicionar usuário] , selecione os usuários ou grupos com os quais você deseja compartilhar a pasta e clique **[!UICONTROL em Adicionar]**.
+Para compartilhar a pasta somente com usuários convidados e nenhum outro usuário, selecione **[!UICONTROL Usuários]** anônimos na lista suspensa [!UICONTROL Membros] .
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >Para disponibilizar a pasta para todos os usuários independentemente da associação e da função de grupo, torne-a pública selecionando a caixa **de seleção Pasta** pública.
+   >Para disponibilizar a pasta para todos os usuários independentemente da associação e da função de grupo, torne-a pública selecionando a caixa **[!UICONTROL de seleção Pasta]** pública.
 
-7. Se necessário, clique **em Alterar miniatura** para modificar a imagem em miniatura da pasta.
-8. Clique em **Salvar**.
+7. Se necessário, clique **[!UICONTROL em Alterar miniatura]** para modificar a imagem em miniatura da pasta.
+8. Clique em **[!UICONTROL Salvar]**.
 9. Para acessar a pasta compartilhada, faça logon no Portal da marca com as credenciais do usuário com as quais você compartilhou a pasta. Revise a pasta compartilhada na interface.
 
 ## Não compartilhar pastas {#unshare-the-folders}
@@ -129,12 +129,12 @@ Para cancelar a compartilhamento de uma pasta compartilhada anteriormente, siga 
 
    ![](assets/share-folders-1.png)
 
-2. Na barra de ferramentas na parte superior, clique **em Compartilhar**.
-3. No console **Propriedades** da pasta, em **Membros**, clique no símbolo **x** ao lado de um usuário para removê-los da lista de usuários com os quais você compartilhou a pasta.
+2. Na barra de ferramentas na parte superior, clique **[!UICONTROL em Compartilhar]**.
+3. No console [!UICONTROL Propriedades] da pasta, em [!UICONTROL Membros], clique no símbolo **[!UICONTROL x]** ao lado de um usuário para removê-los da lista de usuários com os quais você compartilhou a pasta.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. Na caixa de mensagem de aviso, clique **em Confirmar** para confirmar não compartilhar.
-Clique em **Salvar**.
+4. Na caixa de mensagem de aviso, clique **[!UICONTROL em Confirmar]** para confirmar não compartilhar.
+Clique em **[!UICONTROL Salvar]**.
 
 5. Faça logon no Brand Portal com as credenciais do usuário removidas da lista compartilhada. A pasta não está mais disponível na interface do Brand Portal para o usuário.
