@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: a 512 dfa 0-fef 3f-a 3f-f-a 389-a 0 a 3 a 7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ Observe que somente os administradores podem criar predefinições de imagens no
 O modo Dynamic Media híbrido deve ser habilitado no AEM (autor) para criar pirâmide (ptiff) de um ativo. Quando um ativo é publicado no Brand Portal, as predefinições de imagens são aplicadas e as representações dinâmicas são exibidas.
 
 1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
-
-   ![](assets/AEMlogo.png)
 
 2. No painel de ferramentas administrativas, clique em Predefinições **[!UICONTROL de imagens]**.
 
