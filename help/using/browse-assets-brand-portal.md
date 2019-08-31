@@ -9,16 +9,16 @@ content-type: referência
 topic-tags: introdução
 discoiquuid: a 70 ce 694-81 d 1-4829-9 e 61-b 6412 e 013 e 5 c
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Navegação de ativos no Brand Portal {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] Ativos [! O DNL Brand Portal oferece vários recursos e elementos da interface do usuário que facilitam a navegação pelos recursos, a tendência de hierarquias de ativos e a pesquisa de ativos ao usar diferentes opções de visualização.
+O AEM Assets Brand Portal oferece vários recursos e elementos da interface do usuário que facilitam a navegação pelos recursos, a tendência das hierarquias de ativos e a pesquisa de ativos enquanto usam diferentes opções de visualização.
 
-[!DNL AEM] na [!DNL AEM] barra de ferramentas na parte superior, facilitando o acesso dos usuários administradores ao painel de ferramentas administrativas.
+O logotipo do AEM na barra de ferramentas do AEM na parte superior facilita os usuários administradores de acessar o painel de ferramentas administrativas.
 
 ![](assets/aemlogo.png)
 
@@ -26,17 +26,17 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/bp_subheader.png)
 
-Seletor de painel no canto superior esquerdo [!DNL Brand Portal] para baixo para expor as opções para navegar em hierarquias de ativos, simplificar a pesquisa e exibir recursos.
+O seletor de painel no canto superior esquerdo do Portal da marca para expor as opções para navegar em hierarquias de ativos, simplificar a pesquisa e os recursos de exibição.
 
 ![](assets/siderail-1.png)
 
-É possível exibir, navegar e selecionar ativos usando qualquer uma das exibições disponíveis (Cartão, Coluna e Lista) no seletor de visualização no canto superior direito.[!DNL Brand Portal]
+É possível exibir, navegar e selecionar ativos usando qualquer uma das exibições disponíveis (Cartão, Coluna e Lista) no seletor de visualização no canto superior direito do Portal da marca.
 
 ![](assets/viewselector.png)
 
 ## Visualização e seleção de recursos {#viewing-and-selecting-resources}
 
-Visualizar, navegar e selecionar são conceitualmente iguais em todas as exibições, mas têm pequenas variações de manuseio, dependendo da exibição usada.
+Visualizar, navegar e selecionar cada um são conceitualmente iguais em todas as exibições, mas têm pequenas variações de manuseio, dependendo da exibição usada.
 
 Você pode visualizar, navegar e selecionar (para uma futura ação) seus recursos com qualquer uma das exibições disponíveis:
 
@@ -54,7 +54,7 @@ A Exibição de cartão exibe cartões de informações para cada item no nível
 * Tipo
 * Título
 * Nome
-* Data e hora em que o ativo foi publicado [!DNL Brand Portal] a partir de [!DNL AEM]
+* Data e hora em que o ativo foi publicado no Portal da marca a partir do AEM
 * Tamanho
 * Dimensões
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 Cartões de pastas, na Exibição de cartão, exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam o local das pastas, estão acessando, em relação à hierarquia pai.
 As informações de hierarquia de pastas são especialmente úteis na diferenciação das pastas com nomes semelhantes a outras pastas compartilhadas a partir de uma hierarquia de pasta diferente. Se os usuários não administradores não estiverem cientes da estrutura de pastas dos ativos compartilhados com eles, os ativos /folders com nomes semelhantes parecerão confusos.
 
-* Os caminhos mostrados nos respectivos cartões são truncados para ajustar os tamanhos do cartão. No entanto, os usuários podem ver o caminho completo como uma dica de ferramenta sobre o caminho truncado.
+* Os caminhos mostrados nos respectivos cartões são truncados para ajustar os tamanhos do cartão. No entanto, os usuários podem ver o caminho completo como uma dica de ferramenta ao passar o mouse sobre o caminho truncado.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ As informações de hierarquia de pastas são especialmente úteis na diferencia
 
 A opção Visão geral está disponível para usuários não administradores (Editores, Visualizadores, Usuários convidados) para exibir Propriedades de ativos de pastas/ativos selecionados. A opção Visão geral está visível:
 
-1. Na barra de ferramentas na parte superior, selecione um ativo/pasta.
-2. No menu suspenso ao selecionar o Seletor de painéis.
+* na barra de ferramentas na parte superior ao selecionar um ativo/pasta.
+* no menu suspenso ao selecionar o Seletor de painéis.
 
-Ao selecionar a opção Visão geral enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação de ativos. Enquanto a página de detalhes do ativo selecionando a opção Visão geral permite que os usuários vejam metadados do ativo.
+Ao selecionar [!UICONTROL a] opção Visão geral enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação de ativos. Enquanto a página de detalhes do ativo selecionando a opção Visão geral permite que os usuários vejam metadados do ativo.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ Ao selecionar a opção Visão geral enquanto um ativo/pasta é selecionado, os 
 
 #### Exibir configurações na exibição de cartão
 
-Caixa de diálogo Configurações de exibição é aberta ao selecionar Configurações de exibição no seletor de visualização. Ele permite redimensionar as miniaturas de ativos na exibição de Cartão. Dessa forma, você pode personalizar a exibição e controlar o número de miniaturas exibidas.
+[!UICONTROL Caixa de diálogo Configurações] de exibição é aberta ao selecionar **[!UICONTROL Configurações de exibição]** no seletor de visualização. Ele permite redimensionar as miniaturas de ativos na exibição de Cartão. Dessa forma, você pode personalizar a exibição e controlar o número de miniaturas exibidas.
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Exibir configurações na exibição de lista
 
-A exibição de Lista mostra **o Nome** do ativo como a primeira coluna por padrão. Informações adicionais, como Título do ativo, Localidade, Tipo, Dimensões, Tamanho, Classificação, status de publicação também são mostradas. No entanto, é possível selecionar as colunas a serem exibidas usando Configurações de exibição.
+A exibição de Lista mostra [!UICONTROL o Nome] do ativo como a primeira coluna por padrão. Informações adicionais, como [!UICONTROL Título do ativo], [!UICONTROL Localidade], [!UICONTROL Tipo], [!UICONTROL Dimensões], [!UICONTROL Tamanho], [!UICONTROL Classificação], status de publicação também são mostradas. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -139,7 +139,7 @@ Quando um ativo é selecionado na exibição de coluna, a representação visual
 * Título
 * Nome
 * Dimensões
-* Data e hora em que o ativo foi publicado [!DNL Brand Portal] a partir de [!DNL AEM]
+* Data e hora em que o ativo foi publicado no Portal da marca a partir do AEM
 * Tamanho
 * Tipo
 * Mais detalhes, para ir na página de detalhes do ativo
@@ -232,7 +232,7 @@ Comment Type: draft
 
 Além dessas exibições, use a exibição em árvore para detalhar a hierarquia do ativo enquanto você visualiza e seleciona os ativos ou pastas desejados.
 
-Para abrir a exibição em árvore, toque/clique no seletor do painel no canto superior esquerdo e selecione a **árvore** Conteúdo no menu.
+Para abrir a exibição em árvore, toque/clique no seletor do painel no canto superior esquerdo e selecione a **[!UICONTROL árvore]** Conteúdo no menu.
 
 ![](assets/contenttree.png)
 
@@ -246,7 +246,7 @@ A página de detalhes do ativo permite exibir um ativo, baixar, compartilhar o l
 
 ![](assets/asset-detail.png)
 
-Para visão geral dos metadados do ativo ou exibição de várias execuções, use o seletor do painel na página de detalhes do ativo.
+Para exibir os metadados do ativo ou exibir várias execuções, use o seletor do painel na página de detalhes do ativo.
 
 ![](assets/asset-overview.png)
 
@@ -254,8 +254,8 @@ Você pode exibir todas as representações disponíveis do ativo na página de 
 
 ![](assets/renditions.png)
 
-Para abrir a página Propriedades do ativo, use *a opção Propriedades (p)* na barra superior.
+Para abrir a página Propriedades do ativo, use **[!UICONTROL a opção Propriedades (p)]** na barra superior.
 
 ![](assets/asset-properties.png)
 
-Você também pode exibir uma lista de todos os ativos relacionados (fonte ou ativos derivados no AEM) na página de propriedades de um ativo, já que a relação de ativo também [!DNL AEM][!DNL Brand Portal]é publicada.
+Você também pode exibir uma lista de todos os ativos relacionados (fonte ou ativos derivados no AEM) na página de propriedades de um ativo, já que a relação de ativo também é publicada do AEM para o Portal de marcas.
