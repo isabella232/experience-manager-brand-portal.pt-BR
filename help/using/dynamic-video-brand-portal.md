@@ -10,7 +10,7 @@ content-type: referência
 topic-tags: download-instalação
 discoiquuid: e 18 d 992 a-a 3 b 5-45 f 2-9696-8161993213 ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -114,13 +114,10 @@ Para configurar configurações de Mídia dinâmica nos inquilinos do Brand Port
 
 1. Selecione o logotipo do AEM para acessar as ferramentas administrativas na barra de ferramentas na parte superior, no Portal da marca.
 
-2. No painel de ferramentas administrativas, selecione o **[!UICONTROL bloco Vídeo]** .
-
-![Configuração híbrida de mídia dinâmica no portal da marca](assets/DMHybrid-Video.png)
-
-**[!UICONTROL A página Editar configuração]** de mídia dinâmica é aberta.
-
-![Configuração híbrida de mídia dinâmica no Brand Portal](assets/edit-dynamic-media-config.png)
+2. No painel de ferramentas administrativas, selecione o **[!UICONTROL bloco Vídeo]** .<br />
+   ![Configuração híbrida de mídia dinâmica no portal da marca](assets/DMHybrid-Video.png)
+   **[!UICONTROL A página Editar configuração]** de mídia dinâmica é aberta.<br />
+   ![Configuração híbrida de mídia dinâmica no Brand Portal](assets/edit-dynamic-media-config.png)
 
 3. Especifique **[!UICONTROL a ID de registro]** e **[!UICONTROL o URL do serviço de vídeo]** (URL do DM-Gateway). Certifique-se de que esses detalhes sejam os mesmos em **[!UICONTROL Ferramentas &gt; Serviços em nuvem]** na sua instância do Autor de AEM.
 
@@ -134,12 +131,10 @@ Para configurar configurações do Dynamic Media [!UICONTROL Scene 7] nos inquil
 
 1. Selecione o logotipo do AEM para acessar as ferramentas administrativas na barra de ferramentas na parte superior, no Portal da marca.
 
-2. No painel de ferramentas administrativas, selecione o **[!UICONTROL quadro Configuração]** de mídia dinâmica.
+2. No painel de ferramentas administrativas, selecione o **[!UICONTROL quadro Configuração]** de mídia dinâmica.<br />
    ![Configuração do DM [!UICONTROL Scene 7] no Brand Portal](assets/DMS7-Tile.png)
-
-[!UICONTROL A página Editar configuração] de mídia dinâmica é aberta.
-
-![Configuração do Scene 7 no Brand Portal](assets/S7Config.png)
+   [!UICONTROL A página Editar configuração] de mídia dinâmica é aberta.<br />
+   ![Configuração do Scene 7 no Brand Portal](assets/S7Config.png)
 
 3. Forneça:
    * [!UICONTROL Título]
