@@ -9,20 +9,20 @@ products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 topic-tags: download-instalação
 discoiquuid: ed 79 b 120-a 1 c 1-479 c-a 843-6546 dcc 660 d 7
 translation-type: tm+mt
-source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Gerenciar a coleção lightbox {#manage-the-lightbox-collection}
 
-[!DNL lightbox] é um tipo especial de coleção que fornece acesso fácil aos ativos. Cada usuário tem um exclusivo [!DNL lightbox] que é criado automaticamente quando eles fazem logon [!DNL Brand Portal] pela primeira vez. A [!DNL lightbox] coleção não pode ser excluída.
+[!UICONTROL O Lightbox] é um tipo especial de coleção que fornece acesso fácil aos ativos. Cada usuário tem um [!UICONTROL Lightbox] exclusivo criado automaticamente quando eles fazem logon no Brand Portal pela primeira vez. A coleção [!UICONTROL Lightbox] não pode ser excluída.
 
 ## Adicionar ativos ao lightbox {#add-assets-to-lightbox}
 
-Para adicionar ativos, [!DNL lightbox]faça o seguinte:
+Para adicionar ativos ao [!UICONTROL Lightbox], faça o seguinte:
 
-1. Vá até o local dos ativos aos quais deseja adicionar [!DNL lightbox]e selecione os ativos.
+1. Vá até o local dos ativos que deseja adicionar ao [!UICONTROL Lightbox]e selecione os ativos.
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -30,30 +30,30 @@ Para adicionar ativos, [!DNL lightbox]faça o seguinte:
 
    ![](assets/add_to_collection.png)
 
-3. Na página **Adicionar à coleção** , a [!DNL lightbox] coleção é selecionada por padrão.
+3. Na página **[!UICONTROL Adicionar à coleção]** , a coleção [!UICONTROL do Lightbox] é selecionada por padrão.
 
-   Clique em **Adicionar**. Os ativos selecionados são [!DNL lightbox]adicionados.
+   Clique em **[!UICONTROL Adicionar]**. Os ativos selecionados são adicionados ao [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. Para revisar os ativos adicionados [!DNL lightbox], clique **em Coleções** no painel esquerdo e clique na [!DNL lightbox] coleção.
+4. Para revisar os ativos adicionados ao [!UICONTROL Lightbox], clique **[!UICONTROL em Coleções]** no painel esquerdo e clique na **[!UICONTROL coleção Lightbox]** .
 
    ![](assets/collections_lightbox.png)
 
-   Os ativos adicionados aparecem [!DNL lightbox] na [!DNL lightbox] página.
+   Os ativos adicionados ao [!UICONTROL Lightbox] aparecem na página [!UICONTROL Lightbox] .
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Remover ativos do lightbox {#remove-assets-from-lightbox}
 
-1. Para revisar os ativos em [!DNL lightbox], clique **em Coleções** no painel esquerdo e clique na [!DNL lightbox] coleção.
+1. Para revisar os ativos no [!UICONTROL Lightbox], clique **[!UICONTROL em Coleções]** no painel esquerdo e clique na [!UICONTROL coleção Lightbox] .
 
    ![](assets/collections_lightbox-1.png)
 
-2. Selecione a pasta que deseja remover da coleção e clique **em Remover** da barra de ferramentas na parte superior.
+2. Selecione a pasta que deseja remover da coleção e clique **[!UICONTROL em Remover]** da barra de ferramentas na parte superior.
 
    ![](assets/collections_lightboxdelete.png)
 
-3. Na caixa de mensagem de aviso, clique **em Remover** para confirmar a remoção.
+3. Na caixa de mensagem de aviso, clique **[!UICONTROL em Remover]** para confirmar a remoção.
 
-A pasta é excluída da [!DNL lightbox] coleção.
+A pasta é excluída da coleção [!UICONTROL do Lightbox] .
