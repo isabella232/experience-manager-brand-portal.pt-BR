@@ -9,12 +9,12 @@ products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 topic-tags: introdução
 discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# Formatos de arquivo suportados{#supported-file-formats}
+# Formatos de arquivo suportados {#supported-file-formats}
 
 Cada AEM Assets Brand Portal oferece suporte a formatos de arquivo específicos, conforme indicado na matriz.
 
@@ -82,7 +82,7 @@ A seguinte legenda explica os símbolos usados na matriz:
 
 | Símbolo | Significado |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Esse formato de arquivo oferece suporte a esse recurso |
-| ✕ | Esse formato de arquivo não é compatível com este recurso |
-| ND | Esse recurso não é aplicável a esse formato de arquivo |
-| * | Esse recurso requer suporte adicional para este formato de arquivo na instância de autor de AEM, mas não no Portal da marca depois que os ativos são publicados no Brand Portal |
+| ✓ | Esse formato de arquivo oferece suporte para esse recurso. |
+| ✕ | Esse formato de arquivo não oferece suporte para esse recurso. |
+| ND | Esse recurso não é aplicável a esse formato de arquivo. |
+| * | Esse recurso requer suporte adicional para este formato de arquivo na instância de autor de AEM, mas não no Portal da marca depois que os ativos são publicados no Portal da marca. |
