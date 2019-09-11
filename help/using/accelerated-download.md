@@ -10,7 +10,7 @@ content-type: referência
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: 301 f 7 a 0 b -5527-4 aac-b 731-bfc 145 alimentado 0 c 0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
@@ -31,7 +31,7 @@ Se ativado, os usuários do Brand Portal podem reduzir significativamente o temp
 
 Para baixar os arquivos mais rapidamente, verifique o seguinte:
 
-* **[!UICONTROL Ative a Aceleração de download]** (desabilitada por padrão) das [!UICONTROL Configurações gerais] no painel de ferramentas administrativas.
+* **[!UICONTROL Ative a Aceleração de download]** (que é desativada por padrão) das [!UICONTROL Configurações gerais] no painel de ferramentas administrativas.
 * A porta 33001 (TCP e UDP) está aberta no firewall. Para obter mais informações sobre os pré-requisitos, consulte [a documentação do Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Instale o Aspera Connect usando privilégios de administrador.
 * Para suporte à plataforma de cliente de transferência Aspera, consulte [matriz de suporte à plataforma Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
