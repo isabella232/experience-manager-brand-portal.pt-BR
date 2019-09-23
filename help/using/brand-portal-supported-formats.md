@@ -1,13 +1,13 @@
 ---
 title: Formatos de arquivo suportados
 seo-title: Formatos de arquivo suportados
-description: 'Cada AEM Assets Brand Portal oferece suporte a formatos de arquivo específicos, conforme indicado na matriz. '
-seo-description: 'Cada AEM Assets Brand Portal oferece suporte a formatos de arquivo específicos, conforme indicado na matriz. '
-uuid: c 92 ada 3 a -6 fc 3-4 ef 2-88 ff -8 e 67 a 50 c 8 c 95
+description: 'Cada AEM Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz. '
+seo-description: 'Cada AEM Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz. '
+uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: referência
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introdução
-discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
+discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -16,29 +16,29 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Formatos de arquivo suportados {#supported-file-formats}
 
-Cada AEM Assets Brand Portal oferece suporte a formatos de arquivo específicos, conforme indicado na matriz.
+Cada AEM Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz.
 
-| Formato de arquivo | Ativos publicados no Brand Portal | Representações publicadas no Brand Portal | Metadados publicados no Brand Portal | Miniaturas publicadas no Brand Portal | Páginas de detalhes do ativo publicados no Brand Portal | Compartilhar compartilhamentos | Vincular miniaturas de compartilhamento | Visualizações de compartilhamento de link |
+| Formato de arquivo | Ativos publicados no Brand Portal | Representações publicadas no Brand Portal | Metadados publicados no Brand Portal | Miniaturas publicadas no Brand Portal | Páginas de detalhes do ativo publicadas no Brand Portal | Compartilhamentos de link | Miniaturas de compartilhamento de links | Visualizações de compartilhamento de links |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PNM * | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PGM * | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PBM * | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PPM * | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PNM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PGM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PBM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PPM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
 | PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | EPS | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
 | DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PSB * | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | DOC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | DOCX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODT * | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| ODT* | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | HTML | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | RTF | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
@@ -82,7 +82,7 @@ A seguinte legenda explica os símbolos usados na matriz:
 
 | Símbolo | Significado |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Esse formato de arquivo oferece suporte para esse recurso. |
-| ✕ | Esse formato de arquivo não oferece suporte para esse recurso. |
-| ND | Esse recurso não é aplicável a esse formato de arquivo. |
-| * | Esse recurso requer suporte adicional para este formato de arquivo na instância de autor de AEM, mas não no Portal da marca depois que os ativos são publicados no Portal da marca. |
+| ✓ | Este formato de arquivo suporta este recurso. |
+| ✕ | Este formato de arquivo não suporta este recurso. |
+| ND | Este recurso não se aplica a este formato de arquivo. |
+| * | Esse recurso requer suporte adicional para esse formato de arquivo na instância do autor de AEM, mas não no Portal de marcas depois que os ativos forem publicados no Portal de marcas. |
