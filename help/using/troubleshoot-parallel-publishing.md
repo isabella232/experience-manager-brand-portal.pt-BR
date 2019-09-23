@@ -1,54 +1,54 @@
 ---
-title: Solução de problemas de publicação paralela no Brand Portal
-seo-title: Solução de problemas de publicação paralela no Brand Portal
-description: Solução de problemas de publicação paralela.
-seo-description: Solução de problemas de publicação paralela.
-uuid: 51 e 45 cca -8 c 96-4 c 69-84 ef -2 ef 34 f 3 bcde 2
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+title: Solucionar problemas de publicação paralela no Brand Portal
+seo-title: Solucionar problemas de publicação paralela no Brand Portal
+description: Solucione problemas de publicação paralela.
+seo-description: Solucione problemas de publicação paralela.
+uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referência
-topic-tags: brand-portal
-discoiquuid: a 4801024-b 509-4 c 51-afd 8-e 337417 e 658 b
+topic-tags: portal de marcas
+discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# Solução de problemas de publicação paralela no Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Solucionar problemas de publicação paralela no Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-O Brand Portal oferece suporte à integração com os ativos AEM para ter aprovado os ativos de marca aprovados perfeitamente (ou publicados) a partir da instância do autor de ativos AEM. Depois [de integrado](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), o autor do AEM usa um agente de replicação para replicar os ativos selecionados no serviço de nuvem do Brand Portal para uso aprovado pelos usuários do Brand Portal. Vários agentes de replicação são usados no AEM 6.2 SP 1-CFP 5], AEM CFP 6.3.0.2 e em versões posteriores para permitir a publicação paralela de alta velocidade.
+O Brand Portal suporta a integração com os ativos AEM para que os ativos aprovados da marca sejam assimilados (ou publicados) sem problemas da instância do autor dos ativos AEM. Depois de [integrado](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), o autor de AEM usa um agente de replicação para replicar os ativos selecionados no serviço em nuvem do Portal de marcas para uso aprovado pelos usuários do Portal de marcas. Vários agentes de replicação são usados no AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 e versões posteriores para permitir a publicação paralela de alta velocidade.
 
 >[!NOTE]
 >
->A Adobe recomenda atualizar para o AEM 6.4.1.0 para garantir que o AEM Assets Brand Portal seja integrado com êxito aos ativos AEM. Uma limitação no AEM 6.4 apresenta um erro ao configurar a integração com o Brand Portal e falha na replicação.
+>A Adobe recomenda atualizar para o AEM 6.4.1.0 para garantir que o AEM Assets Brand Portal seja integrado com êxito aos ativos AEM. Uma limitação no AEM 6.4 apresenta um erro ao configurar a integração com o Brand Portal e a replicação falha.
 
-Ao configurar o serviço de nuvem para o portal de marca em [!UICONTROL /etc/cloudservice], todos os usuários e token necessários são gerados automaticamente e salvos no repositório. A configuração de serviço da nuvem é criada, os usuários do serviço necessários para replicação e replicação para replicação de conteúdo também são criados. Isso cria quatro agentes de replicação. Assim, quando você publica vários ativos do AEM para o Brand Portal, eles são colocados em fila e distribuídos entre esses agentes de replicação por meio de Redondos.
+Ao configurar o serviço em nuvem para o portal da marca em [!UICONTROL /etc/cloudservice], todos os usuários e token necessários são gerados automaticamente e salvos no repositório. A configuração do serviço em nuvem é criada, os usuários de serviço necessários para que os agentes de replicação e replicação replicem o conteúdo também são criados. Isso cria quatro agentes de replicação. Assim, quando você publica vários ativos do AEM para o Brand Portal, eles são enfileirados e distribuídos entre esses agentes de replicação por meio da Round Robin.
 
-No entanto, a publicação pode falhar intermitentemente devido a trabalhos de sling grandes, maior rede e [!UICONTROL disco I/O] na instância do Autor de AEM, ou desempenho lento da instância do Autor de AEM. Portanto, é recomendável testar a conexão com os agentes de replicação antes de iniciar a publicação.
+No entanto, a publicação pode falhar intermitentemente devido a - grandes trabalhos de sling, maior E/S [!UICONTROL de rede e] disco na instância do autor de AEM ou desempenho lento da instância do autor de AEM. Portanto, recomenda-se testar a conexão com os agentes de replicação antes de começar a publicação.
 
 ![](assets/test-connection.png)
 
-## Solução de problemas de falhas na primeira publicação: validação da configuração de publicação {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Solucionar problemas de falhas na primeira publicação: validação da configuração de publicação {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-Para validar as configurações de publicação:
+Para validar suas configurações de publicação:
 
-1. Verificar os registros de erro
+1. Verifique os registros de erros
 2. Verificar se o agente de replicação foi criado
-3. Conexão de teste
+3. Testar conexão
 
-**Logs de cauda ao criar o serviço em nuvem**
+**Registros de e-mail ao criar o serviço Cloud**
 
-Verificar logs de cauda. Verifique se o agente de replicação foi criado ou não. Se a criação do agente de replicação falhar, edite o serviço de nuvem fazendo pequenas alterações no serviço em nuvem. Valide e verifique novamente se o agente de replicação foi criado ou não. Caso contrário, edite o serviço novamente.
+Verifique os registros de cauda. Verifique se o agente de replicação foi criado ou não. Se a criação do agente de replicação falhar, edite o serviço em nuvem fazendo pequenas alterações no serviço em nuvem. Valide e verifique novamente se o agente de replicação foi criado ou não. Caso contrário, edite novamente o serviço.
 
-Se, durante a edição repetida, o serviço de nuvem não estiver configurado corretamente, relate um ticket de daycare.
+Se, ao editar repetidamente o serviço de nuvem, ele não estiver configurado corretamente, informe um tíquete de creche.
 
 **Testar conexão com agentes de replicação**
 
-Exibir log, se erros forem encontrados no registro de replicação:
+Exibir log, se forem encontrados erros no log de replicação:
 
 1. Entre em contato com o suporte da Adobe.
 
-2. Tente [limpar](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) e criar configurações de publicação novamente.
+2. Repita a [limpeza](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) e crie a configuração de publicação novamente.
 
 <!--
 Comment Type: remark
@@ -58,29 +58,28 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Limpeza das configurações de publicação existentes do Brand Portal {#clean-up-existing-config}
+### Limpar configurações de publicação existentes do Brand Portal {#clean-up-existing-config}
 
-A maioria das vezes em que a publicação não está funcionando, o motivo pode ser o usuário que está publicando (por exemplo: [!UICONTROL mac-&lt; tenantid &gt;-replication]) não tem a chave privada mais recente e, portanto, a publicação falha com o erro "401 não autorizado" e nenhum outro erro é relatado nos logs do agente de replicação. Talvez você queira evitar solucionar problemas e criar uma nova configuração. Para que a nova configuração funcione corretamente, limpe o seguinte da configuração do autor de AEM:
+Na maioria das vezes em que a publicação não está funcionando, o motivo pode ser o usuário que está publicando (por exemplo: [!UICONTROL mac-&lt;tenantid&gt;-Replication]) não tem a chave privada mais recente e, portanto, a publicação falha com o erro "401 não autorizado" e nenhum outro erro é relatado nos registros do agente de replicação. Você pode evitar a solução de problemas e criar uma nova configuração. Para que a nova configuração funcione corretamente, limpe o seguinte da configuração do autor do AEM:
 
-1. ir para [!UICONTROL localhost: 4502/crx/de] (considerando que você está executando a instância do autor no [!UICONTROL host localhost: 4502]):\
-   i. delete /etc/replication/agents.author/mp_replication *\
-   ii. excluir /etc/cloudservices/mediaportal/ &lt; nome_ config &gt;
+1. vá para [!UICONTROL localhost:4502/crx/de] (considerando que você está executando a instância do autor em [!UICONTROL localhost:4502]):\
+   i. exclua /etc/replication/agents.author/mp_Replication*\
+   ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. ir para [!UICONTROL localhost: 4502/usuário]:\
-   eu pesquisar por usuário [! UICONTROL mac-&lt; tenantid &gt;-replication
-ii exclui este usuário
+2. vá para [!UICONTROL localhost:4502/useradmin]:\
+   eu pesquisar pelo usuário [!UICONTROL mac-&lt;tenantid&gt;-replicationii excluir este usuário
 
-Agora, o sistema fica limpo. Agora, você pode tentar criar uma nova configuração de nudservice e ainda usar o aplicativo JWT existente em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Não há necessidade de criar um novo aplicativo, e apenas a chave pública precisa ser atualizada da configuração recém-criada da nuvem.
+Agora o sistema está todo limpo. Agora você pode tentar criar uma nova configuração de serviço de nuvem e ainda usar o aplicativo JWT já existente em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Não é necessário criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração da nuvem recém-criada.
 
-## Problema de visibilidade do locatário JWT do aplicativo JWT {#developer-connection-jwt-application-tenant-visibility-issue}
+## Problema de visibilidade do locatário do aplicativo JWT para conexão de desenvolvedor {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Se em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), todas as organizações (localidades) para as quais os usuários atuais detêm o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um inquilino necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
+Se estiver em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), todas as organizações (locatários) para as quais os usuários atuais possuem o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um locatário necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
 
-Há um problema conhecido nessa interface de usuário que, para qualquer locatário somente os primeiros 10 aplicativos estão visíveis. Ao criar o aplicativo, fique na página e marque o URL. Você não precisa ir para a página de listagem do aplicativo e encontrar o aplicativo criado. Você pode atingir este URL marcado diretamente e atualizar/excluir o aplicativo sempre que necessário.
+Há um problema conhecido nessa interface de usuário que para qualquer locatário somente os 10 aplicativos principais estão visíveis. Ao criar o aplicativo, mantenha-se nessa página e marque o URL como favorito. Não é necessário ir para a página de listagem do aplicativo e encontrar o aplicativo que você criou. Você pode acessar este URL marcado diretamente e atualizar/excluir o aplicativo, sempre que necessário.
 
-O aplicativo JWT pode não ser listado corretamente. Portanto, é recomendável observar/marcar o URL ao criar o aplicativo JWT.
+O aplicativo JWT pode não estar listado adequadamente. Portanto, é aconselhável anotar/marcar o URL ao criar o aplicativo JWT.
 
-## A configuração para a configuração parar de funcionar {#running-configuration-stops-working}
+## A execução da configuração para de funcionar {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -107,8 +106,8 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Se um agente de replicação (que estava publicando no brand portal apenas bem) parar de processar trabalhos de publicação, verifique os logs de replicação. O AEM tiver tentativa automática de tentar incorporado, portanto, se uma publicação de ativo específica falhar, ela será refeita automaticamente. Se houver algum problema intermitente, como erro de rede, ele poderá ser bem-sucedido durante a nova tentativa.
+Se um agente de replicação (que publicava no portal da marca apenas corretamente) interromper o processamento de trabalhos de publicação, verifique os registros de replicação. O AEM tem uma nova tentativa integrada automaticamente, portanto, se uma publicação de ativo específica falhar, ela será repetida automaticamente. Se houver algum problema intermitente como erro de rede, ele poderá ser bem-sucedido durante a nova tentativa.
 
-Se houver falhas de publicação contínuas e a fila estiver bloqueada, você deverá verificar **[!UICONTROL a conexão de teste]** e tentar resolver os erros que estão sendo relatados.
+Se houver falhas de publicação contínuas e a fila estiver bloqueada, verifique a conexão **[!UICONTROL de]** teste e tente resolver os erros que estão sendo reportados.
 
-Com base nos erros, você deve registrar um ticket de suporte, para que a equipe de engenharia do Brand Portal possa ajudar a resolver problemas.
+Com base nos erros, você é aconselhado a registrar um ticket de suporte para que a equipe de engenharia do Brand Portal possa ajudá-lo a resolver os problemas.
