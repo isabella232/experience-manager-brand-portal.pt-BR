@@ -1,5 +1,5 @@
 ---
-title: Pesquisar ativos no Brand Portal
+title: Procurar ativos no Brand Portal
 seo-title: Procurar ativos no Brand Portal
 description: Navegue pelos ativos, navegue pelas hierarquias de ativos e pesquise os ativos, usando diferentes opções de exibição e elementos de interface no Brand Portal.
 seo-description: Navegue pelos ativos, navegue pelas hierarquias de ativos e pesquise os ativos, usando diferentes opções de exibição e elementos de interface no Brand Portal.
@@ -9,12 +9,12 @@ content-type: referência
 topic-tags: introdução
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# Pesquisar ativos no Brand Portal {#browsing-assets-on-brand-portal}
+# Procurar ativos no Brand Portal {#browsing-assets-on-brand-portal}
 
 O AEM Assets Brand Portal fornece vários recursos e elementos da interface do usuário que facilitam a navegação pelos recursos, a passagem pelas hierarquias de ativos e a pesquisa de ativos ao mesmo tempo que usam opções de exibição diferentes.
 
@@ -24,7 +24,7 @@ O logotipo do AEM na barra de ferramentas do AEM na parte superior facilita que 
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 Seletor de painéis no canto superior esquerdo do Brand Portal suspenso para expor opções para navegar nas hierarquias de ativos, dinamizar sua pesquisa e exibir recursos.
 
