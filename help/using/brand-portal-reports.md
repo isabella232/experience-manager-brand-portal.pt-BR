@@ -9,7 +9,7 @@ topic-tags: administração
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -95,7 +95,7 @@ As colunas no relatório Download, Expiração e Publicação podem ser personal
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, toque/clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir **Relatórios de ativos **página.
+2. No painel de ferramentas administrativas, toque/clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página Relatórios **[!UICONTROL de]** ativos.
 
    ![](assets/asset-reports.png)
 
