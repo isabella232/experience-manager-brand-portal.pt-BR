@@ -10,7 +10,7 @@ content-type: referência
 topic-tags: introdução
 discoiquuid: provação32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -59,7 +59,7 @@ Da mesma forma, especificando:
 >
 >Ao marcar a caixa de seleção Pesquisa **** parcial, **Ignorar caso** é selecionado por padrão.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## O que mudou no ponto 6.4.3 {#what-changed-in}
 
@@ -84,7 +84,7 @@ Observe que a miniatura padrão das pastas virtuais é a imagem em miniatura da 
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Pesquisar em hierarquia ou caminho de pasta específicos
 
@@ -104,7 +104,7 @@ Observe que a pesquisa nessas pastas retorna os resultados somente dos ativos qu
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Suporte para execuções de vídeo do Dynamic Media
 
@@ -125,7 +125,7 @@ As codificações de vídeo do Dynamic Media podem ser baixadas de:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Publicação agendada para o Brand Portal
 
@@ -136,7 +136,7 @@ Da mesma forma, os recursos publicados podem ser removidos do portal em uma data
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Alias de locatário configurável no URL
 
@@ -149,7 +149,7 @@ No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.ad
 
 **O caso** de uso As organizações podem atender às suas necessidades de marca ao personalizar o URL do portal, em vez de aderir ao URL fornecido pela Adobe.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Melhorias na experiência de download
 
