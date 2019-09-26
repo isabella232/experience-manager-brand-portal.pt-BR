@@ -10,7 +10,7 @@ content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -83,7 +83,7 @@ Ao selecionar a opção [!UICONTROL Visão geral] enquanto um ativo/pasta é sel
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 **[!UICONTROL A opção de navegação]** no painel esquerdo permite navegar de arquivos para coleções e voltar na sessão de convidado para que os usuários possam navegar pelos ativos em arquivos ou coleções.
 
