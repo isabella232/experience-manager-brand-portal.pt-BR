@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Experience Manager
+solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: Introdução
@@ -10,21 +10,21 @@ tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manage
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
 translation-type: tm+mt
-source-git-commit: ceccf2b6b7052c79d993bcba793a25973d819d9b
+source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
 
 ---
 
 
-# Metadados para uso interno
+# Metadata for internal use
 
-O arquivo metadata. md inclui metadados de nível de reposição que passam até o guia TOC. md do guia do usuário no repo. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
 
-| metadata | o que faz |
+| metadata | what it does |
 |--- |--- |
-| título da solução | Usado no cabeçalho do artigo como link |
-| solução-hub-url | Abre a página helpx hub |
-| ícone de solução | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
+| solution-title | Used in article header as link |
+| solution-hub-url | Opens helpx hub page |
+| solution-icon | Displays solution icon next to solution title. Not yet implemented |
 | getting-started-url | Link para a página de introdução ao helpx |
-| tutorials-url | Tutoriais de link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
-| mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo mestre para uso interno |
+| tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
+| níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
+| repo git | Especifica o local do acordo principal para uso interno |
