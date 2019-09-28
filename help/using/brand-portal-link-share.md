@@ -10,7 +10,7 @@ topic-tags: compartilhamento
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,15 +33,15 @@ Para compartilhar ativos como um link, siga estas etapas:
 
    ![](assets/siderail.png)
 
-2. Do lado esquerdo, clique em **[!UICONTROL Arquivos]** para compartilhar pastas ou imagens. Para compartilhar coleções, clique em **[!UICONTROL Coleções]**.
+1. Do lado esquerdo, clique em **[!UICONTROL Arquivos]** para compartilhar pastas ou imagens. Para compartilhar coleções, clique em **[!UICONTROL Coleções]**.
 
    ![](assets/navigationrail.png)
 
-3. Selecione as pastas ou coleções que deseja compartilhar como um link.
+1. Selecione as pastas ou coleções que deseja compartilhar como um link.
 
    ![](assets/asset-link-share.png)
 
-4. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Compartilhar link]** .
+1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Compartilhar link]** .
 
    A caixa de diálogo Compartilhamento **[!UICONTROL de]** links é exibida.
 
@@ -51,19 +51,19 @@ Para compartilhar ativos como um link, siga estas etapas:
    >
    >O campo **[!UICONTROL Compartilhar link]** exibe um link de ativo criado automaticamente. O tempo de expiração padrão para este link é de 7 dias. Você pode copiar o link e compartilhá-lo separadamente com os usuários ou compartilhá-lo da caixa de diálogo Compartilhamento **[!UICONTROL de]** links.
 
-5. Na caixa de endereço de email, digite a ID de email do usuário com quem você deseja compartilhar o link. Você pode compartilhar o link com vários usuários.
+1. Na caixa de endereço de email, digite a ID de email do usuário com quem você deseja compartilhar o link. Você pode compartilhar o link com vários usuários.
 
    Se o usuário for membro de sua organização, selecione sua ID de e-mail nas sugestões exibidas na lista suspensa. Se o usuário for externo, digite a ID de e-mail completa e pressione **[!UICONTROL Enter]**; a ID de email é adicionada à lista de usuários.
 
    ![](assets/link-sharing-text.png)
 
-6. Na caixa **[!UICONTROL Assunto]** , digite um assunto para o ativo que deseja compartilhar.
-7. Na caixa **[!UICONTROL Mensagem]** , digite uma mensagem, se necessário.
-8. No campo **[!UICONTROL Expiração]** , use o seletor de datas para especificar uma data e uma hora de expiração para o link. Por padrão, a data de expiração é definida como 7 dias a partir da data em que você compartilha o link.
+1. Na caixa **[!UICONTROL Assunto]** , digite um assunto para o ativo que deseja compartilhar.
+1. Na caixa **[!UICONTROL Mensagem]** , digite uma mensagem, se necessário.
+1. No campo **[!UICONTROL Expiração]** , use o seletor de datas para especificar uma data e uma hora de expiração para o link. Por padrão, a data de expiração é definida como 7 dias a partir da data em que você compartilha o link.
 
    Os ativos compartilhados pelo link expiram após a data e a hora especificadas no campo **[!UICONTROL Expiração]** . Para obter informações sobre o comportamento dos ativos expirados e alterações nas atividades permitidas com base nas funções do usuário no Portal de marcas, consulte [Gerenciar direitos digitais dos ativos](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
-9. Clique em **[!UICONTROL Compartilhar]**. Uma mensagem confirma que o link é compartilhado com os usuários. Os usuários recebem um email contendo o link.
+1. Clique em **[!UICONTROL Compartilhar]**. Uma mensagem confirma que o link é compartilhado com os usuários. Os usuários recebem um email contendo o link.
 
    ![](assets/link-sharing-email.png)
 
@@ -97,7 +97,7 @@ Para baixar os ativos compartilhados:
 
    * Para acelerar o download de arquivos de ativos compartilhados como o link, selecione **[!UICONTROL Ativar aceleração]** de download e [siga o assistente](../using/accelerated-download.md#download-workflow-using-file-accelerator). Para saber mais sobre o rápido download de ativos no Brand Portal, consulte o [Guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
 [!UICONTROL
-2. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]** . Ao fazer isso, a opção **Excluir representações do sistema]** é exibida e selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
+1. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]** . Ao fazer isso, a opção **Excluir representações do sistema]** é exibida e selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
 
    No entanto, para permitir que execuções geradas automaticamente baixem juntamente com execuções personalizadas, desmarque a opção **[!UICONTROL Excluir representações]** do sistema.
 
@@ -107,7 +107,7 @@ Para baixar os ativos compartilhados:
 
    ![](assets/download-linkshare-autoren.png)
 
-3. Toque/ clique em **[!UICONTROL Download]**. Os ativos (e as representações, se selecionadas) são baixados como um arquivo ZIP para a pasta local. No entanto, nenhum arquivo zip será criado se um único ativo for baixado sem nenhuma das representações, garantindo assim um download rápido.
+1. Toque/ clique em **[!UICONTROL Download]**. Os ativos (e as representações, se selecionadas) são baixados como um arquivo ZIP para a pasta local. No entanto, nenhum arquivo zip será criado se um único ativo for baixado sem nenhuma das representações, garantindo assim um download rápido.
 
 >[!NOTE]
 >
@@ -193,12 +193,12 @@ Para cancelar o compartilhamento de ativos compartilhados anteriormente como um 
 
    ![](assets/siderail.png)
 
-2. No sideral, clique em Links **[!UICONTROL compartilhados]**.
+1. No sideral, clique em Links **[!UICONTROL compartilhados]**.
 
    ![](assets/navigationrail.png)
 
-3. Revise os links que você compartilhou da lista exibida.
-4. Para cancelar o compartilhamento de um link na lista, selecione-o e clique no ícone bin ao lado da entrada do link ou no ícone **[!UICONTROL Unshare]** na barra de ferramentas na parte superior.
+1. Revise os links que você compartilhou da lista exibida.
+1. Para cancelar o compartilhamento de um link na lista, selecione-o e clique no ícone bin ao lado da entrada do link ou no ícone **[!UICONTROL Unshare]** na barra de ferramentas na parte superior.
 
    ![](assets/unshare-links.jpg)
 
@@ -206,4 +206,4 @@ Para cancelar o compartilhamento de ativos compartilhados anteriormente como um 
    >
    >A exibição de links compartilhados é específica do usuário. Este recurso não exibe todos os links compartilhados por todos os usuários de um locatário.
 
-5. Na caixa de mensagem de aviso, clique em **[!UICONTROL Continuar]** para confirmar o cancelamento do compartilhamento. A entrada do link é removida da lista de links compartilhados.
+1. Na caixa de mensagem de aviso, clique em **[!UICONTROL Continuar]** para confirmar o cancelamento do compartilhamento. A entrada do link é removida da lista de links compartilhados.
