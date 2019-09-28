@@ -10,7 +10,7 @@ content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -78,7 +78,6 @@ O Brand Portal fornece a opção [!UICONTROL Visão geral] para usuários convid
 
 * Na barra de ferramentas na parte superior da seleção de um ativo/pasta.
 * Na lista suspensa ao selecionar o Seletor de painel.
-
 Ao selecionar a opção [!UICONTROL Visão geral] enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Enquanto isso, na página de detalhes do ativo, selecionar a opção [!UICONTROL Visão geral] permite que os usuários vejam os metadados do ativo.
 
 ![](assets/overview-option-1.png)
