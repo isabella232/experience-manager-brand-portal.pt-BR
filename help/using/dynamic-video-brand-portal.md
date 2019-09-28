@@ -10,7 +10,7 @@ content-type: referência
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -77,7 +77,7 @@ Para garantir que seus ativos de vídeo dinâmico sejam visualizados, reproduzid
 
 ### Locatários separados para os modos Dynamic Media Hybrid e Dynamic Media Scene 7 {#separate-tenants}
 
-Se você estiver usando os recursos Dynamic Media [!DNL Scene 7] e Dynamic Media Hybrid, recomendamos que use diferentes locatários do Brand Portal para instâncias de autor de AEM configuradas com os modos Dynamic Media Hybrid e Dynamic Media [!DNL Scene 7] .
+Se você estiver usando os recursos Dynamic Media [!DNL Scene 7] e Dynamic Media Hybrid, recomendamos que use diferentes locatários do Brand Portal para instâncias de autor de AEM configuradas com os modos Dynamic Media Hybrid e Dynamic Media [!DNL Scene 7] .<br />
 
 ![Autor e BP um para um mapeamento](assets/BPDynamicMedia.png)
 
