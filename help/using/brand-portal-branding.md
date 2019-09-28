@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administração
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,16 +26,16 @@ Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é e
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Marca]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Marca]**.
 
 
    ![](assets/admin-tools-panel-10.png)
 
-3. No painel esquerdo da página [!UICONTROL Configurar marca] , o [!UICONTROL wallpaper] é selecionado por padrão. A imagem de plano de fundo padrão que aparece na página de login é exibida.
+1. No painel esquerdo da página [!UICONTROL Configurar marca] , o [!UICONTROL wallpaper] é selecionado por padrão. A imagem de plano de fundo padrão que aparece na página de login é exibida.
 
    ![](assets/default_wallpaper.png)
 
-4. Para adicionar uma nova imagem de plano de fundo, clique no ícone **[!UICONTROL Escolher imagem]** na barra de ferramentas na parte superior.
+1. Para adicionar uma nova imagem de plano de fundo, clique no ícone **[!UICONTROL Escolher imagem]** na barra de ferramentas na parte superior.
 
    ![](assets/choose_wallpaperimage.png)
 
@@ -45,15 +45,15 @@ Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é e
    * Para usar uma imagem existente do Brand Portal, clique em **[!UICONTROL Selecionar existente]**. Escolha uma imagem usando o seletor de ativos.
    ![](assets/asset-picker.png)
 
-5. Especifique um texto de cabeçalho e uma descrição para a imagem de plano de fundo. Para salvar as alterações, clique em **[!UICONTROL Salvar]** na barra de ferramentas na parte superior.
+1. Especifique um texto de cabeçalho e uma descrição para a imagem de plano de fundo. Para salvar as alterações, clique em **[!UICONTROL Salvar]** na barra de ferramentas na parte superior.
 
-6. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Visualizar]** para gerar uma visualização da interface do Brand Portal com a imagem.
+1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Visualizar]** para gerar uma visualização da interface do Brand Portal com a imagem.
 
    ![](assets/chlimage_1.png)
 
    ![](assets/custom-wallpaper-preview.png)
 
-7. Para ativar ou desativar o wallpaper padrão, faça o seguinte na página **[!UICONTROL Configurar marca &gt; Wallpaper]** :
+1. Para ativar ou desativar o wallpaper padrão, faça o seguinte na página **[!UICONTROL Configurar marca &gt; Wallpaper]** :
 
    * Para exibir a imagem padrão do wallpaper na página de logon do Brand Portal, clique em **[!UICONTROL Desativar o Wallpaper]** na barra de ferramentas na parte superior. Uma mensagem confirma que a imagem personalizada está desativada.
    ![](assets/chlimage_1-1.png)
@@ -73,15 +73,15 @@ O cabeçalho é exibido em várias páginas do Brand Portal depois que você faz
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Marca]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Marca]**.
 
    ![](assets/admin-tools-panel-11.png)
 
-3. Para personalizar o cabeçalho da página para a interface do Brand Portal, na página [!UICONTROL Configurar marca] , selecione Imagem **[!UICONTROL do]** cabeçalho no painel esquerdo. A imagem do cabeçalho padrão é exibida.
+1. Para personalizar o cabeçalho da página para a interface do Brand Portal, na página [!UICONTROL Configurar marca] , selecione Imagem **[!UICONTROL do]** cabeçalho no painel esquerdo. A imagem do cabeçalho padrão é exibida.
 
    ![](assets/default-header.png)
 
-4. Para carregar uma imagem de cabeçalho, clique no ícone **[!UICONTROL Escolher imagem]** e escolha **[!UICONTROL Carregar]**.
+1. Para carregar uma imagem de cabeçalho, clique no ícone **[!UICONTROL Escolher imagem]** e escolha **[!UICONTROL Carregar]**.
 
    Para usar uma imagem existente do Brand Portal, escolha **[!UICONTROL Selecionar do existente]**.
 
@@ -91,19 +91,19 @@ O cabeçalho é exibido em várias páginas do Brand Portal depois que você faz
 
    ![](assets/asset-picker-header.png)
 
-5. Para incluir um URL na imagem do cabeçalho, especifique-o na caixa URL [!UICONTROL da] imagem. Você pode especificar URLs externos ou internos. Os links internos também podem ser links relativos, por exemplo,
+1. Para incluir um URL na imagem do cabeçalho, especifique-o na caixa URL [!UICONTROL da] imagem. Você pode especificar URLs externos ou internos. Os links internos também podem ser links relativos, por exemplo,
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
 Esse link direciona os usuários para a pasta de tags.
 Para salvar as alterações, clique em **[!UICONTROL Salvar]** na barra de ferramentas na parte superior.
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-6. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Visualizar]** para gerar uma visualização da interface do Brand Portal com a imagem do cabeçalho.
+1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Visualizar]** para gerar uma visualização da interface do Brand Portal com a imagem do cabeçalho.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-7. Para ativar ou desativar a imagem do cabeçalho, faça o seguinte na página **[!UICONTROL Configurar marca &gt; Imagem]** do cabeçalho:
+1. Para ativar ou desativar a imagem do cabeçalho, faça o seguinte na página **[!UICONTROL Configurar marca &gt; Imagem]** do cabeçalho:
 
    * Para impedir que uma imagem de cabeçalho apareça nas páginas do Brand Portal, clique em **[!UICONTROL Desativar cabeçalho]** na barra de ferramentas na parte superior. Uma mensagem confirma que a imagem está desativada.
    ![](assets/chlimage_1-4.png)
@@ -123,17 +123,17 @@ Quando os ativos são compartilhados como um link, os usuários recebem um email
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Marca]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Marca]**.
 
    ![](assets/admin-tools-panel-12.png)
 
-3. Quando os ativos são compartilhados como links ou baixados por email e quando [!UICONTROL as coleções] são compartilhadas, as notificações por email são enviadas aos usuários. Para personalizar a mensagem de email, na página [!UICONTROL Configurar marca] , selecione Mensagem **[!UICONTROL de]** email no painel esquerdo.
+1. Quando os ativos são compartilhados como links ou baixados por email e quando [!UICONTROL as coleções] são compartilhadas, as notificações por email são enviadas aos usuários. Para personalizar a mensagem de email, na página [!UICONTROL Configurar marca] , selecione Mensagem **[!UICONTROL de]** email no painel esquerdo.
 
    ![](assets/configure-branding-page-email.png)
 
-4. Para adicionar um logotipo a emails de saída, clique em **[!UICONTROL Carregar]** na barra de ferramentas na parte superior.
+1. Para adicionar um logotipo a emails de saída, clique em **[!UICONTROL Carregar]** na barra de ferramentas na parte superior.
 
-5. Na seção [!UICONTROL Descrição] , especifique o cabeçalho e o texto do rodapé do email. Para salvar as alterações, clique em **[!UICONTROL Salvar]** na barra de ferramentas na parte superior.
+1. Na seção [!UICONTROL Descrição] , especifique o cabeçalho e o texto do rodapé do email. Para salvar as alterações, clique em **[!UICONTROL Salvar]** na barra de ferramentas na parte superior.
 
    >[!NOTE]
    >
