@@ -9,7 +9,7 @@ content-type: referência
 topic-tags: portal de marcas
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,8 +33,8 @@ No entanto, a publicação pode falhar intermitentemente devido a - grandes trab
 Para validar suas configurações de publicação:
 
 1. Verifique os registros de erros
-2. Verificar se o agente de replicação foi criado
-3. Testar conexão
+1. Verificar se o agente de replicação foi criado
+1. Testar conexão
 
 **Registros de e-mail ao criar o serviço Cloud**
 
@@ -48,7 +48,7 @@ Exibir log, se forem encontrados erros no log de replicação:
 
 1. Entre em contato com o suporte da Adobe.
 
-2. Repita a [limpeza](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) e crie a configuração de publicação novamente.
+1. Repita a [limpeza](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) e crie a configuração de publicação novamente.
 
 <!--
 Comment Type: remark
@@ -66,7 +66,7 @@ Na maioria das vezes em que a publicação não está funcionando, o motivo pode
    i. exclua /etc/replication/agents.author/mp_Replication*\
    ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. vá para [!UICONTROL localhost:4502/useradmin]:\
+1. vá para [!UICONTROL localhost:4502/useradmin]:\
    eu pesquisar pelo usuário [!UICONTROL mac-&lt;tenantid&gt;-replicationii excluir este usuário
 
 Agora o sistema está todo limpo. Agora você pode tentar criar uma nova configuração de serviço de nuvem e ainda usar o aplicativo JWT já existente em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Não é necessário criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração da nuvem recém-criada.
