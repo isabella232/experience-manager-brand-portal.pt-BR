@@ -9,7 +9,7 @@ topic-tags: administração
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -50,15 +50,15 @@ Você pode fazer logon no [Adobe [!UICONTROL Admin Console]](http://adminconsole
 
    ![Logotipo do AEM](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-5.png)
 
-3. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
+1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
 
    ![Funções do usuário para iniciar o Admin Console](assets/launch_admin_console.png)
 
-4. No Admin Console, execute um dos procedimentos a seguir para criar um novo usuário:
+1. No Admin Console, execute um dos procedimentos a seguir para criar um novo usuário:
 
    * Na barra de ferramentas na parte superior, clique em **[!UICONTROL Visão geral]**. Na página [!UICONTROL Visão geral] , clique em **[!UICONTROL Atribuir usuários]** do cartão de produto do Brand Portal.
    ![Visão geral do Admin Console](assets/admin_console_overviewadduser.png)
@@ -66,12 +66,12 @@ Você pode fazer logon no [Adobe [!UICONTROL Admin Console]](http://adminconsole
    * Na barra de ferramentas na parte superior, clique em **[!UICONTROL Usuários]**. Na página [!UICONTROL Usuários] , [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique em **[!UICONTROL Adicionar usuário]**.
    ![Admin Console Adicionar usuários](assets/admin_console_adduseruserpage.png)
 
-5. Na caixa de diálogo Adicionar usuário, digite a ID de email do usuário que você deseja adicionar ou selecione o usuário na lista de sugestões que aparecem à medida que você digita.
+1. Na caixa de diálogo Adicionar usuário, digite a ID de email do usuário que você deseja adicionar ou selecione o usuário na lista de sugestões que aparecem à medida que você digita.
 
    ![Adicionar usuário ao Brand Portal](assets/add_user_to_aem_bp.png)
 
-6. Atribua o usuário a pelo menos um perfil de produto (anteriormente conhecido como configurações de produto) para que o usuário possa acessar o Brand Portal. Selecione o perfil de produto apropriado no campo **[!UICONTROL Selecione um perfil para este produto]** .
-7. Clique em **[!UICONTROL Salvar]**. Um email de boas-vindas é enviado ao usuário que você adicionou. O usuário convidado pode acessar o Brand Portal clicando no link no email de boas-vindas e fazendo logon usando uma [!UICONTROL Adobe ID]. Para obter mais informações, consulte Experiência [de logon pela](../using/brand-portal-onboarding.md)primeira vez.
+1. Atribua o usuário a pelo menos um perfil de produto (anteriormente conhecido como configurações de produto) para que o usuário possa acessar o Brand Portal. Selecione o perfil de produto apropriado no campo **[!UICONTROL Selecione um perfil para este produto]** .
+1. Clique em **[!UICONTROL Salvar]**. Um email de boas-vindas é enviado ao usuário que você adicionou. O usuário convidado pode acessar o Brand Portal clicando no link no email de boas-vindas e fazendo logon usando uma [!UICONTROL Adobe ID]. Para obter mais informações, consulte Experiência [de logon pela](../using/brand-portal-onboarding.md)primeira vez.
 
    >[!NOTE]
    Se um usuário não conseguir fazer logon no Brand Portal, o administrador da organização deverá visitar o Adobe [!UICONTROL Admin Console] e verificar se o usuário está presente e foi adicionado a pelo menos um perfil de produto.
@@ -89,24 +89,24 @@ Você pode fazer logon no [[!UICONTROL Admin Console]](http://adminconsole.adobe
 
    ![Logotipo do AEM](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-6.png)
 
-3. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
+1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
 
    ![Iniciar o Admin Console](assets/launch_admin_console.png)
 
-4. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Produtos]**.
-5. Na página [!UICONTROL Produtos] , Perfis [!UICONTROL de] produto é selecionado por padrão. Clique em **[!UICONTROL Novo perfil]**.
+1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Produtos]**.
+1. Na página [!UICONTROL Produtos] , Perfis [!UICONTROL de] produto é selecionado por padrão. Clique em **[!UICONTROL Novo perfil]**.
 
    ![Adicionar novo perfil de produto](assets/admin_console_addproductprofile.png)
 
-6. Na página [!UICONTROL Criar um novo perfil] , forneça o nome do perfil, o nome de exibição, a descrição do perfil e escolha se deseja notificar os usuários por email quando eles forem adicionados ou removidos do perfil.
+1. Na página [!UICONTROL Criar um novo perfil] , forneça o nome do perfil, o nome de exibição, a descrição do perfil e escolha se deseja notificar os usuários por email quando eles forem adicionados ou removidos do perfil.
 
    ![Criar perfil de produto](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-7. Clique em **[!UICONTROL Concluído]**. O grupo de configuração do produto, por exemplo, grupo **[!UICONTROL de]** vendas, é adicionado ao Brand Portal.
+1. Clique em **[!UICONTROL Concluído]**. O grupo de configuração do produto, por exemplo, grupo **[!UICONTROL de]** vendas, é adicionado ao Brand Portal.
 
    ![Perfis de produto](assets/admin_console_productprofileadded.png)
 
@@ -121,20 +121,20 @@ Você pode fazer logon no [[!UICONTROL Admin Console]](http://adminconsole.adobe
 
    ![Logotipo do AEM](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-7.png)
 
-3. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
+1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
 
    ![Iniciar [!DNL Admin Console]](assets/launch_admin_console.png)
 
-4. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Produtos]**.
-5. Na página [!UICONTROL Produtos] , Perfis [!UICONTROL de] produto é selecionado por padrão. Abra o perfil de produto ao qual você deseja adicionar um usuário, por exemplo, grupo de vendas.
+1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Produtos]**.
+1. Na página [!UICONTROL Produtos] , Perfis [!UICONTROL de] produto é selecionado por padrão. Abra o perfil de produto ao qual você deseja adicionar um usuário, por exemplo, grupo de vendas.
 
    ![Perfis de produto](assets/admin_console_productprofileadded.png)
 
-6. Para adicionar usuários individuais ao perfil do produto, faça o seguinte:
+1. Para adicionar usuários individuais ao perfil do produto, faça o seguinte:
 
    * Clique em **[!UICONTROL Adicionar usuário]**.
    ![Grupo para mapear o perfil do produto no Brand Portal](assets/admin_console_productprofilesalesgroup.png)
@@ -146,7 +146,7 @@ Você pode fazer logon no [[!UICONTROL Admin Console]](http://adminconsole.adobe
 
 
 
-7. Para adicionar usuários em massa ao perfil do produto, faça o seguinte:
+1. Para adicionar usuários em massa ao perfil do produto, faça o seguinte:
 
    * Escolha reticências (**[!UICONTROL ...) &gt; Adicionar usuários por CSV]**.
    ![Adicionar usuários em massa](assets/admin_console_addbulkusers.png)
@@ -170,23 +170,23 @@ Você pode fazer logon no [[!UICONTROL Admin Console]](https://adminconsole.adob
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-8.png)
 
-3. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
+1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar o Admin Console]**.
 
    ![Iniciar o Admin Console](assets/launch_admin_console.png)
 
-4. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Usuários]**.
-5. Na página [!UICONTROL Usuários] , [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique no nome de usuário para o qual você deseja fornecer privilégios de administrador.
+1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Usuários]**.
+1. Na página [!UICONTROL Usuários] , [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique no nome de usuário para o qual você deseja fornecer privilégios de administrador.
 
    ![Adicionar usuários no Admin Console](assets/admin_console_adduseruserpage.png)
 
-6. Na página de perfil do usuário, localize a seção Direitos **** administrativos na parte inferior e escolha as reticências (**[!UICONTROL ... &gt; Editar direitos]**de administrador.
+1. Na página de perfil do usuário, localize a seção Direitos **** administrativos na parte inferior e escolha as reticências (**[!UICONTROL ... &gt; Editar direitos]**de administrador.
    ![Direitos de administrador no Admin Console](assets/admin_console_editadminrights.png)
 
-7. Na página [!UICONTROL Editar administrador] , selecione Administrador do sistema ou Administrador do produto.
+1. Na página [!UICONTROL Editar administrador] , selecione Administrador do sistema ou Administrador do produto.
 
    ![Editar direitos de administrador no Admin Console](assets/admin_console_editadminrightsselection.png)
 
@@ -198,7 +198,7 @@ Você pode fazer logon no [[!UICONTROL Admin Console]](https://adminconsole.adob
    >[!NOTE]
    O Brand Portal não suporta privilégios de administrador de perfil de produto (anteriormente conhecido como administrador de configuração). Evite atribuir direitos de administrador de perfil de produto a um usuário.
 
-8. Revise a seleção do tipo de administrador e clique em **[!UICONTROL Salvar]**.
+1. Revise a seleção do tipo de administrador e clique em **[!UICONTROL Salvar]**.
 
    >[!NOTE]
    Para revogar privilégios de administrador para um usuário, faça as alterações apropriadas na página [!UICONTROL Editar administrador] e clique em **[!UICONTROL Salvar]**.
@@ -216,11 +216,11 @@ Além da função Administrador, o Brand Portal oferece suporte às seguintes fu
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Usuários]**.
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-9.png)
 
-3. Na página Funções [!UICONTROL do] usuário, a guia [!UICONTROL Usuários] é selecionada por padrão. Para o usuário cuja função você deseja alterar, selecione **[!UICONTROL Editor]** ou **[!UICONTROL Visualizador]** no menu suspenso **[!UICONTROL Função]** .
+1. Na página Funções [!UICONTROL do] usuário, a guia [!UICONTROL Usuários] é selecionada por padrão. Para o usuário cuja função você deseja alterar, selecione **[!UICONTROL Editor]** ou **[!UICONTROL Visualizador]** no menu suspenso **[!UICONTROL Função]** .
 
    ![Modificar funções de usuários](assets/modify_user_role.png)
 
@@ -232,7 +232,7 @@ Além da função Administrador, o Brand Portal oferece suporte às seguintes fu
    >[!NOTE]
    A função de usuário também será desativada se o usuário for membro do grupo Editor. Para revogar privilégios de edição do usuário, remova o usuário do grupo Editor ou altere a função do grupo inteiro para Visualizador.
 
-4. Clique em **[!UICONTROL Salvar]**. A função é modificada para o usuário correspondente. Se você selecionou vários usuários, as funções de todos os usuários são modificadas simultaneamente.
+1. Clique em **[!UICONTROL Salvar]**. A função é modificada para o usuário correspondente. Se você selecionou vários usuários, as funções de todos os usuários são modificadas simultaneamente.
 
    >[!NOTE]
    As alterações nas permissões do usuário são refletidas na página Funções [!UICONTROL do] usuário somente depois que os usuários fazem login novamente no Brand Portal.
@@ -250,8 +250,8 @@ Para os ativos compartilhados como o link, a permissão para acessar representa�
 Para modificar a função e o direito de acessar representações originais para membros de grupos específicos, siga estas etapas:
 
 1. Na página Funções [!UICONTROL do] usuário, navegue até a guia **[!UICONTROL Grupos]** .
-2. Selecione os grupos para os quais você deseja alterar funções.
-3. Selecione a função apropriada na lista suspensa [!UICONTROL Função] .
+1. Selecione os grupos para os quais você deseja alterar funções.
+1. Selecione a função apropriada na lista suspensa [!UICONTROL Função] .
 
    Para permitir que os membros de um grupo tenham acesso às representações originais de arquivos de imagem (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, imagem/photoshop, /x-photoshop, .psd, image/vnd.adobe.photoshop), que eles baixam do portal ou link compartilhado, mantém a opção [!UICONTROL Acesso ao original] selecionada para esse grupo. Por padrão, a opção [!UICONTROL Acesso ao original] está selecionada para todos os usuários. Para impedir que um grupo de usuários acesse representações originais, desmarque a opção correspondente a esse grupo.
 
@@ -261,7 +261,7 @@ Para modificar a função e o direito de acessar representações originais para
    Se um usuário for adicionado a vários grupos e um deles tiver restrições, as restrições serão aplicadas a esse usuário.
    Além disso, as restrições para acessar execuções originais de arquivos de imagem não se aplicam aos administradores mesmo que eles sejam membros de grupos restritos.
 
-4. Clique em **[!UICONTROL Salvar]**. A função é modificada para os grupos correspondentes.
+1. Clique em **[!UICONTROL Salvar]**. A função é modificada para os grupos correspondentes.
 
    >[!NOTE]
    A associação usuário-a-grupo, ou a associação de grupo de um usuário, é sincronizada com o Brand Portal a cada 8 horas. As alterações nas funções de usuário ou grupo são eficazes após a próxima tarefa de sincronização ser executada.
