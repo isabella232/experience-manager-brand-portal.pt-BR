@@ -10,7 +10,7 @@ content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,10 +30,10 @@ A partir do AEM Assets Brand Portal 6.4.2, os administradores podem configurar o
 Para permitir acesso de convidados no Brand Portal, para que os usuários não precisem fazer logon para acessar ativos públicos, os administradores precisam:
 
 1. Selecione o logotipo do AEM para acessar as ferramentas administrativas na barra de ferramentas na parte superior.
-2. No painel de ferramentas administrativas, selecione **[!UICONTROL Acesso]** para abrir a página Configurações **[!UICONTROL de]** acesso.
-3. Ative a configuração **[!UICONTROL Permitir acesso]** de convidado.
-4. **[!UICONTROL Salve as alterações.]**
-5. Faça logout para permitir que as alterações entrem em vigor.
+1. No painel de ferramentas administrativas, selecione **[!UICONTROL Acesso]** para abrir a página Configurações **[!UICONTROL de]** acesso.
+1. Ative a configuração **[!UICONTROL Permitir acesso]** de convidado.
+1. **[!UICONTROL Salve as alterações.]**
+1. Faça logout para permitir que as alterações entrem em vigor.
 
 ![](assets/bp-welcome-screen.png)
 
@@ -44,7 +44,7 @@ Os administradores podem permitir que os usuários da organização solicitem ac
 Para permitir que os usuários da organização solicitem acesso ao Brand Portal, os administradores precisam:
 
 1. Selecione o logotipo do AEM para acessar as ferramentas administrativas na barra de ferramentas na parte superior.
-2. No painel de ferramentas administrativas, selecione **[!UICONTROL Acesso]** para abrir a página Configurações **[!UICONTROL de]** acesso.
-3. Ative a configuração **[!UICONTROL Permitir que usuários solicitem acesso]** .
-4. **[!UICONTROL Salve as alterações.]**
-5. Faça logout para permitir que as alterações entrem em vigor.
+1. No painel de ferramentas administrativas, selecione **[!UICONTROL Acesso]** para abrir a página Configurações **[!UICONTROL de]** acesso.
+1. Ative a configuração **[!UICONTROL Permitir que usuários solicitem acesso]** .
+1. **[!UICONTROL Salve as alterações.]**
+1. Faça logout para permitir que as alterações entrem em vigor.
