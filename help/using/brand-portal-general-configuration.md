@@ -10,7 +10,7 @@ content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -44,11 +44,11 @@ Essas configurações foram fornecidas como configurações de Configurações *
 Para ativar/desativar cada uma dessas configurações:
 
 1. Faça logon com privilégios de administrador.
-2. Selecione o logotipo do AEM para acessar as ferramentas administrativas na barra de ferramentas na parte superior.
-3. No painel de ferramentas administrativas, selecione **[!UICONTROL Geral]** para abrir a página Configurações **** gerais.
-4. Use o respectivo switch de alternância para ativar/desativar qualquer uma das configurações Gerais.
-5. **[!UICONTROL Salve as alterações.]**
-6. Faça logout para permitir que as alterações entrem em vigor.
+1. Selecione o logotipo do AEM para acessar as ferramentas administrativas na barra de ferramentas na parte superior.
+1. No painel de ferramentas administrativas, selecione **[!UICONTROL Geral]** para abrir a página Configurações **** gerais.
+1. Use o respectivo switch de alternância para ativar/desativar qualquer uma das configurações Gerais.
+1. **[!UICONTROL Salve as alterações.]**
+1. Faça logout para permitir que as alterações entrem em vigor.
 
 ## Permitir que usuários administradores excluam ativos do Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
