@@ -1,21 +1,21 @@
 ---
 title: Pesquisar ativos no Brand Portal
 seo-title: Pesquisa de ativos e pesquisa salva no AEM Brand Portal
-description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e os filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
+description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e os filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Save your searches as smart collections for future.
 seo-description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e os filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: SearchPromote
+topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# Pesquisar ativos no Brand Portal {#search-assets-on-brand-portal}
+# Search assets on Brand Portal {#search-assets-on-brand-portal}
 
 A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch e a pesquisa facetada que usa filtros para ajudar a restringir ainda mais sua pesquisa. Você também pode salvar suas pesquisas como coleções inteligentes para o futuro.
 
@@ -47,31 +47,31 @@ Para saber mais sobre o comportamento da pesquisa com ativos marcados inteligent
 
 Os aspectos de pesquisa no painel Filtros adicionam granularidade à sua experiência de pesquisa e tornam a funcionalidade de pesquisa eficiente. Os aspectos de pesquisa usam várias dimensões (predicados) que permitem executar pesquisas complexas. É possível detalhar facilmente para o nível de detalhes desejado para uma pesquisa mais focada.
 
-Por exemplo, se você estiver procurando uma imagem, poderá escolher se deseja um bitmap ou uma imagem vetorial. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Da mesma forma, ao pesquisar documentos, você pode especificar o formato, por exemplo, PDF ou MS Word.<br />
+Por exemplo, se você estiver procurando uma imagem, poderá escolher se deseja um bitmap ou uma imagem vetorial. Você pode reduzir ainda mais o escopo da pesquisa especificando o tipo MIME da imagem na faceta de pesquisa Tipo de arquivo. Da mesma forma, ao pesquisar documentos, você pode especificar o formato, por exemplo, PDF ou MS Word.<br />
 
 ![Painel Filtros no painel Brand](assets/file-type-search.png "PortalFilters no Brand Portal")
 
-O painel [!UICONTROL Filtros] inclui algumas facetas padrão, como - Navegador [!UICONTROL de]caminho, Tipo de arquivo, Tamanho de arquivo, [!UICONTROL Status]e Orientação. However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md) See the list of the available and usable search predicates on Brand Portal.[](../using/brand-portal-search-facets.md#list-of-search-predicates)
+O painel [!UICONTROL Filtros] inclui algumas facetas padrão, como - Navegador [!UICONTROL de]caminho, Tipo de arquivo, Tamanho de arquivo, [!UICONTROL Status]e Orientação. No entanto, você pode [adicionar aspectos](../using/brand-portal-search-facets.md) de pesquisa personalizados ou remover aspectos de pesquisa específicos do painel [!UICONTROL Filtros] adicionando ou removendo predicados no Formulário de pesquisa subjacente. Consulte a lista de predicados de [pesquisa disponíveis e utilizáveis no Portal](../using/brand-portal-search-facets.md#list-of-search-predicates)da Marca.
 
-To apply filters to your search, using the available search facets:[](../using/brand-portal-search-facets.md)
+Para aplicar filtros à sua pesquisa, use os aspectos [de](../using/brand-portal-search-facets.md)pesquisa disponíveis:
 
-1. Click the overlay icon and select **[!UICONTROL Filter]**.
+1. Clique no ícone de sobreposição e selecione **[!UICONTROL Filtrar]**.
 
    ![](assets/selectorrail.png)
 
-2. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
+1. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
 ****
-For example, use the following standard filters:
+Por exemplo, use os seguintes filtros padrão:
 
-   * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
+   * **[!UICONTROL Navegador]** de caminhos para pesquisar ativos em um diretório específico. O caminho de pesquisa padrão do predicado para o navegador de caminho é **[!UICONTROL /content/dam/mac/&lt;locatário-id&gt;/]**, que pode ser configurado editando o formulário de pesquisa padrão.
    >[!NOTE]
    >
-   >To non-admin users, Path Browser in Filter panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
+   >Para usuários não administradores, o Navegador [!UICONTROL de] caminhos no painel [!UICONTROL Filtro] mostra somente a estrutura de conteúdo das pastas (e suas pastas ancestrais) compartilhadas com eles.\
+   >Para administrar usuários, o Navegador de caminhos permite navegar até qualquer pasta no Portal de marcas.
 
-   * **[!UICONTROL Tipo]** de arquivo para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativo que você está procurando. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
+   * **[!UICONTROL Tipo]** de arquivo para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativo que você está procurando. Além disso, você pode restringir o escopo da pesquisa, por exemplo, especificar o tipo MIME (Tiff, Bitmap, Imagens GIMP) para imagem ou formato (PDF ou MS Word) para os documentos.
    * **[!UICONTROL File Size to search for assets based on their size.]** You can specify the lower and upper limits for the size range to narrow down your search and specify the unit of measure to search.
-   * **[!UICONTROL Status]** para pesquisar ativos com base em status de ativos, como Aprovação (Aprovada, Alterações Solicitadas, Rejeitada, Pendente) e Expiração.
+   * **[!UICONTROL Status to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.]**
    * **[!UICONTROL Average Rating to search for assets based on the rating of the assets.]**
    * **[!UICONTROL Orientação]** para procurar ativos com base na orientação (horizontal, vertical, quadrada) dos ativos.
    * **[!UICONTROL Estilo]** para procurar ativos com base no estilo (colorido, monocromático) dos ativos.
@@ -105,7 +105,7 @@ Por exemplo, pesquisando por:
 
    Resultado da pesquisa de ativos com contagem de resultados da pesquisa
 
-3. Você pode navegar para um item facilmente a partir do resultado da pesquisa e retornar ao mesmo resultado da pesquisa usando o botão Voltar no seu navegador sem precisar executar novamente a consulta de pesquisa.
+1. Você pode navegar para um item facilmente a partir do resultado da pesquisa e retornar ao mesmo resultado da pesquisa usando o botão Voltar no seu navegador sem precisar executar novamente a consulta de pesquisa.
 
 ## Salvar suas pesquisas como coleção inteligente {#save-your-searches-as-smart-collection}
 
@@ -119,14 +119,14 @@ Para salvar as configurações de pesquisa como uma coleção inteligente:
 
    >[!NOTE]
    >
-   >Os usuários não administradores podem ser restringidos de tornar públicas as coleções inteligentes, para evitar ter um grande número de coleções inteligentes públicas criadas por usuários não administradores no Portal de marcas da organização. As organizações podem desativar a configuração de criação **** Permitir coleções inteligentes públicas nas configurações **[!UICONTROL Gerais]** disponíveis no painel de ferramentas administrativas.
+   >Os usuários não administradores podem ser restringidos de tornar públicas as coleções inteligentes, para evitar ter um grande número de coleções inteligentes públicas criadas por usuários não administradores no Portal de marcas da organização. Organizations can disable the Allow public smart collections creation configuration from General settings available in admin tools panel.********
 
    ![](assets/save_smartcollectionui.png)
 
-2. Para salvar a coleção inteligente em um nome diferente e marcar ou desmarcar a caixa de seleção **[!UICONTROL Público]** , clique em **[!UICONTROL Editar coleção]** inteligente.
+1. Para salvar a coleção inteligente em um nome diferente e marcar ou desmarcar a caixa de seleção **[!UICONTROL Público]** , clique em **[!UICONTROL Editar coleção]** inteligente.
 
    ![](assets/edit_smartcollection.png)
 
-3. Na caixa de diálogo **[!UICONTROL Editar coleção]** inteligente, selecione **[!UICONTROL Salvar como]** e digite um nome para a coleção inteligente. Clique em **[!UICONTROL Salvar]**.
+1. Na caixa de diálogo **[!UICONTROL Editar coleção]** inteligente, selecione **[!UICONTROL Salvar como]** e digite um nome para a coleção inteligente. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/saveas_smartsearch.png)
