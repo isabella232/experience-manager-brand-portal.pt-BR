@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,17 +26,17 @@ Para adicionar ativos ao [!UICONTROL Lightbox], faça o seguinte:
 
    ![](assets/link_sharing_assetselection.png)
 
-2. Na barra de ferramentas na parte superior, clique no ícone Adicionar à coleção.
+1. Na barra de ferramentas na parte superior, clique no ícone Adicionar à coleção.
 
    ![](assets/add_to_collection.png)
 
-3. Na página **[!UICONTROL Adicionar à coleção]** , a coleção [!UICONTROL Lightbox] é selecionada por padrão.
+1. Na página **[!UICONTROL Adicionar à coleção]** , a coleção [!UICONTROL Lightbox] é selecionada por padrão.
 
    Clique em **[!UICONTROL Adicionar]**. Os ativos selecionados são adicionados à [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. Para revisar os ativos adicionados ao [!UICONTROL Lightbox], clique em **[!UICONTROL Coleções]** no painel esquerdo e clique na coleção **[!UICONTROL Lightbox]** .
+1. Para revisar os ativos adicionados ao [!UICONTROL Lightbox], clique em **[!UICONTROL Coleções]** no painel esquerdo e clique na coleção **[!UICONTROL Lightbox]** .
 
    ![](assets/collections_lightbox.png)
 
@@ -50,10 +50,10 @@ Para adicionar ativos ao [!UICONTROL Lightbox], faça o seguinte:
 
    ![](assets/collections_lightbox-1.png)
 
-2. Selecione a pasta que deseja remover da coleção e clique em **[!UICONTROL Remover]** da barra de ferramentas na parte superior.
+1. Selecione a pasta que deseja remover da coleção e clique em **[!UICONTROL Remover]** da barra de ferramentas na parte superior.
 
    ![](assets/collections_lightboxdelete.png)
 
-3. Na caixa de mensagem de aviso, clique em **[!UICONTROL Remover]** para confirmar a remoção.
+1. Na caixa de mensagem de aviso, clique em **[!UICONTROL Remover]** para confirmar a remoção.
 
 A pasta é excluída da coleção [!UICONTROL Lightbox] .
