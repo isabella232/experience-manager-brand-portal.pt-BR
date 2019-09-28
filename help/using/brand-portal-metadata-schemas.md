@@ -1,42 +1,42 @@
 ---
 title: Usar o formulário de esquema de metadados
 seo-title: Usar o formulário de esquema de metadados
-description: Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
-seo-description: Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
+description: Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administração
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# Usar o formulário de esquema de metadados {#use-the-metadata-schema-form}
+# Use the metadata schema form {#use-the-metadata-schema-form}
 
-Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
+A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 
-A página **[!UICONTROL Propriedades]** de cada ativo inclui propriedades de metadados padrão, dependendo do tipo MIME do ativo. Os administradores podem usar o Editor de esquema de metadados para modificar esquemas existentes ou adicionar esquemas de metadados personalizados. O AEM Assets Brand Portal fornece formulários padrão para ativos de vários tipos MIME. No entanto, também é possível adicionar formulários personalizados para esses ativos.
+The Properties page for each asset includes default metadata properties depending upon the MIME type of the asset. **** Administrators can use the Metadata Schema Editor to modify existing schemas or add custom metadata schemas. AEM Assets Brand Portal provides default forms for assets of various MIME types. However, you can also add custom forms for such assets.
 
-## Adicionar um formulário de esquema de metadados {#add-a-metadata-schema-form}
+## Add a metadata schema form {#add-a-metadata-schema-form}
 
-Para criar um novo formulário de esquema de metadados, faça o seguinte:
+To create a new metadata schema form, do the following:
 
 1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em Esquemas **[!UICONTROL de metadados]**.
+1. No painel de ferramentas administrativas, clique em Esquemas **[!UICONTROL de metadados]**.
 
    ![](assets/navigation-panel.png)
 
-3. Na página Formulários **[!UICONTROL de esquema de]** metadados, clique em **[!UICONTROL Criar]**.
+1. Na página Formulários **[!UICONTROL de esquema de]** metadados, clique em **[!UICONTROL Criar]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. Na caixa de diálogo **[!UICONTROL Criar formulário]** de esquema, especifique o título do formulário de esquema e clique em **[!UICONTROL Criar]** para concluir o processo de criação do formulário.
+1. Na caixa de diálogo **[!UICONTROL Criar formulário]** de esquema, especifique o título do formulário de esquema e clique em **[!UICONTROL Criar]** para concluir o processo de criação do formulário.
 
    ![](assets/create-schema-form.png)
 
@@ -52,8 +52,8 @@ Para editar um formulário de esquema de metadados, faça o seguinte:
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em Esquemas **[!UICONTROL de metadados]**.
-3. Na página Formulários **[!UICONTROL de esquema de]** metadados, selecione um formulário de esquema para editar suas propriedades, por exemplo, **[!UICONTROL coleção]**.
+1. No painel de ferramentas administrativas, clique em Esquemas **[!UICONTROL de metadados]**.
+1. Na página Formulários **[!UICONTROL de esquema de]** metadados, selecione um formulário de esquema para editar suas propriedades, por exemplo, **[!UICONTROL coleção]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -61,41 +61,41 @@ Para editar um formulário de esquema de metadados, faça o seguinte:
    >
    >Os modelos desatualizados exibem um símbolo de cadeado antes deles. Se você personalizar qualquer um dos modelos, o símbolo de Bloqueio antes do modelo desaparecerá.
 
-4. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Editar]**.
+1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Editar]**.
 
    A página Editor **[!UICONTROL de esquema de]** metadados é aberta com a guia **[!UICONTROL Básico]** aberta à esquerda e a guia **[!UICONTROL Criar formulário]** é aberta à direita.
 
-5. Na página Editor **[!UICONTROL de esquema de]** metadados, personalize a página **[!UICONTROL Propriedades]** do ativo arrastando um ou mais componentes de uma lista de tipos de componentes na guia **[!UICONTROL Criar formulário]** para a guia **[!UICONTROL Básico]** .
+1. Na página Editor **[!UICONTROL de esquema de]** metadados, personalize a página **[!UICONTROL Propriedades]** do ativo arrastando um ou mais componentes de uma lista de tipos de componentes na guia **[!UICONTROL Criar formulário]** para a guia **[!UICONTROL Básico]** .
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. Para configurar um componente, selecione-o e modifique suas propriedades na guia **[!UICONTROL Configurações]** .
+1. Para configurar um componente, selecione-o e modifique suas propriedades na guia **[!UICONTROL Configurações]** .
 
 ### Componentes na guia Criar formulário {#components-in-the-build-form-tab}
 
 A guia **[!UICONTROL Criar formulário]** lista itens que podem ser usados no formulário de esquema. A guia **[!UICONTROL Configurações]** fornece os atributos de cada item selecionado na guia **[!UICONTROL Criar formulário]** . A tabela a seguir lista os itens de formulário disponíveis na guia **[!UICONTROL Criar formulário]** :
 
-| Nome do componente | Descrição |
+| Component Name | Descrição |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Título da seção] | Adicione um cabeçalho de seção para obter uma lista de componentes comuns. |
 | [!UICONTROL Texto em linha única] | Adicione uma única propriedade de texto de linha. É armazenado como uma string. |
 | [!UICONTROL Multi-ValueText] | Adicione uma propriedade de texto de vários valores. Ele é armazenado como uma matriz de string. |
-| [!UICONTROL Número] | Adicione um componente de número. |
-| [!UICONTROL Data] | Adicione um componente de data. |
-| [!UICONTROL Lista suspensa] | Adicione uma lista suspensa. |
+| [!UICONTROL Número] | Add a number component. |
+| [!UICONTROL Data] | Add a date component. |
+| [!UICONTROL Lista suspensa] | Add a dropdown list. |
 | [!UICONTROL Tags padrão] | Adicionar uma tag. **** Observação: Os administradores podem precisar alterar o valor do caminho, por exemplo, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`se publicarem o formulário de esquema de metadados do AEM, onde o caminho não inclui informações de locatário, por exemplo, `/etc/tags/<custom_tag_namespace>`. |
 | [!UICONTROL Tags inteligentes] | Tags detectadas automaticamente se você adquiriu e configurou o complemento de tags inteligentes do AEM. |
-| [!UICONTROL Campo oculto] | Adicionar um campo oculto. Ele é enviado como um parâmetro POST quando o ativo é salvo. |
+| [!UICONTROL Campo oculto] | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
 | [!UICONTROL Ativo referenciado por] | Adicione este componente para exibir a lista de ativos referenciados pelo ativo. |
-| [!UICONTROL Fazer referência ao ativo] | Adicionar para exibir uma lista de ativos que fazem referência ao ativo. |
-| [!UICONTROL Classificação do ativo] | Classificação média de um ativo adicionado dos ativos AEM antes de ser publicado no Brand Portal. |
+| [!UICONTROL Fazer referência ao ativo] | Add to display a list of assets that reference the asset. |
+| [!UICONTROL Classificação do ativo] | Average rating of an asset added from AEM Assets before it is published to Brand Portal. |
 | [!UICONTROL Metadados do contexto] | Adicione para controlar a exibição de outras guias de metadados na página Propriedades dos ativos. |
 
 >[!NOTE]
 >
->Não use Referências **[!UICONTROL de]** produto, pois não está funcionando.
+>Do not use Product References, as it is not functional.****
 
-#### Editar o componente de metadados {#edit-the-metadata-component}
+#### Edit the metadata component {#edit-the-metadata-component}
 
 Para editar as propriedades de um componente de metadados no formulário, clique no componente e edite suas propriedades na guia **[!UICONTROL Configurações]** .
 
@@ -136,7 +136,7 @@ O formulário de esquema padrão inclui as guias **[!UICONTROL Básico]** e **[!
 
 ## Aplicar um esquema de metadados a uma pasta {#apply-a-metadata-schema-to-a-folder}
 
-O Brand Portal permite que você personalize e controle o esquema de metadados para que a página [!UICONTROL Propriedades] de um ativo exiba apenas as informações específicas que você escolher revelar. Para controlar os metadados exibidos na página [!UICONTROL Propriedades] , remova os metadados necessários do formulário de esquema de metadados e aplique-os à pasta específica.
+Brand Portal allows you to customize and control the metadata schema so that the Properties page of an asset displays only the specific information you choose to reveal.  Para controlar os metadados exibidos na página [!UICONTROL Propriedades] , remova os metadados necessários do formulário de esquema de metadados e aplique-os à pasta específica.
 
 Para aplicar um formulário de esquema de metadados a uma pasta, faça o seguinte:
 
@@ -144,19 +144,19 @@ Para aplicar um formulário de esquema de metadados a uma pasta, faça o seguint
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em Esquemas **[!UICONTROL de metadados]**.
+1. No painel de ferramentas administrativas, clique em Esquemas **[!UICONTROL de metadados]**.
 
-3. Na página Formulários **[!UICONTROL de esquema de]** metadados, selecione o formulário de esquema que deseja aplicar a um ativo, por exemplo, [!UICONTROL roupas].
+1. Na página Formulários **[!UICONTROL de esquema de]** metadados, selecione o formulário de esquema que deseja aplicar a um ativo, por exemplo, [!UICONTROL roupas].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Aplicar às pastas]**.
+1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Aplicar às pastas]**.
 
-5. Na página **[!UICONTROL Selecionar pasta(s)]** , navegue até a pasta à qual deseja aplicar o esquema de metadados de **[!UICONTROL roupas]** , por exemplo, **[!UICONTROL Luvas]**.
+1. Na página **[!UICONTROL Selecionar pasta(s)]** , navegue até a pasta à qual deseja aplicar o esquema de metadados de **[!UICONTROL roupas]** , por exemplo, **[!UICONTROL Luvas]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Clique em **[!UICONTROL Aplicar]** para aplicar o formulário de esquema de metadados à pasta.
+1. Clique em **[!UICONTROL Aplicar]** para aplicar o formulário de esquema de metadados à pasta.
 
    Os metadados disponíveis no formulário de esquema de metadados do **[!UICONTROL vestuário]** são aplicados à pasta **[!UICONTROL Luvas]** e são visíveis na página **[!UICONTROL Propriedades]** da pasta.
 
