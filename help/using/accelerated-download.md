@@ -10,7 +10,7 @@ content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145feed0c0
 translation-type: tm+mt
-source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -69,7 +69,7 @@ A tabela a seguir mostra o desempenho do download para arquivos de 2 GB usando o
 Para fazer o download dos recursos mais rapidamente do Brand Portal:
 
 1. Faça logon no Brand Portal usando um navegador compatível.
-2. Procure e selecione o arquivo de ativo, a pasta ou a coleção desejada para download. Toque/ clique na opção de download.
+1. Procure e selecione o arquivo de ativo, a pasta ou a coleção desejada para download. Toque/ clique na opção de download.
 A caixa de diálogo Download é exibida com a opção [Ativar aceleração] de download selecionada.
    ![](assets/download-assetsbp.png)
 
@@ -79,25 +79,25 @@ A caixa de diálogo Download é exibida com a opção [Ativar aceleração] de d
 
    ![](assets/fast-download-emailchk.png)
 
-3. Toque/clique na opção **[!UICONTROL Download]** .
+1. Toque/clique na opção **[!UICONTROL Download]** .
 Para acelerar a experiência de download em sua conta de locatário do Brand Portal, é necessário ter o aplicativo cliente Aspera Connect instalado no sistema.
 
-4. **Baixar como cliente Connect** Se o Aspera Connect não estiver instalado no seu sistema ou o cliente existente do Aspera Connect estiver desatualizado, um prompt será exibido na página do navegador a partir da qual você pode baixar o cliente Aspera Connect específico do sistema selecionando **[!UICONTROL Baixar versão]** mais recente.
+1. **Baixar como cliente Connect** Se o Aspera Connect não estiver instalado no seu sistema ou o cliente existente do Aspera Connect estiver desatualizado, um prompt será exibido na página do navegador a partir da qual você pode baixar o cliente Aspera Connect específico do sistema selecionando **[!UICONTROL Baixar versão]** mais recente.
 
    ![](assets/aspera-not-launched.png)
 
    Para baixar a versão mais recente do Aspera Connect em [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), selecione **[!UICONTROL Baixar agora]** e siga as instruções.
 
-5. **Instale o Aspera Connect Client** Para instalar a configuração do cliente IBM Aspera Connect, execute a instalação do arquivo .msi do aplicativo cliente IBM Aspera Connect e siga o assistente de instalação.
+1. **Instale o Aspera Connect Client** Para instalar a configuração do cliente IBM Aspera Connect, execute a instalação do arquivo .msi do aplicativo cliente IBM Aspera Connect e siga o assistente de instalação.
 
-6. Depois que o cliente for instalado com êxito, atualize a página do navegador e inicie as etapas de download novamente ou selecione **[!UICONTROL Reiniciar]** na caixa de diálogo **[!UICONTROL Download]** do ativo (Etapa 2).
+1. Depois que o cliente for instalado com êxito, atualize a página do navegador e inicie as etapas de download novamente ou selecione **[!UICONTROL Reiniciar]** na caixa de diálogo **[!UICONTROL Download]** do ativo (Etapa 2).
 Ao usar o Aspera Connect pela primeira vez, o navegador solicitará a abertura do link usando o **[!UICONTROL IBM Aspera Connect]**. Para ignorar essa caixa de diálogo no futuro, ative **[!UICONTROL Lembrar minha escolha para links]** de FASP.
 
    >[!NOTE]
    >
    >Essa mensagem é diferente em navegadores diferentes.
 
-7. Uma caixa de diálogo confirma se a transferência deve ser feita ou não. Selecione **[!UICONTROL Permitir]** para começar.
+1. Uma caixa de diálogo confirma se a transferência deve ser feita ou não. Selecione **[!UICONTROL Permitir]** para começar.
 Para ignorar esta caixa de diálogo no futuro, ative **[!UICONTROL Usar minha escolha para todas as conexões com este host]**.
 O download é iniciado. Uma caixa de diálogo mostra o progresso do download. Use a caixa de diálogo para **[!UICONTROL pausar]**, **[!UICONTROL retomar]** ou **[!UICONTROL cancelar]** o download.
 Uma vez que o aplicativo Connect fornece uma janela de atividade no sistema na qual o usuário pode exibir e gerenciar todas as sessões de transferência. Para obter mais informações, consulte [a documentação](https://downloads.asperasoft.com/en/documentation/8)do Aspera Connect Client.
@@ -119,9 +119,9 @@ O Microsoft Edge é executado no EPM (Enhanced Protected Mode), impedindo a comu
 Para usar a funcionalidade de download acelerado no Microsoft Edge, remova o site do Brand Portal da lista de sites confiáveis.
 
 1. Abra o Painel de controle (pressione a tecla **[!UICONTROL Janela + X]** e selecione **[!UICONTROL Painel]** de controle).
-2. Vá para **[!UICONTROL Rede e Internet &gt; Opções]** da Internet. Clique na guia **[!UICONTROL Segurança]** .
-3. Clique na zona **[!UICONTROL Sites]** confiáveis e clique em **[!UICONTROL Sites]**.
-4. Remova o site do Brand Portal da lista.
+1. Vá para **[!UICONTROL Rede e Internet &gt; Opções]** da Internet. Clique na guia **[!UICONTROL Segurança]** .
+1. Clique na zona **[!UICONTROL Sites]** confiáveis e clique em **[!UICONTROL Sites]**.
+1. Remova o site do Brand Portal da lista.
 
 ## Preferências de cliente do Connect {#aspera-connect-client-preferences}
 
@@ -145,11 +145,11 @@ Se a aceleração de download não estiver funcionando para você, siga estas et
 
    Se as portas não estiverem OK, entre em contato com a equipe de rede e verifique se as portas 33001 (TCP e UDP) não estão bloqueadas no firewall.
 
-2. Se as portas estiverem OK, verifique se sua rede não está lenta, medindo a largura de banda disponível usando [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Se as portas estiverem OK, verifique se sua rede não está lenta, medindo a largura de banda disponível usando [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Se a largura de banda for de alguns (1-10 Mbps) ou em Kbps, use as Preferências de Aspera e tente limitar a largura de banda igual à largura de banda disponível.
 
-3. Para confirmar se os downloads do servidor de demonstração Aspera estão funcionando, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
+1. Para confirmar se os downloads do servidor de demonstração Aspera estão funcionando, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
    (login:  asperaweb , senha:  demoaspera )
 
-4. Se nenhuma das etapas de solução de problemas acima funcionar, desmarque a opção Habilitar aceleração de download e use o download normal.
+1. Se nenhuma das etapas de solução de problemas acima funcionar, desmarque a opção Habilitar aceleração de download e use o download normal.
