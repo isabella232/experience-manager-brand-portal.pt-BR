@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referência
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -36,12 +36,12 @@ Para criar tags no AEM, publicar as tags no Brand Portal e associar as tags aos 
 
    1. Selecionar **[!UICONTROL ferramentas]**
 
-   2. Selecionar **[!UICONTROL Geral]**
+   1. Selecionar **[!UICONTROL Geral]**
 
-   3. Selecionar **[!UICONTROL marcação]**
+   1. Selecionar **[!UICONTROL marcação]**
 
-2. Selecione **[!UICONTROL Criar]** e selecione a opção **[!UICONTROL Criar tag]** .
-3. Especificar:
+1. Selecione **[!UICONTROL Criar]** e selecione a opção **[!UICONTROL Criar tag]** .
+1. Especificar:
 
    * **[!UICONTROL Título]**
       *(obrigatório)* Um título de exibição para a tag.
@@ -51,19 +51,19 @@ Para criar tags no AEM, publicar as tags no Brand Portal e associar as tags aos 
       *(opcional)* Uma descrição da tag.
    * **Caminho da tag Caminho** JCR caminho da tag .
 
-4. Selecione **[!UICONTROL Enviar]** para criar a tag .
+1. Selecione **[!UICONTROL Enviar]** para criar a tag .
 
    Depois de criar uma tag na instância do AEM, ela estará disponível para ser anexada a um ativo (usando a seção Propriedades ou a seção Gerenciar tags desse ativo).
 
-5. **Publique a tag no Brand Portal**.
+1. **Publique a tag no Brand Portal**.
 
    Ir para o console **[!UICONTROL Tags]** do AEM ([!UICONTROL Ferramentas)| Marcação| Tags]de AEM), selecione a tag desejada e publique no Portal de marcas.
 
-6. **Anexe a tag a um ativo (ou coleção)**.
+1. **Anexe a tag a um ativo (ou coleção)**.
 
    Selecione um ativo (ou coleção) e anexe a tag desejada usando a seção Propriedades ou a seção Gerenciar tags desse ativo. Para saber mais sobre como atribuir tags a ativos nos ativos AEM, consulte [usar tags para organizar ativos](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-7. **Publique ativos (ou coleções) no Brand Portal**.\
+1. **Publique ativos (ou coleções) no Brand Portal**.\
    Quando você publica um ativo (ou uma coleção) no Brand Portal, a tag anexada também está disponível no Brand Portal.
 
    Para ver a tag anexada no respectivo ativo (ou coleção) no Brand Portal, faça logon no Brand Portal e selecione o ativo, na seção Propriedades, você verá a tag anexada.
@@ -75,12 +75,12 @@ O AEM Assets Brand Portal permite que você faça com que ativos específicos se
 Para elevar um ativo para uma palavra-chave de pesquisa, siga estas etapas:
 
 1. Abra a página **[!UICONTROL Propriedades]** de um ativo na instância do autor de AEM.
-2. Vá para a guia **[!UICONTROL Avançado]** .
-3. Na seção **[!UICONTROL Pesquisar promoção]** em **[!UICONTROL Elevar para palavras-chave]** de pesquisa, selecione **[!UICONTROL Adicionar]** para adicionar as palavras-chave ou tags de pesquisa.
+1. Vá para a guia **[!UICONTROL Avançado]** .
+1. Na seção **[!UICONTROL Pesquisar promoção]** em **[!UICONTROL Elevar para palavras-chave]** de pesquisa, selecione **[!UICONTROL Adicionar]** para adicionar as palavras-chave ou tags de pesquisa.
 
    ![](assets/search-promote.png)
 
-4. Salve as alterações.
-5. Publicar o ativo no Brand Portal.
-6. Faça logon no Brand Portal. Guia Exibir **[!UICONTROL Avançado]** na seção **[!UICONTROL Propriedades]** do ativo.
+1. Salve as alterações.
+1. Publicar o ativo no Brand Portal.
+1. Faça logon no Brand Portal. Guia Exibir **[!UICONTROL Avançado]** na seção **[!UICONTROL Propriedades]** do ativo.
 Observe que a palavra-chave **[!UICONTROL Search Promote]** também está visível nas Propriedades desse ativo.
