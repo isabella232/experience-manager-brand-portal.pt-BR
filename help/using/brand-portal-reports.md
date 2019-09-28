@@ -9,7 +9,7 @@ topic-tags: administração
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ Para exibir um relatório, siga estas etapas:
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página Relatórios **[!UICONTROL de]** ativos.
+1. No painel de ferramentas administrativas, clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página Relatórios **[!UICONTROL de]** ativos.
 
    ![](assets/access-asset-reports.png)
 
-3. Acesse o relatório **[!UICONTROL de uso]** e outros relatórios gerados na página Relatórios de ativos.
+1. Acesse o relatório **[!UICONTROL de uso]** e outros relatórios gerados na página Relatórios de ativos.
 
    >[!NOTE]
    >
@@ -54,9 +54,9 @@ Para exibir um relatório, siga estas etapas:
 
    >[!NOTE]
    >
-   >O relatório de [!UICONTROL Download] de ativos exibe apenas os ativos que foram individualmente selecionados e baixados do Brand Portal. Se um usuário tiver baixado uma pasta que contém ativos, o relatório não exibirá a pasta nem os ativos dentro dela.
+   >The assets [!UICONTROL Download] report displays only the assets that were individually selected and downloaded from Brand Portal. Se um usuário tiver baixado uma pasta que contém ativos, o relatório não exibirá a pasta nem os ativos dentro dela.
 
-   [!UICONTROL O relatório de expiração] lista e detalha todos os ativos que expiraram em um período específico.
+   [!UICONTROL Expiration] report lists and details all the assets that expired in a specific time frame.
 
    ![](assets/expiration-report.png)
 
@@ -95,16 +95,16 @@ As colunas no relatório Download, Expiração e Publicação podem ser personal
 
    ![](assets/aemlogo.png)
 
-2. No painel de ferramentas administrativas, toque/clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página Relatórios **[!UICONTROL de]** ativos.
+1. No painel de ferramentas administrativas, toque/clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página Relatórios **[!UICONTROL de]** ativos.
 
    ![](assets/asset-reports.png)
 
-3. Na página Relatórios de ativos, toque/clique em **[!UICONTROL Criar]**.
-4. Na página **[!UICONTROL Criar relatório]** , selecione um relatório a ser criado e toque/clique em **[!UICONTROL Avançar]**.
+1. Na página Relatórios de ativos, toque/clique em **[!UICONTROL Criar]**.
+1. Na página **[!UICONTROL Criar relatório]** , selecione um relatório a ser criado e toque/clique em **[!UICONTROL Avançar]**.
 
    ![](assets/crete-report.png)
 
-5. Configure os detalhes do relatório. Especifique o título, a descrição, a estrutura da pasta (onde o relatório precisa executar e gerar estatísticas) e o intervalo de datas para os relatórios de [!UICONTROL Download], [!UICONTROL Expiração]e [!UICONTROL Publicação] .
+1. Configure os detalhes do relatório. Especifique o título, a descrição, a estrutura da pasta (onde o relatório precisa executar e gerar estatísticas) e o intervalo de datas para os relatórios de [!UICONTROL Download], [!UICONTROL Expiração]e [!UICONTROL Publicação] .
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ As colunas no relatório Download, Expiração e Publicação podem ser personal
    >
    >Os caracteres especiais # e % no título do relatório são substituídos por um hífen (-) na geração do relatório.
 
-6. Toque/clique em **[!UICONTROL Avançar]** para configurar as colunas dos relatórios de Download, Expiração e Publicação.
-7. Marque ou desmarque as caixas de seleção apropriadas, conforme necessário. Por exemplo, para exibir os nomes dos usuários (que baixaram ativos) no relatório [!UICONTROL Download] , selecione **[!UICONTROL Baixado por]**. A imagem a seguir ilustra a seleção de colunas padrão no Relatório de download.
+1. Toque/clique em **[!UICONTROL Avançar]** para configurar as colunas dos relatórios de Download, Expiração e Publicação.
+1. Marque ou desmarque as caixas de seleção apropriadas, conforme necessário. Por exemplo, para exibir os nomes dos usuários (que baixaram ativos) no relatório [!UICONTROL Download] , selecione **[!UICONTROL Baixado por]**. A imagem a seguir ilustra a seleção de colunas padrão no Relatório de download.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ As colunas no relatório Download, Expiração e Publicação podem ser personal
    Para adicionar colunas personalizadas ao Relatório de download, publicação ou expiração, siga estas etapas:
 
    1. Para exibir uma coluna personalizada, toque/clique em **[!UICONTROL Adicionar]** em Colunas personalizadas.
-   2. Especifique o nome da coluna no campo Nome **[!UICONTROL da]** coluna.
-   3. Selecione a propriedade para a qual a coluna precisa ser mapeada, usando o seletor de propriedades.
+   1. Especifique o nome da coluna no campo Nome **[!UICONTROL da]** coluna.
+   1. Selecione a propriedade para a qual a coluna precisa ser mapeada, usando o seletor de propriedades.
 
       ![](assets/property-picker.png)
 Como alternativa, digite o caminho no campo de caminho da propriedade.
@@ -136,7 +136,7 @@ Como alternativa, digite o caminho no campo de caminho da propriedade.
 
       Para adicionar mais colunas personalizadas, toque/clique em **Adicionar** e repita as etapas 2 e 3.
 
-8. Toque/clique em **[!UICONTROL Criar]**. Uma mensagem notifica que a geração de relatórios foi iniciada.
+1. Toque/clique em **[!UICONTROL Criar]**. Uma mensagem notifica que a geração de relatórios foi iniciada.
 
 ## Download de relatórios {#download-reports}
 
