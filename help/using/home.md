@@ -3,8 +3,8 @@ title: Guia do usuário do AEM Brand Portal
 seo-title: Guia do usuário do AEM Brand Portal
 description: Guia do usuário do AEM Brand Portal
 seo-description: Descreve como usar o Brand Portal
-translation-type: ht
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+translation-type: tm+mt
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
@@ -42,8 +42,9 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Configurar a integração do AEM Assets com o Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Como replicar o Brand Portal com AEM Assets para publicar ativos. |
 | [Solucionar problemas na publicação paralela](troubleshoot-parallel-publishing.md) | Solucione problemas de replicação entre o Brand Portal e o AEM Assets. |
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
-| [Publicar ativos no Brand Portal](../TOC.md#publish) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
+| [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
+| [Seleção de recursos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Seleção de ativos nos ativos AEM, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta nos ativos AEM. |
 
 ### Recursos úteis
 
-* [Como entender o Brand Portal com AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Como entender o Brand Portal com os ativos AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
