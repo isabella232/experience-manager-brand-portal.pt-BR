@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introdução
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ Como profissional de marketing, às vezes é necessário colaborar com parceiros
 
 No entanto, é um desafio desenvolver soluções que suportem o compartilhamento eficiente e seguro de logotipos de marca aprovados, diretrizes, ativos de campanha ou capturas de produtos com equipes internas, parceiros e revendedores estendidos.
 
-**O portal** de marcas dos ativos Adobe Experience Manager (AEM) pode ajudá-lo a adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado.
+**O portal** de marcas dos ativos Adobe Experience Manager (AEM) foca na necessidade do comerciante de colaborar com os usuários do Brand Portal distribuídos globalmente, fornecendo recursos de distribuição de ativos e contribuição de ativos.
+
+A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários do Brand Portal possam fazer upload de ativos para o Brand Portal e publicar nos ativos AEM, sem precisar acessar o ambiente do autor. O recurso de contribuição é chamado de Fonte de **ativos no Portal**da marca. E, juntos, melhora a experiência geral do Brand Portal de distribuição de ativos e a contribuição dos usuários do Brand Portal (agências/equipes externas), acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado.
+Consulte Seleção de [recursos no Portal](brand-portal-asset-sourcing.md)de marcas.
 
 O ambiente de portal baseado em navegador permite que você carregue, navegue, pesquise, visualize e exporte ativos facilmente em formatos aprovados.
 
@@ -35,7 +38,7 @@ O Brand Portal suporta as seguintes funções de usuário:
 
 |  | **Navegar** | **Pesquisar** | **Download** | **Compartilhar pastas** | **Compartilhar uma coleção** | **Compartilhar ativos como um link** | **Acesso às Ferramentas administrativas** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Guest user** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Usuário convidado** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visualizador** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -50,33 +53,33 @@ No entanto, a sessão de convidado impede que você crie coleções e pesquisas 
 
 [Procurar e acessar ativos públicos](browse-assets-brand-portal.md)
 
-[Search public assets](brand-portal-searching.md)
+[Pesquisar ativos públicos](brand-portal-searching.md)
 
-[Download public assets](brand-portal-download-users.md)
+[Baixar ativos públicos](brand-portal-download-users.md)
 
-[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Adicionar ativos ao [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visualizador {#viewer}
 
-A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
+Um usuário padrão no Brand Portal normalmente é um usuário com a função de Visualizador. Um usuário com essa função pode acessar pastas, coleções e ativos permitidos. O usuário também pode navegar, visualizar, baixar e exportar ativos (execuções originais ou específicas), definir configurações de conta e procurar ativos. Esta é uma lista de tarefas que um visualizador pode executar:
 
-[Browse assets](browse-assets-brand-portal.md)
+[Procurar ativos](browse-assets-brand-portal.md)
 
-[Search for assets](brand-portal-searching.md)
+[Pesquisar ativos](brand-portal-searching.md)
 
-[Download assets](brand-portal-download-users.md)
+[Baixar ativos](brand-portal-download-users.md)
 
 ### Editor {#editor}
 
-A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
+Um usuário com a função de Editor pode executar todas as tarefas que um Visualizador pode executar. Além disso, e o Editor pode exibir os arquivos e pastas compartilhados por um administrador. O usuário com a função de um Editor também pode compartilhar conteúdo (arquivos, pastas, coleções) com outras pessoas.
 
-Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
+Além das tarefas que um visualizador pode executar, um editor pode executar as seguintes tarefas adicionais:
 
-[Share folders](brand-portal-sharing-folders.md)
+[Compartilhar pastas](brand-portal-sharing-folders.md)
 
 [Compartilhar uma coleção](brand-portal-share-collection.md)
 
-[Share assets as a link](brand-portal-link-share.md)
+[Compartilhar ativos como um link](brand-portal-link-share.md)
 
 ### Administrador {#administrator}
 
@@ -84,11 +87,11 @@ Um administrador inclui um usuário marcado como administrador do sistema ou com
 
 Um administrador pode executar todas as tarefas que um Editor pode executar as seguintes tarefas adicionais:
 
-[Gerenciar usuários, grupos e funções de usuário](brand-portal-adding-users.md)
+[Gerenciar usuários, grupos e cargos de usuários](brand-portal-adding-users.md)
 
 [Personalizar papel de parede, cabeçalhos de página e e-mails](brand-portal-branding.md)
 
-[Usar aspectos de pesquisa personalizados](brand-portal-search-facets.md)
+[Usar facetas de busca personalizada](brand-portal-search-facets.md)
 
 [Usar o formulário de esquema de metadados](brand-portal-metadata-schemas.md)
 
@@ -100,9 +103,9 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 
 [Configurar a integração do AEM Assets com o Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publicar pastas no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publicar coleções no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Alias alternativo para url do Brand Portal {#tenant-alias-for-portal-url}
 
@@ -117,42 +120,40 @@ No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.ad
 >
 >Para substituir o alias antigo ou excluí-lo, é necessário seguir o mesmo processo.
 
-## Solicitar acesso ao Brand Portal {#request-access-to-brand-portal}
+## Request access to Brand Portal {#request-access-to-brand-portal}
 
 Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas solicitações são enviadas para administradores do Brand Portal, que concedem acesso aos usuários por meio do Adobe [!UICONTROL Admin Console]. Depois que o acesso é concedido, os usuários recebem um email de notificação.
 
 Para solicitar acesso, faça o seguinte:
 
-1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente à opção **[!UICONTROL Precisa de acesso?]**. However, to enter the guest session, select the Click here corresponding to Guest Access?.********
+1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente à opção **[!UICONTROL Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione o **[!UICONTROL Clique aqui]** correspondente ao Acesso **[!UICONTROL de convidado?]**.
 
    ![Tela de logon do Brand Portal](assets/bp-login-requestaccess.png)
 
    A página [!UICONTROL Solicitar acesso] é aberta.
 
-1. To request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
+1. Para solicitar acesso ao Brand Portal de uma organização, é necessário ter uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID]válida.
 
-   In the Request Access page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):<br />
+   Na página [!UICONTROL Solicitar acesso] , faça logon usando sua ID (cenário 1) ou crie uma ID [!UICONTROL da] Adobe (cenário 2):<br />
    ![[!UICONTROL Solicitar acesso]](assets/bplogin_request_access_2.png)
 
-   **Scenario 1**
-   1. If you have an Adobe ID, Enterprise ID, or Federated ID, click Sign In.
-****
-The Sign in page opens.
-   1. Provide your Adobe ID credentials and click Sign in.****<br />
-   ![Adobe sign in](assets/bplogin_request_access_3.png)
+   **Cenário 1**
+   1. Se você tiver uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
+A página [!UICONTROL Entrar] é aberta.
+   1. Forneça suas credenciais [!UICONTROL da Adobe ID] e clique em **[!UICONTROL Fazer logon]**.<br />
+   ![Login da Adobe](assets/bplogin_request_access_3.png)
 
-   You are redirected to the Request Access page.<br />
-   **Scenario 2**
-   1. If you do not have an Adobe ID, to create one, click Get an Adobe ID from the Request Access page.
-****
-The Sign in page opens.
+   Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
+   **Cenário 2**
+   1. Se você não tiver uma [!UICONTROL Adobe ID], para criar uma, clique em **[!UICONTROL Obter uma Adobe ID]** na página [!UICONTROL Solicitar acesso] .
+A página [!UICONTROL Entrar] é aberta.
    1. Click **[!UICONTROL Get an Adobe ID]**.
 A página [!UICONTROL Inscrever] é aberta.
-   1. Enter your first and last name, email ID, and password.
+   1. Digite seu nome e sobrenome, ID de e-mail e senha.
    1. Selecione **[!UICONTROL Cadastrar-se]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
-   You are redirected to the Request Access page.
+   Você é redirecionado para a página [!UICONTROL Solicitar acesso] .
 
 1. A próxima página exibe seu nome e ID de email usados para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.<br />
 
@@ -193,8 +194,8 @@ Você pode descartar esta notificação e continuar usando o Brand Portal. Esta 
 ## Informações sobre a versão e o sistema {#release-and-system-information}
 
 * [Novidades](whats-new.md)
-* [Notas de versão](brand-portal-release-notes.md)
-* [Formatos de arquivo suportados](brand-portal-supported-formats.md)
+* [Notas de lançamento](brand-portal-release-notes.md)
+* [Formatos de arquivo não suportados](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 
