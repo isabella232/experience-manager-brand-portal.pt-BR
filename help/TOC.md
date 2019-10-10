@@ -4,8 +4,8 @@ product: Adobe Experience Manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: ht
-source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
+translation-type: tm+mt
+source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [Notas de lançamento](using/brand-portal-release-notes.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
-   + [Como entender o Brand Portal com AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Como entender o Brand Portal com os ativos AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar de AEM Assets no Brand Portal {#publish}
    + [Configurar a integração do AEM Assets com o Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
@@ -28,6 +28,22 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [Solucionar problemas na publicação paralela no Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publicar marcações no Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar predefinições, esquema e aspectos no Brand Portal](using/publish-schema-search-facets-presets.md)
++ Seleção de recursos no Brand Portal {#asset-sourcing-in-brand-portal}
+   + [Visão geral](using/brand-portal-asset-sourcing.md)
+   + Configurar fonte de ativos no AEM {#configure-asset-sourcing-in-aem}
+      + [Ativar Seleção de Fornecedor de Ativos](using/brand-portal-enable-asset-sourcing.md)
+      + [Carregar lista de usuários do Brand Portal](using/brand-portal-upload-user-list.md)
+   + Configurar a pasta Contribuição nos ativos AEM {#configure-contribution-folder}
+      + [Visão geral](using/brand-portal-contribution-folder.md)
+      + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
+      + [Configurar propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
+      + [Fazer upload dos ativos da linha de base](using/brand-portal-upload-baseline-assets.md)
+      + [Publicar pasta de contribuição no Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + Uso da Fonte de Recursos no Portal da Marca {#using-asset-sourcing}
+      + [Visão geral](using/brand-portal-overiew-using-asset-sourcing.md)
+      + [Baixar requisitos de ativos](using/brand-portal-download-asset-requirements.md)
+      + [Carregar ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
+      + [Publicar pasta de contribuição nos ativos AEM](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartilhar ativos com usuários {#share}
    + [Compartilhar uma coleção](using/brand-portal-share-collection.md)
    + [Compartilhar pastas](using/brand-portal-sharing-folders.md)
