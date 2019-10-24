@@ -1,8 +1,8 @@
 ---
-title: Administrar configurações gerais de locatário
-seo-title: Administrar configurações gerais de locatário
-description: Configure a aceleração de download, a criação de [!UICONTROL collection] inteligente pública, a criação de [!UICONTROL collection] pública e permita que os usuários administradores excluam ativos em locatários.
-seo-description: Configure a aceleração de download, a criação de [!UICONTROL collection] inteligente pública, a criação de [!UICONTROL collection] pública e permita que os usuários administradores excluam ativos em locatários.
+title: Administrar configurações de locatários gerais
+seo-title: Administrar configurações de locatários gerais
+description: Configure a aceleração de download, a criação de [!UICONTROL coleções] públicas inteligentes, a criação de [!UICONTROL coleções] públicas e permita que os usuários administradores excluam ativos em locatários.
+seo-description: Configure a aceleração de download, a criação de [!UICONTROL coleções] públicas inteligentes, a criação de [!UICONTROL coleções] públicas e permita que os usuários administradores excluam ativos em locatários.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administração
@@ -10,12 +10,12 @@ content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
 
 
-# Administrar configurações gerais de locatário {#administer-general-tenant-configurations}
+# Administrar configurações de locatários gerais {#administer-general-tenant-configurations}
 
 O AEM Assets Brand Portal permite que as organizações configurem os seguintes recursos para locatários específicos:
 
@@ -56,16 +56,16 @@ Para ativar/desativar cada uma dessas configurações:
 
 ## Permitir a criação de coleções públicas por não administradores {#allow-public-collections-creation-by-non-admins}
 
-[A configuração do [!UICONTROL permite criação de coleções públicas]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) controla se não os administradores podem criar coleções públicas no Portal de Marcas. A configuração é ativada por padrão. Ao desativar as organizações de configuração, é possível evitar que muitas coleções públicas estejam em seu portal para que o espaço do sistema possa ser salvo.
+[[!UICONTROL Permitir que coleções públicas criem]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) controles de configuração se não administradores podem criar coleções públicas no Brand Portal. A configuração é ativada por padrão. Ao desativar as organizações de configuração, é possível evitar que muitas coleções públicas estejam em seu portal para que o espaço do sistema possa ser salvo.
 
 ## Permitir a criação de coleções inteligentes públicas por não administradores {#allow-public-smart-collections-creation-by-non-admins}
 
-[A configuração do [!UICONTROL permite a criação de coleções inteligentes públicas]](../using/brand-portal-searching.md#main-pars-header-500620467) controla se os não administradores podem salvar suas pesquisas como coleções inteligentes e torná-las públicas para esse locatário. A configuração é ativada por padrão. Ao desativar as organizações de configuração, é possível evitar que um grande número de coleções inteligentes públicas sejam criadas por usuários não administradores no Brand Portal da organização.
+[[!UICONTROL Permitir que coleções inteligentes públicas criem]](../using/brand-portal-searching.md#main-pars-header-500620467) controles de configuração se não administradores podem salvar suas pesquisas como coleções inteligentes e torná-las públicas para esse locatário. A configuração é ativada por padrão. Ao desativar as organizações de configuração, é possível evitar que um grande número de coleções inteligentes públicas sejam criadas por usuários não administradores no Brand Portal da organização.
 
 ## Permitir aceleração de download {#allow-download-acceleration}
 
-[A configuração de [!UICONTROL Permitir aceleração de download]](../using/accelerated-download.md) permite que as organizações permitam downloads acelerados de ativos do Brand Portal e links compartilhados, por meio da integração com o IBM Aspera Connect que é um aplicativo de instalação sob demanda. O aplicativo usa tecnologia proprietária para remover os custos indiretos de TCP.
+[[!UICONTROL Permitir a configuração de aceleração]](../using/accelerated-download.md) de download permite que as organizações permitam downloads acelerados de ativos do Brand Portal e links compartilhados, integrando-se ao IBM Aspera Connect que é um aplicativo de instalação sob demanda. O aplicativo usa tecnologia proprietária para remover os custos indiretos de TCP.
 
 ## Ativar hierarquia de pastas {#enable-folder-hierarchy}
 
-[A configuração de [!UICONTROL Enable Folder Hierarchy]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permite que os administradores controlem como os usuários que não são administradores (Editores, Visualizadores e Usuários convidados) veem as pastas compartilhadas após fazer logon.
+[[!UICONTROL Ativar a configuração da Hierarquia]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) de pastas permite que os administradores controlem como os usuários não administradores (Editores, Visualizadores e Usuários convidados) visualizam as pastas compartilhadas após fazer logon.
