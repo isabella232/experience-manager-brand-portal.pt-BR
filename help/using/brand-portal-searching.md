@@ -1,21 +1,21 @@
 ---
-title: Pesquisar ativos no Brand Portal
+title: Buscar ativos no Brand Portal
 seo-title: Pesquisa de ativos e pesquisa salva no AEM Brand Portal
-description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e os filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Save your searches as smart collections for future.
+description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e os filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
 seo-description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e os filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: referência
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: SearchandPromote
+topic-tags: SearchPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Search assets on Brand Portal {#search-assets-on-brand-portal}
+# Buscar ativos no Brand Portal {#search-assets-on-brand-portal}
 
 A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch e a pesquisa facetada que usa filtros para ajudar a restringir ainda mais sua pesquisa. Você também pode salvar suas pesquisas como coleções inteligentes para o futuro.
 
@@ -59,20 +59,19 @@ Para aplicar filtros à sua pesquisa, use os aspectos [de](../using/brand-portal
 
    ![](assets/selectorrail.png)
 
-1. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
-****
+1. No painel **[!UICONTROL Filtros]** à esquerda, selecione as opções apropriadas para aplicar os filtros relevantes.
 Por exemplo, use os seguintes filtros padrão:
 
-   * **[!UICONTROL Navegador]** de caminhos para pesquisar ativos em um diretório específico. O caminho de pesquisa padrão do predicado para o navegador de caminho é **[!UICONTROL /content/dam/mac/&lt;locatário-id&gt;/]**, que pode ser configurado editando o formulário de pesquisa padrão.
+   * **[!UICONTROL Navegador]** de caminhos para pesquisar ativos em um diretório específico. O caminho de pesquisa padrão do predicado para Navegador de caminhos é `/content/dam/mac/<tenant-id>/`, que pode ser configurado editando o formulário de pesquisa padrão.
    >[!NOTE]
    >
    >Para usuários não administradores, o Navegador [!UICONTROL de] caminhos no painel [!UICONTROL Filtro] mostra somente a estrutura de conteúdo das pastas (e suas pastas ancestrais) compartilhadas com eles.\
    >Para administrar usuários, o Navegador de caminhos permite navegar até qualquer pasta no Portal de marcas.
 
    * **[!UICONTROL Tipo]** de arquivo para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativo que você está procurando. Além disso, você pode restringir o escopo da pesquisa, por exemplo, especificar o tipo MIME (Tiff, Bitmap, Imagens GIMP) para imagem ou formato (PDF ou MS Word) para os documentos.
-   * **[!UICONTROL File Size to search for assets based on their size.]** You can specify the lower and upper limits for the size range to narrow down your search and specify the unit of measure to search.
-   * **[!UICONTROL Status to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.]**
-   * **[!UICONTROL Average Rating to search for assets based on the rating of the assets.]**
+   * **[!UICONTROL Tamanho]** do arquivo para pesquisar ativos com base em seu tamanho. Você pode especificar os limites inferior e superior do intervalo de tamanho para restringir sua pesquisa e especificar a unidade de medida a ser pesquisada.
+   * **[!UICONTROL Status]** para pesquisar ativos com base em status de ativos, como Aprovação (Aprovada, Alterações Solicitadas, Rejeitada, Pendente) e Expiração.
+   * **[!UICONTROL Classificação]** média para procurar ativos com base na classificação dos ativos.
    * **[!UICONTROL Orientação]** para procurar ativos com base na orientação (horizontal, vertical, quadrada) dos ativos.
    * **[!UICONTROL Estilo]** para procurar ativos com base no estilo (colorido, monocromático) dos ativos.
    * **[!UICONTROL Formato]** de vídeo para pesquisar ativos de vídeo com base em seu formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
@@ -119,7 +118,7 @@ Para salvar as configurações de pesquisa como uma coleção inteligente:
 
    >[!NOTE]
    >
-   >Os usuários não administradores podem ser restringidos de tornar públicas as coleções inteligentes, para evitar ter um grande número de coleções inteligentes públicas criadas por usuários não administradores no Portal de marcas da organização. Organizations can disable the Allow public smart collections creation configuration from General settings available in admin tools panel.********
+   >Os usuários não administradores podem ser restringidos de tornar públicas as coleções inteligentes, para evitar ter um grande número de coleções inteligentes públicas criadas por usuários não administradores no Portal de marcas da organização. As organizações podem desativar a configuração de criação **** Permitir coleções inteligentes públicas nas configurações **[!UICONTROL Gerais]** disponíveis no painel de ferramentas administrativas.
 
    ![](assets/save_smartcollectionui.png)
 
