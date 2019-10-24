@@ -1,6 +1,6 @@
 ---
-title: Personalizar papel de parede, cabeçalho e mensagem de email
-seo-title: Personalizar papel de parede, cabeçalho e mensagem de email
+title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
+seo-title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
 description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar e-mails de compartilhamento de ativos para corresponder à marca do cliente.
 seo-description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar e-mails de compartilhamento de ativos para corresponder à marca do cliente.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
@@ -9,12 +9,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administração
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Personalizar papel de parede, cabeçalho e mensagem de email {#customize-wallpaper-header-and-email-message}
+# Personalizar papel de parede, cabeçalho e mensagens de e-mail {#customize-wallpaper-header-and-email-message}
 
 Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar e-mails de compartilhamento de ativos para corresponder à marca do cliente.
 
