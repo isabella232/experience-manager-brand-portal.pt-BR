@@ -9,20 +9,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: referência
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
 # Publicar predefinições, esquema e aspectos no Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
-The article delves into publishing image presets, metadata schemas, and custom search facets from AEM Author instance to Brand Portal. O recurso de publicação permite que as organizações reutilizem predefinições de imagens, esquemas de metadados e aspectos de pesquisa criados/modificados na instância do autor de AEM, reduzindo assim os esforços duplicados.
+O artigo se aprofunda em predefinições de imagens de publicação, esquemas de metadados e aspectos de pesquisa personalizados da instância do autor de AEM para o Portal de marcas. O recurso de publicação permite que as organizações reutilizem predefinições de imagens, esquemas de metadados e aspectos de pesquisa criados/modificados na instância do autor de AEM, reduzindo assim os esforços duplicados.
 
 >[!NOTE]
 >
 >A capacidade de publicar predefinições de imagens, esquema de metadados e aspectos de pesquisa da instância do autor de AEM para o Portal de marcas está disponível a partir de AEM 6.2 SP1-CFP7 e AEM 6.3 SP 1-CFP 1 (6.3.1.1).
 
-## Publish image presets to Brand Portal {#publish-image-presets-to-brand-portal}
+## Publicar predefinições de imagens no Brand Portal {#publish-image-presets-to-brand-portal}
 
 As predefinições de imagens são um conjunto de comandos de dimensionamento e formatação aplicados à imagem no momento da entrega da imagem. As predefinições de imagens podem ser criadas e modificadas no Brand Portal. Como alternativa, se a instância do autor de AEM estiver sendo executada no modo de mídia dinâmica, os usuários poderão criar predefinições no autor de AEM e publicá-las no portal de marcas de ativos de AEM e evitar a recriação das mesmas predefinições no Portal de marcas.\
 Depois que a predefinição é criada, ela é listada como representação dinâmica no painel de representações detalhadas do ativo e na caixa de diálogo de download.
@@ -33,7 +33,7 @@ Depois que a predefinição é criada, ela é listada como representação dinâ
 
 Para publicar predefinições de imagens no Brand Portal:
 
-1. Na instância do autor de AEM, toque/ clique no logotipo do AEM para acessar o console de navegação global e toque/ clique no ícone Ferramentas e navegue até **[!UICONTROL Ativos]** &gt; Predefinições **[!UICONTROL de]** imagem.
+1. Na instância do autor de AEM, toque/ clique no logotipo do AEM para acessar o console de navegação global e toque/ clique no ícone Ferramentas e navegue até **[!UICONTROL Ativos &gt; Predefinições]** de imagem.
 1. Selecione a predefinição de imagem ou várias predefinições de imagem na lista de predefinições de imagem e clique/toque em **[!UICONTROL Publicar no Portal]** de Marca.
 
 ![](assets/publishpreset.png)
@@ -53,7 +53,7 @@ O esquema de metadados descreve o layout e as propriedades que são exibidas na 
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-Se os usuários tiverem editado o esquema padrão na instância do autor de AEM e estiverem dispostos a usar o mesmo esquema como esquema padrão no Portal de Marcas, eles poderão simplesmente publicar os formulários de esquema de metadados no Portal de Marcas. In such a scenario, the default schema at Brand Portal is over-ridden by the default schemas published from AEM Author instance.
+Se os usuários tiverem editado o esquema padrão na instância do autor de AEM e estiverem dispostos a usar o mesmo esquema como esquema padrão no Portal de Marcas, eles poderão simplesmente publicar os formulários de esquema de metadados no Portal de Marcas. Nesse cenário, o esquema padrão no Brand Portal é substituído pelos esquemas padrão publicados na instância do autor de AEM.
 
 Se os usuários criarem um esquema personalizado na instância do autor de AEM, poderão publicar o esquema personalizado no Portal de marcas em vez de recriar o mesmo esquema personalizado. Os usuários podem aplicar esse esquema personalizado a qualquer pasta/coleção no Brand Portal.
 
@@ -67,7 +67,7 @@ Se os usuários criarem um esquema personalizado na instância do autor de AEM, 
 >
 >Se uma pasta tiver um esquema aplicado à instância do autor de AEM, o mesmo esquema também deverá existir no Portal de marcas para manter a consistência na página de propriedades do ativo no AEM Author and Brand Portal.
 
-To publish a metadata schema from AEM Author instance to Brand Portal:
+Para publicar um esquema de metadados da instância do autor de AEM no Portal de marcas:
 
 1. Na instância do autor de AEM, toque/ clique no logotipo do AEM para acessar o console de navegação global e toque/clique no ícone Ferramentas e navegue até **[!UICONTROL Ativos &gt; Esquemas]** de metadados.
 1. Selecione um esquema de metadados e selecione **[!UICONTROL Publicar no Brand Portal]** nas opções disponíveis na parte superior.
@@ -96,7 +96,7 @@ Se você estiver disposto a usar o formulário de pesquisa personalizado **[!UIC
 
 Para publicar o aspecto de pesquisa editado da instância do autor de AEM no Portal de marcas:
 
-1. Toque/clique no logotipo do AEM e vá até **[!UICONTROL Ferramentas]** &gt; **[!UICONTROL Geral]** &gt; **[!UICONTROL Pesquisar formulários]**.
+1. Toque/clique no logotipo do AEM e vá até **[!UICONTROL Ferramentas &gt; Geral &gt; Pesquisar formulários]**.
 1. Selecione o formulário de pesquisa editado e selecione **[!UICONTROL Publicar no Brand Portal]**.
 
    >[!NOTE]
