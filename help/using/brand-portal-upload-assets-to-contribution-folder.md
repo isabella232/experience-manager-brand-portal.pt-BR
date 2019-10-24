@@ -9,12 +9,12 @@ topic-tags: portal de marcas
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# Carregar novos ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
+# Carregar ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
 
 Os usuários do Brand Portal [baixam os requisitos](brand-portal-download-asset-requirements.md) de ativos - um breve documento anexado à pasta de contribuição e baixam os ativos da linha de base da pasta **SHARED** para entender a necessidade de contribuição.
 Os usuários do Brand Portal podem criar novos ativos para contribuição e carregá-los na pasta **NEW** na pasta de contribuição.
