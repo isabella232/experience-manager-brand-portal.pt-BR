@@ -10,7 +10,7 @@ topic-tags: compartilhamento
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -92,12 +92,13 @@ Para baixar os ativos compartilhados:
 
    ![](assets/licensed-asset-download.png)
 
-   A caixa de diálogo [!UICONTROL Download] é exibida.<br />
+   A caixa de diálogo **[!UICONTROL Download]** é exibida.
+
    ![](assets/download-linkshare.png)
 
    * Para acelerar o download de arquivos de ativos compartilhados como o link, selecione **[!UICONTROL Ativar aceleração]** de download e [siga o assistente](../using/accelerated-download.md#download-workflow-using-file-accelerator). Para saber mais sobre o rápido download de ativos no Brand Portal, consulte o [Guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
-[!UICONTROL
-1. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]** . Ao fazer isso, a opção **Excluir representações do sistema]** é exibida e selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
+
+1. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]** . Quando isso é feito, a opção **[!UICONTROL Excluir representações]** do sistema é exibida, selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
 
    No entanto, para permitir que execuções geradas automaticamente baixem juntamente com execuções personalizadas, desmarque a opção **[!UICONTROL Excluir representações]** do sistema.
 
