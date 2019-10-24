@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: provação32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -127,11 +127,11 @@ Observe que a miniatura padrão das pastas virtuais é a imagem em miniatura da 
 
 ### Pesquisar em hierarquia ou caminho de pasta específicos
 
-**O predicado Navegador** de caminho é introduzido no Formulário de pesquisa para permitir a pesquisa de ativos em um diretório específico. O caminho de pesquisa padrão do predicado de pesquisa para o Navegador de caminho é */content/dam/mac/&lt;locatário-id&gt;/*, que pode ser configurado editando o formulário de pesquisa padrão.
+**O predicado Navegador** de caminho é introduzido no Formulário de pesquisa para permitir a pesquisa de ativos em um diretório específico. O caminho de pesquisa padrão do predicado de pesquisa para o Navegador de caminhos é `/content/dam/mac/<tenant-id>/`, que pode ser configurado pela edição do formulário de pesquisa padrão.
 
 * Os usuários administradores podem usar o Navegador de caminhos para navegar até qualquer diretório de pastas no Brand Portal.
 * Usuários não administradores podem usar o Navegador de caminhos para navegar somente para as pastas (e navegar de volta para as pastas pai) compartilhadas com eles.
-Por exemplo, */content/dam/mac/&lt;locatário-id&gt;/folderA/folderB/folderC* é compartilhado com um usuário não administrador. O usuário pode pesquisar ativos na pastaC usando o Navegador de caminhos. Esse usuário também pode navegar para folderB e folderA (já que eles são ancestrais da folderC que é compartilhada com o usuário).
+Por exemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` é compartilhado com um usuário não administrador. O usuário pode pesquisar ativos na pastaC usando o Navegador de caminhos. Esse usuário também pode navegar para folderB e folderA (já que eles são ancestrais da folderC que é compartilhada com o usuário).
 
 ![](assets/edit-search-form.png)
 
@@ -383,7 +383,7 @@ O Brand Portal 6.3.2 inclui funcionalidades novas e aprimoradas voltadas para as
 
 ### Request access to Brand Portal {#request-access-to-brand-portal}
 
-Os usuários agora podem solicitar acesso ao Brand Portal usando o novo recurso de acesso****necessário disponível na tela de login do Brand Portal.
+Os usuários agora podem solicitar acesso ao Brand Portal usando o novo recurso de acesso **** necessário disponível na tela de logon do Brand Portal.
 
 ![](assets/bplogin_request_access.png)
 
