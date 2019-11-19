@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Visão geral](using/brand-portal.md)
    + [Novidades do AEM Assets Brand Portal](using/whats-new.md)
    + [Notas de lançamento](using/brand-portal-release-notes.md)
+   + [Perguntas frequentes](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
    + [Como entender o Brand Portal com os ativos AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
@@ -30,9 +31,7 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Publicar predefinições, esquema e aspectos no Brand Portal](using/publish-schema-search-facets-presets.md)
 + Seleção de recursos no Brand Portal {#asset-sourcing-in-brand-portal}
    + [Visão geral](using/brand-portal-asset-sourcing.md)
-   + Configurar fonte de ativos no AEM {#configure-asset-sourcing-in-aem}
-      + [Ativar Seleção de Fornecedor de Ativos](using/brand-portal-enable-asset-sourcing.md)
-      + [Carregar lista de usuários do Brand Portal](using/brand-portal-upload-user-list.md)
+   + [Configurar fonte de ativos no AEM](using/brand-portal-configure-asset-sourcing.md)
    + Configurar a pasta Contribuição nos ativos AEM {#configure-contribution-folder}
       + [Visão geral](using/brand-portal-contribution-folder.md)
       + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
