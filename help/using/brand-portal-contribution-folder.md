@@ -4,12 +4,12 @@ seo-title: Configurar pasta de contribuição
 description: Saiba mais sobre como configurar uma pasta de contribuição no Brand Portal.
 seo-description: Saiba mais sobre como configurar uma pasta de contribuição no Brand Portal.
 uuid: null
-content-type: referência
-topic-tags: portal de marcas
+content-type: reference
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
