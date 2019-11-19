@@ -8,9 +8,9 @@ contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
-discoiquuid: provação32ca3-142b-4a11-9b92-5113fc27277a
+discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 ---
 
@@ -33,14 +33,18 @@ O usuário do AEM define o requisito [fazendo upload de um resumo](brand-portal-
 
 Quando o usuário terminar de adicionar conteúdo na pasta **NEW** , poderá publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado nos ativos AEM.
 
-Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções. Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
+Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
+
+Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
+
+Consulte Perguntas frequentes sobre o [Brand Portal](brand-portal-faqs.md)
 
 >[!NOTE]
-
-
+>
 >A Seleção de recursos no Brand Portal é compatível com o AEM 6.5.2.0 e superior.
 >
 >O recurso não é suportado nas versões anteriores - AEM 6.3 e AEM 6.4.
+
 
 ### Carregar ativos para a pasta de contribuição {#upload-assets-in-bp}
 
@@ -525,24 +529,3 @@ O Brand Portal 6.3.1 apresenta metadados adicionais, que são iguais aos ativos 
 ![](assets/publish_tags_aemassets.png)
 
 * Em ativos AEM, você pode publicar ativos e coleções que tenham tags, incluindo tags inteligentes. Em seguida, você pode pesquisar por esses ativos ou coleções usando essas tags como palavras-chave de pesquisa no Brand Portal.
-
-## Frequently asked questions {#frequently-asked-questions}
-
-**Ques. Perderei o acesso a ativos, recursos ou configurações existentes que criei?**
-**Ans.** Todos os recursos e configurações existentes permanecem intactos. Seus usuários finais não são afetados e seu conteúdo permanece intacto.
-
-**Ques. Quando eu vou mudar para a nova versão do Brand Portal?**
-**Ans.** O Brand Portal 6.4.4 foi lançado para produção em fevereiro de 2019. A próxima versão do Brand Portal deverá ser lançada no terceiro trimestre de 2019.
-
->[!NOTE]
->
->O cronograma de liberação é provisório e está sujeito a alterações. Entre em contato com seu Gerente de contas da Adobe ou com o Suporte ao cliente para obter o cronograma atualizado.
-
-**Ques. Meus usuários serão afetados?**
-**Ans.** Essa alteração ocorre exclusivamente no Brand Portal, portanto não há impacto para os usuários finais.
-
-**Ques. Há alguma ação necessária da minha parte?**
-**Ans.** Não há nenhuma ação necessária para o administrador. Após obter acesso ao novo Brand Portal, consulte a documentação para ver todos os sinos e assobios.
-
-**Ques. Com quem eu entro em contato com as perguntas?**
-**Ans.** Entre em contato com seu Gerente de conta da Adobe ou com o Suporte ao cliente.
