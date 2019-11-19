@@ -4,12 +4,12 @@ seo-title: Configurar propriedades da pasta Contribuição
 description: 'Obtenha um insight sobre como configurar as propriedades de uma pasta de contribuição nos ativos AEM. '
 seo-description: 'Obtenha um insight sobre como configurar as propriedades de uma pasta de contribuição nos ativos AEM. '
 uuid: null
-content-type: referência
-topic-tags: portal de marcas
+content-type: reference
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -41,4 +41,4 @@ Esses usuários/grupos do Brand Portal terão permissão para acessar a pasta de
 
 >[!NOTE]
 >
->Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada nos ativos AEM. Certifique-se de ter a lista atualizada de usuários do Brand Portal. Consulte [Carregar lista](brand-portal-upload-user-list.md)de usuários do Brand Portal.
+>Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada nos ativos AEM. Certifique-se de ter a lista atualizada de usuários do Brand Portal. Consulte [Carregar lista](brand-portal-configure-asset-sourcing.md)de usuários do Brand Porta
