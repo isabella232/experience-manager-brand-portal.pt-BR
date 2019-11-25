@@ -7,9 +7,10 @@ uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
+version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
 
 ---
 
@@ -35,10 +36,10 @@ O administrador pode conceder acesso aos usuários/grupos do Brand Portal à pas
 1. Digite a **[!UICONTROL Descrição]** de alto nível da pasta de contribuição.
 1. Clique em **[!UICONTROL Carregar resumo]** ![](assets/upload.png) para navegar pelo computador local e fazer upload de um documento **de requisitos de** ativos.
 1. Em **[!UICONTROL Adicionar usuário ou grupo]**, pesquise e **[!UICONTROL adicione]** usuários ou grupos do Brand Portal com os quais você deseja compartilhar a pasta de contribuição.
-Esses usuários/grupos do Brand Portal terão permissão para acessar a pasta de contribuição e fazer upload do conteúdo de sua interface do Brand Portal sem precisar acessar a instância do autor do AEM.
+Esses usuários/grupos do Brand Portal terão permissão para acessar a pasta de contribuição e fazer upload do conteúdo da interface do Brand Portal sem precisar acessar a instância do autor do AEM.
 1. Clique em **[!UICONTROL Salvar]**.
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
->Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada nos ativos AEM. Certifique-se de ter a lista atualizada de usuários do Brand Portal. Consulte [Carregar lista](brand-portal-configure-asset-sourcing.md)de usuários do Brand Porta
+>Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada nos ativos AEM. Certifique-se de ter a lista atualizada de usuários do Brand Portal. Consulte [Carregar lista](brand-portal-configure-asset-sourcing.md)de usuários do Brand Portal.
