@@ -4,12 +4,12 @@ seo-title: Visão geral do AEM Assets Brand Portal
 description: O AEM Assets Brand Portal pode ajudá-lo a facilmente adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos.
 seo-description: O AEM Assets Brand Portal pode ajudá-lo a facilmente adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
-content-type: referência
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: introdução
+topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 ---
 
@@ -34,7 +34,9 @@ O Brand Portal suporta as seguintes funções de usuário:
 * Usuário convidado
 * Visualizador
 * Editor
-* AdministradorA tabela a seguir lista as tarefas que os usuários nessas funções podem executar:
+* Administrador
+
+A tabela a seguir lista as tarefas que os usuários nessas funções podem executar:
 
 |  | **Navegar** | **Pesquisar** | **Download** | **Compartilhar pastas** | **Compartilhar uma coleção** | **Compartilhar ativos como um link** | **Acesso às Ferramentas administrativas** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -110,7 +112,7 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 ## Alias alternativo para url do Brand Portal {#tenant-alias-for-portal-url}
 
 A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (alias) para o URL existente do locatário do Brand Portal. O URL do alias pode ser criado com um prefixo alternativo no URL.\
-Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]** pode obter **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
+Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]**pode obter**[!UICONTROL  geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
 
 No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) somente com o URL de ID do locatário e não com o URL de alias do locatário (alternativo).
 
@@ -126,7 +128,7 @@ Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas soli
 
 Para solicitar acesso, faça o seguinte:
 
-1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente à opção **[!UICONTROL Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione o **[!UICONTROL Clique aqui]** correspondente ao Acesso **[!UICONTROL de convidado?]**.
+1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]**correspondente à opção**[!UICONTROL  Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione o **[!UICONTROL Clique aqui]**correspondente ao Acesso**[!UICONTROL  de convidado?]**.
 
    ![Tela de logon do Brand Portal](assets/bp-login-requestaccess.png)
 
@@ -139,16 +141,16 @@ Para solicitar acesso, faça o seguinte:
 
    **Cenário 1**
    1. Se você tiver uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
-A página [!UICONTROL Entrar] é aberta.
+A página[!UICONTROL Entrar]é aberta.
    1. Forneça suas credenciais [!UICONTROL da Adobe ID] e clique em **[!UICONTROL Fazer logon]**.<br />
    ![Login da Adobe](assets/bplogin_request_access_3.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
    **Cenário 2**
-   1. Se você não tiver uma [!UICONTROL Adobe ID], para criar uma, clique em **[!UICONTROL Obter uma Adobe ID]** na página [!UICONTROL Solicitar acesso] .
-A página [!UICONTROL Entrar] é aberta.
+   1. Se você não tiver uma [!UICONTROL Adobe ID], para criar uma, clique em **[!UICONTROL Obter uma Adobe ID]**na página[!UICONTROL Solicitar acesso].
+A página[!UICONTROL Entrar]é aberta.
    1. Click **[!UICONTROL Get an Adobe ID]**.
-A página [!UICONTROL Inscrever] é aberta.
+A página[!UICONTROL Inscrever]é aberta.
    1. Digite seu nome e sobrenome, ID de e-mail e senha.
    1. Selecione **[!UICONTROL Cadastrar-se]**.<br />
    ![](assets/bplogin_request_access_5.png)
@@ -166,7 +168,7 @@ Os administradores de produtos do Brand Portal recebem solicitações de acesso 
 ![Notificação de acesso solicitada](assets/bplogin_request_access_7.png)
 
 Para conceder acesso, os administradores de produtos precisam clicar na notificação relevante na área de notificação do Brand Portal e clicar em **[!UICONTROL Conceder acesso]**.
-Como alternativa, os administradores de produtos podem seguir o link fornecido no email de solicitação de acesso para visitar o Adobe [!UICONTROL Admin Console] e adicionar o usuário à configuração relevante do produto.
+Como alternativa, os administradores de produtos podem seguir o link fornecido no email de solicitação de acesso para visitar o Adobe[!UICONTROL Admin Console]e adicionar o usuário à configuração relevante do produto.
 
 Você é redirecionado para a página inicial do [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Use o Adobe [!UICONTROL Admin Console] para criar usuários e atribuí-los a perfis de produtos (anteriormente conhecidos como configurações de produtos), que são exibidos como grupos no Brand Portal. Para obter mais informações sobre como adicionar usuários no [!UICONTROL Admin Console], consulte [Adicionar um usuário](brand-portal-adding-users.md#add-a-user) (siga as Etapas 4 a 7 no procedimento para adicionar um usuário).
 
@@ -178,7 +180,7 @@ Você pode alterar o idioma do Brand Portal nas Configurações [!UICONTROL da A
 
 Para alterar o idioma:
 
-1. Selecione [!UICONTROL Usuário] &gt; [!UICONTROL Editar perfil] no menu superior.<br />
+1. Selecione [!UICONTROL Usuário] > [!UICONTROL Editar perfil] no menu superior.<br />
    ![Editar perfil](assets/EditBPProfile.png)
 
 1. Na página Configurações [!UICONTROL da] Experience Cloud, selecione um idioma no menu suspenso [!UICONTROL Idioma] .
