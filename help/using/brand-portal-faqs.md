@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -54,7 +54,7 @@ Para atualizações e alterações de versão, é recomendável rastrear as Nota
 
 **Ques. Quem pode criar uma pasta de contribuição?**
 
-**Ans.** Qualquer usuário do AEM pode criar uma nova pasta nos ativos AEM e atribuir a propriedade **Asset Contribution**. A pasta recém-criada é chamada de pasta **Contribuição** .
+**Ans.** Qualquer usuário do AEM que tenha permissões para criar uma nova pasta nos ativos AEM pode criar uma pasta **de contribuição** . Para criar uma pasta **Contribuição** , crie uma nova pasta do tipo Contribuição **de**ativo.
 Essa pasta é compartilhada com os usuários ativos do Brand Portal para obter contribuição.
 
 
@@ -66,7 +66,13 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 
 
-**Ques. Quais são os requisitos de ativos com contribuição de r l'r?**
+**Ques.  É possível modificar o nome de uma pasta de contribuição existente?**
+
+**Ans.** **Não**, não é possível modificar o nome de uma pasta **de contribuição** existente.
+
+
+
+**Ques. Quais são os requisitos de ativos com contribuição de r l&#39;r?**
 
 **Ans.** O documento **Breve** anexado à pasta **Contribution** e o conteúdo de referência (ativos reutilizáveis) carregado na pasta **SHARED** ajuda o usuário do Brand Portal a entender a necessidade de contribuição e expectativas como colaborador e é chamado coletivamente de requisitos de ativos.
 
@@ -102,7 +108,7 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 **Ques. Onde posso ver o status das tarefas de importação e publicação?**
 
-**Ans.** No AEM, você pode ver o status de uma importação na página de trabalho **assíncrona** . No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas &gt; Status]** de contribuição de ativos.
+**Ans.** No AEM, você pode ver o status de uma importação na página de trabalho **assíncrona** . No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status]**de contribuição de ativos.
 
 
 
