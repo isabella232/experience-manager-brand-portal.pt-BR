@@ -5,16 +5,16 @@ description: Navegue pelos ativos, navegue pelas hierarquias de ativos e pesquis
 seo-description: Navegue pelos ativos, navegue pelas hierarquias de ativos e pesquise os ativos, usando diferentes opções de exibição e elementos de interface no Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: referência
-topic-tags: introdução
+content-type: reference
+topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# Procurar ativos no Brand Portal {#browsing-assets-on-brand-portal}
+# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
 O AEM Assets Brand Portal fornece vários recursos e elementos da interface do usuário que facilitam a navegação pelos recursos, a passagem pelas hierarquias de ativos e a pesquisa de ativos ao mesmo tempo que usam opções de exibição diferentes.
 
@@ -78,7 +78,7 @@ A opção Visão geral está disponível para usuários não administradores (ed
 * na barra de ferramentas na parte superior da seleção de um ativo/pasta.
 * na lista suspensa ao selecionar o Seletor de painel.
 
-Ao selecionar a opção [!UICONTROL Visão geral] enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Enquanto isso, na página de detalhes do ativo, selecionar a opção Visão geral permite que os usuários vejam metadados do ativo.
+Ao selecionar a opção **[!UICONTROL Visão geral]**enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Enquanto isso, na página de detalhes do ativo, selecionar a opção Visão geral permite que os usuários vejam metadados do ativo.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ Ao selecionar a opção [!UICONTROL Visão geral] enquanto um ativo/pasta é sel
 
 #### Exibir configurações na exibição de cartão
 
-[!UICONTROL A caixa de diálogo Configurações] de exibição é aberta ao selecionar Configurações **[!UICONTROL de]** exibição no seletor de exibição. Permite redimensionar as miniaturas de ativos na exibição Cartão. Dessa forma, você pode personalizar sua exibição e controlar o número de miniaturas exibidas.
+**[!UICONTROL A caixa de diálogo Configurações]**de exibição é aberta ao selecionar Configurações**[!UICONTROL  de]** exibição no seletor de exibição. Permite redimensionar as miniaturas de ativos na exibição Cartão. Dessa forma, você pode personalizar sua exibição e controlar o número de miniaturas exibidas.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,7 +107,7 @@ A exibição de lista exibe informações para cada recurso no nível atual. A e
 * Caminho da pasta mostrando a hierarquia<sup>do ativo*</sup>
 * Data de publicação do ativo no Brand Portal
 
-* A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Exibir configurações na exibição de lista
 
-A exibição de Lista mostra o [!UICONTROL Nome] do ativo como a primeira coluna por padrão. Informações adicionais, como [!UICONTROL Título]do ativo, [!UICONTROL Localidade], [!UICONTROL Tipo], [!UICONTROL Dimensões], [!UICONTROL Tamanho], Classificação, status de publicação também são mostradas. However, you can select the columns to be shown using [!UICONTROL View Settings].
+A exibição de Lista mostra o **[!UICONTROL Nome]**do ativo como a primeira coluna por padrão. Informações adicionais, como**[!UICONTROL  Título]**do ativo, **[!UICONTROL Localidade]**,**[!UICONTROL  Tipo]**, **[!UICONTROL Dimensões]**,**[!UICONTROL  Tamanho]******, Classificação, status de publicação também são mostradas. However, you can select the columns to be shown using**[!UICONTROL  View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -232,7 +232,7 @@ Comment Type: draft
 
 Além dessas exibições, use a exibição em árvore para detalhar a hierarquia do ativo enquanto exibe e seleciona os ativos ou pastas desejados.
 
-Para abrir a exibição em árvore, toque/clique no seletor de painel na parte superior esquerda e selecione a árvore **** Conteúdo no menu.
+Para abrir a visualização em árvore, toque/clique no seletor de painel na parte superior esquerda e selecione a árvore ****Conteúdo no menu.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +254,7 @@ Você pode exibir todas as representações disponíveis do ativo na página de 
 
 ![](assets/renditions.png)
 
-Para abrir a página de propriedades do ativo, use a opção **[!UICONTROL Propriedades (p)]** na barra superior.
+Para abrir a página de propriedades do ativo, use a opção **[!UICONTROL Propriedades (p)]**na barra superior.
 
 ![](assets/asset-properties.png)
 
