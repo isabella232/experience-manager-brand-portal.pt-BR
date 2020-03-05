@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -26,6 +26,24 @@ A distribuição de ativos permite que você adquira, controle e distribua com f
 Consulte Seleção de [recursos no Portal](brand-portal-asset-sourcing.md)de marcas.
 
 O ambiente de portal baseado em navegador permite que você carregue, navegue, pesquise, visualize e exporte ativos facilmente em formatos aprovados.
+
+## Configurar ativos AEM com o Portal de marcas {#configure-brand-portal}
+
+Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Brand Portal.
+
+>[!NOTE]
+>
+>A configuração dos ativos AEM com o Portal da marca por meio da E/S da Adobe é compatível com o AEM 6.3 e superior.
+
+### Pré-requisitos para configurar os ativos AEM com o Portal da marca {#prerequisites}
+
+Você precisa do seguinte para configurar os ativos AEM com o Portal de marcas:
+
+* Uma instância do autor do AEM Assets em funcionamento com o Service Pack mais recente.
+* URL do locatário do Portal de Marcas.
+* Um usuário com privilégios de administrador do sistema na organização IMS do locatário do Brand Portal.
+
+Para obter mais informações, consulte [Configuração dos ativos AEM com anúncios de marca](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Personalidades do usuário no Brand Portal {#Personas}
 
@@ -103,7 +121,7 @@ Um administrador pode executar todas as tarefas que um Editor pode executar as s
 
 Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes tarefas:
 
-[Configurar a integração do AEM Assets com o Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Configurar ativos AEM com o Portal de marcas](../using/configure-aem-assets-with-brand-portal.md)
 
 [Publicar pastas no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -112,9 +130,9 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 ## Alias alternativo para url do Brand Portal {#tenant-alias-for-portal-url}
 
 A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (alias) para o URL existente do locatário do Brand Portal. O URL do alias pode ser criado com um prefixo alternativo no URL.\
-Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]**pode obter**[!UICONTROL  geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
+Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]** pode obter **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
 
-No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) somente com o URL de ID do locatário e não com o URL de alias do locatário (alternativo).
+No entanto, a instância do autor de AEM pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) somente com o URL de ID do locatário e não com o URL de alias do locatário (alternativo).
 
 >[!NOTE]
 >
@@ -128,7 +146,7 @@ Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas soli
 
 Para solicitar acesso, faça o seguinte:
 
-1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]**correspondente à opção**[!UICONTROL  Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione o **[!UICONTROL Clique aqui]**correspondente ao Acesso**[!UICONTROL  de convidado?]**.
+1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente à opção **[!UICONTROL Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione o **[!UICONTROL Clique aqui]** correspondente ao Acesso **[!UICONTROL de convidado?]**.
 
    ![Tela de logon do Brand Portal](assets/bp-login-requestaccess.png)
 
@@ -141,23 +159,23 @@ Para solicitar acesso, faça o seguinte:
 
    **Cenário 1**
    1. Se você tiver uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
-A página[!UICONTROL Entrar]é aberta.
-   1. Forneça suas credenciais [!UICONTROL da Adobe ID] e clique em **[!UICONTROL Fazer logon]**.<br />
+A página [!UICONTROL Entrar] é aberta.
+   1. Forneça suas credenciais de ID [!UICONTROL da] Adobe e clique em **[!UICONTROL Fazer logon]**.<br />
    ![Login da Adobe](assets/bplogin_request_access_3.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
    **Cenário 2**
-   1. Se você não tiver uma [!UICONTROL Adobe ID], para criar uma, clique em **[!UICONTROL Obter uma Adobe ID]**na página[!UICONTROL Solicitar acesso].
-A página[!UICONTROL Entrar]é aberta.
+   1. Se você não tiver uma [!UICONTROL Adobe ID], para criar uma, clique em **[!UICONTROL Obter uma Adobe ID]** na página [!UICONTROL Solicitar acesso] .
+A página [!UICONTROL Entrar] é aberta.
    1. Click **[!UICONTROL Get an Adobe ID]**.
-A página[!UICONTROL Inscrever]é aberta.
+A página [!UICONTROL Inscrever] é aberta.
    1. Digite seu nome e sobrenome, ID de e-mail e senha.
    1. Selecione **[!UICONTROL Cadastrar-se]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .
 
-1. A próxima página exibe seu nome e ID de email usados para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.<br />
+1. A próxima página exibe seu nome e ID de e-mail usados para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -167,8 +185,8 @@ Os administradores de produtos do Brand Portal recebem solicitações de acesso 
 
 ![Notificação de acesso solicitada](assets/bplogin_request_access_7.png)
 
-Para conceder acesso, os administradores de produtos precisam clicar na notificação relevante na área de notificação do Brand Portal e clicar em **[!UICONTROL Conceder acesso]**.
-Como alternativa, os administradores de produtos podem seguir o link fornecido no email de solicitação de acesso para visitar o Adobe[!UICONTROL Admin Console]e adicionar o usuário à configuração relevante do produto.
+Para conceder acesso, os administradores de produtos precisam clicar na notificação relevante na área de notificação do Brand Portal e, em seguida, clicar em **[!UICONTROL Conceder acesso]**.
+Como alternativa, os administradores de produtos podem seguir o link fornecido no email de solicitação de acesso para visitar o Adobe [!UICONTROL Admin Console] e adicionar o usuário à configuração relevante do produto.
 
 Você é redirecionado para a página inicial do [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Use o Adobe [!UICONTROL Admin Console] para criar usuários e atribuí-los a perfis de produtos (anteriormente conhecidos como configurações de produtos), que são exibidos como grupos no Brand Portal. Para obter mais informações sobre como adicionar usuários no [!UICONTROL Admin Console], consulte [Adicionar um usuário](brand-portal-adding-users.md#add-a-user) (siga as Etapas 4 a 7 no procedimento para adicionar um usuário).
 
@@ -191,7 +209,7 @@ Antes que o Brand Portal esteja programado para manutenção, uma notificação 
 
 ![](assets/bp_maintenance_notification.png)
 
-Você pode descartar esta notificação e continuar usando o Brand Portal. Esta notificação é exibida em cada nova sessão.
+Você pode descartar esta notificação e continuar usando o Brand Portal. Esta notificação é exibida em todas as novas sessões.
 
 ## Informações sobre a versão e o sistema {#release-and-system-information}
 
