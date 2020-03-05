@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
    + [Como entender o Brand Portal com os ativos AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar de AEM Assets no Brand Portal {#publish}
-   + [Configurar a integração do AEM Assets com o Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Configurar ativos AEM com o Portal de marcas](using/configure-aem-assets-with-brand-portal.md)
    + [Publicar coleções no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
    + [Publicar pastas no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Solucionar problemas na publicação paralela no Brand Portal](using/troubleshoot-parallel-publishing.md)
@@ -31,17 +31,17 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
    + [Publicar predefinições, esquema e aspectos no Brand Portal](using/publish-schema-search-facets-presets.md)
 + Seleção de recursos no Brand Portal {#asset-sourcing-in-brand-portal}
    + [Visão geral](using/brand-portal-asset-sourcing.md)
-   + [Configurar fonte de ativos no AEM](using/brand-portal-configure-asset-sourcing.md)
+   + [Configurar a origem de ativos no AEM](using/brand-portal-configure-asset-sourcing.md)
    + Configurar a pasta Contribuição nos ativos AEM {#configure-contribution-folder}
       + [Visão geral](using/brand-portal-contribution-folder.md)
       + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
-      + [Configurar propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
+      + [Configurar as propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
       + [Fazer upload dos ativos da linha de base](using/brand-portal-upload-baseline-assets.md)
       + [Publicar pasta de contribuição no Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + Uso da Fonte de Recursos no Portal da Marca {#using-asset-sourcing}
       + [Visão geral](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Baixar requisitos de ativos](using/brand-portal-download-asset-requirements.md)
-      + [Carregar ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
+      + [Baixar os requisitos de ativos](using/brand-portal-download-asset-requirements.md)
+      + [Fazer upload de ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
       + [Publicar pasta de contribuição nos ativos AEM](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartilhar ativos com usuários {#share}
    + [Compartilhar uma coleção](using/brand-portal-share-collection.md)
