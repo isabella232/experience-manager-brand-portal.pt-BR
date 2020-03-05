@@ -1,7 +1,7 @@
 ---
 title: Notas de versão
 seo-title: Notas de versão
-description: Saiba mais sobre os recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
+description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
 seo-description: Saiba mais sobre os aprimoramentos, os problemas críticos corrigidos e os problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -9,14 +9,14 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
+Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
 
 ## Informações da versão {#release-information}
 
@@ -35,7 +35,7 @@ O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adqui
 
 Esta versão inclui os seguintes novos recursos:
 
-* Captcha para logon de convidado no Brand Portal.
+* Captcha para logon de convidado no Brand Portal. Consulte Acesso [de convidados do Portal de](../using/guest-access.md) marcas para obter mais informações.
 
 ### Aprimoramentos {#enhancements-646}
 
@@ -45,11 +45,11 @@ Esta versão do Brand Portal inclui os seguintes aprimoramentos:
 
    >[!NOTE]
    >
-   >A configuração por meio do OAuth herdado não é mais compatível a partir de 6 de abril de 2020 e é transferida para a E/S da Adobe.
+   >A configuração por meio do Legacy OAuth não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio da E/S da Adobe.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+Para obter mais informações, consulte [Configurar ativos AEM com o Portal de marcas](configure-aem-assets-with-brand-portal.md)
+
 
 ### Problemas críticos corrigidos {#critical-issues-fixed}
 
@@ -65,7 +65,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 * O usuário não pode publicar ou cancelar a publicação de ativos que contêm aspas simples no nome.
 
-* Os termos e condições não são exibidos ao baixar vários ativos.
+* Os termos e condições não são exibidos durante o download de vários ativos.
 
 * Pequenas vulnerabilidades de segurança abordadas.
 
