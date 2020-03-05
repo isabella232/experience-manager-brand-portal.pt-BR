@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -21,9 +21,7 @@ O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adqui
 
 ## O que mudou no ponto 6.4.6 {#what-changed-in-646}
 
-O Brand Portal 6.4.6 é uma versão aprimorada na qual o canal de autorização entre os ativos AEM e o Brand Portal é alterado. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
-
-Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um token de Acesso IMS para autorização.
+O Brand Portal 6.4.6 é uma versão aprimorada na qual o canal de autorização entre os ativos AEM e o Brand Portal é alterado. Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um token de Acesso IMS para autorização. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Anteriormente, o Brand Portal estava configurado na interface clássica via Gate
 
    -->
 
-A configuração dos ativos AEM com o Portal de marca em E/S da Adobe é compatível com:
-* AEM 6.5.4.0 e superior
-* AEM 6.4.8.0 e superior
-* AEM 6.3.3.8 e superior
+As etapas para configurar os ativos AEM com o Brand Portal são diferentes dependendo da versão do AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->A configuração por meio do OAuth herdado não é mais compatível a partir de 6 de abril de 2020 e é transferida para a E/S da Adobe.
->
->As configurações existentes continuarão a funcionar se você não excluir ou modificar as configurações.
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **Versão do AEM** | **Nova configuração** | **Configuração de atualização** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 e superior)** | [Criar configuração](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4 (6.4.8.0 e superior)** | [Criar configuração](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3 (6.3.3.8 e superior)** | [Criar configuração](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Atualizar configuração](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | Entre em contato com o suporte | Entre em contato com o suporte |
 
 Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
 
@@ -78,7 +87,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >O recurso não é suportado nas versões anteriores - AEM 6.3 e AEM 6.4.
 
 
-### Carregar ativos para a pasta de contribuição {#upload-assets-in-bp}
+### Fazer upload de ativos para a pasta de contribuição {#upload-assets-in-bp}
 
 Os usuários do Brand Portal com as permissões apropriadas podem [baixar os requisitos](brand-portal-download-asset-requirements.md) de ativos para entender a necessidade de contribuição e fazer upload de vários ativos ou pastas que contêm vários ativos para a pasta de contribuição. Entretanto, observe que os usuários do Brand Portal só podem carregar ativos na subpasta **NEW** . A pasta **SHARED** destina-se à distribuição de requisitos e ativos de linha de base. Consulte, [Fazer upload de ativos para a pasta de contribuição](brand-portal-upload-assets-to-contribution-folder.md)
 
@@ -89,7 +98,7 @@ Os usuários do Brand Portal com as permissões apropriadas podem [baixar os req
 
 ### Publicar pasta de contribuição nos ativos AEM {#publish-assets-to-aem}
 
-Quando o upload for concluído para a pasta **NEW** , os usuários do Brand Portal poderão publicar a pasta de contribuição de volta no AEM. Pode levar alguns minutos para importar e refletir o conteúdo/ativos publicados nos ativos AEM. Consulte, [Publicar pasta de contribuição para os ativos AEM](brand-portal-publish-contribution-folder-to-aem-assets.md)
+Quando o upload for concluído para a pasta **NOVA** , os usuários do Brand Portal poderão publicar a pasta de contribuição de volta no AEM. Pode levar alguns minutos para importar e refletir o conteúdo/ativos publicados nos ativos AEM. Consulte, [Publicar pasta de contribuição para os ativos AEM](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)
@@ -132,7 +141,7 @@ Da mesma forma, especificando:
 
 >[!NOTE]
 >
->Ao marcar a caixa de seleção Pesquisa **** parcial, **Ignorar caso** é selecionado por padrão.
+>Ao marcar a caixa de seleção Pesquisa **** parcial, a opção **Ignorar caso** é selecionada por padrão.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -171,7 +180,7 @@ Por exemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` é compartil
 
 ![](assets/edit-search-form.png)
 
-**Caso de uso**
+**O caso de uso**
 
 Agora você pode restringir a pesquisa de ativos em uma pasta específica que você navegou, em vez de começar na pasta raiz.
 
@@ -193,7 +202,7 @@ Para permitir a visualização e o download de execuções de mídia dinâmica e
 * Exibição do cartão do ativo
 * Página de visualização do compartilhamento de links
 
-As codificações de vídeo do Dynamic Media podem ser baixadas de:
+As codificações de Vídeo do Dynamic Media podem ser baixadas de:
 
 * Brand Portal
 * Link compartilhado
@@ -245,7 +254,7 @@ O portal da marca AEM permite que os convidados acessem o portal. Um usuário co
 
 Em uma organização, várias sessões de convidado simultâneas são permitidas, o que é limitado a 10% da cota total de usuários por organização.
 
-Uma sessão de convidado permanece ativa por duas horas. Portanto, o estado do lightbox também é preservado até duas horas após a hora de início da sessão. Depois de duas horas, a sessão de convidado tem que ser reiniciada, de modo que o estado do lightbox seja perdido.
+Uma sessão de convidado permanece ativa por duas horas. Portanto, o estado do lightbox também é preservado até duas horas a partir da hora de início da sessão. Depois de duas horas, a sessão de convidado tem que ser reiniciada, de modo que o estado do lightbox seja perdido.
 
 ### Downloads acelerados
 
@@ -257,15 +266,15 @@ Para habilitar o download acelerado com base no IBM Aspera para a organização,
 
 ### Relatório de logons de usuário
 
-Um novo relatório, para rastrear logons de usuário, foi introduzido. O relatório Logons **de** usuário pode ser fundamental para permitir que as organizações auditem e verifiquem os administradores delegados e outros usuários do Brand Portal.
+Um novo relatório, para rastrear os logons de usuário, foi introduzido. O relatório Logons **de** usuário pode ser fundamental para permitir que as organizações auditem e verifiquem os administradores delegados e outros usuários do Brand Portal.
 
-Os registros do relatório exibem nomes, IDs de email, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório. Os administradores podem exportar o relatório como .csv. Juntamente com outros relatórios, o relatório Logons de usuário permite que as organizações monitorem mais detalhadamente as interações dos usuários com os recursos aprovados da marca, garantindo assim a conformidade com os escritórios de conformidade corporativos.
+Os registros do relatório exibem nomes, IDs de e-mail, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório. Os administradores podem exportar o relatório como .csv. Juntamente com outros relatórios, o relatório Logons de usuário permite que as organizações monitorem mais detalhadamente as interações dos usuários com os recursos aprovados da marca, garantindo assim a conformidade com os escritórios de conformidade corporativos.
 
 ![](assets/user-logins-1.png)
 
 ### Acesso a representações originais
 
-Os administradores podem restringir o acesso do usuário aos arquivos de imagem originais (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, imagem/photoshop, imagem/x-photoshop, psd, image/vnd.adobe.photoshop) e dá acesso a execuções de baixa resolução que eles baixam do Brand Portal ou link compartilhado. Esse acesso pode ser controlado no nível do grupo de usuários na guia Grupos da página Funções do usuário no painel Ferramentas administrativas.
+Os administradores podem restringir o acesso do usuário aos arquivos de imagem originais (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, imagem/photoshop, imagem/x-photoshop, psd, image/vnd.adobe.photoshop) e dá acesso a renderizações de baixa resolução que eles baixam do Brand Portal ou do link compartilhado. Esse acesso pode ser controlado no nível do grupo de usuários na guia Grupos da página Funções do usuário no painel Ferramentas administrativas.
 
 ![](assets/access-original-rend-1.png)
 
@@ -321,12 +330,12 @@ As configurações acima estão disponíveis em Configurações gerais e de aces
 
 ### O Adobe.io hospeda a interface do usuário para configurar integrações do oAuth
 
-A partir do Brand Portal 6.4.2, usa a interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) para criar o aplicativo JWT, que permite a configuração de integrações de Auth para permitir a integração dos ativos AEM com o Brand Portal. Anteriormente, a interface para configurar integrações OAuth era hospedada em [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Para saber mais sobre a integração dos ativos AEM com o Brand Portal para publicar ativos e coleções no Brand Portal, consulte [Configurar a integração dos ativos AEM com o Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+A partir do Brand Portal 6.4.2, usa a interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) para criar o aplicativo JWT, que permite a configuração de integrações de Auth para permitir a integração dos ativos AEM com o Brand Portal. Anteriormente, a interface do usuário para configurar integrações OAuth era hospedada em [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Para saber mais sobre a integração dos ativos AEM com o Brand Portal para publicar ativos e coleções no Brand Portal, consulte [Configurar a integração dos ativos AEM com o Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ## Aprimoramentos de pesquisa
 
 Os administradores podem tornar os predicados de propriedade não sensíveis a maiúsculas e minúsculas usando o predicado de propriedade atualizado, que tem uma verificação para Ignorar maiúsculas e minúsculas. Essa opção está disponível para predicado de propriedade e predicado de propriedade de vários valores.\
-No entanto, a pesquisa que não diferencia maiúsculas de minúsculas é comparativamente mais lenta do que a pesquisa padrão por predicado de propriedade. Se houver muitos predicados que não diferenciam maiúsculas de minúsculas no filtro de pesquisa, a pesquisa poderá diminuir. É, portanto, aconselhável utilizar judiciosamente a pesquisa que não diferencia maiúsculas de minúsculas.
+No entanto, a pesquisa que não diferencia maiúsculas de minúsculas é comparativamente mais lenta do que a pesquisa padrão por predicado de propriedade. Se houver muitos predicados que não diferenciam maiúsculas de minúsculas no filtro de pesquisa, a pesquisa poderá diminuir. É, portanto, aconselhável utilizar judiciosamente a pesquisa que não faz distinção entre maiúsculas e minúsculas.
 
 ## O que mudou na versão 6.4.1 {#what-changed-in-2}
 
@@ -403,7 +412,7 @@ Cada relatório que está sendo criado pode ser personalizado adicionando ou rem
 
 ### Aprimoramento das ferramentas administrativas
 
-Aprimorado o Seletor de propriedades nas ferramentas administrativas para Metadados, Pesquisa e Relatórios com recurso de avanço de tipo e navegação para simplificar a experiência administrativa.
+Aprimorado o Seletor de propriedades nas ferramentas administrativas para Metadados, Pesquisa e Relatórios com recurso de avanço de tipo e navegação para simplificar a experiência do administrador.
 
 ### Outras melhorias
 
@@ -507,7 +516,7 @@ Para alinhar a experiência do usuário do Brand Portal com o AEM, a Adobe está
 
 * A nova pesquisa baseada na classificação de ativos permite que você pesquise ativos com classificações, se publicada nos ativos AEM.
 * O novo recurso de pesquisa de vários valores aceita várias palavras-chave com o operador E para descobrir ativos mais rapidamente.
-* O novo recurso de pesquisa otimizada permite melhorar a relevância da pesquisa para que ativos específicos apareçam na parte superior dos resultados da pesquisa.
+* O novo recurso de pesquisa otimizada permite que você aprimore a relevância da pesquisa para que ativos específicos apareçam na parte superior dos resultados da pesquisa.
 * O novo recurso de pesquisa baseado em caminho permite que você forneça o caminho para uma pasta aninhada para poder pesquisar ativos nessa pasta.
 
 #### Nova pesquisa baseada em tags inteligentes {#new-smart-tags-based-search}
@@ -516,7 +525,7 @@ Se imagens com tags inteligentes forem publicadas dos ativos AEM para o Portal d
 
 ### Experiência de download aprimorada {#enhanced-downloading-experience}
 
-Após baixar uma pasta aninhada, é possível preservar a hierarquia da pasta original. Os ativos dentro de uma pasta aninhada podem ser baixados em uma única pasta em vez de pastas separadas.
+Após baixar uma pasta aninhada, é possível preservar a hierarquia da pasta original. Os ativos dentro de uma pasta aninhada podem ser baixados em uma única pasta, em vez de pastas separadas.
 
 ### Desempenho aprimorado {#improved-performance}
 
@@ -528,7 +537,7 @@ Os administradores podem definir a data e a hora de expiração dos ativos antes
 
 ### Classificação de ativos aprimorada {#enhanced-asset-sorting}
 
-A classificação de ativos em uma pasta na exibição de lista não está mais restrita ao número de ativos exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
+A classificação de ativos em uma pasta na exibição de lista não está mais restrita ao número de ativos que estão sendo exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
 
 ### Relatório aprimorado {#reporting-capabilities}
 
