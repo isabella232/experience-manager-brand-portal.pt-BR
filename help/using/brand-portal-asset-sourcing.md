@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 ## Pré-requisitos {#prerequisites}
 
 * AEM 6.5.0.2 ou superior.
-* Certifique-se de que sua instância do AEM Assets esteja integrada ao Brand Portal. Consulte [Configurar a integração do AEM Assets com o Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. Consulte [Configurar ativos AEM com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulte também:{#reference-articles}
 
 **Para administradores**
 
-* [Configurar fonte de ativos no AEM](brand-portal-configure-asset-sourcing.md)
+* [Configurar a origem de ativos no AEM](brand-portal-configure-asset-sourcing.md)
 * [Carregar lista de usuários do Brand Portal](brand-portal-configure-asset-sourcing.md)
 * [Configurar pasta de contribuição](brand-portal-contribution-folder.md)
 * [Carregar ativos da linha de base para a pasta de contribuição](brand-portal-upload-baseline-assets.md)
@@ -58,6 +58,6 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 
 **Para usuários do Brand Portal**
 
-* [Baixar requisitos de ativos](brand-portal-download-asset-requirements.md)
+* [Baixar os requisitos de ativos](brand-portal-download-asset-requirements.md)
 * [Carregar novos ativos para a pasta de contribuição](brand-portal-upload-assets-to-contribution-folder.md)
 * [Publicar pasta de contribuição nos ativos AEM](brand-portal-publish-contribution-folder-to-aem-assets.md)
