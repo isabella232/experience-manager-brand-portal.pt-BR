@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -27,7 +27,7 @@ Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigid
 
 ## Visão geral {#overview}
 
-O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados, a qualquer momento e em qualquer lugar.
+O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, pré-visualizações, baixem e exportem ativos em formatos corporativos aprovados, a qualquer momento e em qualquer lugar.
 
 ## Novidades da versão 6.4.6 {#what-s-new-in-646}
 
@@ -48,6 +48,13 @@ Esta versão do Brand Portal inclui os seguintes aprimoramentos:
    >A configuração por meio do Legacy OAuth não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio da E/S da Adobe.
 
 
+   >[!TIP]
+   >
+   >***Somente clientes existentes***
+   >
+   >É recomendável continuar usando a configuração existente do gateway OAuth. Caso tenha problemas com a configuração antiga do OAuth Gateway, exclua a configuração existente e crie uma nova configuração via E/S da Adobe.
+
+
 Para obter mais informações, consulte [Configurar ativos AEM com o Portal de marcas](configure-aem-assets-with-brand-portal.md)
 
 
@@ -55,13 +62,13 @@ Para obter mais informações, consulte [Configurar ativos AEM com o Portal de m
 
 Esta versão inclui correções para os seguintes problemas críticos:
 
-* Os valores suspensos do esquema de metadados não estão visíveis nas propriedades do ativo.
+* Os valores suspensos do schema de metadados não estão visíveis nas propriedades do ativo.
 
 * O subesquema de metadados não exibe guias com base no tipo de mimetype nas propriedades do ativo.
 
-* Cancelar a publicação do esquema de metadados preenche uma mensagem de erro, embora o esquema seja removido no backend.
+* Cancelar a publicação do schema de metadados preenche uma mensagem de erro, embora o schema seja removido do backend.
 
-* A imagem de visualização não é exibida para um ativo publicado.
+* A imagem de Pré-visualização não é exibida para um ativo publicado.
 
 * O usuário não pode publicar ou cancelar a publicação de ativos que contêm aspas simples no nome.
 
@@ -72,6 +79,8 @@ Esta versão inclui correções para os seguintes problemas críticos:
 ### Problemas conhecidos {#known-issues}
 
 Esta versão inclui os seguintes problemas conhecidos:
+
+* Os usuários do Brand Portal não conseguem publicar ativos da pasta de contribuição nos ativos AEM ao atualizar para a E/S da Adobe.
 
 * A opção Excluir representações do sistema não está funcionando corretamente ao baixar um ativo.
 
