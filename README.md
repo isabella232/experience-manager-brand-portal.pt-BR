@@ -1,60 +1,14 @@
 ---
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 70e35f77b6bdd606ebcc73f1bb7951e53874e669
 translation-type: tm+mt
 
 ---
-# Artigo do Contribute
+# Documentação do portal de marcas do Adobe Experience Manager
 
-Agradecemos as contribuições de conteúdo de nossa comunidade e funcionários da Adobe fora das equipes de documentação.
+Este é o repositório da documentação do Portal de marcas do Adobe Experience Manager.
 
-## Código de conduta da Adobe Open Source
+Suas contribuições para a documentação são bem-vindas. Consulte os seguintes recursos:
 
-Esse projeto adotou o [Código de conduta da Adobe Open Source Code](code-of-conduct.md) ou o [Código de conduta da base. NET](https://dotnetfoundation.org/code-of-conduct). Para obter mais informações, consulte o [artigo Contribuição](contributing.md) .
-
-## Sobre suas contribuições para o conteúdo da Adobe
-
-Consulte o Guia de Colaborador do [Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
-
-A forma como você participa depende quem você está e do tipo de alterações que deseja contribuir:
-
-### Pequenas alterações ou solicitações
-
-Para enviar uma solicitação, clique no **link Registrar um problema** em um artigo, que abre um problema no github. Especifique um título e uma descrição e clique **em Enviar nova edição**.
-
-Para solicitar pequenas atualizações, clique no **link Editar esta página** em um artigo, que abre o artigo de origem em github. Use a interface do usuário github para fazer suas atualizações. Consulte o guia de colaborador geral [do Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais informações.
-
-Pequenas correções ou esclarecimentos que você enviar para documentação e exemplos de código neste repo são abordados pelos termos de uso da Adobe.
-
-### Principais alterações ou novos artigos de membros da comunidade
-
-Se você fizer parte da comunidade da Adobe e quiser criar um artigo ou enviar alterações importantes, clique na **guia Problemas** no repositório github para enviar um problema. Esse envio inicia uma conversa com a equipe de documentação. Você precisará trabalhar com o autor (ou outro funcionário da Adobe) para publicar novo conteúdo.
-
-<!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). You must complete the online form before we can review your pull request.
--->
-
-### Principais mudanças dos funcionários da Adobe
-
-Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe de produtos para uma solução [!UICONTROL da Adobe Experience Cloud] e for seu trabalho para criar artigos técnicos, você deverá usar o repositório privado em `https://git.corp.adobe.com/AdobeDocs`. Consulte o Guia de colaboração [interna](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html).
-
-<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
-
-## Ferramentas e configuração
-
-Os contribuidores da comunidade podem usar a interface do usuário github para edição básica ou forjar o repo para fazer contribuições importantes.
-
-Consulte o Guia de colaborador do [Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais detalhes.
-
-## Como usar o markdown para formatar seu tópico
-
-Todos os artigos neste repositório usam o markdown achatado github. Se você não estiver familiarizado com a marcação, consulte:
-
-* [Noções básicas de markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Folha de papel para impressão imprimível](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-
-## Etiquetas
-
-No repositório público, rótulos automatizados são atribuídos para extrair solicitações para nos ajudar a gerenciar o fluxo de trabalho de solicitação de extração e ajudar a saber o que está acontecendo com sua solicitação de extração:
-
-* **Alteração enviada para o autor**: O autor foi notificado sobre a solicitação de extração pendente.
-* **pronto para mesclar: Pronto para analisar a equipe de revisão de solicitação de push.**
+* [contribute.md](contributing.md) Para obter uma visão geral de como contribuir para a documentação.
+* [guidelines.md](guidelines.md) Para obter uma visão geral sobre o que é esperado nas contribuições e como compor suas contribuições de documentação.
+* [code-of-condutores.md](code-of-conduct.md) Para obter uma visão geral dos padrões de comportamento que esperamos enquanto você contribui para este projeto de documentação.
