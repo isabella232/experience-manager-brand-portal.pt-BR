@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Esta versão do Brand Portal inclui os seguintes aprimoramentos:
    >A configuração por meio do Legacy OAuth não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio da E/S da Adobe.
 
 
-   >[!TIP]
-   >
-   >***Somente clientes existentes***
-   >
-   >É recomendável continuar usando a configuração existente do gateway OAuth. Caso tenha problemas com a configuração antiga do OAuth Gateway, exclua a configuração existente e crie uma nova configuração via E/S da Adobe.
+>[!TIP]
+>
+>***Somente para clientes existentes***
+>
+>É recomendável continuar usando a configuração existente do gateway OAuth. Caso encontre problemas com a configuração antiga do gateway OAuth, exclua a configuração existente e crie uma nova configuração por meio da E/S da Adobe.
 
 
 Para obter mais informações, consulte [Configurar ativos AEM com o Portal de marcas](configure-aem-assets-with-brand-portal.md)
-
 
 ### Problemas críticos corrigidos {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 Esta versão inclui os seguintes problemas conhecidos:
 
-* Os usuários do Brand Portal não conseguem publicar ativos da pasta de contribuição nos ativos AEM ao atualizar para a E/S da Adobe.
+* Os usuários do Brand Portal não podem publicar ativos da pasta de contribuição nos ativos AEM ao atualizar para a E/S da Adobe no AEM 6.5.4.
+
+   Esse problema será corrigido no próximo service pack 6.5.5.
+
+   Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor.
 
 * A opção Excluir representações do sistema não está funcionando corretamente ao baixar um ativo.
+
 
 ## Idiomas {#languages}
 
