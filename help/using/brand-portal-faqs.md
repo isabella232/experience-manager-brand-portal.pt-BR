@@ -9,16 +9,30 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
 
 # Perguntas frequentes {#frequently-asked-questions}
 
-As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas que os usuários finais podem encontrar ao trabalhar com a versão mais recente do AEM Assets Brand Portal 6.4.5 ou versões anteriores.
+As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas dos usuários finais que podem encontrar ao trabalhar com a versão mais recente do AEM Assets Brand Portal 6.4.5 ou versões anteriores.
 
 
+## Perguntas frequentes sobre o Brand Portal 6.4.6 {#faqs-bp646}
+
+**Ques. O endpoint OAuth existente (`https://legacy-oauth.cloud.adobe.io/login`) herdado não está funcionando. Qual poderia ser a razão possível?**
+
+**Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias de autor do AEM Assets para o service pack mais recente e configurá-las usando o E/S da Adobe. Consulte [Configurar ativos AEM com o Portal](configure-aem-assets-with-brand-portal.md) da marca para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+**Ques. Não consigo publicar os ativos da pasta de contribuição do Portal de marcas para os ativos AEM depois de atualizar para a E/S da Adobe. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
+
+**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição nos ativos AEM no AEM 6.5.4 com E/S da Adobe. Esse problema será corrigido no próximo service pack AEM 6.5.5.
+
+Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
+
+
+## Perguntas frequentes sobre o Brand Portal 6.4.5 {#faqs-bp645}
 
 **Ques. Qual é a grande mudança na versão 6.4.5 do Brand Portal?**
 
@@ -74,17 +88,17 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 **Ques. Quais são os requisitos de ativos com contribuição de r l&#39;r?**
 
-**Ans.** O documento **Breve** anexado à pasta **Contribution** e o conteúdo de referência (ativos reutilizáveis) carregado na pasta **SHARED** ajuda o usuário do Brand Portal a entender a necessidade de contribuição e expectativas como colaborador e é chamado coletivamente de requisitos de ativos.
+**Ans.** O **documento Brief** anexado à pasta **Contribution** e ao conteúdo de referência (ativos reutilizáveis) carregado na pasta **SHARED** ajuda o usuário do Brand Portal a entender a necessidade de contribuição e expectativas como um contribuinte, e é chamado coletivamente de requisitos de ativos.
 
 
 
 **Ques. É possível fazer upload de ativos para qualquer pasta permitida?**
 
-**Ans.** Nem todas as pastas permitidas. Um usuário do Brand Portal só pode carregar conteúdo para a pasta **Contribution** compartilhada pelo administrador do AEM ou do Brand Portal.
+**Ans.** Nem todas as pastas permitidas. Um usuário do Brand Portal só pode carregar conteúdo para a pasta **Contribution** que é compartilhada pelo administrador do AEM ou do Brand Portal.
 
 
 
-**Ques. Como obtenho acesso a uma pasta de contribuição?**
+**Ques. Como faço para obter acesso a uma pasta de contribuição?**
 
 **Ans.** Você pode acessar uma pasta **de contribuição** somente se ela tiver sido compartilhada com você. Você receberá uma notificação por email/pulsação sempre que uma pasta de contribuição for compartilhada com você. Você pode acessar a pasta Contribuição por meio do link compartilhado no e-mail ou fazer logon na instância do Brand Portal e navegar até o ícone de sinalizador para obter notificações para acessar a pasta Contribuição.
 
@@ -108,7 +122,7 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 **Ques. Onde posso ver o status das tarefas de importação e publicação?**
 
-**Ans.** No AEM, você pode ver o status de uma importação na página de trabalho **assíncrona** . No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status]**de contribuição de ativos.
+**Ans.** No AEM, você pode ver o status de uma importação na página de trabalho **assíncrona** . No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status]** de contribuição de ativos.
 
 
 
@@ -124,13 +138,13 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 
 
-**Ques. Como carregar novos ativos em uma pasta de contribuição?**
+**Ques. Como fazer upload de novos ativos em uma pasta de contribuição?**
 
 **Ans.** Consulte a documentação detalhada para [Fazer upload de ativos para a pasta](brand-portal-upload-assets-to-contribution-folder.md)Contribuição.
 
 
 
-**Ques. Não vejo miniaturas/visualizações nos ativos carregados na pasta NEW por um usuário do Brand Portal?**
+**Ques. Não vejo miniaturas/pré-visualizações nos ativos carregados para a pasta NEW por um usuário do Brand Portal?**
 
 **Ans.** Como projetado, porque não há fluxo de trabalho sendo executado no Portal da Marca.
 
