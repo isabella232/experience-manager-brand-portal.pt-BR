@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
 
 ---
 
@@ -21,7 +21,7 @@ O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adqui
 
 ## O que mudou no ponto 6.4.6 {#what-changed-in-646}
 
-O Brand Portal 6.4.6 é uma versão aprimorada na qual o canal de autorização entre os ativos AEM e o Brand Portal é alterado. Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um token de Acesso IMS para autorização. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
+O Brand Portal 6.4.6 é uma versão aprimorada na qual o canal de autorização entre os ativos AEM e o Brand Portal é alterado. Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um Token de acesso IMS para autorização. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -60,6 +60,12 @@ As etapas para configurar os ativos AEM com o Brand Portal são diferentes depen
 | **AEM 6.3 (6.3.3.8 e superior)** | [Criar configuração](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Atualizar configuração](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Entre em contato com o suporte | Entre em contato com o suporte |
 
+>[!NOTE]
+>
+>É recomendável atualizar sua instância do AEM para o service pack mais recente.
+
+
+
 Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
 
 Consulte Perguntas frequentes sobre [o Brand Portal](brand-portal-faqs.md).
@@ -78,7 +84,7 @@ O usuário do AEM define o requisito [fazendo upload de um resumo](brand-portal-
 
 Quando o usuário terminar de adicionar conteúdo na pasta **NEW** , poderá publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado nos ativos AEM.
 
-Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
+Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem visualização, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
 
 >[!NOTE]
 >
@@ -125,9 +131,9 @@ Por exemplo, se o formulário de pesquisa no Brand Portal usar o Predicado de pr
 
 #### Pesquisa curinga {#wildcard-search}
 
-O Brand Portal permite o uso do asterisco (*) na consulta de pesquisa junto com uma parte da palavra na frase pesquisada.
+O Brand Portal permite o uso do asterisco (*) no query de pesquisa junto com uma parte da palavra na frase pesquisada.
 
-**Caso** de uso Se você não tiver certeza das palavras exatas que ocorrem na frase pesquisada, poderá usar uma pesquisa curinga para preencher as lacunas na consulta de pesquisa.
+**Caso** de uso Se você não tiver certeza das palavras exatas que ocorrem na frase pesquisada, poderá usar uma pesquisa curinga para preencher as lacunas no query de pesquisa.
 
 Por exemplo, especificar **climb*** retorna todos os ativos com palavras que começam com os caracteres que **sobem** em suas frases de título se o formulário de pesquisa no Portal de marcas usar Predicado de propriedade para pesquisa parcial no título dos ativos.
 
@@ -154,7 +160,7 @@ A versão 6.4.3 do Brand Portal foca em — fornecer às organizações um alias
 Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (editores, visualizadores e usuários convidados) no logon. [A configuração Ativar hierarquia](../using/brand-portal-general-configuration.md) de pastas é adicionada em Configurações **** gerais, no painel Ferramentas administrativas. Se a configuração for:
 
 * **ativada**, a árvore de pastas que começa na pasta raiz está visível para usuários não administradores. Assim, concedendo a eles uma experiência de navegação semelhante aos administradores.
-* **desativado**, somente as pastas compartilhadas são exibidas na página de aterrissagem.
+* **desativado**, somente as pastas compartilhadas são exibidas na landing page.
 
 ![](assets/enable-folder-hierarchy.png)
 **O caso de uso**
@@ -192,15 +198,15 @@ Observe que a pesquisa nessas pastas retorna os resultados somente dos ativos qu
 
 ### Suporte para execuções de vídeo do Dynamic Media
 
-Os usuários cuja instância de autor de AEM esteja no modo híbrido Dynamic Media podem visualizar e baixar as execuções de mídia dinâmica, além dos arquivos de vídeo originais.
+Os usuários cuja instância de autor de AEM esteja no modo híbrido Dynamic Media podem pré-visualização e baixar as execuções de mídia dinâmica, além dos arquivos de vídeo originais.
 
-Para permitir a visualização e o download de execuções de mídia dinâmica em contas de locatário específicas, os administradores precisam especificar a Configuração **de Mídia** Dinâmica (URL do serviço de vídeo (URL do Gateway DM) e a ID de registro para buscar o vídeo dinâmico) na configuração de **Vídeo** no painel de ferramentas administrativas.
+Para permitir a pré-visualização e o download de execuções de mídia dinâmica em contas de locatário específicas, os administradores precisam especificar a Configuração **de Mídia** Dinâmica (URL do serviço de vídeo (URL do Gateway DM) e a ID de registro para buscar o vídeo dinâmico) na configuração de **Vídeo** no painel de ferramentas administrativas.
 
 **Os vídeos de caso** de uso do Dynamic Media podem ser visualizados em:
 
 * Página de detalhes do ativo
-* Exibição do cartão do ativo
-* Página de visualização do compartilhamento de links
+* visualização do cartão do ativo
+* Página pré-visualização de compartilhamento de links
 
 As codificações de Vídeo do Dynamic Media podem ser baixadas de:
 
@@ -237,7 +243,7 @@ No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.ad
 
 ### Melhorias na experiência de download
 
-A versão oferece uma experiência simplificada de download com um número reduzido de cliques e avisos, em:
+A versão do oferta simplificou a experiência de download com um número reduzido de cliques e avisos, em:
 
 * optar por baixar somente as representações (e não os ativos originais).
 * baixar os ativos quando o acesso às representações originais estiver restrito.
@@ -250,11 +256,11 @@ A versão do Brand Portal 6.4.2 traz uma variedade de recursos para atender às 
 
 ![](assets/bp-login-screen-1.png)
 
-O portal da marca AEM permite que os convidados acessem o portal. Um usuário convidado não precisa de credenciais para entrar no portal e pode acessar e baixar todas as pastas públicas e coleções. Os usuários convidados podem adicionar ativos a seus lightbox (coleção privada) e baixar os mesmos. Eles também podem visualizar a pesquisa de tags inteligentes e os predicados de pesquisa definidos pelos administradores. A sessão de convidado não permite que os usuários criem coleções e pesquisas salvas ou as compartilhem mais, acessem configurações de pastas e coleções e compartilhem ativos como links.
+O portal da marca AEM permite que os convidados acessem o portal. Um usuário convidado não precisa de credenciais para entrar no portal e pode acessar e baixar todas as pastas públicas e coleções. Os usuários convidados podem adicionar ativos a seus lightbox (coleção privada) e baixar os mesmos. Eles também podem visualização previsões de pesquisa e pesquisa de tags inteligentes definidas pelos administradores. A sessão de convidado não permite que os usuários criem coleções e pesquisas salvas ou as compartilhem mais, acessem configurações de pastas e coleções e compartilhem ativos como links.
 
 Em uma organização, várias sessões de convidado simultâneas são permitidas, o que é limitado a 10% da cota total de usuários por organização.
 
-Uma sessão de convidado permanece ativa por duas horas. Portanto, o estado do lightbox também é preservado até duas horas a partir da hora de início da sessão. Depois de duas horas, a sessão de convidado tem que ser reiniciada, de modo que o estado do lightbox seja perdido.
+Uma sessão de convidado permanece ativa por duas horas. Portanto, o estado do lightbox também é preservado até duas horas a partir da hora do start da sessão. Depois de duas horas, a sessão de convidado tem que ser reiniciada, de modo que o estado do lightbox seja perdido.
 
 ### Downloads acelerados
 
@@ -268,7 +274,7 @@ Para habilitar o download acelerado com base no IBM Aspera para a organização,
 
 Um novo relatório, para rastrear os logons de usuário, foi introduzido. O relatório Logons **de** usuário pode ser fundamental para permitir que as organizações auditem e verifiquem os administradores delegados e outros usuários do Brand Portal.
 
-Os registros do relatório exibem nomes, IDs de e-mail, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório. Os administradores podem exportar o relatório como .csv. Juntamente com outros relatórios, o relatório Logons de usuário permite que as organizações monitorem mais detalhadamente as interações dos usuários com os recursos aprovados da marca, garantindo assim a conformidade com os escritórios de conformidade corporativos.
+Os registros do relatório exibem nomes, IDs de e-mail, personas (administrador, visualizador, editor, convidado), grupos, último logon, status de atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório. Os administradores podem exportar o relatório como .csv. Juntamente com outros relatórios, o relatório Logons de usuário permite que as organizações monitorem mais detalhadamente as interações dos usuários com os recursos aprovados da marca, garantindo assim a conformidade com os escritórios de conformidade corporativos.
 
 ![](assets/user-logins-1.png)
 
@@ -284,7 +290,7 @@ Os administradores podem restringir o acesso do usuário aos arquivos de imagem 
 * As restrições não se aplicam aos administradores, mesmo sendo membros de grupos restritos.
 * As permissões dos usuários que compartilham ativos como link se aplicam aos usuários que baixam ativos usando links compartilhados.
 
-### Caminho da hierarquia de pastas nas exibições Cartão e Lista
+### Caminho da hierarquia de pastas em visualizações de cartão e Lista
 
 Os cartões de pastas, na Visualização de cartão, agora exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam o local das pastas que estão acessando, em relação à hierarquia pai.
 
@@ -294,13 +300,13 @@ As informações de hierarquia de pastas são particularmente úteis na diferenc
 
 ![](assets/folder-hierarchy1-1.png)
 
-A Exibição de lista mostra a pasta Caminho dos ativos em uma coluna para todos os usuários do Brand Portal.
+A Visualização de Lista mostra a pasta Caminho dos ativos em uma coluna para todos os usuários do Brand Portal.
 
 ![](assets/list-view-1.png)
 
-### Opção Visão geral para exibir as propriedades do ativo
+### Opção Visão geral para visualização propriedades de ativos
 
-O Brand Portal fornece a opção Visão geral para usuários não administradores (editores, visualizadores, usuários convidados) para exibir as Propriedades do ativo de ativos/pastas selecionadas. A opção Visão geral está visível:
+O Brand Portal fornece a opção Visão geral para usuários não administradores (editores, visualizadores, usuários convidados) para visualização das Propriedades do ativo de ativos/pastas selecionados. A opção Visão geral está visível:
 
 1. Na barra de ferramentas na parte superior da seleção de um ativo/pasta.
 2. Na lista suspensa ao selecionar o Seletor de painel.
@@ -348,33 +354,33 @@ O Brand Portal 6.4.1 é uma versão de atualização da plataforma que traz vár
 ![](assets/contenttree-2.png)
 
 * Introduzidos novos atalhos de teclado, por exemplo _(p)_ para navegação até a página de propriedades, _(e)_ para Editar e _(ctrl+c)_ para operações de cópia.
-* Experiência de rolagem aprimorada e carregamento lento no cartão e exibição de lista para navegar em um grande número de ativos.
-* Aprimoramento da exibição de cartão com suporte para placas de tamanho diferente com base na configuração de exibição.
+* Experiência de rolagem aprimorada e carregamento lento em cartão e visualização de lista para navegação em um grande número de ativos.
+* Visualização de placa aprimorada com suporte para placas de tamanho diferente com base na configuração de visualização.
 
 ![](assets/cardviewsettings-1.png)
 
-* A exibição de cartão agora exibe o carimbo de data/hora ao passar o mouse acima do rótulo de data.
+* A visualização de cartão agora exibe o carimbo de data/hora ao passar o mouse sobre a etiqueta de data.
 
-* Visualização aprimorada de Coluna com **mais detalhes** no instantâneo do ativo, que permite navegar até a página de detalhes de um ativo.
+* visualização aprimorada de coluna com **mais detalhes** no instantâneo do ativo, que permite navegar até a página de detalhes de um ativo.
 
 ![](assets/columnmoredetail.png)
 
-* A exibição de lista agora exibe os nomes de arquivo dos ativos na primeira coluna por padrão, além de informações sobre localidade, tipo de ativo, dimensões, tamanho, classificação e publicação. Novas configurações **de** exibição podem ser usadas para configurar a quantidade de detalhes a serem exibidos na exibição de Lista.
+* A visualização de Lista agora exibe nomes de arquivos de ativos na primeira coluna por padrão, além de informações sobre localidade, tipo de ativo, dimensões, tamanho, classificação e publicação. Novas configurações **de** Visualização podem ser usadas para configurar a quantidade de detalhes a serem exibidos na visualização da Lista.
 
-* Experiência de detalhes de ativos aprimorada com a capacidade de navegar para frente e para trás entre ativos usando novos botões de navegação e exibir a contagem de ativos.
+* Experiência de detalhes de ativos aprimorada com a capacidade de navegar para frente e para trás entre ativos usando novos botões de navegação e contagem de ativos de visualização.
 
 ![](assets/navbtn.png)
 
-* Novo recurso para visualizar arquivos de áudio, carregados do AEM, na página de detalhes do ativo.
+* Novo recurso para pré-visualização de arquivos de áudio, carregados do AEM, na página de detalhes do ativo.
 * Recurso Novos ativos relacionados fornecido nas propriedades do ativo. Os ativos relacionados a outros ativos de origem/derivados no AEM e publicados no Brand Portal agora têm seu relacionamento intacto no Brand Portal, com links para os ativos relacionados na página de propriedades.
 * Uma nova configuração para impedir que usuários não administradores criem coleções públicas foi introduzida. As organizações podem trabalhar com a equipe de suporte da Adobe para configurar esse recurso em contas específicas.
 
 ### Aprimoramentos de pesquisa
 
-* Recurso introduzido para voltar à mesma posição nos resultados da pesquisa, após navegar até um item de pesquisa, sem executar a consulta de pesquisa novamente.
+* Recurso introduzido para voltar à mesma posição nos resultados da pesquisa, após navegar até um item de pesquisa, sem executar o query de pesquisa novamente.
 * Nova contagem de resultados da pesquisa para exibir o número de resultados da pesquisa fornecidos.
-* O Filtro de pesquisa do tipo de arquivo foi aprimorado com a capacidade de filtrar os resultados da pesquisa com base em tipos MIME refinados, como .jpg, .png e .psd, em comparação com as opções anteriores de Imagens, Documentos e Multimídia.
-* Filtros de pesquisa aprimorados para coleções, com carimbos de data e hora precisos em vez da funcionalidade do controle deslizante de hora anterior.
+* Filtro de pesquisa de tipo de arquivo aprimorado com a capacidade de filtrar resultados de pesquisa com base em tipos MIME refinados, como .jpg, .png e .psd, em comparação a imagens, Documentos e multimídia anteriores.
+* filtros de pesquisa aprimorados para coleções, com carimbos de data e hora precisos em vez da funcionalidade do controle deslizante de hora anterior.
 * Novos filtros de tipo de acesso foram introduzidos para procurar as coleções que são públicas ou não.
 
 ![](assets/accesstypefilter.png)
@@ -396,9 +402,9 @@ O Brand Portal 6.4.1 é uma versão de atualização da plataforma que traz vár
 
 **Observação**: As melhorias citadas são conforme os testes feitos no laboratório.
 
-### Recursos aprimorados de relatórios
+### Recursos aprimorados do relatórios
 
-**Relatório** de compartilhamento de links introduzidoUm novo relatório, para fornecer informações sobre links compartilhados, foi introduzido. O relatório Compartilhamento de links lista todos os URLs, os ativos, compartilhados com usuários internos e externos em toda a organização no período especificado. Ele também informa quando o link foi compartilhado, por quem e quando expira.
+**Relatório** de compartilhamento de links introduzidoUm novo relatório, para fornecer informações sobre links compartilhados, foi introduzido. O relatório Compartilhamento de links lista todos os URLs, para os ativos, compartilhados com usuários internos e externos em toda a organização no período especificado. Ele também informa quando o link foi compartilhado, por quem e quando expira.
 
 ![](assets/navigatereport.png)
 
@@ -406,7 +412,7 @@ O Brand Portal 6.4.1 é uma versão de atualização da plataforma que traz vár
 
 ![](assets/accessassetreport.png)
 
-**A experiência do usuário aprimorada com a interface de relatórios** no Brand Portal tornou-se mais intuitiva e proporciona maior controle às organizações. Além de criar vários relatórios, os administradores agora podem revisitar os relatórios gerados e baixá-los ou excluí-los, pois esses relatórios são salvos no Brand Portal.
+**A experiência do usuário aprimorada com a interface do relatórios** no Brand Portal tornou-se mais intuitiva e proporciona maior controle às organizações. Além de criar vários relatórios, os administradores agora podem revisitar os relatórios gerados e baixá-los ou excluí-los, pois esses relatórios são salvos no Brand Portal.
 
 Cada relatório que está sendo criado pode ser personalizado adicionando ou removendo colunas padrão. Além disso, colunas personalizadas podem ser adicionadas aos relatórios Download, Expiração e Publicação para controlar seu grau de granularidade.
 
@@ -446,7 +452,7 @@ Para obter mais informações, consulte as Etapas 3 e 6 em [Criar e gerenciar re
 
 ### Notificação de manutenção do Brand Portal {#brand-portal-maintenance-notification}
 
-O Brand Portal agora exibe um banner de notificação alguns dias antes de uma atividade de manutenção futura. Uma notificação de amostra:
+O Brand Portal agora exibe um banner de notificação alguns dias antes de uma próxima atividade de manutenção. Uma notificação de amostra:
 
 ![](assets/bp_maintenance_notification-1.png)
 
@@ -498,7 +504,7 @@ Para alinhar a experiência do usuário do Brand Portal com o AEM, a Adobe está
 
 ### Experiência de navegação aprimorada {#enhanced-browsing-experience}
 
-* Nova exibição de coluna para navegar pelas pastas aninhadas:
+* Nova visualização de coluna para navegar pelas pastas aninhadas:
 
 ![](assets/millercolumnnavigation.png) ![](assets/multi-columnview.png)
 
@@ -537,9 +543,9 @@ Os administradores podem definir a data e a hora de expiração dos ativos antes
 
 ### Classificação de ativos aprimorada {#enhanced-asset-sorting}
 
-A classificação de ativos em uma pasta na exibição de lista não está mais restrita ao número de ativos que estão sendo exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
+A classificação de ativos em uma pasta na visualização de listas não está mais restrita ao número de ativos exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
 
-### Relatório aprimorado {#reporting-capabilities}
+### relatórios aprimorado {#reporting-capabilities}
 
 Os administradores podem criar e gerenciar três tipos de relatórios: ativos baixados, expirados e publicados. A capacidade de configurar as colunas em um relatório e exportar os relatórios para o formato CSV também está disponível.
 
@@ -547,13 +553,13 @@ Os administradores podem criar e gerenciar três tipos de relatórios: ativos ba
 
 ### Metadados adicionais {#additional-metadata}
 
-O Brand Portal 6.3.1 apresenta metadados adicionais, que são iguais aos ativos AEM 6.3. Você pode usar o formulário do Editor de esquema para controlar os metadados que devem estar visíveis na página Propriedades dos ativos. Os metadados do ativo não estão visíveis para usuários de compartilhamento de link externo, que só podem visualizar e baixar ativos usando o URL de compartilhamento de link.
+O Brand Portal 6.3.1 apresenta metadados adicionais, que são iguais aos ativos AEM 6.3. Você pode usar o formulário Editor de Schemas para controlar os metadados que devem estar visíveis na página Propriedades de ativos. Os metadados do ativo não estão visíveis para usuários de compartilhamento de link externo, que podem apenas pré-visualização e baixar ativos usando o URL de compartilhamento de link.
 
 ![](assets/additionsinmetadata.png)
 
 ### Recursos adicionais para administradores {#additional-capabilities-for-administrators}
 
-* Antes de finalizar as personalizações no wallpaper da tela de logon, os administradores podem visualizar as alterações.
+* Antes de finalizar as personalizações no wallpaper da tela de login, os administradores podem pré-visualização as alterações.
 
 ![](assets/wallpaperpreview.png)
 
@@ -561,7 +567,7 @@ O Brand Portal 6.3.1 apresenta metadados adicionais, que são iguais aos ativos 
 
 ### Novos recursos de publicação no AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
-* Os administradores do AEM podem publicar o esquema de metadados dos ativos AEM para o Brand Portal usando o AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponível no quarto trimestre de 2017.
+* Os administradores do AEM podem publicar schemas de metadados do AEM Assets para o Brand Portal usando o AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponível no quarto trimestre de 2017.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
