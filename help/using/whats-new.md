@@ -4,13 +4,13 @@ seo-title: Novidades do AEM Assets Brand Portal
 description: Dê uma olhada nos novos recursos e melhorias da versão 6.4.6.
 seo-description: Dê uma olhada nos novos recursos e melhorias da versão 6.4.6.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
-contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -21,7 +21,7 @@ O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adqui
 
 ## O que mudou no ponto 6.4.6 {#what-changed-in-646}
 
-O Brand Portal 6.4.6 é uma versão aprimorada na qual o canal de autorização entre os ativos AEM e o Brand Portal é alterado. Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um Token de acesso IMS para autorização. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
+No Brand Portal 6.4.6, o canal de autorização entre os ativos AEM e o Brand Portal é alterado. O Brand Portal agora é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e superior. No AEM Assets 6.3 e superior, o Brand Portal foi configurado anteriormente na interface clássica por meio do gateway OAuth herdado, que usa a troca de token JWT para obter um Token de acesso IMS para autorização. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -55,6 +55,7 @@ As etapas para configurar os ativos AEM com o Brand Portal são diferentes depen
 
 | **Versão do AEM** | **Nova configuração** | **Configuração de atualização** |
 |---|---|---|
+| **AEM Assets as a Cloud Service** | [Criar configuração](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 e superior)** | [Criar configuração](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 e superior)** | [Criar configuração](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 e superior)** | [Criar configuração](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Atualizar configuração](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
