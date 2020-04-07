@@ -5,18 +5,19 @@ description: Obtenha um insight sobre como configurar o recurso de origem de ati
 seo-description: Obtenha um insight sobre como configurar o recurso de origem de ativos nos ativos AEM.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
 
 # Configurar origem de ativos {#configure-asset-sourcing}
 
-Os administradores de AEM podem configurar a Origem **de** ativos a partir da instância do autor de AEM. O administrador habilita a configuração do sinalizador de recurso Origem de ativos na Configuração **do console da Web do** AEM e faz upload da lista de usuários ativos do Portal de marcas nos ativos **** AEM.
+Os administradores de AEM podem configurar a Origem **de** ativos a partir da instância do autor de AEM. O administrador habilita a configuração do sinalizador de recurso de Seleção de ativos na Configuração **do console da Web do** AEM e faz upload da lista de usuários do Portal de marcas nos ativos **** AEM.
 
 >[!NOTE]
 >
@@ -42,7 +43,7 @@ Os administradores do AEM podem ativar a Origem de ativos na Configuração do c
 
 ## Carregar lista de usuários do Brand Portal {#upload-bp-user-list}
 
-Os administradores do AEM podem carregar o arquivo de configuração de usuário (.csv) do Brand Portal que contém a lista de usuários ativos do Brand Portal nos ativos AEM. Uma pasta de contribuição só pode ser compartilhada com os usuários ativos do Brand Portal definidos na lista de usuários. O administrador também pode adicionar novos usuários ao arquivo de configuração e fazer upload da lista de usuários modificada.
+Os administradores do AEM podem carregar o arquivo de configuração de usuário (.csv) do Brand Portal que contém a lista de usuário ativa do Brand Portal nos ativos AEM. Uma pasta de contribuição só pode ser compartilhada com os usuários ativos do Brand Portal definidos na lista do usuário. O administrador também pode adicionar novos usuários ao arquivo de configuração e fazer upload da lista de usuário modificada.
 
 >[!NOTE]
 >
@@ -55,11 +56,11 @@ O administrador pode adicionar novos usuários no Admin Console do AEM; consulte
 1. No painel **Ferramentas** ![](assets/tools.png) , navegue até **[!UICONTROL Ativos > Usuários do Portal de marcas]**
    ![](assets/upload-user-list1.png)
 1. A janela Colaboradores de Upload do Portal de Marcas é aberta.
-Procure no computador local e carregue o arquivo **de** configuração (.csv) que contém a lista de usuários ativos do Brand Portal.
+Procure no computador local e carregue o arquivo **de** configuração (.csv) que contém a lista ativa de usuários do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
    ![](assets/upload-user-list2.png)
 
 
-Os administradores podem fornecer acesso a usuários/grupos específicos nesta lista de usuários ao configurar a pasta de contribuição.
+Os administradores podem fornecer acesso a usuários/grupos específicos desta lista de usuário ao configurar a pasta de contribuição.
 
 Para obter mais informações, consulte [Configurar pasta](brand-portal-contribution-folder.md)de contribuição.
