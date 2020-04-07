@@ -4,12 +4,13 @@ seo-title: Carregar ativos da linha de base
 description: Obtenha informações sobre como fazer upload do conteúdo de referência (ativos de linha de base) para uma pasta de contribuição no Brand Portal.
 seo-description: Obtenha informações sobre como fazer upload do conteúdo de referência (ativos de linha de base) para uma pasta de contribuição no Brand Portal.
 uuid: null
-content-type: referência
-topic-tags: portal de marcas
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,11 +23,11 @@ O administrador do AEM carrega os ativos da linha de base na pasta **SHARED** pa
 
 1. Faça logon na instância do autor do AEM.
 URL padrão: http:// localhost:4502/aem/start.html
-1. Navegue até **[!UICONTROL Ativos &gt; Arquivos]** e localize a pasta de contribuição na qual você deseja fazer upload dos ativos da linha de base.
+1. Navegue até **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição na qual você deseja fazer upload dos ativos da linha de base.
 1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL COMPARTILHADO]** e **[!UICONTROL NOVO]** na pasta de contribuição.
-1. Clique em **[!UICONTROL Compartilhado]** .
-1. Clique em **[!UICONTROL Criar &gt; Arquivos]** ![](assets/upload.png) para fazer upload de ativos individuais.
-Ou clique em **[!UICONTROL Criar &gt; Pasta]** para fazer upload da pasta (.zip) que contém vários ativos.
+1. Clique na pasta **[!UICONTROL COMPARTILHADO]** .
+1. Clique em **[!UICONTROL Criar > Arquivos]** ![](assets/upload.png) para fazer upload de ativos individuais.
+Ou clique em **[!UICONTROL Criar > Pasta]** para fazer upload da pasta (.zip) que contém vários ativos.
    ![](assets/upload-baseline-assets1.png)
 1. Procure e carregue ativos de linha de base (arquivos/pastas) na pasta **[!UICONTROL COMPARTILHADA]** .
    ![](assets/upload-baseline-assets2.png)
