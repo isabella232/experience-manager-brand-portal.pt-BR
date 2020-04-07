@@ -5,11 +5,12 @@ description: Saiba mais sobre as perguntas frequentes no Portal de marcas de ati
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 
 **Ques. Não consigo publicar os ativos da pasta de contribuição do Portal de marcas para os ativos AEM depois de atualizar para a E/S da Adobe. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
 
-**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição nos ativos AEM no AEM 6.5.4 com E/S da Adobe. Esse problema será corrigido no próximo service pack AEM 6.5.5.
+**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição nos ativos AEM no AEM 6.5.4 com E/S da Adobe. Esse problema será corrigido no próximo service pack.
 
 Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
 
