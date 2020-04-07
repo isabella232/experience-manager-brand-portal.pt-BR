@@ -5,11 +5,12 @@ description: 'Saiba mais sobre como criar uma pasta de contribuição nos ativos
 seo-description: Saiba mais sobre como criar uma pasta de contribuição nos ativos AEM.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -21,13 +22,14 @@ Para criar uma pasta **Contribuição** , crie uma nova pasta do tipo Contribui�
 
 **Para criar uma nova pasta de contribuição:**
 1. Faça logon na instância do autor de AEMURL padrão: http:// localhost:4502/aem/start.html
-1. Navegue até **[!UICONTROL Ativos > Arquivos]**Ele lista todas as pastas existentes no repositório do AEM Assets.
-1. Click **[!UICONTROL Create]**to create a new folder. A janela pop-up Criar pasta é aberta.
-1. Digite **[!UICONTROL Título]**e**[!UICONTROL  Nome]** da pasta e marque a caixa de seleção **[!UICONTROL Contribuição]**do ativo.
+1. Navegue até **[!UICONTROL Ativos > Arquivos]** Ele lista todas as pastas existentes no repositório do AEM Assets.
+1. Click **[!UICONTROL Create]** to create a new folder. A janela pop-up Criar pasta é aberta.
+1. Digite **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e marque a caixa de seleção **[!UICONTROL Contribuição]**do ativo.
 É recomendável usar pequenos alfabetos sem espaço para nomear a pasta.
-1. Clique em **[!UICONTROL Criar]**.   ![](assets/create-contribution-folder.png)
+1. Clique em **[!UICONTROL Criar]**.
+   ![](assets/create-contribution-folder.png)
 1. Você pode ver a pasta de contribuição recém-criada listada no repositório do AEM Assets.
-1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL COMPARTILHADO]**e**[!UICONTROL  NOVO]** são criadas automaticamente na pasta de contribuição.\
+1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL COMPARTILHADO]** e **[!UICONTROL NOVO]** são criadas automaticamente na pasta de contribuição.\
    ![](assets/contribution-folder.png)
 
 Agora você pode configurar as propriedades da pasta Contribuição. Consulte [Configurar propriedades](brand-portal-configure-contribution-folder-properties.md)da pasta Contribuição.
