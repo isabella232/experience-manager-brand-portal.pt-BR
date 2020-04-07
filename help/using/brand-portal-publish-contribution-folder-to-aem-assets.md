@@ -4,12 +4,13 @@ seo-title: Publicar na pasta Contribuição para os ativos AEM
 description: Saiba mais sobre a publicação da pasta de contribuição para os ativos AEM no Portal da marca.
 seo-description: Saiba mais sobre a publicação da pasta de contribuição para os ativos AEM no Portal da marca.
 uuid: null
-content-type: referência
-topic-tags: portal de marcas
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -18,12 +19,12 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 Os usuários do Brand Portal podem publicar a pasta de contribuição nos ativos AEM sem precisar acessar a instância do autor do AEM.
 
-Verifique se você passou pelos requisitos [de](brand-portal-download-asset-requirements.md) ativos e fez upload dos ativos criados recentemente na pasta **NEW** na pasta de contribuição. Consulte [Fazer upload de ativos para a pasta](brand-portal-upload-assets-to-contribution-folder.md)de contribuição.
+Verifique se você passou pelos requisitos [de](brand-portal-download-asset-requirements.md) ativos e fez upload dos ativos recém-criados na pasta **NEW** na pasta de contribuição. Consulte [Fazer upload de ativos para a pasta](brand-portal-upload-assets-to-contribution-folder.md)de contribuição.
 
 **Para publicar a pasta de contribuição:**
 
 1. Faça logon na instância do Brand Portal.
-1. Selecione a pasta de contribuição no painel Brand Portal.
+1. Selecione a pasta de contribuição do painel do Brand Portal.
 1. Clique em **[!UICONTROL Publicar no AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
