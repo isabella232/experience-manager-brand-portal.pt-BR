@@ -5,11 +5,12 @@ description: Saiba mais sobre como configurar uma pasta de contribuição no Bra
 seo-description: Saiba mais sobre como configurar uma pasta de contribuição no Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -24,7 +25,7 @@ O vídeo a seguir demonstra como configurar uma pasta Contribuição nos ativos 
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-O usuário do AEM realiza as seguintes atividades ao configurar uma pasta de contribuição:
+O usuário do AEM executa as seguintes atividades ao configurar uma pasta de contribuição:
 
 * [Criar pasta de contribuição](brand-portal-create-contribution-folder.md)
 * [Fazer upload das necessidades de ativos](brand-portal-configure-contribution-folder-properties.md)
