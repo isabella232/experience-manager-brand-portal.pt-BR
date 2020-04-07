@@ -5,18 +5,19 @@ description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos c
 seo-description: Saiba mais sobre os aprimoramentos, os problemas críticos corrigidos e os problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
+Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
 
 ## Informações da versão {#release-information}
 
@@ -37,11 +38,14 @@ Esta versão inclui os seguintes novos recursos:
 
 * Captcha para logon de convidado no Brand Portal. Consulte Acesso [de convidados do Portal de](../using/guest-access.md) marcas para obter mais informações.
 
+* O Brand Portal agora é compatível com o serviço em nuvem AEM Assets. Você pode configurar os ativos AEM que podem servir com o Brand Portal para compartilhar e distribuir ativos com os usuários do Brand Portal.
+Para obter mais informações, consulte [Configurar o serviço em nuvem do AEM Assets com o Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+
 ### Aprimoramentos {#enhancements-646}
 
 Esta versão do Brand Portal inclui os seguintes aprimoramentos:
 
-* Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
+* No AEM 6.3 e superior, o canal de autorização entre os ativos AEM e o Portal de marcas é alterado. Os ativos AEM agora estão configurados com o Portal de marcas por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Portal de marcas.
 
    >[!NOTE]
    >
@@ -109,7 +113,7 @@ Para determinar quais plataformas são certificadas para execução com esta ver
 ## Links {#links}
 
 * [Página do produto Adobe Experience Manager em adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Documentação do Portal de marcas de ativos](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Documentação do Portal de marcas de ativos](https://helpx.adobe.com/br/experience-manager/brand-portal/user-guide.html)
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
