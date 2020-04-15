@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Solucionar problemas na publicação paralela no Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-O Brand Portal está configurado com os ativos AEM para que os ativos aprovados da marca sejam assimilados (ou publicados) sem problemas da instância do autor dos ativos AEM. Depois de [configurado](../using/configure-aem-assets-with-brand-portal.md), o autor de AEM usa um agente de replicação para replicar o(s) ativo(s) selecionado(s) para o serviço em nuvem do Brand Portal para uso aprovado pelos usuários do Brand Portal. Vários agentes de replicação são usados no AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 e versões posteriores para permitir a publicação paralela de alta velocidade.
+O Brand Portal está configurado com os ativos AEM para que os ativos aprovados da marca sejam assimilados (ou publicados) sem problemas da instância do autor dos ativos AEM. Depois de [configurado](../using/configure-aem-assets-with-brand-portal.md), o autor de AEM usa um agente de replicação para replicar o(s) ativo(s) selecionado(s) para o serviço em nuvem do Brand Portal para uso aprovado pelos usuários do Brand Portal. Vários agentes de replicação são usados no AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 e versões posteriores para permitir a publicação paralela de alta velocidade.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Se, ao editar repetidamente o serviço de nuvem, ele não estiver configurado co
 
 **Testar conexão com agentes de replicação**
 
-Exibir log, se forem encontrados erros no log de replicação:
+Registro de Visualizações, se forem encontrados erros no registro de replicação:
 
 1. Entre em contato com o suporte da Adobe.
 
