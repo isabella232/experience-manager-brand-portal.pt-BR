@@ -10,14 +10,14 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
+Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.
 
 ## Informações da versão {#release-information}
 
@@ -32,7 +32,7 @@ O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adqui
 
 ## Novidades da versão 6.4.6 {#what-s-new-in-646}
 
-### Novos recursos {#new-feature}
+### New Features {#new-feature}
 
 Esta versão inclui os seguintes novos recursos:
 
@@ -59,7 +59,7 @@ Esta versão do Brand Portal inclui os seguintes aprimoramentos:
 >É recomendável continuar usando a configuração existente do gateway OAuth. Caso encontre problemas com a configuração antiga do gateway OAuth, exclua a configuração existente e crie uma nova configuração por meio da E/S da Adobe.
 
 
-Para obter mais informações, consulte [Configurar ativos AEM com o Portal de marcas](configure-aem-assets-with-brand-portal.md)
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
 ### Problemas críticos corrigidos {#critical-issues-fixed}
 
@@ -119,6 +119,8 @@ Para determinar quais plataformas são certificadas para execução com esta ver
 
 Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas da Adobe.
 
-* [](https://daycare.day.com) Acesso ao [produto](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [Acesso ao produto](https://login.marketing.adobe.com)
 
 * [Atendimento ao cliente da Adobe](https://helpx.adobe.com/contact.html)
