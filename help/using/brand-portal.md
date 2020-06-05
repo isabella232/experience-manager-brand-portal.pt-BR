@@ -9,7 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 8%
 
 ---
 
@@ -27,20 +30,21 @@ Consulte Seleção de [recursos no Portal](brand-portal-asset-sourcing.md)de mar
 
 O ambiente de portal baseado em navegador permite que você carregue, navegue, pesquise, pré-visualização e exporte ativos facilmente em formatos aprovados.
 
-## Configurar ativos AEM com o Portal de marcas {#configure-brand-portal}
+## Configurar o AEM Assets com o Brand Portal {#configure-brand-portal}
 
-Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Brand Portal.
+Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
 
 >[!NOTE]
 >
->A configuração dos ativos AEM com o portal de marcas por meio da E/S da Adobe é compatível com o serviço em nuvem do AEM Assets, AEM Assets 6.3 e superior.
+>A configuração dos ativos AEM com o portal de marcas por meio do Adobe Developer Console é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e superior.
 
-### Pré-requisitos para configurar os ativos AEM com o Portal da marca {#prerequisites}
 
-Você precisa do seguinte para configurar os ativos AEM com o Portal de marcas:
+### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+
+Você precisa do seguinte para configurar o AEM Assets com o Brand Portal:
 
 * Uma instância ativa e em execução do AEM Assets.
-* URL do locatário do Portal de Marcas.
+* URL do locatário do Brand Portal.
 * Um usuário com privilégios de administrador do sistema na organização IMS do locatário do Brand Portal.
 
 Para obter mais informações, consulte [Configuração dos ativos AEM com anúncios de marca](../using/configure-aem-assets-with-brand-portal.md).
@@ -121,7 +125,7 @@ Um administrador pode executar todas as tarefas que um editor pode executar as s
 
 Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes tarefas:
 
-[Configurar ativos AEM com o Portal de marcas](../using/configure-aem-assets-with-brand-portal.md)
+[Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
 [Publicar pastas no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -139,6 +143,7 @@ No entanto, a instância do autor de AEM pode ser [configurada](../using/configu
 >Para obter um alias para o nome do locatário no URL do portal existente, as organizações precisam entrar em contato com o suporte da Adobe com uma nova solicitação de criação de alias do locatário. Essa solicitação é processada primeiro verificando se o alias está disponível e depois criando o alias.
 >
 >Para substituir o alias antigo ou excluí-lo, é necessário seguir o mesmo processo.
+
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
@@ -161,6 +166,7 @@ Para solicitar acesso, faça o seguinte:
    1. Se você tiver uma [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
 A página [!UICONTROL Entrar] é aberta.
    1. Forneça suas credenciais de ID [!UICONTROL da] Adobe e clique em **[!UICONTROL Fazer logon]**.<br />
+
    ![Login da Adobe](assets/bplogin_request_access_3.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
@@ -171,6 +177,7 @@ A página [!UICONTROL Entrar] é aberta.
 A página [!UICONTROL Inscrever] é aberta.
    1. Digite seu nome e sobrenome, ID de e-mail e senha.
    1. Selecione **[!UICONTROL Cadastrar-se]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .
@@ -199,6 +206,7 @@ Você pode alterar o idioma do Brand Portal nas Configurações [!UICONTROL da A
 Para alterar o idioma:
 
 1. Selecione [!UICONTROL Usuário] > [!UICONTROL Editar Perfil] no menu superior.<br />
+
    ![Editar perfil](assets/EditBPProfile.png)
 
 1. Na página Configurações [!UICONTROL da] Experience Cloud, selecione um idioma no menu suspenso [!UICONTROL Idioma] .
