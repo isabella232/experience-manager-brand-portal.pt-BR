@@ -1,6 +1,6 @@
 ---
-title: Configurar ativos AEM com o Portal de marcas
-seo-title: Configurar ativos AEM com o Portal de marcas
+title: Configurar o AEM Assets com o Brand Portal
+seo-title: Configurar o AEM Assets com o Brand Portal
 description: Saiba mais sobre como configurar os ativos AEM com o Portal da marca.
 seo-description: Saiba mais sobre como configurar os ativos AEM com o Portal da marca.
 uuid: null
@@ -10,14 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: dc10879caf91b81deda08682548143c60500fd1b
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 10%
 
 ---
 
 
-# Configurar ativos AEM com o Portal de marcas {#configure-integration}
+# Configurar o AEM Assets com o Brand Portal {#configure-integration}
 
-Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio da E/S da Adobe, que obtém um token IMS para autorização do locatário do Brand Portal. O Brand Portal agora é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e superior.
+Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal. O Brand Portal agora é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e superior.
 
 A configuração dos ativos AEM poderia atender ao Brand Portal, permitindo que você publique e distribua ativos com os usuários do Brand Portal. Enquanto isso, a configuração do Brand Portal no AEM 6.3 (e superior) permite a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal.
 
@@ -27,14 +30,16 @@ A configuração dos ativos AEM poderia atender ao Brand Portal, permitindo que 
 >
 >Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um Token de acesso IMS para autorização.
 >
->A configuração por meio do Legacy OAuth não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio da E/S da Adobe.
+>A configuração por meio do Legacy OAuth não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio do Adobe Developer Console.
 
 
 >[!TIP]
 >
 >***Somente para clientes existentes***
 >
->É recomendável continuar usando a configuração existente do gateway OAuth. Caso tenha problemas com a configuração antiga do OAuth Gateway, exclua a configuração existente e crie uma nova configuração via E/S da Adobe.
+>A configuração antiga do OAuth Gateway continuará funcionando para os clientes existentes.
+>
+>Caso encontre problemas com a configuração herdada do OAuth Gateway, exclua a configuração existente e crie uma nova configuração por meio do Adobe Developer Console.
 
 
 As etapas para configurar os ativos AEM com o Brand Portal são diferentes dependendo da versão do AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
