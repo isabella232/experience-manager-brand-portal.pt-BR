@@ -19,7 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
@@ -40,16 +43,15 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >
 >Entre em contato com o suporte da Adobe para atualizar sua instância do AEM para a versão mais recente do AEM compatível.
 
+
 ![Seleção de recursos do Portal de marcas](assets/asset-sourcing.png)
 
 
 >[!NOTE]
 >
->Se você for um usuário do AEM 6.5.4, o recurso de Seleção de ativos continuará a funcionar na &quot;integração antiga do OAuth&quot;.
+>Há um problema conhecido no AEM 6.5.4. Os usuários do Brand Portal não podem publicar os ativos da pasta de contribuição nos ativos AEM ao atualizar para o Adobe Developer Console.
 >
->Mas os usuários do Brand Portal não podem publicar ativos de pasta de contribuição nos ativos AEM ao atualizar para a E/S da Adobe no AEM 6.5.4.
->
->Esse problema será corrigido no próximo service pack AEM 6.5.5.
+>O problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
 >
 >Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor.
 
@@ -57,7 +59,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 ## Pré-requisitos {#prerequisites}
 
 * AEM 6.5.0.2 ou superior.
-* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. Consulte [Configurar ativos AEM com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulte também:{#reference-articles}
 
