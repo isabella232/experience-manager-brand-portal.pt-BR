@@ -10,30 +10,35 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1250'
+ht-degree: 1%
 
 ---
 
 
 # Perguntas frequentes {#frequently-asked-questions}
 
-As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas dos usuários finais que podem encontrar ao trabalhar com a versão mais recente do AEM Assets Brand Portal 6.4.5 ou versões anteriores.
+As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas dos usuários finais que podem encontrar ao trabalhar com a versão mais recente do AEM Assets Brand Portal 6.4.6 ou versões anteriores.
 
 
-## Perguntas frequentes sobre o Brand Portal 6.4.6 {#faqs-bp646}
+## Perguntas frequentes sobre o Brand Portal 6.4.6  {#faqs-bp646}
 
 **Ques. O endpoint OAuth existente (`https://legacy-oauth.cloud.adobe.io/login`) herdado não está funcionando. Qual poderia ser a razão possível?**
 
-**Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias de autor do AEM Assets para o service pack mais recente e configurá-las usando o E/S da Adobe. Consulte [Configurar ativos AEM com o Portal](configure-aem-assets-with-brand-portal.md) da marca para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias do autor do AEM Assets para o service pack mais recente e configurá-las por meio do Adobe Developer Console. Consulte [Configurar ativos AEM com o Portal](configure-aem-assets-with-brand-portal.md) da marca para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Ques. Não consigo publicar os ativos da pasta de contribuição do Portal de marcas para os ativos AEM depois de atualizar para a E/S da Adobe. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
+**Ques. Não consigo publicar os ativos da pasta de contribuição do Portal de marcas para os ativos AEM depois de atualizar para o Console do Adobe Developer. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
 
-**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição nos ativos AEM no AEM 6.5.4 com E/S da Adobe. Esse problema será corrigido no próximo service pack.
+**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição nos ativos AEM no AEM 6.5.4 por meio do Adobe Developer Console.
+
+Esse problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
 
 Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
 
 
-## Perguntas frequentes sobre o Brand Portal 6.4.5 {#faqs-bp645}
+## Perguntas frequentes sobre o Brand Portal 6.4.5  {#faqs-bp645}
 
 **Ques. Qual é a grande mudança na versão 6.4.5 do Brand Portal?**
 
@@ -76,7 +81,7 @@ Essa pasta é compartilhada com os usuários ativos do Brand Portal para obter c
 
 **Ques. O que uma pasta de contribuição contém?**
 
-**Ans.** A pasta **Contribution** contém duas subpastas **NEW** e **SHARED**. Inicialmente, a pasta NEW está em branco e a pasta SHARED contém o conteúdo de referência (ativos reutilizáveis) para os usuários do Brand Portal.
+**Ans.** **A pasta de contribuição** contém duas subpastas **NEW** e **SHARED**. Inicialmente, a pasta NEW está em branco e a pasta SHARED contém o conteúdo de referência (ativos reutilizáveis) para os usuários do Brand Portal.
 Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteúdo na pasta **NEW** .
 
 
@@ -106,6 +111,7 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 >[!NOTE]
 >
 >Se você não for um usuário do Brand Portal, solicite ao administrador do AEM que crie seu usuário no Admin Console do AEM e adicione seu perfil ao arquivo de configuração do usuário na lista de usuários do Brand Portal. Consulte, [Adicionar usuário](brand-portal-configure-asset-sourcing.md)do Brand Portal.
+
 
 
 
@@ -174,6 +180,6 @@ Isso vale para qualquer pasta publicada dos ativos AEM para o Portal de marcas e
 
 Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas da Adobe.
 
-* [](https://daycare.day.com) Acesso ao [produto](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Acesso ao produto](https://login.marketing.adobe.com)
 
 * [Atendimento ao cliente da Adobe](https://helpx.adobe.com/contact.html)
