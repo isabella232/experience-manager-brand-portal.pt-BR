@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -28,9 +31,9 @@ Verifique se você passou pelos requisitos [de](brand-portal-download-asset-requ
 1. Clique em **[!UICONTROL Publicar no AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Uma notificação por email/pulso é enviada ao Brand Portal e ao AEM, ao administrador e ao usuário em várias etapas do fluxo de trabalho de publicação:
-1. **Em fila** - ao publicar acionadores de fluxo de trabalho no Brand Portal, a pasta de contribuição é publicada do Brand Portal para o AEM.
-1. **Em andamento** - quando os ativos AEM começarem a importar a pasta de contribuição.
-1. **Concluído** - quando a ação de publicação estiver concluída, a pasta de contribuição será importada com êxito para os ativos AEM.
+Uma notificação por email/pulso é enviada ao usuário do Brand Portal e ao administrador do AEM em várias etapas do fluxo de trabalho de publicação:
+1. **Em fila** - Quando o fluxo de trabalho de publicação é acionado no Brand Portal, uma pasta de contribuição é publicada do Brand Portal para os ativos AEM.
+
+1. **Concluído** - quando o fluxo de trabalho de publicação estiver concluído, a pasta de contribuição será importada com êxito para os ativos AEM.
 
 
