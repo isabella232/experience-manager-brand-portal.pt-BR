@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >
 >A Seleção de recursos no Brand Portal é compatível com o AEM 6.5.2.0 e superior.
 >
->O recurso não é suportado nas versões anteriores - AEM 6.3 e AEM 6.4.
+>O recurso não é compatível com o serviço em nuvem do AEM Assets e versões anteriores - AEM 6.3 e AEM 6.4.
 >
 >Entre em contato com o suporte da Adobe para atualizar sua instância do AEM para a versão mais recente do AEM compatível.
 
