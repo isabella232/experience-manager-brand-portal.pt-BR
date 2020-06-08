@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,25 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 Esse problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
 
 Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
+
+**Ques. Desejo ativar o recurso de Seleção de ativos na instância da nuvem do AEM Assets. Como posso configurá-lo?**
+
+**Ans.** Não, o recurso de Seleção de ativos não é suportado no momento no serviço em nuvem do AEM Assets.
+
+Mantenha-se conectado e observe as notas de versão para obter notificações sobre a disponibilidade de recursos nas próximas versões.
+
+**Ques. Não é possível publicar ativos do AEM Assets no Brand Portal e o registro do agente de replicação está gerando uma exceção`java.net.SocketException: Connection timed out`. Há uma solução rápida?**
+
+**Ans.** Se houver várias solicitações pendentes na fila de replicação, há uma possibilidade de o agente de replicação não processar a solicitação para publicar um ativo e lançar uma exceção: `java.net.SocketException: Connection timed out`.
+
+Execute as seguintes etapas para corrigir o problema:
+
+1. Abra o agente de replicação e clique em **[!UICONTROL Editar]** para modificar as configurações do agente de replicação.
+1. Em Configurações do agente, clique na guia **[!UICONTROL Estendido]**.
+1. Ative a caixa de seleção **[!UICONTROL Fechar conexão]**.
+1. Reinicie o pacote de replicação (servidor).
+
+Ative as configurações em todos os quatro agentes de replicação para evitar problemas com qualquer um dos agentes de replicação.
 
 
 ## Perguntas frequentes sobre o Brand Portal 6.4.5  {#faqs-bp645}
