@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,6 @@ Os administradores de AEM podem configurar a Origem **de** ativos a partir da in
 >[!NOTE]
 >
 >Antes de começar com a configuração, verifique se a instância dos ativos AEM está configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
->
->Um locatário do Brand Portal só deve ser configurado com uma instância do autor do AEM Assets.
->
->Não configure um locatário do Brand Portal com várias instâncias do autor do AEM Assets.
-
 
 
 O vídeo a seguir demonstra como configurar a origem de ativos na sua instância do autor do AEM:
