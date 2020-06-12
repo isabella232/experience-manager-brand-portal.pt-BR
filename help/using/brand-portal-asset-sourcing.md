@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,16 +33,18 @@ ht-degree: 0%
 
 Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem visualização, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Pré-requisitos {#prerequisites}
+
+* AEM 6.5.2 ou superior.
+* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Certifique-se de que seu locatário do Brand Portal esteja configurado com uma instância do autor do AEM Assets.
 
 >[!NOTE]
 >
->A Seleção de recursos no Brand Portal é compatível com o AEM 6.5.2.0 e superior.
->
->O recurso não é compatível com o serviço em nuvem do AEM Assets e versões anteriores - AEM 6.3 e AEM 6.4.
->
->Entre em contato com o suporte da Adobe para atualizar sua instância do AEM para a versão mais recente do AEM compatível.
+>A Fonte de ativos não é compatível com o serviço em nuvem do AEM Assets.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Seleção de recursos do Portal de marcas](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >
 >Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor.
 
-
-## Pré-requisitos {#prerequisites}
-
-* AEM 6.5.0.2 ou superior.
-* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulte também:{#reference-articles}
 
