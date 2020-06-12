@@ -1,30 +1,33 @@
 ---
 cloud: experience-cloud
 solution-title: Aprendizagem e suporte
-solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
+solution-hub-url: https://helpx.adobe.com/br/support/experience-manager.html
 solution-image: null
 getting-started-title: Introdução
-getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
+getting-started-url: https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html
 tutorials-title: Tutoriais
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.pt-BR
 index: y
 translation-type: tm+mt
-source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
 
-# Metadata for internal use
+# Metadados para uso interno
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+O arquivo metadata.md inclui metadados de nível de acordo de recompra que passam para os arquivos TOC.md do guia do usuário no repo. Se desejar alterar o conteúdo de metadata.md de qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-| metadata | what it does |
+| metadata | o que ele faz |
 |--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| solution-icon | Displays solution icon next to solution title. Not yet implemented |
+| título da solução | Usado no cabeçalho do artigo como link |
+| solution-hub-url | Abre a página do hub helpx |
+| ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução ao helpx |
-| tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
+| tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
 | níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
 | repo git | Especifica o local do acordo principal para uso interno |
