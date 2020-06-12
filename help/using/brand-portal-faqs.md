@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1517'
 ht-degree: 1%
 
 ---
@@ -37,24 +37,28 @@ Esse problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do
 
 Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
 
-**Ques. Desejo ativar o recurso de Seleção de ativos na instância da nuvem do AEM Assets. Como posso configurá-lo?**
 
-**Ans.** Não, o recurso de Seleção de ativos não é suportado no momento no serviço em nuvem do AEM Assets.
+**Ques. Não vejo o conteúdo da pasta de contribuição publicado no Brand Portal nos ativos AEM. Qual poderia ser a razão possível?**
 
-Mantenha-se conectado e observe as notas de versão para obter notificações sobre a disponibilidade de recursos nas próximas versões.
+**Ans.** Entre em contato com o administrador do AEM Assets para verificar as configurações e garantir que o locatário do Brand Portal esteja configurado com apenas uma instância do autor do AEM Assets.
 
-**Ques. Não é possível publicar ativos do AEM Assets no Brand Portal e o registro do agente de replicação está gerando uma exceção`java.net.SocketException: Connection timed out`. Há uma solução rápida?**
+Esse problema possivelmente ocorre quando você configura um locatário do Brand Portal em várias instâncias do autor do AEM Assets. Por exemplo, o administrador configura o mesmo locatário do Brand Portal na instância do autor do AEM Assets do ambiente de preparo e produção. Nesse caso, a publicação de ativos é acionada no Brand Portal, mas a instância do autor dos ativos AEM não pôde importar o cuz do ativo que o agente de replicação não recebeu o token solicitante.
 
-**Ans.** Se houver várias solicitações pendentes na fila de replicação, há uma possibilidade de o agente de replicação não processar a solicitação para publicar um ativo e lançar uma exceção: `java.net.SocketException: Connection timed out`.
 
-Execute as seguintes etapas para corrigir o problema:
+**Ques. Não consigo publicar ativos dos ativos AEM para o Portal de marcas. O log de replicação indica que a conexão expirou. Há uma solução rápida?**
 
-1. Abra o agente de replicação e clique em **[!UICONTROL Editar]** para modificar as configurações do agente de replicação.
-1. Em Configurações do agente, clique na guia **[!UICONTROL Estendido]**.
-1. Ative a caixa de seleção **[!UICONTROL Fechar conexão]**.
-1. Reinicie o pacote de replicação (servidor).
+**Ans.** Normalmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver o problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
 
-Ative as configurações em todos os quatro agentes de replicação para evitar problemas com qualquer um dos agentes de replicação.
+Execute as seguintes etapas para configurar o agente de replicação:
+1. Faça logon na instância do autor do AEM Assets.
+1. No painel **Ferramentas** , navegue até **[!UICONTROL Implantação]** > **[!UICONTROL Replicação]**.
+1. Na página Replicação, clique em **[!UICONTROL Agentes no autor]**. Você pode ver os quatro agentes de replicação do seu locatário do Brand Portal.
+1. Clique no URL do agente de replicação para abrir os detalhes do agente.
+1. Clique em **[!UICONTROL Editar]** para modificar as configurações do agente de replicação.
+1. Em Configurações do agente, clique na guia **[!UICONTROL Estendido]** .
+1. Ative a caixa de seleção **[!UICONTROL Fechar conexão]** .
+1. Repita as etapas de 4 a 7 para configurar todos os quatro agentes de replicação.
+1. Reinicie o servidor.
 
 
 ## Perguntas frequentes sobre o Brand Portal 6.4.5  {#faqs-bp645}
