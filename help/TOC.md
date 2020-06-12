@@ -5,7 +5,10 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 70%
 
 ---
 
@@ -20,10 +23,10 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
    + [Perguntas frequentes](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
-   + [Como entender o Brand Portal com os ativos AEM](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Como entender o Brand Portal com os ativos AEM](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar de AEM Assets no Brand Portal {#publish}
-   + [Configurar ativos AEM com o Portal de marcas](using/configure-aem-assets-with-brand-portal.md)
+   + [Configurar o AEM Assets com o Brand Portal](using/configure-aem-assets-with-brand-portal.md)
    + [Publicar ativos no Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Publicar pastas no Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Publicar coleções no Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
