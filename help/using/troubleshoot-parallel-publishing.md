@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 5b16a4073592896264237f00554e361ed8929383
+source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -64,21 +67,22 @@ Na maioria das vezes em que a publicação não está funcionando, o motivo pode
 
 1. Vá para `localhost:4502/crx/de/` (considerando que você está executando a instância do autor em localhost:4502:\
    i. delete `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+`/etc/cloudservices/mediaportal/<config_name>`Vá para localhost:4502/useradmin:
 
-1. Vá para localhost:4502/useradmin:\
-   i. procurar usuário `mac-<tenantid>replication`ii. excluir este usuário
+1. i. procurar usuário `mac-<tenantid>replication`ii. excluir este usuário\
+   Agora o sistema está todo limpo. Agora você pode tentar criar uma nova configuração de serviço de nuvem e ainda usar o aplicativo JWT já existente em [https://legacy-oauth.cloud.adobe.io/[#$tu31]. Não é necessário criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração da nuvem recém-criada.
 
-Agora o sistema está todo limpo. Agora você pode tentar criar uma nova configuração de serviço de nuvem e ainda usar o aplicativo JWT já existente em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Não é necessário criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração da nuvem recém-criada.
 
-## Problema de visibilidade do locatário do aplicativo JWT para conexão de desenvolvedor {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Se estiver em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), todas as organizações (locatários) para as quais os usuários atuais possuem o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um locatário necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
+## Se estiver em [https://legacy-oauth.cloud.adobe.io/[#$tu34], todas as organizações (locatários) para as quais os usuários atuais possuem o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um locatário necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
 
-Há um problema conhecido nessa interface de usuário que para qualquer locatário somente os 10 aplicativos principais estão visíveis. Ao criar o aplicativo, mantenha-se nessa página e marque o URL como favorito. Não é necessário ir para a página de listagem do aplicativo e encontrar o aplicativo que você criou. Você pode acessar este URL marcado diretamente e atualizar/excluir o aplicativo, sempre que necessário.
+
 
 O aplicativo JWT pode não estar listado adequadamente. Portanto, é aconselhável anotar/marcar o URL ao criar o aplicativo JWT.
 
-## A execução da configuração para de funcionar {#running-configuration-stops-working}
+A execução da configuração para de funcionar {#running-configuration-stops-working}
+
+## Se um agente de replicação (que publicava no portal da marca apenas corretamente) interromper o processamento de trabalhos de publicação, verifique os registros de replicação. O AEM tem uma nova tentativa integrada automaticamente, portanto, se uma publicação de ativo específica falhar, ela será repetida automaticamente. Se houver algum problema intermitente como erro de rede, ele poderá ser bem-sucedido durante a nova tentativa.{#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -105,8 +109,26 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Se um agente de replicação (que publicava no portal da marca apenas corretamente) interromper o processamento de trabalhos de publicação, verifique os registros de replicação. O AEM tem uma nova tentativa integrada automaticamente, portanto, se uma publicação de ativo específica falhar, ela será repetida automaticamente. Se houver algum problema intermitente como erro de rede, ele poderá ser bem-sucedido durante a nova tentativa.
-
 Se houver falhas de publicação contínuas e a fila estiver bloqueada, verifique a conexão **[!UICONTROL de]** teste e tente resolver os erros que estão sendo reportados.
 
-Com base nos erros, você é aconselhado a registrar um ticket de suporte para que a equipe de engenharia do Brand Portal possa ajudá-lo a resolver os problemas.
+Com base nos erros, você é aconselhado a registrar um ticket de suporte para que a equipe de engenharia do Brand Portal possa ajudá-lo a resolver os problemas.****
+
+Configurar agentes de replicação para evitar erro de tempo limite de conexão {#connection-timeout}
+
+
+## **Problema**: Não consigo publicar ativos dos ativos AEM para o Portal de marcas. O log de replicação indica que a conexão expirou.
+
+**Resolução**: Normalmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver o problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
+
+**Execute as seguintes etapas para configurar o agente de replicação:**
+
+Faça logon na instância do autor do AEM Assets.
+1. No painel **Ferramentas** , navegue até **[!UICONTROL Implantação]** > **[!UICONTROL Replicação]**.
+1. Na página Replicação, clique em **[!UICONTROL Agentes no autor]**. Você pode ver os quatro agentes de replicação do seu locatário do Brand Portal.**]******
+1. Clique no URL do agente de replicação para abrir os detalhes do agente.****
+1. Clique em **[!UICONTROL Editar]** para modificar as configurações do agente de replicação.
+1. Em Configurações do agente, clique na guia **[!UICONTROL Estendido]** .
+1. Ative a caixa de seleção **[!UICONTROL Fechar conexão]** .
+1. Repita as etapas de 4 a 7 para configurar todos os quatro agentes de replicação.****
+1. Reinicie o servidor.
+1. Restart the server.
