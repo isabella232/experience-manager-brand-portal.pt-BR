@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
@@ -25,12 +25,9 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 
 ## Perguntas frequentes sobre o Brand Portal 6.4.6  {#faqs-bp646}
 
-
-
 **Ques. O endpoint OAuth existente (`https://legacy-oauth.cloud.adobe.io/login`) herdado não está funcionando. Qual poderia ser a razão possível?**
 
 **Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias do autor do AEM Assets para o service pack mais recente e configurá-las por meio do Adobe Developer Console. Consulte [Configurar ativos AEM com o Portal](configure-aem-assets-with-brand-portal.md) da marca para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
-
 
 **Ques. Não consigo publicar os ativos da pasta de contribuição do Portal de marcas para os ativos AEM depois de atualizar para o Console do Adobe Developer. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
 
@@ -40,13 +37,11 @@ Esse problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do
 
 Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
 
-
 **Ques. Desejo ativar o recurso de Seleção de ativos na instância da nuvem do AEM Assets. Como posso configurá-lo?**
 
 **Ans.** Não, o recurso de Seleção de ativos não é suportado no momento no serviço em nuvem do AEM Assets.
 
 Mantenha-se conectado e observe as notas de versão para obter notificações sobre a disponibilidade de recursos nas próximas versões.
-
 
 **Ques. Não é possível publicar ativos do AEM Assets no Brand Portal e o registro do agente de replicação está gerando uma exceção`java.net.SocketException: Connection timed out`. Há uma solução rápida?**
 
@@ -61,12 +56,6 @@ Execute as seguintes etapas para corrigir o problema:
 
 Ative as configurações em todos os quatro agentes de replicação para evitar problemas com qualquer um dos agentes de replicação.
 
-
-**Ques. Não vejo o conteúdo da pasta de contribuição publicado no Brand Portal nos ativos AEM. Qual poderia ser a razão possível?**
-
-**Ans.** Entre em contato com o administrador do AEM Assets para verificar as configurações e garantir que o locatário do Brand Portal esteja configurado com apenas uma instância do autor do AEM Assets.
-
-Esse problema possivelmente ocorre quando você configura um locatário do Brand Portal em várias instâncias do autor do AEM Assets. Por exemplo, o administrador configura o mesmo locatário do Brand Portal na instância do autor do AEM Assets do ambiente de preparo e produção. Nesse caso, a publicação de ativos é acionada no Brand Portal, mas a instância do autor dos ativos AEM não pôde importar o cuz do ativo que o agente de replicação não recebeu o token solicitante.
 
 ## Perguntas frequentes sobre o Brand Portal 6.4.5  {#faqs-bp645}
 
