@@ -1,8 +1,8 @@
 ---
 title: Configurar o AEM Assets com o Brand Portal
 seo-title: Configurar o AEM Assets com o Brand Portal
-description: Saiba mais sobre como configurar os ativos AEM com o Portal da marca.
-seo-description: Saiba mais sobre como configurar os ativos AEM com o Portal da marca.
+description: Saiba mais sobre a configuração de AEM Assets com o Brand Portal.
+seo-description: Saiba mais sobre a configuração de AEM Assets com o Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 10%
@@ -20,13 +20,13 @@ ht-degree: 10%
 
 # Configurar o AEM Assets com o Brand Portal {#configure-integration}
 
-Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal. O Brand Portal agora é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e superior.
+Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal. O Brand Portal agora é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e posteriores.
 
-A configuração dos ativos AEM poderia atender ao Brand Portal, permitindo que você publique e distribua ativos com os usuários do Brand Portal. Enquanto isso, a configuração do Brand Portal no AEM 6.3 (e superior) permite a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal.
+A configuração dos AEM Assets poderia atender ao Brand Portal, permitindo que você publique e distribua ativos com os usuários do Brand Portal. Enquanto isso, a configuração do Brand Portal no AEM 6.3 (e superior) permite a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal.
 
 >[!NOTE]
 >
->***Para o AEM Assets 6.3 e superior***
+>***Para AEM Assets 6.3 e superior***
 >
 >Anteriormente, o Brand Portal estava configurado na interface clássica via Gateway OAuth herdado, que usa a troca de token JWT para obter um Token de acesso IMS para autorização.
 >
@@ -42,7 +42,7 @@ A configuração dos ativos AEM poderia atender ao Brand Portal, permitindo que 
 >Caso encontre problemas com a configuração herdada do OAuth Gateway, exclua a configuração existente e crie uma nova configuração por meio do Adobe Developer Console.
 
 
-As etapas para configurar os ativos AEM com o Brand Portal são diferentes dependendo da versão do AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
+As etapas para configurar AEM Assets com o Brand Portal são diferentes dependendo da versão do AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
 
 | **Versão do AEM** | **Nova configuração** | **Configuração de atualização** |
 |---|---|---|
@@ -53,14 +53,3 @@ As etapas para configurar os ativos AEM com o Brand Portal são diferentes depen
 | **AEM 6.2** | Entre em contato com o suporte | Entre em contato com o suporte |
 
 
-<!--
-   Comment Type: draft
-
-   <li> </li>
-   -->
-
-<!--
-   Comment Type: draft
-
-   <li>Step text</li>
-   -->
