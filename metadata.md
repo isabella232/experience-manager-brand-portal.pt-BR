@@ -7,10 +7,10 @@ getting-started-title: Introdução
 getting-started-url: https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html
 tutorials-title: Tutoriais
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.pt-BR
 index: y
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 12%
@@ -30,4 +30,4 @@ O arquivo metadata.md inclui metadados de nível de acordo de recompra que passa
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
 | níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
-| repo git | Especifica o local do acordo principal para uso interno |
+| repo git | Especifica o local do acordo de recompra primário para uso interno |
