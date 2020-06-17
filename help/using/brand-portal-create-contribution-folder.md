@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,5 @@ Agora você pode configurar as propriedades da pasta Contribuição. Consulte [C
 >
 >Certifique-se de fornecer um nome apropriado para a pasta Contribuição, pois não é possível modificar o nome da pasta após a criação.
 >
->O aninhamento da pasta Contribuição não é suportado. Não crie uma pasta de contribuição dentro de outra pasta de contribuição.
+>O aninhamento da pasta Contribuição não é suportado. É possível criar várias pastas de contribuição em uma pasta, mas não criar uma pasta de contribuição em outra pasta de contribuição.
 
