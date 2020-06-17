@@ -4,12 +4,15 @@ seo-title: Baixar ativos
 description: Todos os usuários podem baixar simultaneamente vários ativos e pastas acessíveis a eles. Dessa forma, os ativos aprovados da marca podem ser distribuídos com segurança para uso offline.
 seo-description: Todos os usuários podem baixar simultaneamente vários ativos e pastas acessíveis a eles. Dessa forma, os ativos aprovados da marca podem ser distribuídos com segurança para uso offline.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
-content-type: referência
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 2%
 
 ---
 
@@ -22,36 +25,39 @@ Todos os usuários podem baixar simultaneamente vários ativos e pastas acessív
 >
 >Somente administradores podem baixar ativos expirados. Para obter mais informações sobre ativos expirados, consulte [Gerenciar direitos digitais de ativos](../using/manage-digital-rights-of-assets.md).
 
+
 ## Etapas para baixar ativos {#steps-to-download-assets}
 
 Para baixar ativos ou pastas que contêm ativos para o Brand Portal, siga estas etapas:
 
 1. Na interface do Brand Portal, execute um dos procedimentos a seguir:
 
-   * Selecione as pastas ou os ativos que deseja baixar. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+   * Selecione as pastas ou os ativos que deseja baixar. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Download]** .
+
    ![](assets/downloadassets-1.png)
 
    * Para baixar uma única pasta ou um ativo, passe o ponteiro sobre a pasta ou o ativo. Nas miniaturas de ação rápida disponíveis, clique no ícone **[!UICONTROL Download]** .
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >If the assets you are downloading also include licensed assets, you are redirected to the Copyright Management page. **** Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.\
-   >Os ativos protegidos por licença têm o contrato de [licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito ao configurar a propriedade [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadados do ativo nos ativos AEM.
+   >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a página Gerenciamento **[!UICONTROL de]** direitos autorais. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e, em seguida, clique em **[!UICONTROL Download]**. Se você optar por discordar, os ativos licenciados não serão baixados.\
+   >Os ativos protegidos por licença têm o contrato de [licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito ao configurar a propriedade [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadados do ativo no AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
-   The Download dialog box appears with the Asset(s) option selected by default.********
+   A caixa de diálogo **[!UICONTROL Download]** é exibida com a opção **[!UICONTROL Ativo(s)]** selecionada por padrão.
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >If the assets you are downloading are image files, and you select only the Asset(s) option in Download dialog but are not authorized by the administrator to have access to the original renditions of image files then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.****[](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)
+   >Se os ativos que você está baixando forem arquivos de imagem, e você selecionar somente a opção **[!UICONTROL Ativo(s)]** na caixa de diálogo Download, mas não forem [autorizados pelo administrador a ter acesso às representações originais dos arquivos](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) de imagem, nenhum arquivo de imagem será baixado e um Aviso solicitará que você tenha sido restringido pelo administrador a acessar as representações originais.
 
    ![](assets/restrictaccess-note.png)
 
-1. Para baixar as representações de ativos além dos ativos, selecione **[!UICONTROL Representações]**. However, to allow auto-generated renditions to download along with custom renditions, deselect Exclude Auto Generated Renditions, which is selected by default.****
+1. Para baixar as representações de ativos além dos ativos, selecione **[!UICONTROL Representações]**. No entanto, para permitir que execuções geradas automaticamente sejam baixadas juntamente com representações personalizadas, desmarque a opção **[!UICONTROL Excluir representações]** geradas automaticamente, que está selecionada por padrão.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -59,20 +65,22 @@ Para baixar ativos ou pastas que contêm ativos para o Brand Portal, siga estas 
 
    >[!NOTE]
    >
-   >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not authorized by the administrator to have access to the original renditions of image files.[](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)
+   >Por padrão, somente os ativos são baixados. No entanto, as representações originais dos arquivos de imagem não serão baixadas se você não estiver [autorizado pelo administrador a ter acesso às representações originais dos arquivos](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)de imagem.
 
-   * To speed up the download of asset files from Brand Portal, select Enable download acceleration option and follow the wizard. ****[](../using/accelerated-download.md#main-pars-header-405749062) To know more about faster download of assets refer guide to accelerate downloads from Brand Portal.[](../using/accelerated-download.md)
+   * Para acelerar o download de arquivos de ativos do Brand Portal, selecione **[!UICONTROL Ativar aceleração]** de download e [siga o assistente](../using/accelerated-download.md#main-pars-header-405749062). Para saber mais sobre o download mais rápido de recursos, consulte o [guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Specify custom image preset properties (size, format, color space, resolution, and image modifier) to apply the custom image preset while downloading the asset and its renditions. To download only the dynamic renditions, delesect Asset(s).****
+   * Para aplicar uma predefinição de imagem [personalizada ao ativo e suas representações](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), selecione Representações **[!UICONTROL dinâmicas]**. Especifique propriedades predefinidas de imagens personalizadas (tamanho, formato, espaço de cores, resolução e modificador de imagens) para aplicar a predefinição de imagens personalizadas ao baixar o ativo e suas representações. Para baixar somente as representações dinâmicas, selecione **[!UICONTROL Ativo(s)]**.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
+   >Para pré-visualização (ou download) de representações dinâmicas de qualquer ativo, verifique se a mídia dinâmica está ativada e se a representação temporária do ativo em Pirâmide existe na instância do autor de AEM, de onde os ativos foram publicados. Quando um ativo é publicado no Brand Portal, sua representação em pirâmide também é publicada. Não há como gerar a execução de tiff em Pirâmide a partir do Portal de Marcas.
 
    * Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, selecione **[!UICONTROL Criar pasta separada para cada ativo]**. Por padrão, a hierarquia de pastas do Brand Portal é ignorada e todos os ativos são baixados em uma pasta no sistema local.
 
    * Para enviar uma notificação por email aos usuários com um link para baixar os ativos, selecione **[!UICONTROL Enviar por email]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
@@ -101,11 +109,11 @@ A experiência de download de arquivo pode variar para usuários em diferentes l
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
 | Oeste dos EUA (N. Califórnia) | 18 milissegundos | 7,68 MB/s | 4 minutos |
 | Oeste dos EUA (Oregon) | 42 milissegundos | 3,84 MB/s | 9 minutos |
-| Leste dos EUA (N. Virgínia) | 85 milissegundos | 1.61 MB/s | 21 minutes |
-| APAC (Tóquio) | 124 milliseconds | 1,13 MB/s | 30 minutos |
-| Noida | 275 milliseconds | 0,5 MB/s | 68 minutes |
+| Leste dos EUA (N. Virgínia) | 85 milissegundos | 1,61 MB/s | 21 minutos |
+| APAC (Tóquio) | 124 milissegundos | 1,13 MB/s | 30 minutos |
+| Noida | 275 milissegundos | 0,5 MB/s | 68 minutos |
 | Sydney | 175 milissegundos | 0,49 MB/s | 69 minutos |
-| Londres | 179 milissegundos | 0.32 MB/s | 106 minutos |
-| Cingapura | 196 milissegundos | 0.5 MB/s | 68 minutos |
+| Londres | 179 milissegundos | 0,32 MB/s | 106 minutos |
+| Cingapura | 196 milissegundos | 0,5 MB/s | 68 minutos |
 
-**Note: Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.**
+**Observação**: Os dados citados são observados em condições de teste, que podem variar para usuários em locais diferentes que testemunham latência e largura de banda variadas.
