@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,9 @@ O administrador pode conceder acesso aos usuários/grupos do Brand Portal à pas
 1. Navegue até a guia Contribuição **[!UICONTROL do]** ativo.
 1. Digite a **[!UICONTROL Descrição]** de alto nível da pasta de contribuição.
 1. Clique em **[!UICONTROL Carregar resumo]** ![](assets/upload.png) para navegar pelo computador local e fazer upload de um Documento **de requisitos de** ativos.
-1. Em **[!UICONTROL Adicionar usuário ou grupo]**, pesquise e **[!UICONTROL adicione]** usuários ou grupos do Brand Portal com os quais você deseja compartilhar a pasta de contribuição.
-Esses usuários/grupos do Brand Portal terão permissão para acessar a pasta de contribuição e fazer upload do conteúdo de sua interface do Brand Portal sem precisar acessar a instância do autor do AEM.
+1. Em **[!UICONTROL Adicionar usuário ou grupo]**, pesquise e **[!UICONTROL adicione]** usuários do Brand Portal com os quais você deseja compartilhar a pasta de contribuição. Uma pasta de contribuição não pode ser atribuída a grupos.
+Esses usuários do Brand Portal terão permissão para acessar a pasta de contribuição e fazer upload do conteúdo da interface do Brand Portal sem precisar acessar a instância do autor do AEM.
+
 1. Clique em **[!UICONTROL Salvar]**.
    ![](assets/contribution-folder-property2.png)
 
