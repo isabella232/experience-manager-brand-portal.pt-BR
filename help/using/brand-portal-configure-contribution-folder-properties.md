@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -32,6 +32,7 @@ O requisito de ativo se refere aos detalhes fornecidos pelos administradores par
 O administrador pode conceder acesso aos usuários/grupos do Brand Portal à pasta de contribuição antes de publicar a pasta de contribuição recém-criada no Brand Portal.
 
 **Para configurar as propriedades da pasta de contribuição:**
+
 1. Faça logon na instância do autor de AEMURL padrão: http:// localhost:4502/aem/start.html
 1. Navegue até **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição.
 1. Selecione a pasta de contribuição e clique em **[!UICONTROL Propriedades]** ![](assets/properties.png). A janela de propriedades da pasta é aberta.
@@ -40,11 +41,10 @@ O administrador pode conceder acesso aos usuários/grupos do Brand Portal à pas
 1. Digite a **[!UICONTROL Descrição]** de alto nível da pasta de contribuição.
 1. Clique em **[!UICONTROL Carregar resumo]** ![](assets/upload.png) para navegar pelo computador local e fazer upload de um Documento **de requisitos de** ativos.
 1. No campo **[!UICONTROL Adicionar usuário ou grupo]** , adicione usuários do Brand Portal com quem você deseja compartilhar a pasta de contribuição. Os usuários adicionados podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal. Atualmente, não é possível adicionar grupos a uma pasta de contribuição.
-
 1. Clique em **[!UICONTROL Salvar]**.
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >Os resultados da pesquisa são baseados na lista de usuário do Brand Portal configurada no AEM Assets. Verifique se você tem a lista atualizada do usuário do Brand Portal. Consulte [Fazer upload da lista](brand-portal-configure-asset-sourcing.md)do usuário do Brand Portal.
-
