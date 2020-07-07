@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -28,8 +28,6 @@ Os usuários do Brand Portal podem criar novos ativos para contribuição e carr
 >Os usuários do Brand Portal podem fazer upload de conteúdo/ativos somente para a pasta **NEW** . Eles não têm permissão para excluir um ativo carregado.
 >
 >O limite máximo de upload para qualquer conta/locatário do Brand Portal é de **10** GB.
-
-
 
 **Para carregar novos ativos:**
 
