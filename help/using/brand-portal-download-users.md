@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 2%
@@ -24,7 +24,6 @@ Todos os usuários podem baixar simultaneamente vários ativos e pastas acessív
 >[!NOTE]
 >
 >Somente administradores podem baixar ativos expirados. Para obter mais informações sobre ativos expirados, consulte [Gerenciar direitos digitais de ativos](../using/manage-digital-rights-of-assets.md).
-
 
 ## Etapas para baixar ativos {#steps-to-download-assets}
 
