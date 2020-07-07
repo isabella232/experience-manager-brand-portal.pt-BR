@@ -1,8 +1,8 @@
 ---
 title: Notas de versão
 seo-title: Notas de versão
-description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.2.
-seo-description: Saiba mais sobre os aprimoramentos, os problemas críticos corrigidos e os problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+description: Saiba mais sobre os recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+seo-description: Saiba mais sobre os aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 8%
@@ -20,18 +20,18 @@ ht-degree: 8%
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager versão 6.4.6.2.
+Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 
 ## Informações da versão {#release-information}
 
-| Produto | Portal de marcas de ativos do Adobe Experience Manager |
+| Produto | Portal de marcas dos ativos Adobe Experience Manager |
 |---|---|
 | Versão | 6.4.6.2 |
 | Data | Junho de 2020 |
 
 ## Visão geral {#overview}
 
-O portal de marcas dos ativos Adobe Experience Manager (AEM) ajuda você a adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, pré-visualizações, baixem e exportem ativos em formatos corporativos aprovados, a qualquer momento e em qualquer lugar.
+O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros externos e usuários empresariais internos em dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, pré-visualizações, baixem e exportem ativos em formatos corporativos aprovados, a qualquer momento e em qualquer lugar.
 
 ## Novidades da versão 6.4.6.2 {#what-s-new-in-6462}
 
@@ -41,7 +41,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 * Remover um schema de metadados publicado do Brand Portal resulta em um erro.
 
-* Se o administrador configurar o Experience Manager Assets 6.5.4 com o Brand Portal via Adobe Developer Console, o usuário do Brand Portal não poderá publicar os ativos da pasta de contribuição do Brand Portal para o Experience Manager.
+* Se o administrador configurar o Experience Manager Assets 6.5.4 com o Brand Portal por meio do Adobe Developer Console, o usuário do Brand Portal não poderá publicar os ativos da pasta de contribuição do Brand Portal para o Experience Manager.
 
 * Replicação de Duplicado das pastas pai que causam conflitos.
 
@@ -56,7 +56,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 Esta versão inclui os seguintes problemas conhecidos:
 
-* Se uma pasta na hierarquia for renomeada dos ativos AEM e a pasta aninhada que contém um ativo for publicada no Brand Portal, o título da pasta não será atualizado no Brand Portal até que a pasta raiz seja publicada novamente.
+* Se uma pasta na hierarquia for renomeada de AEM Assets e a pasta aninhada que contém um ativo for publicada no Brand Portal, o título da pasta não será atualizado no Brand Portal até que a pasta raiz seja publicada novamente.
 
 
 ## Novidades da versão 6.4.6 {#what-s-new-in-646}
@@ -67,20 +67,18 @@ Esta versão inclui os seguintes novos recursos:
 
 * Captcha para logon de convidado no Brand Portal. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
-* O Brand Portal agora é compatível com o serviço em nuvem AEM Assets. Você pode configurar os ativos AEM que podem servir com o Brand Portal para compartilhar e distribuir ativos com os usuários do Brand Portal.
+* O Brand Portal agora é compatível com o serviço em nuvem do AEM Assets. Você pode configurar que os AEM Assets podem trabalhar com o Brand Portal para compartilhar e distribuir ativos com os usuários do Brand Portal.
 Para obter mais informações, consulte [Configurar o serviço em nuvem do AEM Assets com o Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Aprimoramentos {#enhancements-646}
 
 Esta versão do Brand Portal inclui os seguintes aprimoramentos:
 
-* No AEM 6.3 e superior, o canal de autorização entre os ativos AEM e o Portal de marcas é alterado. O AEM Assets agora está configurado com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
+* No AEM 6.3 e superior, o canal de autorização entre o AEM Assets e o Portal de marcas é alterado. O AEM Assets agora está configurado com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
 
 >[!NOTE]
 >
 >A configuração por meio do Legacy OAuth não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio do Adobe Developer Console.
-
-
 
 >[!TIP]
 >
@@ -89,7 +87,6 @@ Esta versão do Brand Portal inclui os seguintes aprimoramentos:
 >A configuração antiga do OAuth Gateway continuará funcionando para os clientes existentes.
 >
 >Caso encontre problemas com a configuração herdada do OAuth Gateway, exclua a configuração existente e crie uma nova configuração por meio do Adobe Developer Console.
-
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
@@ -115,7 +112,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 Esta versão inclui os seguintes problemas conhecidos:
 
-* Os usuários do Brand Portal não conseguem publicar ativos da pasta de contribuição nos ativos AEM ao atualizar para o Adobe Developer Console no AEM 6.5.4.
+* Os usuários do Brand Portal não conseguem publicar ativos da pasta de contribuição em AEM Assets ao atualizar para o Adobe Developer Console no AEM 6.5.4.
 
    Esse problema será corrigido no próximo service pack 6.5.5.
 
