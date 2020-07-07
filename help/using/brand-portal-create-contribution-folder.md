@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
+source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Agora você pode configurar as propriedades da pasta Contribuição. Consulte [C
 
 >[!NOTE]
 >
->Um usuário não administrador só pode criar e compartilhar uma pasta de contribuição. Certifique-se de fornecer um nome apropriado para a pasta Contribuição como um usuário não administrador não pode modificar ou excluir uma pasta Contribuição após a criação.
+>Um usuário não administrativo só pode criar e compartilhar uma pasta de contribuição de ativos. Depois que a pasta de contribuição é criada, um usuário não administrador não pode modificá-la ou excluí-la.
 >
->O aninhamento da pasta Contribuição não é suportado. É possível criar várias pastas de contribuição em uma pasta, mas não criar uma pasta de contribuição em outra pasta de contribuição.
+>O aninhamento da pasta de contribuição de ativos não é suportado. Você pode criar várias pastas de contribuição dentro de uma pasta, mas não deve criar uma pasta de contribuição dentro de outra pasta de contribuição.
 
