@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -25,8 +25,6 @@ Os administradores de AEM podem configurar a Origem **de** ativos a partir da in
 >[!NOTE]
 >
 >Antes de começar com a configuração, verifique se a instância do AEM Assets está configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-
-
 
 O vídeo a seguir demonstra como configurar a origem de ativos na sua instância do autor do AEM:
 
@@ -52,7 +50,6 @@ Os administradores do AEM podem carregar o arquivo de configuração de usuário
 >[!NOTE]
 >
 >O formato do arquivo CSV é o mesmo que o suportado pela Admin Console para a importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
-
 
 O administrador pode adicionar novos usuários ao AEM Admin Console, consulte [Gerenciar usuários](brand-portal-adding-users.md) para obter informações detalhadas. Depois de adicionar usuários ao Admin Console, esses usuários podem ser adicionados ao arquivo de configuração do usuário do Brand Portal e, em seguida, recebem permissão para acessar a pasta de contribuição.
 
