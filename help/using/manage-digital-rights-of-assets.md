@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -38,7 +38,6 @@ Os administradores podem publicar ativos expirados de AEM Assets para o Brand Po
 >
 >Uma pasta ainda pode ser compartilhada como um link, mesmo que contenha ativos expirados. Nesse caso, o link não lista ativos expirados e apenas os ativos não expirados são compartilhados.
 
-
 A tabela a seguir exibe as permissões de uso dos ativos expirados:
 
 |  | **[!UICONTROL Compartilhamento de links]** | **[!UICONTROL Download]** | **[!UICONTROL Propriedades]** | **[!UICONTROL Adicionar à coleção]** | **[!UICONTROL Excluir]** |
@@ -52,7 +51,6 @@ A tabela a seguir exibe as permissões de uso dos ativos expirados:
 >
 >Se os visualizadores e editores baixarem uma pasta contendo ativos expirados e não expirados, somente os ativos não expirados serão baixados. Se uma pasta contiver apenas ativos expirados, uma pasta vazia será baixada.
 
-
 ### Estado de vencimento dos ativos {#expiration-status-of-assets}
 
 Você pode visualização o status de expiração dos ativos na Visualização **[!UICONTROL do]** cartão. Um sinalizador vermelho no cartão indica que o ativo expirou.
@@ -62,7 +60,6 @@ Você pode visualização o status de expiração dos ativos na Visualização *
 >[!NOTE]
 >
 >As visualizações de Lista e Coluna não exibem o status de expiração dos ativos.
-
 
 ## Expiração do link do ativo {#asset-link-expiration}
 
