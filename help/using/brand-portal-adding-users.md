@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
@@ -39,7 +39,6 @@ Esses perfis de produtos são sincronizados com a interface do usuário do Brand
 >
 >Para criar grupos no Brand Portal, no Adobe [!UICONTROL Admin Console], use **[!UICONTROL Produtos > Perfis]** de produto, em vez da página **[!UICONTROL Usuário > Grupos]** de usuários. perfis de produtos no Adobe [!UICONTROL Admin Console] são usados para criar grupos no Portal de marcas.
 
-
 ## Adicionar um usuário {#add-a-user}
 
 Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) para criar usuários e atribuí-los a perfis de produtos (*anteriormente conhecidos como configurações* de produtos), que são exibidos como grupos no Brand Portal. Você pode usar grupos para realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos.
@@ -48,11 +47,9 @@ Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Consol
 >
 >Novos usuários que não têm acesso ao Brand Portal podem solicitar acesso na tela de logon do Brand Portal. Para obter mais informações, consulte [Solicitar acesso ao Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Depois de receber notificações de solicitação de acesso na área de notificação, clique na notificação relevante e clique em **[!UICONTROL Conceder acesso]**. Como alternativa, siga o link no email de solicitação de acesso recebido. Em seguida, para adicionar um usuário por meio do [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), siga as Etapas 4 a 7 do procedimento abaixo.
 
-
 >[!NOTE]
 >
 >Você pode fazer logon diretamente no [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) ou no Portal de marcas. Se você fizer logon diretamente, siga as Etapas 4 a 7 do procedimento abaixo para adicionar um usuário.
-
 
 1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
 
@@ -97,7 +94,6 @@ Os perfis de produtos (anteriormente conhecidos como configurações de produtos
 >
 >Você pode fazer logon diretamente no [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) ou no Brand Portal. Se você fizer login diretamente no [!UICONTROL Admin Console] , siga as Etapas 4 a 7 do procedimento abaixo para adicionar um perfil de produto.
 
-
 1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
 
    ![Logotipo do AEM](assets/aemlogo.png)
@@ -130,7 +126,6 @@ Para adicionar usuários a um grupo do Brand Portal, adicione-os ao perfil de pr
 >[!NOTE]
 >
 >Você pode fazer logon diretamente no [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) ou no Brand Portal. Se você fizer logon diretamente na Admin Console, siga as Etapas 4 a 7 do procedimento abaixo para adicionar usuários a um perfil de produto.
-
 
 1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
 
@@ -185,7 +180,6 @@ Você pode fornecer o privilégio de administrador do sistema ou administrador d
 >[!NOTE]
 >
 >Você pode fazer logon diretamente no [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ou no Brand Portal. Se você fizer logon diretamente no [!UICONTROL Admin Console] , siga as Etapas 4 a 8 do procedimento abaixo para adicionar um usuário a um perfil de produto.
-
 
 1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
 
@@ -278,7 +272,6 @@ Um administrador pode associar privilégios específicos a um [grupo](../using/b
 >
 >Para os ativos compartilhados como o link, a permissão para acessar representações originais de arquivos de imagem será aplicada com base nas permissões do usuário que está compartilhando os ativos.
 
-
 Para modificar a função e o direito de acessar as representações originais de membros de grupos específicos, siga estas etapas:
 
 1. Na página Funções **[!UICONTROL do]** usuário, navegue até a guia **[!UICONTROL Grupos]** .
@@ -291,7 +284,7 @@ Para modificar a função e o direito de acessar as representações originais d
 
    >[!NOTE]
    >
-   >Se um usuário for adicionado a vários grupos e um desses grupos tiver restrições, as restrições serão aplicadas a esse usuário.
+   >Se um usuário for adicionado a vários grupos e um deles tiver restrições, as restrições serão aplicadas a esse usuário.
    >
    >
    >Além disso, as restrições para acessar execuções originais de arquivos de imagem não se aplicam aos administradores mesmo que eles sejam membros de grupos restritos.
