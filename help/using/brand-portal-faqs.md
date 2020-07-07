@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 1%
@@ -133,9 +133,6 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 >[!NOTE]
 >
 >Se você não for um usuário do Brand Portal, solicite ao administrador do AEM que crie seu usuário no Admin Console do AEM e adicione seu perfil ao arquivo de configuração do usuário na lista de usuários do Brand Portal. Consulte, [Adicionar usuário](brand-portal-configure-asset-sourcing.md)do Brand Portal.
-
-
-
 
 **Ques. Qual é o Formato do arquivo CSV para importação de usuário?**
 
