@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -24,7 +24,6 @@ O Brand Portal está configurado com AEM Assets para que os ativos aprovados da 
 >[!NOTE]
 >
 >A Adobe recomenda atualizar para o AEM 6.4.1.0 para garantir que o Portal de marcas do AEM Assets seja configurado com êxito com AEM Assets. Uma limitação no AEM 6.4 dá um erro ao configurar AEM Assets com o Brand Portal e a replicação falha.
-
 
 Ao configurar o serviço em nuvem para o portal da marca em **[!UICONTROL /etc/cloudservice]**, todos os usuários e token necessários são gerados automaticamente e salvos no repositório. A configuração do serviço em nuvem é criada, os usuários de serviço necessários para que os agentes de replicação e replicação replicem o conteúdo também são criados. Isso cria quatro agentes de replicação. Assim, quando você publica vários ativos do AEM para o Brand Portal, eles são enfileirados e distribuídos entre esses agentes de replicação por meio da Round Robin.
 
@@ -67,22 +66,23 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 Na maioria das vezes em que a publicação não está funcionando, o motivo pode ser o usuário que está publicando (por exemplo: `mac-<tenantid>-replication` não tem a chave privada mais recente e, portanto, a publicação falha com o erro &quot;401 não autorizado&quot; e nenhum outro erro é relatado nos registros do agente de replicação. Você pode evitar a solução de problemas e criar uma nova configuração. Para que a nova configuração funcione corretamente, limpe o seguinte da configuração do autor do AEM:
 
 1. Vá para `localhost:4502/crx/de/` (considerando que você está executando a instância do autor em localhost:4502:\
-   i. delete `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+   i. delete `/etc/replication/agents.author/mp_replication`ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
-1. `/etc/cloudservices/mediaportal/<config_name>`\
-   Vá para localhost:4502/useradmin:`mac-<tenantid>replication`
+1. Vá para localhost:4502/useradmin:\
+   i. procurar usuário `mac-<tenantid>replication`ii. excluir este usuário
 
-i. procurar usuário `mac-<tenantid>replication`ii. excluir este usuário-ERR:REF-NOT-FOUND-
+Agora o sistema está todo limpo. Agora você pode tentar criar uma nova configuração de serviço de nuvem e ainda usar o aplicativo JWT já existente em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Não é necessário criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração da nuvem recém-criada.
 
-## 
+## Problema de visibilidade do locatário do aplicativo JWT para conexão de desenvolvedor {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Problema de visibilidade do locatário do aplicativo JWT para conexão de desenvolvedor {#developer-connection-jwt-application-tenant-visibility-issue}-ERR:REF-NOT-FOUND-
-
-
+Se estiver em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), todas as organizações (locatários) para as quais os usuários atuais possuem o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um locatário necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
 
 Há um problema conhecido nessa interface de usuário que para qualquer locatário somente os 10 aplicativos principais estão visíveis. Ao criar o aplicativo, mantenha-se nessa página e marque o URL como favorito. Não é necessário ir para a página de listagem do aplicativo e encontrar o aplicativo que você criou. Você pode acessar este URL marcado diretamente e atualizar/excluir o aplicativo, sempre que necessário.
 
-## O aplicativo JWT pode não estar listado adequadamente. Portanto, é aconselhável anotar/marcar o URL ao criar o aplicativo JWT.{#running-configuration-stops-working}
+O aplicativo JWT pode não estar listado adequadamente. Portanto, é aconselhável anotar/marcar o URL ao criar o aplicativo JWT.
+
+## A execução da configuração para de funcionar {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -109,26 +109,26 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-A execução da configuração para de funcionar {#running-configuration-stops-working}
-
-Se um agente de replicação (que publicava no portal da marca apenas corretamente) interromper o processamento de trabalhos de publicação, verifique os registros de replicação. O AEM tem uma nova tentativa integrada automaticamente, portanto, se uma publicação de ativo específica falhar, ela será repetida automaticamente. Se houver algum problema intermitente como erro de rede, ele poderá ser bem-sucedido durante a nova tentativa.****
+Se um agente de replicação (que publicava no portal da marca apenas corretamente) interromper o processamento de trabalhos de publicação, verifique os registros de replicação. O AEM tem uma nova tentativa integrada automaticamente, portanto, se uma publicação de ativo específica falhar, ela será repetida automaticamente. Se houver algum problema intermitente como erro de rede, ele poderá ser bem-sucedido durante a nova tentativa.
 
 Se houver falhas de publicação contínuas e a fila estiver bloqueada, verifique a conexão **[!UICONTROL de]** teste e tente resolver os erros que estão sendo reportados.
 
+Com base nos erros, você é aconselhado a registrar um ticket de suporte para que a equipe de engenharia do Brand Portal possa ajudá-lo a resolver os problemas.
 
-## Com base nos erros, você é aconselhado a registrar um ticket de suporte para que a equipe de engenharia do Brand Portal possa ajudá-lo a resolver os problemas.{#connection-timeout}
 
-Configurar agentes de replicação para evitar erro de tempo limite de conexão {#connection-timeout}**
+## Configurar agentes de replicação para evitar erro de tempo limite de conexão {#connection-timeout}
 
 **Problema**: Não consigo publicar ativos do AEM Assets para o Brand Portal. O log de replicação indica que a conexão expirou.
 
 **Resolução**: Normalmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver o problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
-1. Execute as seguintes etapas para configurar o agente de replicação:
-1. Faça logon na instância do autor do AEM Assets.************
+
+Execute as seguintes etapas para configurar o agente de replicação:
+1. Faça logon na instância do autor do AEM Assets.
 1. No painel **Ferramentas** , navegue até **[!UICONTROL Implantação]** > **[!UICONTROL Replicação]**.
 1. Na página Replicação, clique em **[!UICONTROL Agentes no autor]**. Você pode ver os quatro agentes de replicação do seu locatário do Brand Portal.
-1. Clique no URL do agente de replicação para abrir os detalhes do agente.****
+1. Clique no URL do agente de replicação para abrir os detalhes do agente.
 1. Clique em **[!UICONTROL Editar]** para modificar as configurações do agente de replicação.
 1. Em Configurações do agente, clique na guia **[!UICONTROL Estendido]** .
 1. Ative a caixa de seleção **[!UICONTROL Fechar conexão]** .
 1. Repita as etapas de 4 a 7 para configurar todos os quatro agentes de replicação.
+1. Reinicie o servidor.
