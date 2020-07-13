@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,16 @@ Verifique se você passou pelos requisitos [de](brand-portal-download-asset-requ
 **Para publicar a pasta de contribuição:**
 
 1. Faça logon na instância do Brand Portal.
-1. Selecione a pasta de contribuição do painel do Brand Portal.
-1. Clique em **[!UICONTROL Publicar no AEM]** ![](assets/export.png).
+1. Selecione a pasta de contribuição do painel.
+1. Clique em **[!UICONTROL Publicar no AEM]**
+
+   ![](assets/export.png).
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Uma notificação por email/pulso é enviada para o usuário e administradores do Brand Portal em diferentes estágios do fluxo de trabalho de publicação:
 1. **Em fila** - Uma notificação é enviada para os administradores do Brand Portal e do usuário quando um fluxo de trabalho de publicação é acionado no Brand Portal.
 
-1. **Concluído** - uma notificação é enviada para o usuário do Brand Portal e para os administradores do Brand Portal quando o fluxo de trabalho de publicação estiver concluído, ou seja, a pasta de contribuição é publicada com êxito para os AEM Assets.
+1. **Concluído** - uma notificação é enviada para o usuário do Brand Portal e para os administradores do Brand Portal quando a pasta de contribuição é publicada com êxito no AEM Assets.
 
 
