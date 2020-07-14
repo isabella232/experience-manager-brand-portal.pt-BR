@@ -5,19 +5,22 @@ description: Configure a aceleração de download, a criação de [!UICONTROL co
 seo-description: Configure a aceleração de download, a criação de [!UICONTROL coleções] públicas inteligentes, a criação de [!UICONTROL coleções] públicas e permita que os usuários administradores excluam ativos em locatários.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
-topic-tags: administração
-content-type: referência
+topic-tags: administration
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
 
 # Administrar configurações de locatários gerais {#administer-general-tenant-configurations}
 
-O AEM Assets Brand Portal permite que as organizações configurem os seguintes recursos para locatários específicos:
+O Portal de marcas do AEM Assets permite que as organizações configurem os seguintes recursos para locatários específicos:
 
 * Exclusão de ativos por administradores
 * Criação de coleções públicas por usuários não administradores
@@ -68,4 +71,4 @@ Para ativar/desativar cada uma dessas configurações:
 
 ## Ativar hierarquia de pastas {#enable-folder-hierarchy}
 
-[[!UICONTROL Ativar a configuração da Hierarquia]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) de pastas permite que os administradores controlem como os usuários não administradores (Editores, Visualizadores e Usuários convidados) visualizam as pastas compartilhadas após fazer logon.
+[[!UICONTROL Ativar a configuração da Hierarquia]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) de pastas permite que os administradores controlem como os usuários não administradores (Editores, Visualizadores e Usuários convidados) visualizam as pastas compartilhadas depois de fazer logon.
