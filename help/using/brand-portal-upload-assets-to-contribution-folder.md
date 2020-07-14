@@ -21,7 +21,7 @@ ht-degree: 0%
 # Fazer upload de ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
 
 Os usuários do Brand Portal [baixam os requisitos](brand-portal-download-asset-requirements.md) de ativos - um breve documento anexado à pasta de contribuição e fazem o download dos ativos da linha de base da pasta **SHARED** para entender a necessidade de contribuição.
-Os usuários do Brand Portal podem criar novos ativos para contribuição e carregá-los para a pasta **NEW** na pasta de contribuição.
+Os usuários do Brand Portal podem criar novos ativos para contribuição e carregá-los na pasta **NEW** na pasta de contribuição.
 
 >[!NOTE]
 >
