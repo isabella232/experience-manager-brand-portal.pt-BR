@@ -111,7 +111,7 @@ Após a conclusão bem-sucedida do download, uma caixa de diálogo mostra o loca
 
 >[!NOTE]
 >
->Há uma limitação conhecida no aplicativo cliente Aspera Connect de que nenhum prompt para selecionar o local de download será exibido se **[!UICONTROL Sempre perguntar onde salvar arquivos]** baixados estiver ativado na guia [!UICONTROL Transferências] dentro de [!UICONTROL Preferências]. Antes de qualquer download começar, forneça o local na caixa de texto **[!UICONTROL Salvar arquivos baixados para]**.
+>There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab [!UICONTROL Transfers] within [!UICONTROL Preferences]. Antes de qualquer download começar, forneça o local na caixa de texto **[!UICONTROL Salvar arquivos baixados para]**.
 
 ## Uso do acelerador de arquivos no navegador Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,7 +121,7 @@ O Microsoft Edge é executado no EPM (Enhanced Protected Mode), impedindo a comu
 
 Para usar a funcionalidade de download acelerado no Microsoft Edge, remova o site do Brand Portal da lista de site confiável.
 
-1. Abra o Painel de controle (pressione a tecla **[!UICONTROL Janela + X]** e selecione **[!UICONTROL Painel]** de controle).
+1. Open the Control Panel (press **[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
 1. Vá para **[!UICONTROL Rede e Internet > Opções]** da Internet. Click the **[!UICONTROL Security]** tab.
 1. Clique na zona **[!UICONTROL Sites]** confiáveis e, em seguida, clique em **[!UICONTROL Sites]**.
 1. Remova o site do Brand Portal da lista.
@@ -132,7 +132,7 @@ Há algumas preferências úteis que podem ser definidas na preferência do IBM 
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
-Você pode definir o local de download padrão.
+You can set the default download location.
 
 ![](assets/aspera-preferences.png)
 
@@ -142,7 +142,7 @@ Além disso, o cliente Aspera Connect pode ser marcado como start automático na
 
 ## Solução de problemas com a aceleração de download {#troubleshoot-issues-with-download-acceleration}
 
-Se a aceleração de download não estiver funcionando para você, siga estas etapas para solucionar o problema:
+If download acceleration is not working for you, follow these steps to troubleshoot:
 
 1. Verifique se as portas não estão bloqueadas, visitando [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) do computador.
 
