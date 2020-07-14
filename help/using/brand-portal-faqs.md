@@ -198,7 +198,7 @@ Isso é válido para qualquer pasta publicada do AEM Assets para o Brand Portal 
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
-Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas da Adobe.
+Estes sites estão disponíveis somente para clientes. If you are a customer and require access, contact your Adobe account manager.
 
 * [](https://daycare.day.com) [Acesso ao produto](https://login.marketing.adobe.com)
 
