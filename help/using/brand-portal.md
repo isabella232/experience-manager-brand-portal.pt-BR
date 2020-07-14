@@ -42,7 +42,7 @@ Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal po
 
 Você precisa do seguinte para configurar o AEM Assets com o Brand Portal:
 
-* Uma instância do AEM Assets ativa e em execução.
+* An up and running AEM Assets instance.
 * URL do locatário do Brand Portal.
 * Um usuário com privilégios de administrador do sistema na organização IMS do locatário do Brand Portal.
 
@@ -164,6 +164,7 @@ Para solicitar acesso, faça o seguinte:
    1. Se você tiver um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
 A página [!UICONTROL Entrar] é aberta.
    1. Forneça suas credenciais de [!UICONTROL Adobe ID] e clique em **[!UICONTROL Entrar]**.<br />
+
    ![Login da Adobe](assets/bplogin_request_access_3.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
@@ -174,6 +175,7 @@ A página [!UICONTROL Entrar] é aberta.
 A página [!UICONTROL Inscrever] é aberta.
    1. Digite seu nome e sobrenome, ID de e-mail e senha.
    1. Selecione **[!UICONTROL Cadastrar-se]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .
@@ -202,6 +204,7 @@ Você pode alterar o idioma do Brand Portal nas Configurações [!UICONTROL do A
 Para alterar o idioma:
 
 1. Selecione [!UICONTROL Usuário] > [!UICONTROL Editar Perfil] no menu superior.<br />
+
    ![Editar perfil](assets/EditBPProfile.png)
 
 1. Na página Configurações [!UICONTROL do] Experience Cloud, selecione um idioma no menu suspenso [!UICONTROL Idioma] .
