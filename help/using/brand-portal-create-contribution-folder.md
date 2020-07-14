@@ -1,5 +1,5 @@
 ---
-title: Criar pasta de contribuição
+title: Create Contribution folder
 seo-title: Criar pasta de contribuição
 description: 'Obtenha informações sobre como criar uma pasta de contribuição no AEM Assets. '
 seo-description: Obtenha informações sobre como criar uma pasta de contribuição no AEM Assets.
