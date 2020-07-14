@@ -23,7 +23,7 @@ ht-degree: 70%
    + [Perguntas frequentes](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
-   + [Como entender o Brand Portal com os ativos AEM](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
+   + [Como entender o Brand Portal com AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar de AEM Assets no Brand Portal {#publish}
    + [Configurar o AEM Assets com o Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -36,7 +36,7 @@ ht-degree: 70%
 + Seleção de recursos no Brand Portal {#asset-sourcing-in-brand-portal}
    + [Visão geral](using/brand-portal-asset-sourcing.md)
    + [Configurar a origem de ativos no AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurar a pasta Contribuição nos ativos AEM {#configure-contribution-folder}
+   + Configurar a pasta Contribuição nos AEM Assets {#configure-contribution-folder}
       + [Visão geral](using/brand-portal-contribution-folder.md)
       + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
       + [Configurar as propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
@@ -46,7 +46,7 @@ ht-degree: 70%
       + [Visão geral](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Baixar os requisitos de ativos](using/brand-portal-download-asset-requirements.md)
       + [Fazer upload de ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicar pasta de contribuição nos ativos AEM](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Publicar pasta de contribuição em AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartilhar ativos com usuários {#share}
    + [Compartilhar uma coleção](using/brand-portal-share-collection.md)
    + [Compartilhar pastas](using/brand-portal-sharing-folders.md)
