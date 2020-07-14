@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Para obter ativos colaborativos, os usuários do AEM (administradores e usuário
 
 Em seguida, o usuário do AEM define os requisitos de ativos fazendo upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como de um conjunto de ativos básicos, à pasta **SHARED** para garantir que os usuários do Brand Portal tenham as informações necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta de contribuição recém-criada no Brand Portal.
 
-O vídeo a seguir demonstra como configurar uma pasta Contribuição nos ativos AEM:
+O vídeo a seguir demonstra como configurar uma pasta de contribuição no AEM Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
