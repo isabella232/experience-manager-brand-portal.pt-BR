@@ -1,23 +1,26 @@
 ---
 title: Compartilhar ativos como um link
 seo-title: Compartilhar ativos como um link
-description: Os administradores do Portal de marcas do AEM Assets podem compartilhar links de vários ativos com usuários internos autorizados e entidades externas, incluindo parceiros e fornecedores. Os editores podem exibir e compartilhar somente os ativos compartilhados com eles.
-seo-description: Os administradores do Portal de marcas do AEM Assets podem compartilhar links de vários ativos com usuários internos autorizados e entidades externas, incluindo parceiros e fornecedores. Os editores podem exibir e compartilhar somente os ativos compartilhados com eles.
+description: Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
+seo-description: Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
-content-type: referência
-topic-tags: compartilhamento
+content-type: reference
+topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 4%
 
 ---
 
 
 # Compartilhar ativos como um link {#share-assets-as-a-link}
 
-Os administradores do Portal de marcas do AEM Assets podem compartilhar links de vários ativos com usuários internos autorizados e entidades externas, incluindo parceiros e fornecedores. Os editores podem exibir e compartilhar somente os ativos compartilhados com eles.
+Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
 
 Compartilhar ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, já que os receptores não precisam fazer logon no Brand Portal para acessar os ativos.
 
@@ -53,7 +56,7 @@ Para compartilhar ativos como um link, siga estas etapas:
 
 1. Na caixa de endereço de email, digite a ID de email do usuário com quem você deseja compartilhar o link. Você pode compartilhar o link com vários usuários.
 
-   Se o usuário for membro de sua organização, selecione sua ID de e-mail nas sugestões exibidas na lista suspensa. Se o usuário for externo, digite a ID de e-mail completa e pressione **[!UICONTROL Enter]**; a ID de email é adicionada à lista de usuários.
+   Se o usuário for membro de sua organização, selecione sua ID de e-mail nas sugestões exibidas na lista suspensa. Se o usuário for externo, digite a ID de e-mail completa e pressione **[!UICONTROL Enter]**; a ID de email é adicionada à lista dos usuários.
 
    ![](assets/link-sharing-text.png)
 
@@ -73,7 +76,7 @@ Para compartilhar ativos como um link, siga estas etapas:
 
 ## Baixar ativos de links compartilhados {#download-assets-from-shared-links}
 
-Clique no link no email para exibir o ativo compartilhado. A página Compartilhamento de links do AEM é aberta.
+Clique no link no email para visualização do ativo compartilhado. A página Compartilhamento de links do AEM é aberta.
 
 Para baixar os ativos compartilhados:
 
@@ -83,7 +86,7 @@ Para baixar os ativos compartilhados:
 
    >[!NOTE]
    >
-   >Atualmente, você pode gerar uma visualização e miniatura somente para determinados ativos, dependendo do formato do arquivo. Para obter mais informações sobre os formatos de arquivo suportados, consulte [Visualização e suporte em miniatura para formatos](#preview-thumbnail-support)de ativos.
+   >Atualmente, você pode gerar uma pré-visualização e uma miniatura somente para determinados ativos, dependendo do formato do arquivo. Para obter mais informações sobre os formatos de arquivo suportados, consulte Suporte a [Pré-visualização e miniaturas para formatos](#preview-thumbnail-support)de ativos.
 
    >[!NOTE]
    >
@@ -100,7 +103,7 @@ Para baixar os ativos compartilhados:
 
 1. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]** . Quando isso é feito, a opção **[!UICONTROL Excluir representações]** do sistema é exibida, selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
 
-   No entanto, para permitir que execuções geradas automaticamente baixem juntamente com execuções personalizadas, desmarque a opção **[!UICONTROL Excluir representações]** do sistema.
+   No entanto, para permitir que execuções geradas automaticamente sejam baixadas juntamente com execuções personalizadas, desmarque a opção **[!UICONTROL Excluir representações]** do sistema.
 
    >[!NOTE]
    >
@@ -114,11 +117,11 @@ Para baixar os ativos compartilhados:
 >
 >O Brand Portal restringe o download de ativos maiores que 5 GB por tamanho de arquivo.
 
-## Suporte de visualização e miniatura para formatos de ativos {#preview-thumbnail-support}
+## Suporte de Pré-visualização e miniatura para formatos de ativos {#preview-thumbnail-support}
 
-A matriz a seguir lista os formatos de ativos para os quais o Brand Portal suporta miniatura e visualização:
+A matriz a seguir lista os formatos de ativos para os quais o Brand Portal suporta miniaturas e pré-visualizações:
 
-| Formato do ativo | Suporte a miniaturas | Visualizar suporte |
+| Formato do ativo | Suporte a miniaturas | Suporte à Pré-visualização |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -182,15 +185,15 @@ A seguinte legenda explica os símbolos usados na matriz:
 | Símbolo | Significado |
 |---|---|
 | ✓ | Este formato de arquivo suporta este recurso |
-| ✕ | Este formato de arquivo não suporta este recurso |
+| ✕ | Este formato de arquivo não é compatível com este recurso |
 | ND | Este recurso não se aplica a este formato de arquivo |
-| * | Este recurso requer suporte adicional para esse formato de arquivo na instância do autor de AEM, mas não no Portal de marca após a publicação dos ativos no Portal de marca |
+| * | Este recurso requer suporte adicional para esse formato de arquivo na instância do autor de AEM, mas não no Portal de marcas depois que os ativos forem publicados no Portal de marcas |
 
-## Descompartilhar ativos compartilhados como um link {#unshare-assets-shared-as-a-link}
+## Cancelar compartilhamento de ativos compartilhados como um link {#unshare-assets-shared-as-a-link}
 
 Para cancelar o compartilhamento de ativos compartilhados anteriormente como um link, faça o seguinte:
 
-1. Para exibir os ativos compartilhados como links, clique no ícone de sobreposição à esquerda e escolha **[!UICONTROL Navegação]**.
+1. Para visualização dos ativos compartilhados como links, clique no ícone de sobreposição à esquerda e escolha **[!UICONTROL Navegação]**.
 
    ![](assets/siderail.png)
 
@@ -199,7 +202,7 @@ Para cancelar o compartilhamento de ativos compartilhados anteriormente como um 
    ![](assets/navigationrail.png)
 
 1. Revise os links que você compartilhou da lista exibida.
-1. Para cancelar o compartilhamento de um link na lista, selecione-o e clique no ícone bin ao lado da entrada do link ou no ícone **[!UICONTROL Unshare]** na barra de ferramentas na parte superior.
+1. Para cancelar o compartilhamento de um link da lista, selecione-o e clique no ícone bin ao lado da entrada do link ou no ícone **[!UICONTROL Unshare]** na barra de ferramentas na parte superior.
 
    ![](assets/unshare-links.jpg)
 
