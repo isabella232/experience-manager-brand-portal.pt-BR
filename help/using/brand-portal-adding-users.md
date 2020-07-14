@@ -284,10 +284,10 @@ Para modificar a função e o direito de acessar as representações originais d
 
    >[!NOTE]
    >
-   >Se um usuário for adicionado a vários grupos e um deles tiver restrições, as restrições serão aplicadas a esse usuário.
+   >Se um usuário for adicionado a vários grupos e um desses grupos tiver restrições, as restrições serão aplicadas a esse usuário.
    >
    >
-   >Além disso, as restrições para acessar execuções originais de arquivos de imagem não se aplicam aos administradores mesmo que eles sejam membros de grupos restritos.
+   >Além disso, as restrições para acessar representações originais de arquivos de imagem não se aplicam aos administradores mesmo que eles sejam membros de grupos restritos.
 
 1. Clique em **[!UICONTROL Salvar]**. A função é modificada para os grupos correspondentes.
 
