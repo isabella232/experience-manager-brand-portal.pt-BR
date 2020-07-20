@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1632'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,12 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 **Ques. O endpoint OAuth existente (`https://legacy-oauth.cloud.adobe.io/login`) herdado não está funcionando. Qual poderia ser a razão possível?**
 
 **Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias do autor do AEM Assets para o service pack mais recente e configurá-las por meio do Adobe Developer Console. Consulte [Configurar AEM Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Ques. Criei uma coleção usando o link de ativo compartilhado pelo administrador. Mas não consigo criar um link de compartilhamento para minha coleção. Preciso de permissões especiais para fazer isso?**
+
+**Ans.** A funcionalidade é, por padrão, os usuários do visualizador não têm permissão para compartilhar links para coleções, pois eles têm privilégios limitados pelos quais não podem adicionar usuários para criar um link de compartilhamento. Sabe-se que o link de compartilhamento para coleções está visível atualmente para os usuários do visualizador. Esse problema será corrigido na próxima versão, a opção para compartilhar um link para as coleções não estará disponível para os usuários do visualizador.
+
 
 **Ques. Não consigo publicar os ativos da pasta de contribuição do Brand Portal para AEM Assets após atualizar para o Adobe Developer Console. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
 
@@ -198,7 +204,7 @@ Isso é válido para qualquer pasta publicada do AEM Assets para o Brand Portal 
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
-Estes sites estão disponíveis somente para clientes. If you are a customer and require access, contact your Adobe account manager.
+Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas da Adobe.
 
 * [](https://daycare.day.com) [Acesso ao produto](https://login.marketing.adobe.com)
 
