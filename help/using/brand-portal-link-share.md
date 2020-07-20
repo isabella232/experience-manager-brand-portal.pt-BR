@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1135'
 ht-degree: 4%
 
 ---
@@ -20,17 +20,18 @@ ht-degree: 4%
 
 # Compartilhar ativos como um link {#share-assets-as-a-link}
 
-Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
+Os administradores e editores do Brand Portal da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
 
-Compartilhar ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, já que os receptores não precisam fazer logon no Brand Portal para acessar os ativos.
+Compartilhar ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, já que os receptores não precisam fazer logon no Brand Portal para acessar os ativos. Os destinatários (usuários do visualizador) podem acessar e baixar os ativos públicos compartilhados com eles e podem adicionar esses ativos para criar sua própria coleção.
 
-O acesso ao compartilhamento de links é restrito a editores e administradores. Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções](../using/brand-portal-adding-users.md#manage-user-roles)de usuários.
+Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções](../using/brand-portal-adding-users.md#manage-user-roles)de usuários.
 
 >[!NOTE]
 >
 >É permitido até 5 GB de zip download usando o recurso de compartilhamento de link no Brand Portal.
 
-Para compartilhar ativos como um link, siga estas etapas:
+
+Veja a seguir as etapas para compartilhar ativos como um link:
 
 1. Clique no ícone de sobreposição à esquerda e escolha **[!UICONTROL Navegação]**.
 
