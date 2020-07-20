@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 8%
@@ -68,7 +68,7 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 
 * Os usuários convidados podem navegar, acessar e pesquisar ativos somente em pastas públicas e coleções.
 
-* Os usuários do visualizador podem visualização e fazer download dos ativos públicos compartilhados com eles e podem adicionar esses ativos para criar suas próprias coleções.
+* Os usuários do visualizador podem acessar e baixar os ativos públicos compartilhados com eles e podem adicionar esses ativos para criar suas próprias coleções.
 
 >[!NOTE]
 >
