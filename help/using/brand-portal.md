@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1603'
 ht-degree: 8%
 
 ---
@@ -42,7 +42,7 @@ Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal po
 
 Você precisa do seguinte para configurar o AEM Assets com o Brand Portal:
 
-* An up and running AEM Assets instance.
+* Uma instância do AEM Assets ativa e em execução.
 * URL do locatário do Brand Portal.
 * Um usuário com privilégios de administrador do sistema na organização IMS do locatário do Brand Portal.
 
@@ -62,11 +62,18 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 |  | **Navegar** | **Pesquisar** | **Download** | **Compartilhar pastas** | **Compartilhar uma coleção** | **Compartilhar ativos como um link** | **Acesso às Ferramentas administrativas** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Usuário convidado** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visualizador** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Visualizador** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Os usuários convidados podem navegar, acessar e pesquisar ativos somente em pastas públicas e coleções.
+
+* Os usuários do visualizador podem visualização e fazer download dos ativos públicos compartilhados com eles e podem adicionar esses ativos para criar suas próprias coleções.
+
+>[!NOTE]
+>
+>Há um problema conhecido que o link de compartilhamento para coleções está visível atualmente para os usuários do visualizador. Os usuários do visualizador não têm o privilégio de adicionar usuários para criar um link de compartilhamento. Esse problema será corrigido na próxima versão, a opção para compartilhar um link para as coleções não estará disponível para os usuários do visualizador.
+
 
 ### Guest user {#guest-user}
 
