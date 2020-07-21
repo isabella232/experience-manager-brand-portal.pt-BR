@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1522'
 ht-degree: 8%
 
 ---
@@ -62,18 +62,21 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 |  | **Navegar** | **Pesquisar** | **Download** | **Compartilhar pastas** | **Compartilhar uma coleção** | **Compartilhar ativos como um link** | **Acesso às Ferramentas administrativas** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Usuário convidado** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visualizador** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Visualizador** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Os usuários convidados podem navegar, acessar e pesquisar ativos somente em pastas públicas e coleções.
 
-* Os usuários do visualizador podem acessar e baixar os ativos públicos compartilhados com eles e podem adicionar esses ativos para criar suas próprias coleções.
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->Há um problema conhecido que o link de compartilhamento para coleções está visível atualmente para os usuários do visualizador. Os usuários do visualizador não têm o privilégio de adicionar usuários para criar um link de compartilhamento. Esse problema será corrigido na próxima versão, a opção para compartilhar um link para as coleções não estará disponível para os usuários do visualizador.
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Guest user {#guest-user}
 
