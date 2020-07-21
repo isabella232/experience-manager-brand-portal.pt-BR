@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '813'
 ht-degree: 7%
 
 ---
@@ -56,7 +56,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 Esta versão inclui os seguintes problemas conhecidos:
 
-* O link de compartilhamento para coleções está visível atualmente para os usuários do visualizador.
+* Os usuários do visualizador não têm permissão para compartilhar links para coleções, mas a opção para compartilhar está visível para eles na interface do produto.
 
 * Se uma pasta na hierarquia for renomeada de AEM Assets e a pasta aninhada que contém um ativo for publicada no Brand Portal, o título da pasta não será atualizado no Brand Portal até que a pasta raiz seja publicada novamente.
 
