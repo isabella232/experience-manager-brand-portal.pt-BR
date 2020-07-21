@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1521'
 ht-degree: 1%
 
 ---
@@ -29,11 +29,11 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 
 **Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias do autor do AEM Assets para o service pack mais recente e configurá-las por meio do Adobe Developer Console. Consulte [Configurar AEM Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
+<!--
+**Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
 
-**Ques. Criei uma coleção usando o link de ativo compartilhado pelo administrador. Mas não consigo criar um link de compartilhamento para minha coleção. Preciso de permissões especiais para fazer isso?**
-
-**Ans.** A funcionalidade é, por padrão, os usuários do visualizador não têm permissão para compartilhar links para coleções, pois eles têm privilégios limitados pelos quais não podem adicionar usuários para criar um link de compartilhamento. Sabe-se que o link de compartilhamento para coleções está visível atualmente para os usuários do visualizador. Esse problema será corrigido na próxima versão, a opção para compartilhar um link para as coleções não estará disponível para os usuários do visualizador.
-
+**Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
+-->
 
 **Ques. Não consigo publicar os ativos da pasta de contribuição do Brand Portal para AEM Assets após atualizar para o Adobe Developer Console. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
 
