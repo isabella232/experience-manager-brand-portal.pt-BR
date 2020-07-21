@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1118'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 4%
 
 # Compartilhar ativos como um link {#share-assets-as-a-link}
 
-Os administradores e editores do Brand Portal da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
+Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
 
-Compartilhar ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, já que os receptores não precisam fazer logon no Brand Portal para acessar os ativos. Os destinatários (usuários do visualizador) podem acessar e baixar os ativos públicos compartilhados com eles e podem adicionar esses ativos para criar sua própria coleção.
+Compartilhar ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, já que os receptores não precisam fazer logon no Brand Portal para acessar os ativos.
+
+O acesso ao compartilhamento de links é restrito a editores e administradores.
 
 Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções](../using/brand-portal-adding-users.md#manage-user-roles)de usuários.
 
