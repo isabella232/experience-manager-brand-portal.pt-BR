@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 2%
 
 ---
@@ -24,29 +24,46 @@ O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilm
 
 ## O que mudou no ponto 6.4.7 {#what-changed-in-647}
 
-A versão 6.4.7 do Brand Portal tem como foco melhorar a experiência do visualizador do documento, a configuração para baixar ativos do Brand Portal e as principais solicitações do cliente. Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
+A versão 6.4.7 do Brand Portal traz o Visualizador de Documentos, aprimora a experiência de download de ativos e inclui correções críticas. Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Visualizador de documentos {#doc-viewer}
 
-O Visualizador de *Documentos* aprimora a experiência dos visualizadores de PDF. Ele fornece uma experiência semelhante à da Adobe Document Cloud na visualização dos arquivos PDF no Brand Portal.
+O Visualizador de Documentos aprimora a experiência de visualização de PDF. Ele fornece uma experiência semelhante à do Adobe Document Cloud enquanto exibe os arquivos PDF no Brand Portal.
 
-Anteriormente, as execuções estavam disponíveis somente para a primeira página do arquivo PDF e as opções disponíveis no visualizador de PDF padrão também eram limitadas.
+Anteriormente, as opções limitadas estavam disponíveis para visualização dos arquivos PDF.
 
-Com a implementação do Visualizador *de* Documentos, os usuários do Brand Portal podem visualização os metadados do PDF e experimentar novas opções para reproduzir com os arquivos PDF, como visualização de página, visualização de índice, pesquisa em linha, ampliar, diminuir o zoom, página anterior, próxima página, alternar para página, ajustar para janela, ajustar para tela, ocultar ou ocultar a barra de ferramentas.
+Com o Visualizador de Documentos, os usuários do Portal de marcas agora têm as opções para visualização de páginas, marcadores de visualização, pesquisa de texto na página, ampliar, diminuir o zoom, navegar para as páginas anteriores e seguintes, alternar para a página, ajustar à janela, ajustar à tela e ocultar ou ocultar a barra de ferramentas.
 
-Onde os usuários do Brand Portal agora são fornecidos com experiência aprimorada de visualizadores de PDF, a experiência com outros formatos permanece inalterada.
+>[!NOTE]
+>
+>A experiência de exibição para outros formatos de documentos permanece inalterada.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Configurações de download {#download-configurations}
+### Experiência de download {#download-configurations}
 
-Configurações de download é uma nova configuração que permite que os administradores do Brand Portal configurem o download de ativos do Brand Portal.
+O processo de download de ativos é remodelado, proporcionando uma experiência simplificada ao fazer o download de ativos do Brand Portal.
 
-O fluxo de trabalho existente de download de ativos do Brand Portal é inevitavelmente seguido pela aparência de uma janela pop-up com várias opções de download a serem escolhidas.
+O fluxo de trabalho existente de download de ativos do Brand Portal é inevitavelmente seguido pela aparência de uma caixa de diálogo **[!UICONTROL Download]** com várias opções de download a serem escolhidas.
 
-No Brand Portal 6.4.7, o download dos recursos pode ser configurado na interface do usuário do Brand Portal. Download rápido, execuções personalizadas e execuções do sistema são as três configurações disponíveis. O administrador do Brand Portal pode selecionar qualquer combinação para configurar o download de ativos. O administrador também pode ativar ou desativar essas configurações.
+No Brand Portal 6.4.7, os administradores do Brand Portal podem definir as configurações de **[!UICONTROL Download]** de ativos. As configurações disponíveis são:
+* **[!UICONTROL Download rápido]**
+* **[!UICONTROL Representações personalizadas]**
+* **[!UICONTROL Representações do sistema]**
 
-A configuração de download rápida ignora a aparência da janela pop-up durante o download do ativo. No caso de representações personalizadas ou execuções do sistema, ou de várias configurações, a janela pop-up é exibida e o ativo original, juntamente com as representações do ativo, é baixado.
+O administrador do Brand Portal pode habilitar qualquer combinação para configurar o download de ativos.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Se todas as três configurações estiverem desativadas, os recursos serão baixados sem qualquer diálogo adicional que simplifique a experiência de download para os usuários do Brand Portal. Com base na configuração, o fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e também quando os ativos estão sendo baixados usando o link de compartilhamento.
+
+* Se qualquer representação **[!UICONTROL personalizada]** ou representação **[!UICONTROL do sistema]** estiver ativada, a caixa de diálogo **[!UICONTROL Download]** será exibida e o ativo original, juntamente com as representações do ativo, será baixado. Habilitar a configuração de download **** rápido acelera o processo de download.
 
 ![](assets/download-configuration.png)
 
