@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes
 seo-title: null
-description: Saiba mais sobre as perguntas mais frequentes no Portal de marcas dos ativos do Adobe Experience Manager.
+description: Saiba mais sobre as perguntas frequentes no Portal de marcas dos Ativos Adobe Experience Manager.
 seo-description: null
 uuid: null
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 
 **Ques. O endpoint OAuth existente (`https://legacy-oauth.cloud.adobe.io/login`) herdado não está funcionando. Qual poderia ser a razão possível?**
 
-**Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias do autor do AEM Assets para o service pack mais recente e configurá-las por meio do Adobe Developer Console. Consulte [Configurar AEM Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** A configuração OAuth herdada está obsoleta. Você deve atualizar as instâncias do autor do AEM Assets para o service pack mais recente e configurá-las por meio do Adobe Developer Console. Consulte [Configurar o AEM Assets com o Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração OAuth herdada funcione até que você atualize, atualize o terminal OAuth herdado para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -35,19 +35,19 @@ As Perguntas frequentes sobre o Brand Portal se concentram nos query e problemas
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. Não consigo publicar os ativos da pasta de contribuição do Brand Portal para AEM Assets após atualizar para o Adobe Developer Console. Minha instância de autor está no AEM 6.5.4. Qual poderia ser a razão possível?**
+**Ques. Não consigo publicar os ativos da pasta de contribuição do Brand Portal para a AEM Assets depois de atualizar para o Adobe Developer Console. A minha autora está no AEM 6.5.4. Qual poderia ser a razão possível?**
 
-**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição nos AEM Assets do AEM 6.5.4 por meio do Adobe Developer Console.
+**Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição para a AEM Assets no AEM 6.5.4 por meio do Adobe Developer Console.
 
 O problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
 
-Para corrigir imediatamente o AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor do AEM.
+Para uma correção imediata no AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância AEM autor.
 
-**Ques. Não vejo o conteúdo da pasta de contribuição publicado no Brand Portal no AEM Assets. Qual poderia ser a razão possível?**
+**Ques. Não vejo o conteúdo da pasta de contribuição publicado no Brand Portal na AEM Assets. Qual poderia ser a razão possível?**
 
-**Ans.** Entre em contato com o administrador do AEM Assets para verificar as configurações e garantir que seu locatário do Brand Portal esteja configurado com apenas uma instância do autor do AEM Assets.
+**Ans.** Entre em contato com o administrador da AEM Assets para verificar as configurações e garantir que o locatário do Brand Portal esteja configurado com apenas uma instância do autor da AEM Assets.
 
-Esse problema possivelmente ocorre quando você configurou um locatário do Brand Portal em várias instâncias do autor de AEM Assets. Por exemplo, o administrador configura o mesmo locatário do Brand Portal na instância do autor do AEM Assets do ambiente de preparo e produção. Nesse caso, a publicação de ativos é acionada no Brand Portal, mas a instância do autor do AEM Assets não pôde importar o coz do ativo que o agente de replicação não recebe o token solicitante.
+Esse problema pode ocorrer quando você tiver configurado um locatário do Brand Portal em várias instâncias do autor do AEM Assets. Por exemplo, o administrador configura o mesmo locatário do Brand Portal na instância do autor da AEM Assets do ambiente de preparo e produção. Nesse caso, a publicação de ativos é acionada no Brand Portal, mas a instância do autor da AEM Assets não pôde importar o cuz do ativo que o agente de replicação não recebe o token solicitante.
 
 
 **Ques. Não consigo publicar ativos do AEM Assets para o Brand Portal. O log de replicação indica que a conexão expirou. Há uma solução rápida?**
@@ -61,7 +61,7 @@ Execute as seguintes etapas para configurar o agente de replicação:
 1. Clique no URL do agente de replicação para abrir os detalhes do agente.
 1. Clique em **[!UICONTROL Editar]** para modificar as configurações do agente de replicação.
 1. Em Configurações do agente, clique na guia **[!UICONTROL Estendido]** .
-1. Ative a caixa de seleção **[!UICONTROL Fechar conexão]** .
+1. Marque a caixa de seleção **[!UICONTROL Fechar conexão]** .
 1. Repita as etapas de 4 a 7 para configurar todos os quatro agentes de replicação.
 1. Reinicie o servidor e verifique a conexão.
 
@@ -70,7 +70,7 @@ Execute as seguintes etapas para configurar o agente de replicação:
 
 **Ques. Qual é a grande mudança na versão 6.4.5 do Brand Portal?**
 
-**Ans.** O Portal de Marcas do AEM Assets 6.4.5 é uma versão de recurso que permite que os usuários do Portal de Marcas façam upload de conteúdo dentro da instância do Portal de Marcas e publiquem a pasta Contribuição de volta para o AEM Assets sem precisar de direitos de administrador.
+**Ans.** O AEM Assets Brand Portal 6.4.5 é uma versão de recurso que permite que os usuários do Brand Portal façam upload de conteúdo dentro da instância do Brand Portal e publiquem a pasta Contribuição de volta para a AEM Assets sem precisar de direitos de administrador.
 Para obter mais informações, consulte Seleção de [recursos no Portal](brand-portal-asset-sourcing.md)da marca.
 
 
@@ -96,13 +96,13 @@ Para atualizações e alterações de versão, é recomendável rastrear as Nota
 
 **Ques. Há alguma ação necessária da minha parte como usuário do Brand Portal?**
 
-**Ans.** A versão 6.4.5 do Brand Portal vem com um novo recurso chamado Asset Sourcing. O administrador do AEM deve configurar o recurso de Seleção de ativos no AEM Assets para habilitar o recurso para os usuários do Brand Portal. Para obter mais informações, consulte [Ativar fonte](brand-portal-configure-asset-sourcing.md)de ativos.
+**Ans.** A versão 6.4.5 do Brand Portal vem com um novo recurso chamado Asset Sourcing. AEM administrador deve configurar o recurso de Seleção de ativos no AEM Assets para habilitar o recurso para os usuários do Brand Portal. Para obter mais informações, consulte [Ativar fonte](brand-portal-configure-asset-sourcing.md)de ativos.
 
 
 
 **Ques. Quem pode criar uma pasta de contribuição?**
 
-**Ans.** Qualquer usuário do AEM que tenha permissões para criar uma nova pasta no AEM Assets pode criar uma pasta **de contribuição** . Para criar uma pasta **Contribuição** , crie uma nova pasta do tipo Contribuição **de**ativo.
+**Ans.** Qualquer usuário AEM com permissões para criar uma nova pasta no AEM Assets pode criar uma pasta **do Contribution** . Para criar uma pasta **Contribuição** , crie uma nova pasta do tipo Contribuição **de**ativo.
 Essa pasta é compartilhada com os usuários ativos do Brand Portal para obter contribuição.
 
 
@@ -138,11 +138,11 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 >[!NOTE]
 >
->Se você não for um usuário do Brand Portal, solicite ao administrador do AEM que crie seu usuário no Admin Console do AEM e adicione seu perfil ao arquivo de configuração do usuário na lista de usuários do Brand Portal. Consulte, [Adicionar usuário](brand-portal-configure-asset-sourcing.md)do Brand Portal.
+>Se você não for um usuário existente do Brand Portal, solicite ao administrador do AEM que crie seu usuário no Admin Console AEM e adicione seu perfil ao arquivo de configuração do usuário na lista de usuários do Brand Portal. Consulte, [Adicionar usuário](brand-portal-configure-asset-sourcing.md)do Brand Portal.
 
 **Ques. Qual é o Formato do arquivo CSV para importação de usuário?**
 
-**Ans.** O formato é o mesmo que o suportado pela Admin Console para a importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
+**Ans.** O formato é o mesmo que o Admin Console para a importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
 
 
 
@@ -154,19 +154,19 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 **Ques. Onde posso ver o status das tarefas de importação e publicação?**
 
-**Ans.** No AEM, você pode ver o status de uma importação na página de trabalho **assíncrona** . No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status]** de contribuição de ativos.
+**Ans.** Em AEM, você pode ver o status de uma importação na página de trabalho **assíncrona** . No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status]** de contribuição de ativos.
 
 
 
-**Ques. Qual é a frequência de um trabalho de importação executado periodicamente no AEM?**
+**Ques. Qual é a frequência de um trabalho de importação que é executado periodicamente em AEM?**
 
-**Ans.** No AEM, a pesquisa é executada a cada 5 minutos.
+**Ans.** Em AEM, a votação é feita a cada 5 minutos.
 
 
 
-**Ques. Existe algum limite no número de vezes que uma pasta pode ser publicada do Portal da Marca para os AEM Assets?**
+**Ques. Existe algum limite no número de vezes que uma pasta pode ser publicada do Portal de marcas para a AEM Assets?**
 
-**Ans.** Não, todos os ativos na pasta **NEW** são publicados em AEM Assets independentemente do fato de terem sido publicados anteriormente. Sempre que uma pasta **Contribution** é publicada do Brand Portal para o AEM Assets, ela substitui o conteúdo da pasta **NEW** .
+**Ans.** Não, todos os ativos na pasta **NEW** são publicados na AEM Assets independentemente do fato de terem sido publicados anteriormente. Sempre que uma pasta **Contribution** é publicada do Brand Portal para a AEM Assets, ela substitui o conteúdo da pasta **NEW** .
 
 
 
@@ -184,19 +184,19 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 
 **Ques. O que acontece se uma pasta for publicada do AEM Assets para o Brand Portal que está em fluxo?**
 
-**Ans.** No AEM, os registros são mantidos sempre que uma pasta é publicada no Brand Portal. No momento da publicação, todos os ativos que não são publicados no Brand Portal são colocados em uma fila de replicação. Qualquer ativo adicionado à pasta depois que o trabalho de publicação é acionado não é publicado no Brand Portal. Quando o usuário do AEM publica a pasta novamente, somente os ativos que não foram publicados anteriormente (existentes na fila de replicação) são publicados no Brand Portal.
+**Ans.** Em AEM, os registros são mantidos sempre que uma pasta é publicada no Brand Portal. No momento da publicação, todos os ativos que não são publicados no Brand Portal são colocados em uma fila de replicação. Qualquer ativo adicionado à pasta depois que o trabalho de publicação é acionado não é publicado no Brand Portal. Quando o usuário AEM publica a pasta novamente, somente os ativos que não foram publicados anteriormente (existentes na fila de replicação) são publicados no Brand Portal.
 Isso é válido para qualquer pasta publicada do AEM Assets para o Brand Portal e para a pasta COMPARTILHADA em uma pasta de contribuição.
 
 
 
 **Ques. Com quem eu entro em contato com as perguntas?**
 
-**Ans.** Entre em contato com seu Gerente de conta da Adobe ou com o Suporte ao cliente.
+**Ans.** Entre em contato com seu Gerente de contas do Adobe ou com o Suporte ao cliente.
 
 
 >[!NOTE]
 >
->O cronograma de liberação é provisório e está sujeito a alterações. Entre em contato com seu Gerente de contas da Adobe ou com o Suporte ao cliente para obter o cronograma atualizado.
+>O cronograma de liberação é provisório e está sujeito a alterações. Entre em contato com seu Gerente de contas do Adobe ou com o Suporte ao cliente para obter o cronograma atualizado de lançamento.
 
 
 
@@ -204,8 +204,8 @@ Isso é válido para qualquer pasta publicada do AEM Assets para o Brand Portal 
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
-Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas da Adobe.
+Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas do Adobe.
 
 * [](https://daycare.day.com) [Acesso ao produto](https://login.marketing.adobe.com)
 
-* [Atendimento ao cliente da Adobe](https://helpx.adobe.com/contact.html)
+* [Atendimento ao cliente Adobe](https://helpx.adobe.com/contact.html)
