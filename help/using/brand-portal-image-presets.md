@@ -1,17 +1,17 @@
 ---
 title: Aplicar predefinições de imagens ou representações dinâmicas
 seo-title: Aplicar predefinições de imagens ou representações dinâmicas
-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. As predefinições de imagens permitem que o Portal de marcas do AEM Assets forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes. '
-seo-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. As predefinições de imagens permitem que o Portal de marcas do AEM Assets forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes. '
+description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. As predefinições de imagens permitem que o Portal de marcas da AEM Assets forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes. '
+seo-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. As predefinições de imagens permitem que o Portal de marcas da AEM Assets forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '871'
 ht-degree: 3%
 
 ---
@@ -19,32 +19,35 @@ ht-degree: 3%
 
 # Aplicar predefinições de imagens ou representações dinâmicas {#apply-image-presets-or-dynamic-renditions}
 
-Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. As predefinições de imagens permitem que o Portal de marcas do AEM Assets forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes.
+Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. As predefinições de imagens permitem que o Portal de marcas da AEM Assets forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes.
 
 Uma predefinição de imagem é usada para gerar representações dinâmicas de imagens que podem ser visualizadas e baixadas. Ao visualizar imagens e suas representações, você pode escolher uma predefinição para reformatar imagens de acordo com as especificações definidas pelo administrador.
 
-Para visualização de representações dinâmicas de um ativo no Brand Portal, certifique-se de que sua representação tiff em Pirâmide exista na instância do autor do AEM de onde você publica no Brand Portal. Quando você publica o ativo, sua execução PTIFF também é publicada no Brand Portal. Não há como gerar a execução PTIFF do Brand Portal.
+(*Se AEM instância (Autor) estiver em execução no modo **Híbrido de mídia***dinâmica) Para visualização de representações dinâmicas de um ativo no Brand Portal, verifique se a execução tiff Pirâmide existe na instância do autor AEM de onde você publica no Brand Portal. Quando você publica o ativo, sua execução PTIFF também é publicada no Brand Portal.
 
 >[!NOTE]
 >
 >Ao baixar imagens e suas representações, não há opção para escolher entre as predefinições existentes. Em vez disso, você pode especificar as propriedades de uma predefinição de imagem personalizada. Para obter mais informações, consulte [Aplicar predefinições de imagens ao baixar imagens](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Para obter mais informações sobre os parâmetros necessários ao criar predefinições de imagens, consulte [Gerenciamento de predefinições](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)de imagens.
 
 ## Criar uma predefinição de imagem {#create-an-image-preset}
 
-Os administradores podem criar predefinições de imagens que aparecem como representações dinâmicas na página de detalhes do ativo. Você pode criar uma predefinição de imagem do zero ou salvar uma existente com um novo nome. Ao criar uma predefinição de imagem, escolha um tamanho para o delivery de imagem e os comandos de formatação. Quando uma imagem é entregue para exibição, sua aparência é otimizada de acordo com os comandos escolhidos.
-Observe que somente os administradores podem criar predefinições de imagens no Brand Portal.
+Os administradores de AEM podem criar predefinições de imagens que aparecem como representações dinâmicas na página de detalhes do ativo. Você pode criar uma predefinição de imagem do zero ou salvar uma existente com um novo nome. Ao criar uma predefinição de imagem, escolha um tamanho para o delivery de imagem e os comandos de formatação. Quando uma imagem é entregue para exibição, sua aparência é otimizada de acordo com os comandos escolhidos.
 
-Observe que somente os administradores podem criar predefinições de imagens no Brand Portal.
 
 >[!NOTE]
 >
 >As representações dinâmicas de uma imagem são criadas usando seu TIFF em pirâmide. Se o TIFF Pirâmide não estiver disponível para nenhum ativo, as representações dinâmicas para esse ativo não poderão ser buscadas no portal da Marca.
-Se a instância do AEM (Autor) estiver sendo executada no modo **** Dynamic Media Híbrido, as execuções de TIFF em pirâmide dos ativos de imagem serão criadas e salvas no repositório do AEM. Enquanto que, se a instância do AEM (Autor) estiver sendo executada no modo ****Dynamic Media Scene 7, as representações TIFF pirâmides de ativos de imagem existem no servidor Scene 7.
-Quando esses ativos são publicados no portal da marca, as predefinições de imagem são aplicadas e as representações dinâmicas são exibidas.
+>
+>Se AEM instância (Autor) estiver em execução no modo **Híbrido de mídia** dinâmica, as execuções de TIFF em pirâmide dos ativos de imagem serão criadas e salvas AEM repositório.
+>
+>Enquanto que, se AEM instância (Autor) estiver sendo executada no modo ****Dynamic Media Scene 7, as representações de TIFF pirâmides de ativos de imagem existem no servidor Scene 7.
+>Quando esses ativos são publicados no portal da marca, as predefinições de imagem são aplicadas e as representações dinâmicas são exibidas.
 
-1. Na barra de ferramentas do AEM na parte superior, clique no logotipo da Adobe para acessar as ferramentas administrativas.
+
+1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
 1. No painel de ferramentas administrativas, clique em Predefinições **[!UICONTROL de imagem]**.
 
@@ -101,4 +104,4 @@ Ao baixar imagens e suas representações do Brand Portal, não é possível esc
 
    ![](assets/dynamicrenditions.png)
 
-1. Clique em **[!UICONTROL Download]**. As renderizações dinâmicas personalizadas são baixadas em um arquivo ZIP junto com a imagem e as renderizações que você escolheu baixar. No entanto, nenhum arquivo zip será criado se um único ativo for baixado, garantindo o download rápido.
+1. Clique em **[!UICONTROL Download]**. As renderizações dinâmicas personalizadas são baixadas em um arquivo ZIP juntamente com a imagem e as renderizações que você escolheu baixar. No entanto, nenhum arquivo zip será criado se um único ativo for baixado, garantindo o download rápido.
