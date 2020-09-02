@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Para criar uma pasta de contribuição:
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL A caixa de diálogo Criar pasta]** é aberta.
 
-1. Digite **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e ative a caixa de seleção Contribuição **[!UICONTROL do]** ativo.
+1. Digite **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e marque a caixa de seleção Contribuição **[!UICONTROL do]** ativo.
 É recomendável usar letras minúsculas sem espaço para nomear a pasta.
 
 1. Clique em **[!UICONTROL Criar]**. Você pode ver a pasta de contribuição listada no repositório AEM Assets.
