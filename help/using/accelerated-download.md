@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -26,15 +26,16 @@ O Brand Portal permite aprimorar o desempenho de download de arquivos de ativos 
 >
 >A velocidade de download varia para os usuários, pois depende de fatores como largura de banda da rede, latência do servidor e localização geográfica dos clientes.
 
-Se ativados, os usuários do Brand Portal podem reduzir significativamente o tempo gasto para baixar os arquivos de ativos desejados do Brand Portal ou por meio de um link compartilhado instalando o cliente Aspera Connect.
 
-![](assets/enable-fast-file-download.png)
+A configuração do Download **** rápido está ativada por padrão, o que reduz significativamente o tempo gasto para fazer o download dos arquivos de ativos desejados do Brand Portal.
+
+![](assets/download-configuration.png)
 
 ## Pré-requisitos para acelerar o download de arquivos {#prerequisites-to-accelerate-file-download}
 
 Para baixar os arquivos mais rapidamente, verifique o seguinte:
 
-* **[!UICONTROL Ative a Aceleração]** de download (que está desativada por padrão) em Configurações [!UICONTROL gerais] no painel de ferramentas administrativas.
+* Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]** e verifique se a configuração de Download **** rápido está ativada em Configurações **[!UICONTROL de]** download.
 * A porta 33001 (TCP e UDP) está aberta no firewall. Para obter mais informações sobre os pré-requisitos, consulte [a documentação](https://downloads.asperasoft.com/en/documentation/8)do Aspera Connect Client.
 * Instale o Aspera Connect usando privilégios de administrador.
 * Para obter suporte à plataforma do cliente de transferência Aspera, consulte Matriz de suporte à plataforma [Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
@@ -72,8 +73,8 @@ A tabela a seguir mostra o desempenho do download para arquivos de 2 GB usando o
 Para fazer o download dos recursos mais rapidamente do Brand Portal:
 
 1. Faça logon no Brand Portal usando um navegador compatível.
-1. Procure e selecione o arquivo de ativo, a pasta ou a coleção desejada para download. Toque/ clique na opção de download.
-A caixa de diálogo Download é exibida com a opção [Ativar aceleração] de download selecionada.
+1. Navegue e selecione as pastas ou os ativos que deseja baixar. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Download]** . a caixa de diálogo **[!UICONTROL Download]** é exibida com as caixas de seleção **[!UICONTROL Ativo(s)]** e **[!UICONTROL Ativar aceleração]** de download selecionadas por padrão.
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,19 +83,25 @@ A caixa de diálogo Download é exibida com a opção [Ativar aceleração] de d
 
    ![](assets/fast-download-emailchk.png)
 
-1. Toque/clique na opção **[!UICONTROL Download]** .
-Para acelerar a experiência de download em sua conta de locatário do Brand Portal, é necessário ter o aplicativo cliente Aspera Connect instalado no sistema.
+1. Clique em **[!UICONTROL Download]**.
 
-1. **Baixar como cliente Connect** Se o Aspera Connect não estiver instalado no seu sistema ou o cliente existente do Aspera Connect estiver desatualizado, um prompt será exibido na página do navegador a partir da qual você pode baixar o cliente Aspera Connect específico do sistema selecionando **[!UICONTROL Baixar versão]** mais recente.
+   Para acelerar a experiência de download na conta do locatário do Brand Portal, é necessário ter o aplicativo cliente Aspera Connect instalado na extensão do navegador.
+
+1. **Baixar o Aspera Connect Client**
+
+   Se o cliente Aspera Connect não estiver instalado em seu sistema ou o cliente Aspera Connect estiver desatualizado, um prompt será exibido na página do navegador a partir da qual você pode baixar o cliente Aspera Connect específico do sistema selecionando **[!UICONTROL Baixar versão]** mais recente.
 
    ![](assets/aspera-not-launched.png)
 
    Para baixar a versão mais recente do Aspera Connect em [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), selecione **[!UICONTROL Baixar agora]** e siga as instruções.
 
-1. **Instale o Aspera Connect Client** Para instalar a configuração do cliente IBM Aspera Connect, execute a instalação do arquivo .msi do aplicativo cliente IBM Aspera Connect e siga o assistente de instalação.
+1. **Instalar o Aspera Connect Client**
 
-1. Depois que o cliente for instalado com êxito, atualize a página do navegador e inicie as etapas de download novamente ou selecione **[!UICONTROL Reiniciar]** na caixa de diálogo **[!UICONTROL Download]** do ativo (Etapa 2).
-Ao usar o Aspera Connect pela primeira vez, o navegador solicitará a abertura do link usando o **[!UICONTROL IBM Aspera Connect]**. Para ignorar essa caixa de diálogo no futuro, ative **[!UICONTROL Lembrar minha escolha para links]** de FASP.
+   Para instalar a configuração do cliente IBM Aspera Connect, execute a configuração a partir do arquivo .msi do aplicativo cliente IBM Aspera Connect e siga o assistente de instalação.
+
+1. Depois que o cliente for instalado com êxito, atualize a página do navegador e inicie as etapas de download novamente.
+
+   Ao usar o Aspera Connect pela primeira vez, o navegador solicitará a abertura do link usando o **[!UICONTROL IBM Aspera Connect]**. Para ignorar essa caixa de diálogo no futuro, ative **[!UICONTROL Lembrar minha escolha para links]** de FASP.
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ Após a conclusão bem-sucedida do download, uma caixa de diálogo mostra o loca
 
 >[!NOTE]
 >
->There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab [!UICONTROL Transfers] within [!UICONTROL Preferences]. Antes de qualquer download começar, forneça o local na caixa de texto **[!UICONTROL Salvar arquivos baixados para]**.
+>Há uma limitação conhecida no aplicativo cliente Aspera Connect de que nenhum prompt para selecionar o local de download será exibido se **[!UICONTROL Sempre perguntar onde salvar arquivos]** baixados estiver ativado na guia **[!UICONTROL Transferências]** dentro de **[!UICONTROL Preferências]**. Antes de qualquer download começar, forneça o local na caixa de texto **[!UICONTROL Salvar arquivos baixados para]**.
 
 ## Uso do acelerador de arquivos no navegador Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,8 +128,8 @@ O Microsoft Edge é executado no EPM (Enhanced Protected Mode), impedindo a comu
 
 Para usar a funcionalidade de download acelerado no Microsoft Edge, remova o site do Brand Portal da lista de site confiável.
 
-1. Open the Control Panel (press **[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
-1. Vá para **[!UICONTROL Rede e Internet > Opções]** da Internet. Click the **[!UICONTROL Security]** tab.
+1. Abra o Painel de controle do Campaign (**[!UICONTROL Janela + X]**, em seguida, selecione **[!UICONTROL Painel de controle do Campaign]**).
+1. Vá para **[!UICONTROL Rede e Internet]** > Opções **** da Internet. Click the **[!UICONTROL Security]** tab.
 1. Clique na zona **[!UICONTROL Sites]** confiáveis e, em seguida, clique em **[!UICONTROL Sites]**.
 1. Remova o site do Brand Portal da lista.
 
@@ -132,7 +139,7 @@ Há algumas preferências úteis que podem ser definidas na preferência do IBM 
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
-You can set the default download location.
+Você pode definir o local de download padrão.
 
 ![](assets/aspera-preferences.png)
 
@@ -142,7 +149,7 @@ Além disso, o cliente Aspera Connect pode ser marcado como start automático na
 
 ## Solução de problemas com a aceleração de download {#troubleshoot-issues-with-download-acceleration}
 
-If download acceleration is not working for you, follow these steps to troubleshoot:
+Se a aceleração de download não estiver funcionando para você, siga estas etapas para solucionar o problema:
 
 1. Verifique se as portas não estão bloqueadas, visitando [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) do computador.
 
