@@ -1,23 +1,23 @@
 ---
-title: Visão geral do Portal de marcas do AEM Assets
-seo-title: Visão geral do Portal de marcas do AEM Assets
-description: O Portal de marcas do AEM Assets pode ajudá-lo a facilmente adquirir, controlar e distribuir com segurança ativos de criação aprovados para terceiros e usuários empresariais internos em todos os dispositivos.
-seo-description: O Portal de marcas do AEM Assets pode ajudá-lo a facilmente adquirir, controlar e distribuir com segurança ativos de criação aprovados para terceiros e usuários empresariais internos em todos os dispositivos.
+title: Visão geral do Portal de marcas da AEM Assets
+seo-title: Visão geral do Portal de marcas da AEM Assets
+description: O Portal de Marcas da AEM Assets pode ajudá-lo a facilmente adquirir, controlar e distribuir com segurança ativos de criação aprovados para terceiros e usuários empresariais internos em todos os dispositivos.
+seo-description: O Portal de Marcas da AEM Assets pode ajudá-lo a facilmente adquirir, controlar e distribuir com segurança ativos de criação aprovados para terceiros e usuários empresariais internos em todos os dispositivos.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1524'
 ht-degree: 8%
 
 ---
 
 
-# Visão geral do Portal de marcas do AEM Assets {#overview-of-aem-assets-brand-portal}
+# Visão geral do Portal de marcas da AEM Assets {#overview-of-aem-assets-brand-portal}
 
 Como profissional de marketing, às vezes é necessário colaborar com parceiros de canais e usuários empresariais internos para criar, gerenciar e fornecer rapidamente conteúdo digital relevante aos clientes. O delivery atempado de conteúdo relevante em toda a jornada do cliente é essencial para aumentar a demanda, a conversão, o envolvimento e a fidelidade do cliente.
 
@@ -25,18 +25,18 @@ No entanto, é um desafio desenvolver soluções que suportem o compartilhamento
 
 **O Portal** de marcas dos ativos Adobe Experience Manager (AEM) foca na necessidade do comerciante de colaborar com os usuários do Brand Portal distribuídos globalmente, fornecendo recursos de distribuição de ativos e contribuição de ativos.
 
-A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários do Brand Portal possam fazer upload de ativos para o Brand Portal e publicar em AEM Assets, sem precisar acessar o ambiente do autor. O recurso de contribuição é chamado de Fonte de **ativos no Portal**da marca. E, juntos, melhora a experiência geral do Brand Portal de distribuição de ativos e a contribuição dos usuários do Brand Portal (agências/equipes externas), acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado.
+A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários do Brand Portal possam fazer upload de ativos para o Brand Portal e publicar na AEM Assets, sem precisar acessar o ambiente do autor. O recurso de contribuição é chamado de Fonte de **ativos no Portal**da marca. E, juntos, melhora a experiência geral do Brand Portal de distribuição de ativos e a contribuição dos usuários do Brand Portal (agências/equipes externas), acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado.
 Consulte Seleção de [recursos no Portal](brand-portal-asset-sourcing.md)de marcas.
 
 O ambiente de portal baseado em navegador permite que você carregue, navegue, pesquise, pré-visualização e exporte ativos facilmente em formatos aprovados.
 
 ## Configurar o AEM Assets com o Brand Portal {#configure-brand-portal}
 
-Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
+Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal via Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
 
 >[!NOTE]
 >
->A configuração de AEM Assets com o Brand Portal por meio do Adobe Developer Console é compatível com o serviço em nuvem AEM Assets, AEM Assets 6.3 e posteriores.
+>A configuração do AEM Assets com o Brand Portal via Adobe Developer Console é suportada no AEM Assets como Cloud Service, AEM Assets 6.3 e superior.
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
@@ -46,7 +46,7 @@ Você precisa do seguinte para configurar o AEM Assets com o Brand Portal:
 * URL do locatário do Brand Portal.
 * Um usuário com privilégios de administrador do sistema na organização IMS do locatário do Brand Portal.
 
-Para obter mais informações, consulte [Configuração de AEM Assets com Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+Para obter mais informações, consulte [Configuração do AEM Assets com Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Personalidades do usuário no Brand Portal {#Personas}
 
@@ -145,17 +145,17 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (alias) para o URL existente do locatário do Brand Portal. O URL do alias pode ser criado com um prefixo alternativo no URL.\
 Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]** pode obter **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
 
-No entanto, a instância AEM Author só pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) com o URL de ID de locatário e não com o URL de alias de locatário (alternativo).
+No entanto, a instância do autor de AEM pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) somente com o URL de ID do locatário e não com o URL de alias do locatário (alternativo).
 
 >[!NOTE]
 >
->Para obter um alias para o nome do locatário no URL do portal existente, as organizações precisam entrar em contato com o suporte da Adobe com uma nova solicitação de criação de alias do locatário. Essa solicitação é processada primeiro verificando se o alias está disponível e depois criando o alias.
+>Para obter um alias para o nome do locatário no URL do portal existente, as organizações precisam entrar em contato com o suporte ao Adobe com uma nova solicitação de criação de alias do locatário. Essa solicitação é processada primeiro verificando se o alias está disponível e depois criando o alias.
 >
 >Para substituir o alias antigo ou excluí-lo, é necessário seguir o mesmo processo.
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
-Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas solicitações são enviadas para administradores do Brand Portal, que concedem acesso aos usuários por meio do Adobe [!UICONTROL Admin Console]. Depois que o acesso é concedido, os usuários recebem um email de notificação.
+Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas solicitações são enviadas para os administradores do Brand Portal, que concedem acesso aos usuários por meio do Adobe [!UICONTROL Admin Console]. Depois que o acesso é concedido, os usuários recebem um email de notificação.
 
 Para solicitar acesso, faça o seguinte:
 
@@ -165,7 +165,7 @@ Para solicitar acesso, faça o seguinte:
 
    A página [!UICONTROL Solicitar acesso] é aberta.
 
-1. Para solicitar acesso ao Brand Portal de uma organização, é necessário ter um [!UICONTROL Adobe ID], um [!UICONTROL Enterprise ID]ou uma ID federada válida.
+1. Para solicitar acesso ao Brand Portal de uma organização, é necessário ter um [!UICONTROL Adobe ID], um [!UICONTROL Enterprise ID]ou um [!UICONTROL Federated ID]válido.
 
    Na página [!UICONTROL Solicitar acesso] , faça logon usando sua ID (cenário 1) ou crie um [!UICONTROL Adobe ID] (cenário 2):<br />
    ![[!UICONTROL Solicitar acesso]](assets/bplogin_request_access_2.png)
@@ -173,9 +173,9 @@ Para solicitar acesso, faça o seguinte:
    **Cenário 1**
    1. Se você tiver um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
 A página [!UICONTROL Entrar] é aberta.
-   1. Forneça suas credenciais de [!UICONTROL Adobe ID] e clique em **[!UICONTROL Entrar]**.<br />
+   1. Forneça suas credenciais do [!UICONTROL Adobe ID] e clique em **[!UICONTROL Fazer logon]**.<br />
 
-   ![Login da Adobe](assets/bplogin_request_access_3.png)
+   ![Login no Adobe](assets/bplogin_request_access_3.png)
 
    Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
    **Cenário 2**
@@ -219,7 +219,7 @@ Para alterar o idioma:
 
 1. Na página Configurações [!UICONTROL do] Experience Cloud, selecione um idioma no menu suspenso [!UICONTROL Idioma] .
 
-## Notificação de manutenção do Brand Portal {#brand-portal-maintenance-notification}
+## Notificação de manutenção do Portal de marcas {#brand-portal-maintenance-notification}
 
 Antes que o Brand Portal esteja programado para manutenção, uma notificação será exibida como um banner depois que você fizer logon no Brand Portal. Uma notificação de amostra:
 
@@ -235,5 +235,5 @@ Você pode descartar esta notificação e continuar usando o Brand Portal. Esta 
 
 ## Related resources {#related-resources}
 
-* [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/marketing-cloud/contact-support.html)
+* [Atendimento ao cliente Adobe](https://helpx.adobe.com/br/marketing-cloud/contact-support.html)
 * [Fóruns do AEM](https://www.adobe.com/go/aod_forums_en)
