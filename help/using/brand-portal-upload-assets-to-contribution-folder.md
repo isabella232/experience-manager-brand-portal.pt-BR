@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -29,6 +29,7 @@ Os usuários do Brand Portal podem criar novos ativos para contribuição e carr
 >
 >O limite máximo de upload para qualquer conta/locatário do Brand Portal é de **10** GB.
 
+
 **Para carregar novos ativos:**
 
 1. Faça logon na instância do Brand Portal.
@@ -41,4 +42,4 @@ O painel do Brand Portal reflete todas as pastas existentes permitidas para o us
 1. Procure e carregue novos ativos (arquivos/pastas) na pasta **[!UICONTROL NOVA]** .
    ![](assets/upload-new-assets3.png)
 
-Quando o upload for concluído, o usuário do Brand Portal poderá publicar a pasta de contribuição de volta para os AEM Assets. Consulte [Publicar pasta de contribuição para AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Quando o upload for concluído, o usuário do Brand Portal poderá publicar a pasta de contribuição de volta na AEM Assets. Consulte [Publicar pasta de contribuição para a AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
