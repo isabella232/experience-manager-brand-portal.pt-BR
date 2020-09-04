@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Com o Visualizador de Documentos, os usuários do Portal de marcas agora têm as
 
 ### Experiência de download {#download-configurations}
 
-O processo de download de ativos é remodelado, proporcionando uma experiência simplificada ao fazer o download de ativos do Brand Portal.
+O processo de download de ativos é remodelado, proporcionando uma experiência de usuário simplificada ao [baixar ativos do Brand Portal](brand-portal-download-users.md).
 
 O fluxo de trabalho existente de download de ativos do Brand Portal é inevitavelmente seguido pela aparência de uma caixa de diálogo **[!UICONTROL Download]** com várias opções de download a serem escolhidas.
 
