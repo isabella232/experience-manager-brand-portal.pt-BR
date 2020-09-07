@@ -6,7 +6,7 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 70%
@@ -24,7 +24,7 @@ ht-degree: 70%
    + [Perguntas frequentes](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
-   + [Como entender o Brand Portal com AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
+   + [Como entender o Brand Portal com a AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar de AEM Assets no Brand Portal {#publish}
    + [Configurar o AEM Assets com o Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -36,8 +36,8 @@ ht-degree: 70%
    + [Publicar predefinições, esquema e aspectos no Brand Portal](using/publish-schema-search-facets-presets.md)
 + Seleção de recursos no Brand Portal {#asset-sourcing-in-brand-portal}
    + [Visão geral](using/brand-portal-asset-sourcing.md)
-   + [Configurar a origem de ativos no AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurar a pasta Contribuição nos AEM Assets {#configure-contribution-folder}
+   + [Configurar origem de ativos em AEM](using/brand-portal-configure-asset-sourcing.md)
+   + Configurar pasta de contribuição no AEM Assets {#configure-contribution-folder}
       + [Visão geral](using/brand-portal-contribution-folder.md)
       + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
       + [Configurar as propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
@@ -47,7 +47,7 @@ ht-degree: 70%
       + [Visão geral](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Baixar os requisitos de ativos](using/brand-portal-download-asset-requirements.md)
       + [Fazer upload de ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicar pasta de contribuição em AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Publicar pasta de contribuição no AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartilhar ativos com usuários {#share}
    + [Compartilhar uma coleção](using/brand-portal-share-collection.md)
    + [Compartilhar pastas](using/brand-portal-sharing-folders.md)
@@ -56,7 +56,7 @@ ht-degree: 70%
    + [Buscar ativos no Brand Portal](using/brand-portal-searching.md)
    + [Usar facetas de busca personalizada](using/brand-portal-search-facets.md)
 + Usar recursos de download {#download}
-   + [Baixar ativos](using/brand-portal-download-users.md)
+   + [Baixar ativos](using/brand-portal-download-assets.md)
    + [Suporte a vídeo dinâmico no Brand Portal](using/dynamic-video-brand-portal.md)
    + [Gerenciar a coleção lightbox](using/brand-portal-light-box.md)
    + [Gerenciar direitos digitais dos ativos](using/manage-digital-rights-of-assets.md)
