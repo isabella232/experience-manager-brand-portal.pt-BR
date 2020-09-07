@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Como uma macro, uma predefinição de imagem é uma coleção predefinida de com
 
 Uma predefinição de imagem é usada para gerar representações dinâmicas de imagens que podem ser visualizadas e baixadas. Ao visualizar imagens e suas representações, você pode escolher uma predefinição para reformatar imagens de acordo com as especificações definidas pelo administrador.
 
-(*Se AEM instância (Autor) estiver em execução no modo **Híbrido de mídia***dinâmica) Para visualização de representações dinâmicas de um ativo no Brand Portal, verifique se a execução tiff Pirâmide existe na instância do autor AEM de onde você publica no Brand Portal. Quando você publica o ativo, sua execução PTIFF também é publicada no Brand Portal.
+(*Se AEM instância do autor estiver sendo executada no modo *****Híbrido de Dynamic Media) Para visualização de representações dinâmicas de um ativo no Brand Portal, verifique se a execução tiff Pirâmide existe na instância do autor AEM de onde você publica no Brand Portal. Quando você publica o ativo, sua execução PTIFF também é publicada no Brand Portal.
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ Os administradores de AEM podem criar predefinições de imagens que aparecem co
 >
 >As representações dinâmicas de uma imagem são criadas usando seu TIFF em pirâmide. Se o TIFF Pirâmide não estiver disponível para nenhum ativo, as representações dinâmicas para esse ativo não poderão ser buscadas no portal da Marca.
 >
->Se AEM instância (Autor) estiver em execução no modo **Híbrido de mídia** dinâmica, as execuções de TIFF em pirâmide dos ativos de imagem serão criadas e salvas AEM repositório.
+>Se AEM instância do autor estiver sendo executada no modo **Híbrido de mídia** dinâmica, as execuções de TIFF em pirâmide dos ativos de imagem serão criadas e salvas AEM repositório.
 >
->Enquanto que, se AEM instância (Autor) estiver sendo executada no modo ****Dynamic Media Scene 7, as representações de TIFF pirâmides de ativos de imagem existem no servidor Scene 7.
+>Enquanto que, se AEM instância do autor estiver sendo executada no modo **do**Dynamic Media Scene 7, as execuções de TIFF em pirâmide dos ativos de imagem existem no servidor Scene 7.
 >Quando esses ativos são publicados no portal da marca, as predefinições de imagem são aplicadas e as representações dinâmicas são exibidas.
 
 
