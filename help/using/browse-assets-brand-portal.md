@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 4%
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-O Portal de marcas do AEM Assets oferece vários recursos e elementos de interface do usuário que facilitam a navegação pelos recursos, a passagem das hierarquias de ativos e a pesquisa de ativos, além de usar opções de visualização diferentes.
+O Portal de marcas da AEM Assets oferece vários recursos e elementos de interface do usuário que facilitam a navegação pelos recursos, a passagem de hierarquias de ativos e a pesquisa de ativos ao mesmo tempo que usam opções de visualização diferentes.
 
-O logotipo do AEM na barra de ferramentas do AEM na parte superior facilita que os usuários administradores acessem o painel de ferramentas administrativas.
+AEM logotipo na barra de ferramentas AEM na parte superior facilita que os usuários administradores acessem o painel de ferramentas administrativas.
 
 ![](assets/aemlogo.png)
 
@@ -57,7 +57,7 @@ A Exibição de cartão exibe cartões de informações para cada item no nível
 * Tipo
 * Título
 * Nome
-* Data e hora em que o ativo foi publicado no Brand Portal do AEM
+* Data e hora em que o ativo foi publicado no Brand Portal a partir da AEM
 * Tamanho
 * Dimensões
 
@@ -65,7 +65,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 ![](assets/cardquickactions.png)
 
-#### visualização de cartão para usuários não administradores
+#### Visualização de cartão para usuários não administradores
 
 Cartões de pastas, na Visualização de cartão, exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam o local das pastas que estão acessando, em relação à hierarquia pai.
 As informações de hierarquia de pastas são particularmente úteis na diferenciação de pastas com nomes semelhantes a outras pastas compartilhadas de uma hierarquia de pastas diferente. Se os usuários não administradores não estiverem cientes da estrutura de pastas dos ativos compartilhados com eles, ativos/pastas com nomes semelhantes parecerão confusos.
@@ -87,9 +87,9 @@ Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é
 
 ![](assets/overview-rail-selector.png)
 
-#### Configurações de Visualização na visualização da placa
+#### Configurações de visualização na visualização da placa
 
-**[!UICONTROL A caixa de diálogo Configurações]** de Visualização é aberta ao selecionar Configurações **[!UICONTROL de]** Visualização no seletor de visualizações. Ele permite redimensionar as miniaturas de ativos na visualização do cartão. Dessa forma, você pode personalizar sua visualização e controlar o número de miniaturas exibidas.
+**[!UICONTROL A caixa de diálogo Configurações]** de visualização é aberta ao selecionar Configurações **[!UICONTROL de]** Visualização no seletor de visualizações. Ele permite redimensionar as miniaturas de ativos na visualização do cartão. Dessa forma, você pode personalizar sua visualização e controlar o número de miniaturas exibidas.
 
 ![](assets/cardviewsettings.png)
 
@@ -97,14 +97,14 @@ Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é
 
 ![](assets/list-view.png)
 
-A visualização de lista exibe informações para cada recurso no nível atual. A visualização de Lista fornece os seguintes detalhes:
+A visualização de lista exibe informações para cada recurso no nível atual. A visualização de listas fornece os seguintes detalhes:
 
 * Imagem em miniatura de ativos
 * Nome
 * Título
 * Localidade
 * Tipo
-* Dimensão
+* Dimension
 * Tamanho
 * Classificação
 * Caminho da pasta mostrando a hierarquia<sup>do ativo*</sup>
@@ -116,9 +116,9 @@ A coluna Caminho permite identificar facilmente o local do ativo na hierarquia d
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### Configurações de Visualização na visualização da lista
+### Configurações de visualização na visualização da lista
 
-A visualização de Lista mostra o **[!UICONTROL Nome]** do ativo como a primeira coluna por padrão. Informações adicionais, como **[!UICONTROL Título]** do ativo, **[!UICONTROL Localidade]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimensões]**, **[!UICONTROL Tamanho]******, Classificação, status de publicação também são mostradas. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+A visualização de lista mostra o **[!UICONTROL Nome]** do ativo como a primeira coluna por padrão. Informações adicionais, como **[!UICONTROL Título]** do ativo, **[!UICONTROL Localidade]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]******, Classificação, status de publicação também são mostradas. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -142,7 +142,7 @@ Quando um ativo é selecionado na visualização da coluna, a representação vi
 * Título
 * Nome
 * Dimensões
-* Data e hora em que o ativo foi publicado no Brand Portal do AEM
+* Data e hora em que o ativo foi publicado no Brand Portal a partir da AEM
 * Tamanho
 * Tipo
 * Opção Mais Detalhes, para acessar a página de detalhes do ativo
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -261,4 +261,4 @@ Para abrir a página de propriedades do ativo, use a opção **[!UICONTROL Propr
 
 ![](assets/asset-properties.png)
 
-Você também pode visualização uma lista de todos os ativos relacionados (ativos de origem ou derivados no AEM) na página de propriedades de um ativo, já que a relação de ativos também é publicada do AEM para o Brand Portal.
+Você também pode visualização uma lista de todos os seus ativos relacionados (ativos de origem ou derivados em AEM) na página de propriedades de um ativo, já que a relação de ativos também é publicada AEM para o Brand Portal.
