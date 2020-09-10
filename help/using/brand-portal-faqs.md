@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1521'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Esse problema pode ocorrer quando você tiver configurado um locatário do Brand
 
 **Ques. Não consigo publicar ativos do AEM Assets para o Brand Portal. O log de replicação indica que a conexão expirou. Há uma solução rápida?**
 
-**Ans.** Normalmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver o problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
+**Ans.** Normalmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver esse problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
 
 Execute as seguintes etapas para configurar o agente de replicação:
 1. Faça logon na instância do autor do AEM Assets.
