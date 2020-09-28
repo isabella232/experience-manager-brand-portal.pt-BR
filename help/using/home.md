@@ -4,17 +4,17 @@ seo-title: Guia do usuário do AEM Brand Portal
 description: Guia do usuário do AEM Brand Portal
 seo-description: Descreve como usar o Brand Portal
 translation-type: tm+mt
-source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
+source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 81%
+source-wordcount: '353'
+ht-degree: 80%
 
 ---
 
 
-# Introdução
+# Portal de marcas do Adobe Experience Manager Assets {#aem-brand-portal}
 
-**O portal** de marcas dos ativos Adobe Experience Manager (AEM) auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança ativos de marca e produtos aprovados a agências externas, parceiros, equipes internas e revendedores para download.
+**O Portal** de marcas do Adobe Experience Manager Assets auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 
 A falta de uma solução de compartilhamento de ativos seguros pode resultar em:
 
@@ -46,8 +46,8 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Solucionar problemas na publicação paralela](troubleshoot-parallel-publishing.md) | Solucione problemas de replicação entre o Brand Portal e o AEM Assets. |
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
-| [Seleção de recursos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Origem de ativos em AEM Assets, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta em AEM Assets. |
+| [Seleção de recursos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Seleção de ativos no AEM Assets, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta no AEM Assets. |
 
 ### Recursos úteis
 
-* [Como entender o Brand Portal com AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
+* [Como entender o Brand Portal com a AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
