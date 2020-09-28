@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 1%
 
 ---
 
@@ -116,6 +116,12 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
       >Os ativos protegidos por licença têm o contrato de [licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito ao configurar a propriedade [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadados do ativo nos Ativos Experience Manager.
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >Certifique-se de selecionar todas as representações de ativos necessárias ao baixá-las da página de detalhes do ativo e clique em **[!UICONTROL Download]**. As representações selecionadas são baixadas para a máquina local.
+      > 
+      >Após o download, o botão **[!UICONTROL Download]** é desativado para evitar a criação de cópias de duplicados das execuções baixadas. Para baixar mais (ausentes ou outra cópia de execuções), atualize o navegador para reativar o botão de download.
 
       Se qualquer configuração de Representações **** personalizadas ou Representações **** do sistema estiver ativada nas Configurações **[!UICONTROL de]** download, a caixa de diálogo **[!UICONTROL Download]** será exibida com a caixa de seleção **[!UICONTROL Ativo(s)]** selecionada por padrão. Se a configuração do Download **** rápido estiver ativada, a caixa de seleção **[!UICONTROL Ativar aceleração]** de download estará marcada por padrão.
 
