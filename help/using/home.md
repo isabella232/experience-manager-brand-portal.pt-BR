@@ -1,18 +1,18 @@
 ---
-title: Guia do usuário do AEM Brand Portal
-seo-title: Guia do usuário do AEM Brand Portal
-description: Guia do usuário do AEM Brand Portal
+title: Guia do Portal de Marcas do Adobe Experience Manager Assets
+seo-title: Guia do Portal de Marcas do Adobe Experience Manager Assets
+description: Guia do Portal de Marcas do Adobe Experience Manager Assets
 seo-description: Descreve como usar o Brand Portal
 translation-type: tm+mt
-source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
+source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 80%
+source-wordcount: '360'
+ht-degree: 74%
 
 ---
 
 
-# Portal de marcas do Adobe Experience Manager Assets {#aem-brand-portal}
+# Guia do Portal de Marcas do Adobe Experience Manager Assets {#aem-brand-portal}
 
 **O Portal** de marcas do Adobe Experience Manager Assets auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 
