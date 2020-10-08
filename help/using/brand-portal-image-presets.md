@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -29,13 +29,11 @@ Uma predefinição de imagem é usada para gerar representações dinâmicas de 
 >
 >Ao baixar imagens e suas representações, não há opção para escolher entre as predefinições existentes. Em vez disso, você pode especificar as propriedades de uma predefinição de imagem personalizada. Para obter mais informações, consulte [Aplicar predefinições de imagens ao baixar imagens](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
-
 Para obter mais informações sobre os parâmetros necessários ao criar predefinições de imagens, consulte [Gerenciamento de predefinições](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)de imagens.
 
 ## Criar uma predefinição de imagem {#create-an-image-preset}
 
 Os administradores de AEM podem criar predefinições de imagens que aparecem como representações dinâmicas na página de detalhes do ativo. Você pode criar uma predefinição de imagem do zero ou salvar uma existente com um novo nome. Ao criar uma predefinição de imagem, escolha um tamanho para o delivery de imagem e os comandos de formatação. Quando uma imagem é entregue para exibição, sua aparência é otimizada de acordo com os comandos escolhidos.
-
 
 >[!NOTE]
 >
@@ -43,9 +41,9 @@ Os administradores de AEM podem criar predefinições de imagens que aparecem co
 >
 >Se AEM instância do autor estiver sendo executada no modo **Híbrido de mídia** dinâmica, as execuções de TIFF em pirâmide dos ativos de imagem serão criadas e salvas AEM repositório.
 >
->Enquanto que, se AEM instância do autor estiver sendo executada no modo **do**Dynamic Media Scene 7, as execuções de TIFF em pirâmide dos ativos de imagem existem no servidor Scene 7.
+>Enquanto que, se AEM instância do autor estiver sendo executada no modo **do** Dynamic Media Scene 7, as execuções de TIFF em pirâmide dos ativos de imagem existem no servidor Scene 7.
+>
 >Quando esses ativos são publicados no portal da marca, as predefinições de imagem são aplicadas e as representações dinâmicas são exibidas.
-
 
 1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
