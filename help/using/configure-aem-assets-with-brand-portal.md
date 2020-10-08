@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -32,7 +32,6 @@ Os ativos Adobe Experience Manager são configurados com o Portal de marcas por 
 >
 >A configuração por meio do OAuth herdado não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio do Console do desenvolvedor do Adobe.
 
-
 >[!TIP]
 >
 >***Somente para clientes existentes***
@@ -40,7 +39,6 @@ Os ativos Adobe Experience Manager são configurados com o Portal de marcas por 
 >A configuração antiga do OAuth Gateway continuará funcionando para os clientes existentes.
 >
 >Caso encontre problemas com a configuração herdada do OAuth Gateway, exclua a configuração existente e crie uma nova configuração por meio do Console do desenvolvedor do Adobe.
-
 
 As etapas para configurar o AEM Assets com o Brand Portal são diferentes dependendo da versão AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
 
@@ -51,5 +49,3 @@ As etapas para configurar o AEM Assets com o Brand Portal são diferentes depend
 | **AEM 6.4 (6.4.8.0 e superior)** | [Criar configuração](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 e superior)** | [Criar configuração](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Atualizar configuração](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Entre em contato com o suporte | Entre em contato com o suporte |
-
-
