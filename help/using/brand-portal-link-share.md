@@ -1,8 +1,8 @@
 ---
 title: Compartilhar ativos como um link
 seo-title: Compartilhar ativos como um link
-description: Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
-seo-description: Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
+description: Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, inclusive parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
+seo-description: Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, inclusive parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Compartilhar ativos como um link {#share-assets-as-a-link}
 
-Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, incluindo parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
+Os administradores do Portal de marcas da AEM Assets podem compartilhar links de vários ativos com usuários internos e entidades externas autorizados, inclusive parceiros e fornecedores. Os editores podem visualização e compartilhar somente os ativos compartilhados com eles.
 
 Compartilhar ativos por meio de um link é uma maneira conveniente de disponibilizá-los a terceiros, já que os receptores não precisam fazer logon no Brand Portal para acessar os ativos.
 
@@ -31,7 +31,6 @@ Para obter mais informações, consulte [Gerenciamento de usuários, grupos e fu
 >[!NOTE]
 >
 >É permitido até 5 GB de zip download usando o recurso de compartilhamento de link no Brand Portal.
-
 
 Veja a seguir as etapas para compartilhar ativos como um link:
 
@@ -79,7 +78,7 @@ Veja a seguir as etapas para compartilhar ativos como um link:
 
 ## Baixar ativos de links compartilhados {#download-assets-from-shared-links}
 
-Clique no link no email para visualização do ativo compartilhado. A página Compartilhamento de links do AEM é aberta.
+Clique no link no email para visualização do ativo compartilhado. A página Compartilhamento de links AEM é aberta.
 
 Para baixar os ativos compartilhados:
 
@@ -120,11 +119,11 @@ Para baixar os ativos compartilhados:
 >
 >O Brand Portal restringe o download de ativos maiores que 5 GB por tamanho de arquivo.
 
-## Suporte de Pré-visualização e miniatura para formatos de ativos {#preview-thumbnail-support}
+## Suporte de pré-visualização e miniatura para formatos de ativos {#preview-thumbnail-support}
 
 A matriz a seguir lista os formatos de ativos para os quais o Brand Portal suporta miniaturas e pré-visualizações:
 
-| Formato do ativo | Suporte a miniaturas | Suporte à Pré-visualização |
+| Formato do ativo | Suporte a miniaturas | Suporte à pré-visualização |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
@@ -190,7 +189,7 @@ A seguinte legenda explica os símbolos usados na matriz:
 | ✓ | Este formato de arquivo suporta este recurso |
 | ✕ | Este formato de arquivo não é compatível com este recurso |
 | ND | Este recurso não se aplica a este formato de arquivo |
-| * | Este recurso requer suporte adicional para esse formato de arquivo na instância do autor de AEM, mas não no Portal de marcas depois que os ativos forem publicados no Portal de marcas |
+| * | Este recurso requer suporte adicional para este formato de arquivo AEM instância do autor, mas não no Portal da Marca após a publicação dos ativos no Portal da Marca |
 
 ## Cancelar compartilhamento de ativos compartilhados como um link {#unshare-assets-shared-as-a-link}
 
