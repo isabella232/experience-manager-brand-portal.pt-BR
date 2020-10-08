@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 2%
@@ -25,7 +25,6 @@ O Brand Portal permite aprimorar o desempenho de download de arquivos de ativos 
 >[!NOTE]
 >
 >A velocidade de download varia para os usuários, pois depende de fatores como largura de banda da rede, latência do servidor e localização geográfica dos clientes.
-
 
 A configuração do Download **** rápido está ativada por padrão, o que reduz significativamente o tempo gasto para fazer o download dos arquivos de ativos desejados do Brand Portal.
 
