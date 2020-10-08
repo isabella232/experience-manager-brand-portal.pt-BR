@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,7 +29,6 @@ Em seguida, eles podem criar novos ativos para contribuição e carregá-los par
 >
 >O limite máximo de upload para qualquer locatário do Brand Portal é de **10** GB, que é aplicado cumulativamente a todas as pastas de contribuição.
 
-
 Depois de publicar os ativos criados recentemente na AEM Assets, os usuários do Brand Portal podem excluí-los da pasta NEW. Enquanto isso, o administrador do Brand Portal pode excluir os ativos das pastas NEW e SHARED.
 
 Quando o objetivo de criar a pasta de contribuição for atingido, o administrador do Brand Portal poderá excluir a pasta de contribuição para liberar o espaço de upload para outros usuários.
@@ -39,7 +38,6 @@ Quando o objetivo de criar a pasta de contribuição for atingido, o administrad
 >É recomendável liberar o espaço de upload depois de publicar a pasta de contribuição na AEM Assets para que ela esteja disponível para contribuição para outros usuários do Brand Portal.
 >
 >Se for necessário estender o limite de upload do seu locatário do Brand Portal para além de **10** GB, entre em contato com o Suporte ao Adobe especificando o requisito.
-
 
 **Para carregar novos ativos:**
 
