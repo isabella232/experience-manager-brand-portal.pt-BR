@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 2%
@@ -28,7 +28,6 @@ O Portal de marcas do Adobe Experience Manager Assets aprimora a experiência de
 >[!NOTE]
 >
 >Instale o IBM Aspera Connect 3.9.9 na extensão do seu navegador antes de baixar os ativos do Brand Portal.
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >Somente os administradores podem baixar os ativos expirados. Para obter mais informações sobre ativos expirados, consulte [gerenciar direitos digitais de ativos](../using/manage-digital-rights-of-assets.md).
-
 
 ## Etapas para baixar ativos {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
       >
       >O Brand Portal suporta a configuração de Dynamic Media em ambos os modos - Hybird e Scene 7.
       >
-      >(*Se AEM instância do autor estiver em execução no modo **Híbrido do***Dynamic Media)      >Para pré-visualização ou download de representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação temporária do ativo em Pirâmide existe na instância do autor da AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado no Brand Portal, sua representação em pirâmide também é publicada.
+      >(*Se AEM instância do autor estiver em execução no modo **Híbrido do***Dynamic Media)
+      >
+      >Para pré-visualização ou download de representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação temporária do ativo em Pirâmide existe na instância do autor da AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado no Brand Portal, sua representação em pirâmide também é publicada.
 
    * Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL Criar pasta separada para cada ativo]** . Por padrão, a hierarquia de pastas do Brand Portal é ignorada e todos os ativos são baixados em uma pasta no sistema local.
 
@@ -179,7 +179,6 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
    >[!NOTE]
    >
    >Os ativos que são baixados individualmente ficam visíveis no relatório de download de ativos. No entanto, se uma pasta que contém ativos for baixada, a pasta e os ativos não serão exibidos no relatório de download de ativos.
-
 
 ## Desempenho de download esperado {#expected-download-performance}
 
@@ -199,4 +198,3 @@ A experiência de download de arquivo pode variar para usuários em diferentes l
 >[!NOTE]
 >
 >Os dados citados são observados em condições de teste, que podem variar para usuários em locais diferentes que testemunham latência e largura de banda variadas.
-
