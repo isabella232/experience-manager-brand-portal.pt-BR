@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 1%
@@ -187,20 +187,13 @@ Os usuários do Brand Portal acessam a pasta **Contribution** e carregam conteú
 **Ans.** Em AEM, os registros são mantidos sempre que uma pasta é publicada no Brand Portal. No momento da publicação, todos os ativos que não são publicados no Brand Portal são colocados em uma fila de replicação. Qualquer ativo adicionado à pasta depois que o trabalho de publicação é acionado não é publicado no Brand Portal. Quando o usuário AEM publica a pasta novamente, somente os ativos que não foram publicados anteriormente (existentes na fila de replicação) são publicados no Brand Portal.
 Isso é válido para qualquer pasta publicada do AEM Assets para o Brand Portal e para a pasta COMPARTILHADA em uma pasta de contribuição.
 
-
-
 **Ques. Com quem eu entro em contato com as perguntas?**
 
 **Ans.** Entre em contato com seu Gerente de contas do Adobe ou com o Suporte ao cliente.
 
-
 >[!NOTE]
 >
 >O cronograma de liberação é provisório e está sujeito a alterações. Entre em contato com seu Gerente de contas do Adobe ou com o Suporte ao cliente para obter o cronograma atualizado de lançamento.
-
-
-
-
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
