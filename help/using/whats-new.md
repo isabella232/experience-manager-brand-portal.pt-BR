@@ -1,8 +1,8 @@
 ---
 title: Novidades do AEM Assets Brand Portal
 seo-title: Novidades do AEM Assets Brand Portal
-description: Dê uma olhada nos novos recursos e melhorias da versão 6.4.7.
-seo-description: Dê uma olhada nos novos recursos e melhorias da versão 6.4.7.
+description: Dê uma olhada nos novos recursos e melhorias para 2020.10.0.
+seo-description: Dê uma olhada nos novos recursos e melhorias para 2020.10.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '5387'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 2%
 # Novidades do AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilmente adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja os novos recursos e melhorias.
+
+## O que mudou em 2020.10.0 {#what-changed-in-oct-2020}
+
+O Brand Portal 2020.10.0 é uma versão aprimorada que tem como objetivo simplificar a experiência de download de ativos e inclui correções essenciais. O aprimoramento inclui fluxo de trabalho novo e aprimorado para download de ativos, opções adicionais para excluir representações, download direto do painel **[!UICONTROL Representações]** , configuração para permitir direitos de acesso e download para grupos específicos de usuários e fácil navegação para arquivos, coleções e links compartilhados de todas as páginas do Portal de marcas. Consulte as notas [de versão mais recentes do Portal de](brand-portal-release-notes.md)marcas.
+
+
+### Experiência de download simplificada {#download-dialog}
+
+Anteriormente, a caixa de diálogo **[!UICONTROL Download]** aparecia com várias opções, como criar uma pasta separada para cada ativo, ativo de email, selecionar ativo original, representações personalizadas, representações dinâmicas, excluir representações do sistema e ativar a aceleração de download, que eram ambíguas para usuários não técnicos ou novos, especialmente quando vários ativos ou pastas foram selecionados para download. Além disso, o usuário não pôde visualizar todas as representações de ativos ou excluir uma representação personalizada ou dinâmica específica.
+
+A nova caixa de diálogo **[!UICONTROL Download]** generaliza o processo de seleção e filtragem de ativos, o que torna mais fácil para os usuários do Brand Portal tomarem decisões eficazes ao baixar as execuções de ativos. Ele lista todos os ativos selecionados e suas representações, dependendo das configurações de [**[!UICONTROL Download]**](brand-portal-download-assets.md) e **[!UICONTROL Download]** .
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+Na caixa de diálogo **[!UICONTROL Download]** , os usuários podem:
+
+* Visualização todas as representações disponíveis de qualquer ativo na lista de download.
+* Exclua representações dos ativos que não são necessárias para download.
+* Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes em um clique.
+* Aplique um conjunto diferente de representações para diferentes tipos de ativos.
+* Criar uma pasta separada para cada ativo.
+* Baixe os ativos selecionados e suas representações.
+
+O fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e o download de ativos usando o link de compartilhamento.
+
+![caixa de diálogo de download](assets/download-dialog-box.png)
+
+### Navegação rápida  {#quick-navigation}
+
+Anteriormente, a opção para visualização de **[!UICONTROL arquivos]**, **[!UICONTROL coleções]** e links **** compartilhados ficava oculta e exigia vários cliques sempre que o usuário desejava alternar para outra visualização.
+
+No Brand Portal 2020.10.0, os usuários podem navegar até **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]** e Links **** compartilhados de todas as páginas do Brand Portal com um clique usando os links de navegação rápidos.
+
+![navegação por coleção](assets/collection-navigation.png)
+
+### Painel de representação aprimorado {#rendition-panel}
+
+Anteriormente, os usuários só podiam visualização o ativo original e suas representações no painel **[!UICONTROL Representações]** se qualquer representação **[!UICONTROL personalizada ou representação]** **[!UICONTROL do sistema]** estivesse ativada na configuração de **[!UICONTROL Download]** . Além disso, os usuários tinham que baixar todas as representações de ativos, pois não havia filtro para excluir representações personalizadas ou dinâmicas específicas que não eram necessárias.
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e baixar diretamente as representações selecionadas do painel **[!UICONTROL Representações]** na página de detalhes do ativo sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** .
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![painel de execuções](assets/rendition-panel.png)
+
+
+### Configurar permissões de download {#download-permissions}
+
+Além das configurações de [**[!UICONTROL Download]**](brand-portal-download-assets.md) existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo. Essas configurações definirão quem pode acessar e (ou) baixar as representações de ativos.
+
+Anteriormente, as configurações estavam disponíveis somente para impedir que os usuários do grupo baixassem o ativo original.
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+A guia **[!UICONTROL Grupos]** na página Funções **[!UICONTROL do]** usuário permite que os administradores definam as configurações de visualização e download:
+
+* Se as configurações **[!UICONTROL Baixar original]** e **[!UICONTROL Baixar representações]** estiverem ativadas, os usuários do grupo selecionado poderão fazer a visualização e o download dos ativos originais e de suas execuções.
+* Se ambas as configurações estiverem desativadas, os usuários poderão apenas visualização os ativos originais. As representações de ativos não estão visíveis para os usuários na página de detalhes do ativo.
+* Se apenas a configuração **[!UICONTROL Baixar original]** estiver ativada, os usuários poderão visualização e baixar somente os ativos originais da página de detalhes do ativo.
+* Se apenas a configuração **[!UICONTROL Baixar representações]** estiver ativada, os usuários poderão visualização o ativo original, mas não poderão baixá-lo. No entanto, o usuário pode visualização e baixar as representações do ativo.
+
+![visualização-download-permissão](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>Se um usuário for adicionado a vários grupos e um deles tiver restrições, as restrições serão aplicadas ao usuário.
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## O que mudou no ponto 6.4.7 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ Observe que a miniatura padrão das pastas virtuais é a imagem em miniatura da 
 
 ![](assets/edit-search-form.png)
 
-**O caso de uso**
 
 Agora você pode restringir a pesquisa de ativos em uma pasta específica que você navegou, em vez de começar na pasta raiz.
 
@@ -252,7 +339,8 @@ Os usuários cuja instância de autor de AEM esteja no modo híbrido Dynamic Med
 
 Para permitir a pré-visualização e o download de execuções de mídia dinâmica em contas de locatário específicas, os administradores precisam especificar a Configuração **de Mídia** Dinâmica (URL do serviço de vídeo (URL do Gateway DM) e a ID de registro para buscar o vídeo dinâmico) na configuração de **Vídeo** no painel de ferramentas administrativas.
 
-**Os vídeos de caso** de uso do Dynamic Media podem ser visualizados em:
+
+Os vídeos do Dynamic Media podem ser visualizados em:
 
 * Página de detalhes do ativo
 * Visualização do cartão do ativo
@@ -274,6 +362,7 @@ O fluxo de trabalho de publicação de ativos (e pastas) de [AEM (6.4.2.0)](http
 Da mesma forma, os recursos publicados podem ser removidos do portal em uma data posterior (hora), agendando o fluxo de trabalho Cancelar publicação do Brand Portal.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -287,7 +376,7 @@ Por exemplo, uma organização com o domínio existente **geomettrix.brand-porta
 
 No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) somente com o URL de ID do locatário e não com o URL de alias do locatário (alternativo).
 
-**O caso** de uso As organizações podem atender às suas necessidades de marca ao personalizar o URL do portal, em vez de aderir ao URL fornecido pelo Adobe.
+As organizações podem atender às suas necessidades de marca ao personalizar o URL do portal, em vez de se manterem no URL fornecido pelo Adobe.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -295,8 +384,8 @@ No entanto, a instância do autor de AEM pode ser [configurada](https://helpx.ad
 
 A versão do oferta simplificou a experiência de download com um número reduzido de cliques e avisos, em:
 
-* optar por baixar somente as representações (e não os ativos originais).
-* baixar os ativos quando o acesso às representações originais estiver restrito.
+* Optar por baixar somente as representações (e não os ativos originais).
+* Baixar os ativos quando o acesso às representações originais estiver restrito.
 
 ## O que mudou no ponto 6.4.2 {#what-changed-in-1}
 
