@@ -1,8 +1,8 @@
 ---
 title: Notas de versão
 seo-title: Notas de versão
-description: Saiba mais sobre os recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos Ativos Adobe Experience Manager 6.4.7.
-seo-description: Saiba mais sobre os aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 6.4.7.
+description: Saiba mais sobre os recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager 2020.10.0.
+seo-description: Saiba mais sobre os aprimoramentos, os problemas críticos corrigidos e os problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager 2020.10.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '500'
 ht-degree: 11%
 
 ---
@@ -20,59 +20,92 @@ ht-degree: 11%
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos Ativos Adobe Experience Manager 6.4.7.
+Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos Ativos Adobe Experience Manager 2020.10.0.
 
 ## Informações da versão {#release-information}
 
 | Produto | Portal de marcas do Adobe Experience Manager Assets |
 |---|---|
-| Versão | 6.4.7 |
-| Data | Agosto de 2020 |
+| Versão | 2020.10.0 |
+| Data | Outubro de 2020 |
 
 ## Visão geral {#overview}
 
 O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilmente adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, pré-visualizações, baixem e exportem ativos em formatos corporativos aprovados, a qualquer momento e em qualquer lugar.
 
-## Novidades da versão 6.4.7 {#whats-new-in-647}
+## Novidades da versão 2020.10.0 {#whats-new-in-2020.10.0}
 
 ### New Features {#new-features}
 
 Esta versão inclui os seguintes novos recursos:
 
-* O Visualizador de documentos foi introduzido para aprimorar a experiência de visualização de PDF. Novas opções estão disponíveis para exibir os arquivos PDF no Brand Portal.
+* A caixa de diálogo **[!UICONTROL Download]** é remodelada em uma visualização de lista com opções adicionais para excluir as representações que não são obrigatórias, aplicar o mesmo conjunto de regras para tipos de ativos semelhantes e baixar as representações de ativos selecionadas.
+
+<!--
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
+-->
+
+* A navegação para **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]** e Links **** compartilhados agora é possível em todas as páginas do Brand Portal em um clique.
+
+* O painel **[!UICONTROL Representações]** na página de detalhes do ativo agora permite que os usuários do Brand Portal selecionem o ativo original e (ou) representações específicas do ativo e os baixem diretamente do painel **[!UICONTROL Representações]** sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** .
+
+<!--
+Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
+-->
+
+* Além das configurações de **[!UICONTROL Download]** existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo. Essas configurações definirão quem pode acessar e (ou) baixar as representações de ativos.
+
+
+### Problemas críticos corrigidos {#critical-issues-fixed}
+
+Esta versão inclui correções para o seguinte problema crítico:
+
+* Os usuários não poderão visualização as páginas do PDF se o PDF contiver subativos.
+
+
+### Problemas conhecidos {#known-issues}
+
+Esta versão inclui o seguinte problema conhecido:
+
+* Se o usuário estiver baixando o ativo usando o link compartilhar, o ativo original será baixado mesmo quando a opção **[!UICONTROL Permitir download do arquivo]** original estiver desativada.
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Avanços no processo de download de ativos que melhoram a experiência do usuário do Brand Portal ao [baixar ativos do Brand Portal](brand-portal-download-assets.md). Os administradores do Brand Portal podem configurar o Download **** rápido, as representações **** personalizadas e as representações **** do sistema nas configurações de **[!UICONTROL Download]** .
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
-### Problemas críticos corrigidos {#critical-issues-fixed-647}
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
-Esta versão inclui correções para os seguintes problemas críticos:
+### Critical Issues Fixed {#critical-issues-fixed-647}
 
-* Os usuários do visualizador não têm permissão para compartilhar links para coleções, mas a opção para compartilhar está visível para eles na interface do produto.
+This release includes fixes to the following critical issues:
 
-* O botão **[!UICONTROL Download]** na barra de opções não lista todos os ativos licenciados da pasta selecionada.
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* A pesquisa leva mais tempo para mostrar os resultados de determinadas palavras-chave.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* As caixas de seleção **[!UICONTROL Concordar]** e **[!UICONTROL Discordar]** não aparecem na seleção em massa de ativos licenciados e não licenciados durante o download.
+* The search takes longer to show the results for certain keywords.
 
-* A pesquisa com base em filtro mostra o processamento na interface do produto sem nenhum resultado de pesquisa.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* Os ativos não são baixados do link de compartilhamento se a pasta compartilhada contiver vários ativos grandes.
+* Filter-based search shows processing on the product interface with no search result. 
 
-
-### Problemas conhecidos {#known-issues-647}
-
-Esta versão inclui os seguintes problemas conhecidos:
-
-* Se vários ativos forem selecionados, o texto da licença não será exibido ao clicar em Termos e condições na página do contrato de licença durante o download usando o link de compartilhamento.
+* The assets do not download from share link if the shared folder contains numerous and large assets.
 
 
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
+
+-->
 
 ## Idiomas {#languages}
 
