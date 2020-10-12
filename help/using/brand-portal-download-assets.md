@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 1%
 
 ---
 
@@ -115,14 +115,13 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
 
       ![](assets/licensed-asset-download-1.png)
 
-      <!--
-     >>[!NOTE]
-     >
-     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
-     > 
-     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
-     >
-     -->
+
+      >[!NOTE]
+      >
+      >Certifique-se de selecionar todas as representações de ativos necessárias ao baixá-las da página de detalhes do ativo e clique em **[!UICONTROL Download]**. As representações selecionadas são baixadas para a máquina local.
+      > 
+      >Após o download, o botão **[!UICONTROL Download]** é desativado para evitar a criação de cópias de duplicados das execuções baixadas. Para baixar mais (ausentes ou outra cópia de execuções), atualize o navegador para reativar o botão de download.
+
 
       Se qualquer configuração de Representações **** personalizadas ou Representações **** do sistema estiver ativada nas Configurações **[!UICONTROL de]** download, a caixa de diálogo **[!UICONTROL Download]** será exibida com a caixa de seleção **[!UICONTROL Ativo(s)]** selecionada por padrão. Se a configuração do Download **** rápido estiver ativada, a caixa de seleção **[!UICONTROL Ativar aceleração]** de download estará marcada por padrão.
 
