@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Consol
 
 ## Adicionar um perfil de produto {#add-a-product-profile}
 
-Os perfis de produtos (anteriormente conhecidos como configurações de produtos) no [!UICONTROL Admin Console] são usados para criar grupos no Brand Portal, para que você possa realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos no Brand Portal. **O Brand Portal** é o perfil de produto padrão disponível; você pode criar mais perfis de produtos e adicionar usuários aos novos perfis de produtos.
+Perfis de produtos (anteriormente conhecidos como configurações de produtos) no [!UICONTROL Admin Console] são usados para criar grupos no Brand Portal, de modo que você possa realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos no Brand Portal. **O Brand Portal** é o perfil de produto padrão disponível; você pode criar mais perfis de produtos e adicionar usuários aos novos perfis de produtos.
 
 >[!NOTE]
 >
@@ -223,6 +223,7 @@ Você pode fornecer o privilégio de administrador do sistema ou administrador d
    >
    >Para revogar privilégios de administrador para um usuário, faça as alterações apropriadas na página **[!UICONTROL Editar administrador]** e clique em **[!UICONTROL Salvar]**.
 
+
 ## Gerenciar funções de usuário {#manage-user-roles}
 
 Um administrador pode modificar funções para usuários no Brand Portal.
@@ -250,9 +251,11 @@ Além da função Administrador, o Brand Portal oferece suporte às seguintes fu
    >
    >A lista [!UICONTROL Função] para usuários Administradores está desativada. Não é possível selecionar esses usuários para modificar suas funções.
 
+
    >[!NOTE]
    >
    >A função de usuário também será desativada se o usuário for membro do grupo Editor. Para revogar privilégios de edição do usuário, remova o usuário do grupo Editor ou altere a função do grupo inteiro para Visualizador.
+
 
 1. Clique em **[!UICONTROL Salvar]**. A função é modificada para o usuário correspondente. Se você selecionou vários usuários, as funções de todos os usuários são modificadas simultaneamente.
 
@@ -287,8 +290,10 @@ Para modificar a função e o direito de acessar as representações originais d
    >
    >Além disso, as restrições para acessar representações originais de arquivos de imagem não se aplicam aos administradores mesmo que eles sejam membros de grupos restritos.
 
+
 1. Clique em **[!UICONTROL Salvar]**. A função é modificada para os grupos correspondentes.
 
    >[!NOTE]
    >
    >A associação usuário-a-grupo, ou a associação de grupo de um usuário, é sincronizada com o Brand Portal a cada 8 horas. As alterações nas funções de usuário ou grupo são eficazes após a próxima tarefa de sincronização ser executada.
+
