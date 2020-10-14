@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 2%
@@ -102,6 +102,7 @@ A guia **[!UICONTROL Grupos]** na página Funções **[!UICONTROL do]** usuário
 >
 >Se um usuário for adicionado a vários grupos e um deles tiver restrições, as restrições serão aplicadas ao usuário.
 
+
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
  >
@@ -128,6 +129,7 @@ Com o Visualizador de Documentos, os usuários do Portal de marcas agora têm as
 >[!NOTE]
 >
 >A experiência de exibição para outros formatos de documentos permanece inalterada.
+
 
 ![](assets/doc-viewer.png)
 
