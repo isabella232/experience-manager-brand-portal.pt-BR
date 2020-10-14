@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -31,6 +31,7 @@ Os ativos Adobe Experience Manager são configurados com o Portal de marcas por 
 >Anteriormente, o Brand Portal era configurado na interface clássica via Gateway OAuth Herdado, que usa a troca JSON Web token (JWT) para obter um token IMS para autorização.
 >
 >A configuração por meio do OAuth herdado não é mais compatível a partir de 6 de abril de 2020 e é alterada para configuração por meio do Console do desenvolvedor do Adobe.
+
 
 >[!TIP]
 >
