@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 11%
+source-wordcount: '544'
+ht-degree: 10%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Além das configurações de **[!UICONTROL Download]** existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo. Essas configurações definirão quem pode acessar e (ou) baixar as representações de ativos.
 
+### Aprimoramentos {#enhancements}
 
-### Problemas críticos corrigidos {#critical-issues-fixed}
+Esta versão inclui os seguintes aprimoramentos:
 
-Esta versão inclui correções para o seguinte problema crítico:
+* O limite de tempo limite da sessão para os usuários convidados foi reduzido de 2 horas para 15 minutos.
+* A opção de páginas **[!UICONTROL de]** Visualização adicionais foi removida para PDFs de várias páginas, pois o usuário agora pode visualização as páginas de PDF do Adobe Document Cloud Viewer.
 
-* Os usuários não poderão visualização as páginas do PDF se o PDF contiver subativos.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Problemas conhecidos {#known-issues}
 
 Esta versão inclui o seguinte problema conhecido:
 
-* Se o usuário estiver baixando o ativo usando o link compartilhar, o ativo original será baixado mesmo quando a opção **[!UICONTROL Permitir download do arquivo]** original estiver desativada.
+* A pesquisa nos Relatórios **[!UICONTROL de]** ativos mostra o processamento na interface do produto sem nenhum resultado de pesquisa.
+* Os códigos DM de vídeo não estão visíveis para usuários não administradores na página de detalhes do ativo.
+* O alinhamento do tamanho de representações individuais de ativos e do tamanho total de download está distorcido na caixa de diálogo Download.
 
 
 
