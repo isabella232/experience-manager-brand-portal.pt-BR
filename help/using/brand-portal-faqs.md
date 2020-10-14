@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 1%
@@ -194,6 +194,7 @@ Isso é válido para qualquer pasta publicada do AEM Assets para o Brand Portal 
 >[!NOTE]
 >
 >O cronograma de liberação é provisório e está sujeito a alterações. Entre em contato com seu Gerente de contas do Adobe ou com o Suporte ao cliente para obter o cronograma atualizado de lançamento.
+
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
