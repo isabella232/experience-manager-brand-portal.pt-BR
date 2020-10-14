@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -107,11 +107,13 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
       >
       >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará a instalação do Acelerador de download Aspera.
 
+
       >[!NOTE]
       >
       >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a página Gerenciamento **[!UICONTROL de]** direitos autorais. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e, em seguida, clique em **[!UICONTROL Download]**. Se você optar por discordar, os ativos licenciados não serão baixados.
       > 
       >Os ativos protegidos por licença têm o contrato de [licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito ao configurar a propriedade [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadados do ativo nos Ativos Experience Manager.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
       >
       >Os administradores podem personalizar mensagens de e-mail, isto é, logotipo, descrição e rodapé, usando o recurso [Marca](../using/brand-portal-branding.md) .
 
+
    * Você pode selecionar uma predefinição de imagem predefinida ou criar uma representação dinâmica personalizada na caixa de diálogo **[!UICONTROL Download]** .
 
       Para aplicar uma predefinição de imagem [personalizada ao ativo e suas representações](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), marque a caixa de seleção Representações **[!UICONTROL dinâmicas]** . Especifique as propriedades predefinidas da imagem (como tamanho, formato, espaço de cor, resolução e modificador de imagem) para aplicar a predefinição de imagem personalizada ao baixar o ativo e suas representações. Para baixar apenas as representações dinâmicas, desmarque a caixa de seleção **[!UICONTROL Ativo(s)]** .
@@ -166,6 +169,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
       >
       >Para pré-visualização ou download de representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação temporária do ativo em Pirâmide existe na instância do autor da AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado no Brand Portal, sua representação em pirâmide também é publicada.
 
+
    * Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL Criar pasta separada para cada ativo]** . Por padrão, a hierarquia de pastas do Brand Portal é ignorada e todos os ativos são baixados em uma pasta no sistema local.
 
 1. Clique em **[!UICONTROL Download]**.
@@ -177,6 +181,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos do Brand
    >[!NOTE]
    >
    >Os ativos que são baixados individualmente ficam visíveis no relatório de download de ativos. No entanto, se uma pasta que contém ativos for baixada, a pasta e os ativos não serão exibidos no relatório de download de ativos.
+
 
 ## Desempenho de download esperado {#expected-download-performance}
 
@@ -193,6 +198,8 @@ A experiência de download de arquivo pode variar para usuários em diferentes l
 | Londres | 179 milissegundos | 0,32 MB/s | 106 minutos |
 | Cingapura | 196 milissegundos | 0,5 MB/s | 68 minutos |
 
+
 >[!NOTE]
 >
 >Os dados citados são observados em condições de teste, que podem variar para usuários em locais diferentes que testemunham latência e largura de banda variadas.
+
