@@ -1,15 +1,15 @@
 ---
 title: Trabalhar com relatórios
 seo-title: Trabalhar com relatórios
-description: Os administradores do Portal de marcas do AEM Assets podem visualização relatórios sobre o uso do Portal de marcas e criar, gerenciar e visualização relatórios sobre os ativos baixados, expirados, publicados e compartilhados por meio do Portal de marcas.
-seo-description: Os administradores do Portal de marcas do AEM Assets podem visualização relatórios sobre o uso do Portal de marcas e criar, gerenciar e visualização relatórios sobre os ativos baixados, expirados, publicados e compartilhados por meio do Portal de marcas.
+description: Os Administradores do Portal de Marcas da AEM Assets podem visualização relatórios sobre o uso do Portal de Marcas e criar, gerenciar e visualização relatórios sobre os ativos baixados, expirados, publicados e compartilhados por meio do Portal de Marcas.
+seo-description: Os Administradores do Portal de Marcas da AEM Assets podem visualização relatórios sobre o uso do Portal de Marcas e criar, gerenciar e visualização relatórios sobre os ativos baixados, expirados, publicados e compartilhados por meio do Portal de Marcas.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 2%
@@ -23,11 +23,11 @@ A capacidade do relatórios é fundamental para avaliar o uso do Brand Portal e 
 
 A interface de gerenciamento de relatórios é intuitiva e inclui opções e controles aprimorados para acessar relatórios salvos. Você pode visualização, baixar ou excluir relatórios da página Relatórios de ativos, onde todos os relatórios gerados anteriormente são listados.
 
-## Relatórios de Visualização {#view-reports}
+## Relatórios de visualização {#view-reports}
 
 Para visualização de um relatório, siga estas etapas:
 
-1. Na barra de ferramentas na parte superior, toque/clique no logotipo do AEM para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, toque/clique no logotipo AEM para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -79,7 +79,6 @@ Para visualização de um relatório, siga estas etapas:
    >
    >O Relatório de compartilhamento de link não exibe os usuários que têm acesso ao ativo compartilhado pelo link ou que baixaram o ativo pelo link.
    >
-   >
    >Para rastrear downloads pelo link compartilhado, é necessário gerar um relatório de download depois de selecionar a opção **[!UICONTROL Somente downloads]** de compartilhamento de link na página **[!UICONTROL Criar relatório]** . Entretanto, o usuário (baixado por) é anônimo nesse caso.
 
 ## Gerar relatórios {#generate-reports}
@@ -94,7 +93,7 @@ Os administradores podem gerar e gerenciar os seguintes relatórios padrão, dep
 
 As colunas no relatório Download, Expiração e Publicação podem ser personalizadas para exibição. Para gerar um relatório, siga estas etapas:
 
-1. Na barra de ferramentas na parte superior, toque/clique no logotipo do AEM para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, toque/clique no logotipo AEM para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
