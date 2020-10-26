@@ -1,8 +1,8 @@
 ---
 title: Administrar configurações de locatários gerais
 seo-title: Administrar configurações de locatários gerais
-description: Configure a aceleração de download, a criação de [!UICONTROL coleções] públicas inteligentes, a criação de [!UICONTROL coleções] públicas e permita que os usuários administradores excluam ativos em locatários.
-seo-description: Configure a aceleração de download, a criação de [!UICONTROL coleções] públicas inteligentes, a criação de [!UICONTROL coleções] públicas e permita que os usuários administradores excluam ativos em locatários.
+description: Configure a aceleração de download, a criação de coleções inteligentes públicas, a criação de coleções públicas e permita que os usuários administradores excluam ativos em locatários.
+seo-description: Configure a aceleração de download, a criação de coleções inteligentes públicas, a criação de coleções públicas e permita que os usuários administradores excluam ativos em locatários.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
