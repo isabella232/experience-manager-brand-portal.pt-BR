@@ -1,26 +1,28 @@
 ---
 title: Compartilhar uma coleção
 seo-title: Compartilhar uma coleção
-description: Os administradores do Portal de marcas do AEM Assets podem compartilhar e cancelar o compartilhamento de uma coleção ou de uma coleção inteligente com usuários autorizados. Os editores podem visualização e compartilhar somente as coleções criadas por eles, compartilhadas com eles e coleções públicas.
-seo-description: Os administradores do Portal de marcas do AEM Assets podem compartilhar e cancelar o compartilhamento de uma coleção ou de uma coleção inteligente com usuários autorizados. Os editores podem visualização e compartilhar somente as coleções criadas por eles, compartilhadas com eles e coleções públicas.
+description: Os administradores do Portal de marcas da AEM Assets podem compartilhar e cancelar o compartilhamento de uma coleção ou de uma coleção inteligente com usuários autorizados. Os editores podem visualização e compartilhar somente as coleções criadas por eles, compartilhadas com eles e coleções públicas.
+seo-description: Os administradores do Portal de marcas da AEM Assets podem compartilhar e cancelar o compartilhamento de uma coleção ou de uma coleção inteligente com usuários autorizados. Os editores podem visualização e compartilhar somente as coleções criadas por eles, compartilhadas com eles e coleções públicas.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
-contentOwner: bdhar
+contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: a587061bc8afe250a88b4a02b42b6acd9ef6bbeb
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 2%
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
 
-# Compartilhar coleções no Brand Portal {#share-collections-bp}
+# Compartilhar coleções {#share-collections}
 
-Os administradores do Portal de marcas do AEM Assets podem compartilhar e cancelar o compartilhamento de uma coleção ou de uma coleção inteligente com usuários autorizados. Os editores podem visualização e compartilhar somente as coleções criadas por eles, compartilhadas com eles e coleções públicas. No entanto, os editores não podem alterar uma coleção pública para uma coleção não pública.
+Uma coleção representa um grupo de ativos relacionados armazenados juntos no Portal de marcas do Adobe Experience Manager Assets. Os usuários podem criar coleções inteligentes ao [aplicar pesquisa no Omnisearch ou facet para filtrar ativos](brand-portal-searching.md) relacionados e armazená-los juntos para fácil acesso e compartilhá-los com outros usuários do Brand Portal.
+
+Os administradores podem compartilhar e não compartilhar uma coleção com os usuários autorizados do Brand Portal. Editores e visualizadores podem visualização e compartilhar as coleções criadas por eles, compartilhadas com eles e coleções públicas.
 
 >[!NOTE]
 >
@@ -28,33 +30,29 @@ Os administradores do Portal de marcas do AEM Assets podem compartilhar e cancel
 
 ## Compartilhar uma coleção {#share-collection}
 
-Para compartilhar uma coleção, siga estas etapas:
+Veja a seguir as etapas para compartilhar uma coleção com os usuários autorizados do Brand Portal:
 
-1. Clique no ícone de sobreposição à esquerda e escolha **[!UICONTROL Navegação]**.
+1. Faça logon no seu locatário do Brand Portal. Por padrão, a visualização **[!UICONTROL Arquivos]** é aberta, contendo todos os ativos e pastas publicados.
 
-   ![](assets/contenttree-1.png)
-
-1. Do lado esquerdo, clique em **[!UICONTROL Coleções]**.
-
-   ![](assets/access_collections.png)
+1. Nas navegações rápidas na parte superior, clique em **[!UICONTROL Coleções]**.
 
 1. No console **[!UICONTROL Coleções]** , execute um dos procedimentos a seguir:
 
    * Passe o ponteiro do mouse sobre a coleção que deseja compartilhar. Nas miniaturas de ação rápida disponíveis para a coleção, clique no ícone **[!UICONTROL Configurações]** .
 
-   ![](assets/settings_thumbnail.png)
+      ![](assets/settings-icon.png)
 
    * Selecione a coleção que deseja compartilhar. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Configurações]**.
 
-   ![](assets/collection-sharing.png)
+      ![](assets/collection-console.png)
 
-1. Na caixa de diálogo Configurações [!UICONTROL da] coleção, selecione os usuários ou grupos com os quais você deseja compartilhar a coleção e selecione a função para um usuário ou grupo que corresponda à sua função global. Por exemplo, atribua a função Editor a um editor global, a função Visualizador a um visualizador global.
+1. Na caixa de diálogo Configurações **[!UICONTROL da]** coleção, selecione os usuários com quem você deseja compartilhar a coleção e selecione a função para que o usuário corresponda à sua função global. Por exemplo, atribua a função Editor a um editor global, a função Visualizador a um visualizador global.
 
-   Como alternativa, para disponibilizar a coleção para todos os usuários, independentemente de sua associação e função, torne-a pública selecionando a caixa de seleção Coleção **** pública.
+   Como alternativa, para disponibilizar a coleção para todos os usuários, independentemente de sua associação e função, torne-a pública marcando a caixa de seleção Coleção **** pública.
 
    >[!NOTE]
    >
-   >No entanto, usuários não administradores podem ser restringidos da criação de coleções públicas, para evitar a existência de várias coleções públicas, de modo que o espaço do sistema possa ser salvo. As organizações podem desativar a configuração de criação **** Permitir coleções públicas nas configurações [!UICONTROL Gerais] disponíveis no painel Ferramentas administrativas.
+   >No entanto, os usuários não administradores podem ser restringidos da criação de coleções públicas, para evitar muitas coleções públicas, para que o espaço do sistema possa ser salvo. As organizações podem desativar a configuração de criação **** Permitir coleções públicas nas configurações **[!UICONTROL Gerais]** disponíveis no painel Ferramentas administrativas.
 
    ![](assets/collection_sharingadduser.png)
 
@@ -62,7 +60,7 @@ Para compartilhar uma coleção, siga estas etapas:
 
    ![](assets/collection-setting-editor.png)
 
-1. Selecione **[!UICONTROL Adicionar]** e, em seguida, **[!UICONTROL Salvar]**. A coleção é compartilhada com os usuários escolhidos.
+1. Clique no botão **[!UICONTROL Adicionar]** para adicionar o usuário e clique em **[!UICONTROL Salvar]**. A coleção é compartilhada com os usuários.
 
    >[!NOTE]
    >
@@ -74,16 +72,76 @@ Para cancelar o compartilhamento de uma coleção compartilhada anteriormente, f
 
 1. No console **[!UICONTROL Coleções]** , selecione a coleção que deseja cancelar o compartilhamento.
 
+   Na barra de ferramentas na parte superior, clique em **[!UICONTROL Configurações]**.
+
+   ![](assets/collection_settings.png)
+
+1. Na caixa de diálogo Configurações **[!UICONTROL da]** coleção, na seção **[!UICONTROL Membros]** , clique no símbolo **[!UICONTROL x]** ao lado dos usuários para removê-los da lista de usuários que têm acesso à coleção.
+
+   ![](assets/unshare_collection.png)
+
+1. Uma mensagem de aviso é exibida. Clique em **[!UICONTROL Confirmar]** para cancelar o compartilhamento da coleção.
+
+1. Clique em **[!UICONTROL Salvar]** para aplicar as alterações.
+
+   Depois que o usuário é removido da lista compartilhada, a coleção não compartilhada é removida do console **[!UICONTROL Coleções]** do usuário.
+
+<!--
+1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
+
+   ![](assets/contenttree-1.png)
+
+1. From the siderail on the left, click **[!UICONTROL Collections]**.
+
+   ![](assets/access_collections.png)
+
+1. From the **[!UICONTROL Collections]** console, do one of the following:
+
+    * Hover the pointer over the collection you want to share. From the quick action thumbnails available for the collection, click the **[!UICONTROL Settings]** icon.
+
+   ![](assets/settings_thumbnail.png)
+
+    * Select the collection you want to share. From the toolbar at the top, click **[!UICONTROL Settings]**.
+    
+   ![](assets/collection-sharing.png)
+
+1. In the [!UICONTROL Collection Settings] dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. For example, assign the Editor role to a global editor, the Viewer role to a global viewer.
+
+   Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
+
+   >[!NOTE]
+   >
+   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the **[!UICONTROL Allow public collections creation]** configuration from [!UICONTROL General] settings available in admin tools panel.
+
+   ![](assets/collection_sharingadduser.png)
+
+   Editors cannot change a public collection to a non-public collection and, therefore, do not have **[!UICONTROL Public Collection]** check-box available in **[!UICONTROL Collection Settings]** dialog.
+
+   ![](assets/collection-setting-editor.png)
+
+1. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. The collection is shared with the chosen users.
+
+   >[!NOTE]
+   >
+   >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
+
+## Unshare a collection {#unshare-a-collection}
+
+To unshare a previously shared collection, do the following:
+
+1. From the **[!UICONTROL Collections]** console, select the collection you want to unshare.
+
    In the toolbar, click **[!UICONTROL Settings]**.
 
    ![](assets/collection_settings.png)
 
-1. Na caixa de diálogo Configurações **[!UICONTROL da]** coleção, em **[!UICONTROL Membros]**, clique no símbolo **[!UICONTROL x]** ao lado de usuários ou grupos para removê-los da lista de usuários com os quais você compartilhou a coleção.
+1. On the **[!UICONTROL Collection Settings]** dialog box, under **[!UICONTROL Members]**, click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
 
    ![](assets/unshare_collection.png)
 
-1. Na caixa de mensagem de aviso, clique em **[!UICONTROL Confirmar]** para confirmar o cancelamento do compartilhamento.
+1. In the warning message box, click **[!UICONTROL Confirm]** to confirm unshare.
 
-   Clique em **[!UICONTROL Salvar]**.
+   Click **[!UICONTROL Save]**.
 
-1. Faça logon no Brand Portal com as credenciais do usuário que você removeu da lista compartilhada. A coleção é removida do console **[!UICONTROL Coleções]** .
+1. Log in to Brand Portal with the credentials of the user you removed from the shared list. The collection is removed from the **[!UICONTROL Collections]** console.
+-->
