@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,10 @@ O Brand Portal 2020.10.0 é uma versão aprimorada que tem como objetivo simplif
 Anteriormente, a caixa de diálogo **[!UICONTROL Download]** aparecia com várias opções, como criar uma pasta separada para cada ativo, ativo de email, selecionar ativo original, representações personalizadas, representações dinâmicas, excluir representações do sistema e ativar a aceleração de download, que eram ambíguas para usuários não técnicos ou novos, especialmente quando vários ativos ou pastas foram selecionados para download. Além disso, o usuário não pôde visualizar todas as representações de ativos ou excluir uma representação personalizada ou dinâmica específica.
 
 A nova caixa de diálogo **[!UICONTROL Download]** generaliza o processo de seleção e filtragem de ativos, o que torna mais fácil para os usuários do Brand Portal tomarem decisões eficazes ao baixar as execuções de ativos. Ele lista todos os ativos selecionados e suas representações, dependendo das configurações de [**[!UICONTROL Download]**](brand-portal-download-assets.md) e **[!UICONTROL Download]** .
+
+>[!NOTE]
+>
+>Todos os usuários agora terão o Download **** rápido ativado por padrão e exigirão que o IBM Aspera Connect 3.9.9 esteja instalado na extensão de seu navegador antes de baixar os ativos do Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e baixar diretamente as representações selecionadas do painel **[!UICONTROL Representações]** na página de detalhes do ativo sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** .
+No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e [baixar diretamente as representações selecionadas do painel **[!UICONTROL Representações]** na página](brand-portal-download-assets.md#download-assets-from-asset-details-page) de detalhes do ativo sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** .
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![painel de execuções](assets/rendition-panel.png)
+![painel de execuções](assets/renditions-panel.png)
 
 
 ### Configurar permissões de download {#download-permissions}
 
-Além das configurações de [**[!UICONTROL Download]**](brand-portal-download-assets.md) existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo. Essas configurações definirão quem pode acessar e (ou) baixar as representações de ativos.
+Além das configurações de [**[!UICONTROL Download]**](brand-portal-download-assets.md) existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo.
+
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
+
+Na página Funções **[!UICONTROL do]** usuário, navegue até a guia **[!UICONTROL Grupos]** para configurar as permissões de visualização e download para os grupos de usuários
 
 Anteriormente, as configurações estavam disponíveis somente para impedir que os usuários do grupo baixassem o ativo original.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 A guia **[!UICONTROL Grupos]** na página Funções **[!UICONTROL do]** usuário permite que os administradores definam as configurações de visualização e download:
 
