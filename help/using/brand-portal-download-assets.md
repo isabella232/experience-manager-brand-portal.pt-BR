@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1878'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ O Portal de marcas do Adobe Experience Manager Assets aprimora a experiência de
 
 >[!NOTE]
 >
->No Brand Portal 2020.10.0 (e superior), a configuração de Download **** rápido está ativada por padrão, que usa o IBM Aspera Connect para download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 na extensão do seu navegador antes de baixar os ativos do Brand Portal.
+>No Brand Portal 2020.10.0 (e superior), a configuração de Download **** rápido está ativada por padrão, que usa o IBM Aspera Connect para download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 na extensão do seu navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
 >
 >Se você não quiser usar o IBM Aspera Connect e continuar com o processo normal de download, entre em contato com o administrador do Brand Portal para desativar a configuração de Download **** rápido.
 
@@ -52,13 +52,11 @@ As configurações disponíveis são:
 
    Ele fornece download acelerado dos ativos usando o IBM Aspera Connect. Por padrão, a configuração Download **** rápido está ativada nas Configurações **[!UICONTROL de]** download.
 
-   Para saber mais, consulte o [guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
-
 * **[!UICONTROL Representações personalizadas]**
 
    Permite baixar representações personalizadas e (ou) dinâmicas dos ativos.
 
-   Todas as representações de ativos diferentes do ativo original e representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma execução estática personalizada no AEM Assets, enquanto que, somente o administrador do AEM pode criar execuções dinâmicas personalizadas. Para saber mais, consulte [como aplicar predefinições de imagens ou representações](../using/brand-portal-image-presets.md)dinâmicas.
+   Todas as representações de ativos diferentes do ativo original e representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma execução estática personalizada no AEM Assets, enquanto que, somente o administrador do AEM pode criar execuções dinâmicas personalizadas. Para obter detalhes, consulte [como aplicar predefinições de imagens ou representações](../using/brand-portal-image-presets.md)dinâmicas.
 
 * **[!UICONTROL Representações do sistema]**
 
