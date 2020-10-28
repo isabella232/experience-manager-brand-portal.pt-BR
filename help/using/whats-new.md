@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
+source-wordcount: '5471'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Na caixa de diálogo **[!UICONTROL Download]** , os usuários podem:
 * Criar uma pasta separada para cada ativo.
 * Baixe os ativos selecionados e suas representações.
 
-O fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e o download de ativos usando o link de compartilhamento.
+O fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e o download de ativos usando o link de compartilhamento. Consulte [as etapas para fazer o download de ativos do Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![caixa de diálogo de download](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e [baixar diretamente as representações selecionadas do painel **[!UICONTROL Representações]** na página](brand-portal-download-assets.md#download-assets-from-asset-details-page) de detalhes do ativo sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** .
+No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e [baixar diretamente as representações selecionadas do painel](brand-portal-download-assets.md#download-assets-from-asset-details-page) Representações na página de detalhes do ativo sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** .
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Configurar permissões de download {#download-permissions}
 
-Além das configurações de [**[!UICONTROL Download]**](brand-portal-download-assets.md) existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo.
+Além das configurações de **[!UICONTROL Download]** existentes, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo.
 
 Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
 
@@ -99,6 +99,8 @@ A guia **[!UICONTROL Grupos]** na página Funções **[!UICONTROL do]** usuário
 * Se ambas as configurações estiverem desativadas, os usuários poderão apenas visualização os ativos originais. As representações de ativos não estão visíveis para os usuários na página de detalhes do ativo.
 * Se apenas a configuração **[!UICONTROL Baixar original]** estiver ativada, os usuários poderão visualização e baixar somente os ativos originais da página de detalhes do ativo.
 * Se apenas a configuração **[!UICONTROL Baixar representações]** estiver ativada, os usuários poderão visualização o ativo original, mas não poderão baixá-lo. No entanto, o usuário pode visualização e baixar as representações do ativo.
+
+Consulte [configurar o download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)de ativos.
 
 ![visualização-download-permissão](assets/download-permissions.png)
 
