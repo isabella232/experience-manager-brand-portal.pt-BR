@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 10%
@@ -39,7 +39,7 @@ O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilm
 
 Esta versão inclui os seguintes novos recursos:
 
-* A caixa de diálogo **[!UICONTROL Download]** é remodelada em uma visualização de lista com opções adicionais para excluir as representações que não são obrigatórias, aplicar o mesmo conjunto de regras para tipos de ativos semelhantes e baixar as representações de ativos selecionadas. Consulte [Etapas para fazer o download de ativos do Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* A caixa de diálogo **[!UICONTROL Download]** é remodelada em uma visualização de lista com opções adicionais para excluir as representações que não são obrigatórias, aplicar o mesmo conjunto de regras para tipos de ativos semelhantes e baixar as representações de ativos selecionadas. Consulte [as etapas para fazer o download de ativos do Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,7 +47,7 @@ Esta versão inclui os seguintes novos recursos:
 
 * A navegação para **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]** e Links **** compartilhados agora é possível em todas as páginas do Brand Portal em um clique.
 
-* O painel **[!UICONTROL Representações]** na página de detalhes do ativo agora permite que os usuários do Brand Portal selecionem o ativo original e (ou) representações específicas do ativo e os baixem diretamente do painel **[!UICONTROL Representações]** sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** . Consulte [Baixar ativos da página](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)de detalhes do ativo.
+* O painel **[!UICONTROL Representações]** na página de detalhes do ativo agora permite que os usuários do Brand Portal selecionem o ativo original e (ou) representações específicas do ativo e os baixem diretamente do painel **[!UICONTROL Representações]** sem precisar abrir a caixa de diálogo **[!UICONTROL Download]** . Consulte [baixar ativos da página](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)de detalhes do ativo.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
