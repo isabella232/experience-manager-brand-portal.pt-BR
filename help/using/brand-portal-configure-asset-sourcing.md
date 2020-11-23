@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -55,11 +55,14 @@ O administrador pode adicionar novos usuários AEM Admin Console, consulte [Gere
 
 **Para fazer upload da lista de usuários do Brand Portal:**
 1. Efetue login na instância AEM autorURL padrão: http:// localhost:4502/aem/start.html
-1. No painel **Ferramentas** ![](assets/tools.png) , navegue até **[!UICONTROL Ativos > Usuários do Portal de marcas]**
+1. No painel **Ferramentas** , navegue até **[!UICONTROL Ativos > Usuários do Brand Portal]**
+
    ![](assets/upload-user-list1.png)
+
 1. A janela Colaboradores de Upload do Portal de Marcas é aberta.
 Procure no computador local e carregue o arquivo **de** configuração (.csv) que contém a lista ativa de usuários do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
+
    ![](assets/upload-user-list2.png)
 
 
