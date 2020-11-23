@@ -1,8 +1,8 @@
 ---
 title: 'Publicar pasta de contribuição no Brand Portal '
 seo-title: Publicar pasta de contribuição no Brand Portal
-description: Saiba mais sobre a publicação de uma pasta de contribuição do AEM Assets para o Brand Portal no Brand Portal 6.4.5.
-seo-description: Saiba mais sobre a publicação de uma pasta de contribuição do AEM Assets para o Brand Portal no Brand Portal 6.4.5.
+description: Saiba mais sobre a publicação de uma pasta de contribuição da AEM Assets para o Brand Portal no Brand Portal 6.4.5.
+seo-description: Saiba mais sobre a publicação de uma pasta de contribuição da AEM Assets para o Brand Portal no Brand Portal 6.4.5.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 168177bae46b2242d883838da538218b8d192031
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Publicar pasta de contribuição no Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Depois que a pasta de [contribuição é configurada](brand-portal-configure-contribution-folder-properties.md), o usuário do AEM (administrador/não administrador) pode publicar a pasta de contribuição do AEM Assets para o Brand Portal. Os usuários/grupos do Brand Portal com permissão para acessar a pasta de contribuição receberão uma notificação por e-mail/pulso na conclusão da ação de publicação.
+Depois que a pasta de [contribuição é configurada](brand-portal-configure-contribution-folder-properties.md), AEM usuário (administrador/não administrador) pode publicar a pasta de contribuição da AEM Assets para o Brand Portal. Os usuários do Brand Portal com permissão para acessar a pasta de contribuição receberão uma notificação por email/pulso na conclusão da ação de publicação.
 
 **Para publicar a pasta de contribuição:**
 
-1. Faça logon na instância do autor do AEM.
+1. Faça logon na instância do autor AEM.
 URL padrão: http:// localhost:4502/aem/start.html
 1. Navegue até **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição na qual deseja publicar no Brand Portal.
 1. Selecione a pasta de contribuição e clique em Publicação **[!UICONTROL rápida > Publicar no portal]**da marca.
