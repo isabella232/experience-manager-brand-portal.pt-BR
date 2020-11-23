@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,22 @@ O administrador pode conceder acesso aos usuários/grupos do Brand Portal à pas
 
 1. Efetue login na instância AEM autorURL padrão: http:// localhost:4502/aem/start.html
 1. Navegue até **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição.
-1. Selecione a pasta de contribuição e clique em **[!UICONTROL Propriedades]** ![](assets/properties.png). A janela de propriedades da pasta é aberta.
+1. Selecione a pasta de contribuição e clique em **[!UICONTROL Propriedades]** para abrir a janela Propriedades da pasta.
+
+   ![](assets/properties.png)
+
    ![](assets/contribution-folder-property1.png)
+
 1. Navegue até a guia Contribuição **[!UICONTROL do]** ativo.
 1. Digite a **[!UICONTROL Descrição]** de alto nível da pasta de contribuição.
-1. Clique em **[!UICONTROL Carregar resumo]** ![](assets/upload.png) para navegar pelo computador local e fazer upload de um Documento **de requisitos de** ativos.
-1. No campo **[!UICONTROL Adicionar usuário ou grupo]** , adicione usuários do Brand Portal com quem você deseja compartilhar a pasta de contribuição. Os usuários adicionados podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal. Atualmente, não é possível adicionar grupos a uma pasta de contribuição.
+1. Clique em **[!UICONTROL Carregar resumo]** para navegar pelo computador local e fazer upload de um Documento **de requisitos de** ativos.
+
+   ![](assets/upload.png)
+
+1. No campo **[!UICONTROL Adicionar usuário ou grupo]** , adicione usuários do Brand Portal com quem você deseja compartilhar a pasta de contribuição. Esses usuários podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
 
-![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
