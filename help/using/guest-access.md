@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: c2f230fabfa62768ad63d1f0952335ed8c6fd004
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -42,15 +42,8 @@ Para entrar no Brand Portal anonimamente, selecione **[!UICONTROL Clique aqui]**
 
 ## Duração da sessão de convidado {#guest-session-duration}
 
-Uma sessão de usuário convidado permanece ativa por 15 minutos.
-Isso significa que o estado do **[!UICONTROL Lightbox]** é preservado por 15 minutos da hora do start da sessão e, depois disso, a sessão do convidado atual é reiniciada para que o estado do Lightbox seja perdido.
-
-Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e adiciona recursos ao **[!UICONTROL Lightbox]** para download às 15:05 horas. Se o usuário não baixar a coleção do **[!UICONTROL Lightbox]** (ou seus ativos) antes das 15:15 horas (dentro de 15 minutos após o login), o usuário precisará reiniciar a sessão. A **[!UICONTROL Lightbox]** estará vazia, o que significa que os ativos carregados não estarão mais disponíveis se a sessão for perdida.
-
-<!--
-A guest user session remains active for 2 hours. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.  
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
--->
+Uma sessão de usuário convidado permanece ativa por 2 horas. Isso significa que o estado do **[!UICONTROL Lightbox]** é preservado até 1 hora a partir da hora do start da sessão e, após 2 horas, a sessão do convidado atual é reiniciada para que o estado do Lightbox seja perdido.\
+Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e adiciona recursos ao Lightbox para download às 16:50 horas. Se o usuário não baixar a coleção do **[!UICONTROL Lightbox]** (ou seus ativos) antes das 17:00 horas, o **[!UICONTROL Lightbox]** ficará vazio, pois o usuário terá que reiniciar a sessão no final de 1 hora (ou seja, 1700 horas).
 
 ## Sessões de convidado simultâneas permitidas {#concurrent-guest-sessions-allowed}
 
