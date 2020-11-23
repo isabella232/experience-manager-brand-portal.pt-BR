@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicar pasta de contribuição no Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Depois que a pasta de [contribuição é configurada](brand-portal-configure-contribution-folder-properties.md), AEM usuário (administrador/não administrador) pode publicar a pasta de contribuição da AEM Assets para o Brand Portal. Os usuários/grupos do Brand Portal com permissão para acessar a pasta de contribuição receberão uma notificação por e-mail/pulso na conclusão da ação de publicação.
+Depois que a pasta de [contribuição é configurada](brand-portal-configure-contribution-folder-properties.md), AEM usuário (administrador/não administrador) pode publicar a pasta de contribuição da AEM Assets para o Brand Portal. Os usuários do Brand Portal com permissão para acessar a pasta de contribuição receberão uma notificação por email/pulso na conclusão da ação de publicação.
 
 
 **Para publicar a pasta de contribuição:**
