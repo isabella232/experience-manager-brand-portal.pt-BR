@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -191,9 +191,8 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
 >[!NOTE]
 >
->Se mais de 20 ativos forem selecionados para download, a caixa de diálogo **[!UICONTROL Download]** será ignorada e todas as renderizações acessíveis ao usuário, excluindo as renderizações dinâmicas, serão baixadas diretamente em uma pasta zip.
->
->O mesmo comportamento é seguido ao baixar as pastas que contêm ativos e coleções. As renderizações acessíveis, excluindo as renderizações dinâmicas, são baixadas diretamente em uma pasta zip.
+>Se uma pasta, coleção ou mais de 20 ativos forem selecionados para download, a caixa de diálogo **[!UICONTROL Download]** será ignorada e todas as representações de ativos acessíveis ao usuário, excluindo as representações dinâmicas, serão baixadas em uma pasta zip. As representações de ativos são baixadas em uma pasta separada para cada ativo dentro da pasta zip.
+
 
 >[!NOTE]
 >
