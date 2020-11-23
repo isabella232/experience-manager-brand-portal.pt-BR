@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 3%
 
 ---
@@ -197,11 +197,11 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
 >[!NOTE]
 >
->O Brand Portal suporta a configuração de Dynamic Media em ambos os modos - Híbrido e Scene7.
+>O Brand Portal suporta a configuração de Dynamic Media em ambos os modos - Híbrido e Scene 7.
 >
 >(*Se AEM instância do autor estiver em execução no modo **Híbrido do***Dynamic Media)
 >
->Para pré-visualização ou download de representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação tiff do ativo em Pirâmide existe na instância do autor da AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado de AEM para o Brand Portal, sua representação em pirâmide também é publicada.
+>Para pré-visualização ou download de representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação temporária do ativo em Pirâmide existe na instância do autor da AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado de AEM para o Brand Portal, sua representação em pirâmide também é publicada.
 
 
 
