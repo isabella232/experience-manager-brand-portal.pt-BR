@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ Procure no computador local e carregue o arquivo **de** configuração (.csv) qu
    ![](assets/upload-user-list2.png)
 
 
-Os administradores podem fornecer acesso a usuários/grupos específicos desta lista de usuário ao configurar a pasta de contribuição.
+Os administradores podem fornecer acesso a usuários específicos desta lista de usuário ao configurar a pasta de contribuição.
 
 Para obter mais informações, consulte [Configurar pasta](brand-portal-contribution-folder.md)de contribuição.
