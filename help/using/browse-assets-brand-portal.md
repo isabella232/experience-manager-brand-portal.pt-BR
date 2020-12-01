@@ -17,7 +17,7 @@ ht-degree: 4%
 ---
 
 
-# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
+# Procurar ativos no Brand Portal {#browsing-assets-on-brand-portal}
 
 O Portal de marcas da AEM Assets oferece vários recursos e elementos de interface do usuário que facilitam a navegação pelos recursos, a passagem de hierarquias de ativos e a pesquisa de ativos ao mesmo tempo que usam opções de visualização diferentes.
 
@@ -61,7 +61,7 @@ A Exibição de cartão exibe cartões de informações para cada item no nível
 * Tamanho
 * Dimensões
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Você pode navegar para baixo na hierarquia tocando/clicando nos cartões (tomando cuidado para evitar as ações rápidas) ou para cima novamente usando as [navegações estruturais no cabeçalho](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -89,7 +89,7 @@ Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é
 
 #### Configurações de visualização na visualização da placa
 
-**[!UICONTROL A caixa de diálogo Configurações]** de visualização é aberta ao selecionar Configurações **[!UICONTROL de]** Visualização no seletor de visualizações. Ele permite redimensionar as miniaturas de ativos na visualização do cartão. Dessa forma, você pode personalizar sua visualização e controlar o número de miniaturas exibidas.
+**[!UICONTROL A caixa de]** diálogo Configurações de visualização é aberta ao selecionar  **[!UICONTROL Configurações]** de Visualização no seletor de visualizações. Ele permite redimensionar as miniaturas de ativos na visualização do cartão. Dessa forma, você pode personalizar sua visualização e controlar o número de miniaturas exibidas.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,10 +107,10 @@ A visualização de lista exibe informações para cada recurso no nível atual.
 * Dimension
 * Tamanho
 * Classificação
-* Caminho da pasta mostrando a hierarquia<sup>do ativo*</sup>
+* Caminho da pasta mostrando a hierarquia do ativo<sup>*</sup>
 * Data de publicação do ativo no Brand Portal
 
-A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. Você pode navegar para baixo na hierarquia tocando/clicando no nome do recurso e fazer backup usando a [navegação estrutural no cabeçalho](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Configurações de visualização na visualização da lista
 
-A visualização de lista mostra o **[!UICONTROL Nome]** do ativo como a primeira coluna por padrão. Informações adicionais, como **[!UICONTROL Título]** do ativo, **[!UICONTROL Localidade]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]******, Classificação, status de publicação também são mostradas. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+A visualização de lista mostra o ativo **[!UICONTROL Name]** como a primeira coluna por padrão. Informações adicionais, como ativo **[!UICONTROL Título]**, **[!UICONTROL Localidade]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Tamanho]**, **[!UICONTROL Classificação]**, status de publicação também são mostradas. No entanto, você pode selecionar as colunas a serem exibidas usando **[!UICONTROL Configurações de Visualização]**.
 
 ![](assets/list-view-setting.png)
 
@@ -235,7 +235,7 @@ Comment Type: draft
 
 Além dessas visualizações, use a visualização em árvore para detalhar a hierarquia de ativos enquanto você visualização e seleciona os ativos ou pastas desejados.
 
-Para abrir a visualização em árvore, toque/clique no seletor do painel na parte superior esquerda e selecione a árvore **** Conteúdo no menu.
+Para abrir a visualização de árvore, toque/clique no seletor de trilho na parte superior esquerda e selecione **[!UICONTROL Árvore de conteúdo]** no menu.
 
 ![](assets/contenttree.png)
 
