@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Baixar os requisitos de ativos {#using-asset-souring-in-bp}
 
-Os usuários do Brand Portal recebem automaticamente notificações por e-mail/pulso sempre que uma pasta de contribuição é compartilhada pelo usuário do AEM, permitindo que eles baixem o documento breve (requisito de ativo), bem como baixem os ativos da linha de base (conteúdo de referência) da pasta **SHARED** para garantir que eles compreendam os requisitos de ativos.
+Os usuários do Brand Portal recebem automaticamente notificações por email/pulso sempre que uma pasta de contribuição é compartilhada pelo usuário AEM, permitindo que eles baixem o documento breve (requisito de ativo), bem como baixem os ativos da linha de base (conteúdo de referência), da pasta **SHARED** para garantir que eles compreendam os requisitos de ativos.
 
 O usuário do Brand Portal executa as seguintes atividades para baixar os requisitos de ativos:
 
@@ -35,13 +35,13 @@ O painel do Brand Portal reflete todas as pastas existentes permitidas para o us
 1. Selecione a pasta de contribuição do painel do Brand Portal.
 1. Clique em **[!UICONTROL Propriedades]** ![](assets/properties.png). A janela Propriedade é aberta, exibindo os detalhes da pasta Contribuição do ativo.
    ![](assets/download-asset-requirement1.png)
-1. Clique em **[!UICONTROL Baixar resumo]** ![](assets/download.png) para baixar o documento de requisitos de ativos em sua máquina local.
+1. Clique em **[!UICONTROL Baixar resumo]** ![](assets/download.png) para baixar o documento de requisitos de ativos em seu computador local.
    ![](assets/download-asset-requirement2.png)
 1. Volte para o painel do Brand Portal.
-1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL COMPARTILHADO]** e **[!UICONTROL NOVO]** na pasta de contribuição. A pasta COMPARTILHADA contém todos os ativos de linha de base (conteúdo de referência) compartilhados pelos administradores.
-1. Você pode baixar a pasta **[!UICONTROL COMPARTILHADA]** que contém todos os ativos de linha de base em sua máquina local.
-Ou, você pode abrir a pasta **[!UICONTROL COMPARTILHADA]** e clicar no ícone **Download** ![](assets/download.png) para baixar arquivos/pastas individuais.
+1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL SHARED]** e **[!UICONTROL NEW]** na pasta de contribuição. A pasta COMPARTILHADA contém todos os ativos de linha de base (conteúdo de referência) compartilhados pelos administradores.
+1. Você pode baixar a pasta **[!UICONTROL SHARED]** que contém todos os ativos de linha de base em sua máquina local.
+Ou abra a pasta **[!UICONTROL COMPARTILHADO]** e clique no ícone **Baixar** ![](assets/download.png) para baixar arquivos/pastas individuais.
    ![](assets/download-asset-requirement3.png)
 
-Analise o resumo (documento de requisito de ativo) e consulte os ativos da linha de base para entender os requisitos do ativo. Agora, você pode criar novos ativos para contribuição e carregá-los na pasta de contribuição. Consulte [Fazer upload de ativos para a pasta](brand-portal-upload-assets-to-contribution-folder.md)de contribuição.
+Analise o resumo (documento de requisito de ativo) e consulte os ativos da linha de base para entender os requisitos do ativo. Agora, você pode criar novos ativos para contribuição e carregá-los na pasta de contribuição. Consulte, [Carregar ativos para a pasta de contribuição](brand-portal-upload-assets-to-contribution-folder.md).
 
