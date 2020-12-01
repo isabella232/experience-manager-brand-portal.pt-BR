@@ -35,16 +35,16 @@ ht-degree: 71%
    + [Solucionar problemas na publicação paralela no Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publicar marcações no Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar predefinições, esquema e aspectos no Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Seleção de recursos no Brand Portal {#asset-sourcing-in-brand-portal}
++ Origem de ativos no Brand Portal {#asset-sourcing-in-brand-portal}
    + [Visão geral](using/brand-portal-asset-sourcing.md)
    + [Configurar origem de ativos em AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurar pasta de contribuição no AEM Assets {#configure-contribution-folder}
+   + Configurar a pasta Contribuição no AEM Assets {#configure-contribution-folder}
       + [Visão geral](using/brand-portal-contribution-folder.md)
       + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
       + [Configurar as propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
       + [Fazer upload dos ativos da linha de base](using/brand-portal-upload-baseline-assets.md)
       + [Publicar pasta de contribuição no Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Uso da Fonte de Recursos no Portal da Marca {#using-asset-sourcing}
+   + Uso da Fonte de ativos no Portal de marcas {#using-asset-sourcing}
       + [Visão geral](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Baixar os requisitos de ativos](using/brand-portal-download-asset-requirements.md)
       + [Fazer upload de ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
