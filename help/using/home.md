@@ -14,7 +14,7 @@ ht-degree: 74%
 
 # Guia do Portal de Marcas do Adobe Experience Manager Assets {#aem-brand-portal}
 
-**O Portal** de marcas do Adobe Experience Manager Assets auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
+**Ativos da Adobe Experience Manager Marca** As organizações auxiliares de marca para atender às suas necessidades de marketing, distribuindo com segurança os recursos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 
 A falta de uma solução de compartilhamento de ativos seguros pode resultar em:
 
