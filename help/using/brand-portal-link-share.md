@@ -26,7 +26,7 @@ Compartilhar ativos por meio de um link é uma maneira conveniente de disponibil
 
 O acesso ao compartilhamento de links é restrito a editores e administradores.
 
-Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções](../using/brand-portal-adding-users.md#manage-user-roles)de usuários.
+Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções de usuário](../using/brand-portal-adding-users.md#manage-user-roles).
 
 >[!NOTE]
 >
@@ -47,27 +47,27 @@ Veja a seguir as etapas para compartilhar ativos como um link:
 
    ![](assets/asset-link-share.png)
 
-1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Compartilhar link]** .
+1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Compartilhar link]**.
 
-   A caixa de diálogo Compartilhamento **[!UICONTROL de]** links é exibida.
+   A caixa de diálogo **[!UICONTROL Compartilhamento de links]** é exibida.
 
    ![](assets/link-sharing.png)
 
    >[!NOTE]
    >
-   >O campo **[!UICONTROL Compartilhar link]** exibe um link de ativo criado automaticamente. O tempo de expiração padrão para este link é de 7 dias. Você pode copiar o link e compartilhá-lo separadamente com os usuários ou compartilhá-lo da caixa de diálogo Compartilhamento **[!UICONTROL de]** links.
+   >O campo **[!UICONTROL Compartilhar link]** exibe um link de ativo criado automaticamente. O tempo de expiração padrão para este link é de 7 dias. Você pode copiar o link e compartilhá-lo separadamente com os usuários ou compartilhá-lo da caixa de diálogo **[!UICONTROL Compartilhamento de link]**.
 
 1. Na caixa de endereço de email, digite a ID de email do usuário com quem você deseja compartilhar o link. Você pode compartilhar o link com vários usuários.
 
-   Se o usuário for membro de sua organização, selecione sua ID de e-mail nas sugestões exibidas na lista suspensa. Se o usuário for externo, digite a ID de e-mail completa e pressione **[!UICONTROL Enter]**; a ID de email é adicionada à lista dos usuários.
+   Se o usuário for membro de sua organização, selecione sua ID de e-mail nas sugestões exibidas na lista suspensa. Se o usuário for externo, digite a ID de email completa e pressione **[!UICONTROL Enter]**; a ID de email é adicionada à lista dos usuários.
 
    ![](assets/link-sharing-text.png)
 
-1. Na caixa **[!UICONTROL Assunto]** , digite um assunto para o ativo que deseja compartilhar.
-1. Na caixa **[!UICONTROL Mensagem]** , digite uma mensagem, se necessário.
-1. No campo **[!UICONTROL Expiração]** , use o seletor de datas para especificar uma data e uma hora de expiração para o link. Por padrão, a data de expiração é definida como 7 dias a partir da data em que você compartilha o link.
+1. Na caixa **[!UICONTROL Assunto]**, digite um assunto para o ativo que deseja compartilhar.
+1. Na caixa **[!UICONTROL Message]**, digite uma mensagem, se necessário.
+1. No campo **[!UICONTROL Expiração]**, use o seletor de datas para especificar uma data e hora de expiração para o link. Por padrão, a data de expiração é definida como 7 dias a partir da data em que você compartilha o link.
 
-   Os ativos compartilhados pelo link expiram após a data e a hora especificadas no campo **[!UICONTROL Expiração]** . Para obter informações sobre o comportamento dos ativos expirados e alterações nas atividades permitidas com base nas funções do usuário no Portal de marcas, consulte [Gerenciar direitos digitais dos ativos](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Os ativos compartilhados pelo link expiram após a data e a hora especificadas no campo **[!UICONTROL Expiração]**. Para obter informações sobre o comportamento dos ativos expirados e alterações nas atividades permitidas com base nas funções de usuário no Brand Portal, consulte [Gerenciar direitos digitais de ativos](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
 1. Clique em **[!UICONTROL Compartilhar]**. Uma mensagem confirma que o link é compartilhado com os usuários. Os usuários recebem um email contendo o link.
 
@@ -75,7 +75,7 @@ Veja a seguir as etapas para compartilhar ativos como um link:
 
    >[!NOTE]
    >
-   >Os administradores podem personalizar as mensagens de email, o que inclui personalizar o logotipo, a descrição e o rodapé com o recurso de [Marca](../using/brand-portal-branding.md) .
+   >Os administradores podem personalizar as mensagens de email, o que inclui personalizar o logotipo, a descrição e o rodapé com o recurso [Marca](../using/brand-portal-branding.md).
 
 ## Baixar ativos de links compartilhados {#download-assets-from-shared-links}
 
@@ -89,12 +89,12 @@ Para baixar os ativos compartilhados:
 
    >[!NOTE]
    >
-   >Atualmente, você pode gerar uma pré-visualização e uma miniatura somente para determinados ativos, dependendo do formato do arquivo. Para obter mais informações sobre os formatos de arquivo suportados, consulte Suporte a [Pré-visualização e miniaturas para formatos](#preview-thumbnail-support)de ativos.
+   >Atualmente, você pode gerar uma pré-visualização e uma miniatura somente para determinados ativos, dependendo do formato do arquivo. Para obter mais informações sobre os formatos de arquivo suportados, consulte [Pré-visualização e suporte de miniatura para formatos de ativos](#preview-thumbnail-support).
 
    >[!NOTE]
    >
-   >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a página Gerenciamento **[!UICONTROL de]** direitos autorais. Nesta página, selecione os ativos licenciados, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, somente os ativos não licenciados serão baixados.\
-   >Os ativos protegidos por licença têm o contrato de [licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito ao configurar a propriedade [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadados do ativo em [!DNL AEM Assets].
+   >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a página **[!UICONTROL Gerenciamento de direitos autorais]**. Nesta página, selecione os ativos licenciados, clique em **[!UICONTROL Concordar]** e, em seguida, clique em **[!UICONTROL Baixar]**. Se você optar por discordar, somente os ativos não licenciados serão baixados.\
+   >Os ativos protegidos por licença têm [contrato de licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito ao configurar a [propriedade de metadados do ativo](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) em [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
 
@@ -102,15 +102,15 @@ Para baixar os ativos compartilhados:
 
    ![](assets/download-linkshare.png)
 
-   * Para acelerar o download de arquivos de ativos compartilhados como o link, selecione **[!UICONTROL Ativar aceleração]** de download e [siga o assistente](../using/accelerated-download.md#download-workflow-using-file-accelerator). Para saber mais sobre o rápido download de ativos no Brand Portal, consulte o [Guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
+   * Para acelerar o download de arquivos de ativos compartilhados como o link, selecione a opção **[!UICONTROL Ativar aceleração de download]** e [siga o assistente](../using/accelerated-download.md#download-workflow-using-file-accelerator). Para saber mais sobre o rápido download de ativos no Brand Portal, consulte [Guia para acelerar os downloads do Brand Portal](../using/accelerated-download.md).
 
-1. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]** . Quando isso é feito, a opção **[!UICONTROL Excluir representações]** do sistema é exibida, selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
+1. Para baixar as representações de ativos além dos ativos do link compartilhado, selecione a opção **[!UICONTROL Representação(ões)]**. Ao fazer isso, a opção **[!UICONTROL Excluir representações do sistema]** é exibida e selecionada por padrão. Isso impede o download de execuções prontas juntamente com ativos aprovados ou suas execuções personalizadas.
 
-   No entanto, para permitir que execuções geradas automaticamente sejam baixadas juntamente com execuções personalizadas, desmarque a opção **[!UICONTROL Excluir representações]** do sistema.
+   No entanto, para permitir que execuções geradas automaticamente baixem juntamente com execuções personalizadas, desmarque a opção **[!UICONTROL Excluir representações do sistema]**.
 
    >[!NOTE]
    >
-   >As representações originais não são baixadas usando o link compartilhado se o usuário que compartilhou os ativos como um link não estiver [autorizado pelo administrador a ter acesso às representações](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)originais.
+   >As representações originais não são baixadas usando o link compartilhado se o usuário que compartilhou os ativos como um link não estiver [autorizado pelo administrador a ter acesso às representações originais](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
    ![](assets/download-linkshare-autoren.png)
 
@@ -126,39 +126,39 @@ A matriz a seguir lista os formatos de ativos para os quais o Brand Portal supor
 
 | Formato do ativo | Suporte a miniaturas | Suporte à pré-visualização |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | ✓ |
-| GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ |
-| JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ |
+| PNG | Satélite | Satélite |
+| GIF | Satélite | Satélite |
+| TIFF | Satélite | ✕ |
+| JPEG | Satélite | Satélite |
+| BMP | Satélite | ✕ |
 | PNM* | ND | ND |
 | PGM* | ND | ND |
 | PBM* | ND | ND |
 | PPM* | ND | ND |
-| PSD | ✓ | ✕ |
+| PSD | Satélite | ✕ |
 | EPS | ND | ✕ |
-| DNG | ✓ | ✕ |
-| PICT | ✓ | ✕ |
-| PSB* | ✓ | ✕ |
-| JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| DNG | Satélite | ✕ |
+| PICT | Satélite | ✕ |
+| PSB* | Satélite | ✕ |
+| JPG | Satélite | Satélite |
+| AI | Satélite | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | ✓ | ✕ |
+| PDF | Satélite | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | ✓ | ✕ |
+| TXT | Satélite | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | ✓ | ✕ |
+| PPT | Satélite | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | ✓ | ✕ |
+| INDD | Satélite | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | ✓ | ✕ |
+| EPUB | Satélite | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -178,21 +178,21 @@ A matriz a seguir lista os formatos de ativos para os quais o Brand Portal supor
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | ND | ✕ |
-| JAR | ✓ | ✕ |
+| JAR | Satélite | ✕ |
 | RAR | ND | ✕ |
 | TAR | ND | ✕ |
-| ZIP | ✓ | ✕ |
+| ZIP | Satélite | ✕ |
 
 A seguinte legenda explica os símbolos usados na matriz:
 
 | Símbolo | Significado |
 |---|---|
-| ✓ | Este formato de arquivo suporta este recurso |
+| Satélite | Este formato de arquivo suporta este recurso |
 | ✕ | Este formato de arquivo não é compatível com este recurso |
 | ND | Este recurso não se aplica a este formato de arquivo |
 | * | Este recurso requer suporte adicional para este formato de arquivo AEM instância do autor, mas não no Portal da Marca após a publicação dos ativos no Portal da Marca |
 
-## Cancelar compartilhamento de ativos compartilhados como um link {#unshare-assets-shared-as-a-link}
+## Descompartilhar ativos compartilhados como um link {#unshare-assets-shared-as-a-link}
 
 Para cancelar o compartilhamento de ativos compartilhados anteriormente como um link, faça o seguinte:
 
@@ -200,12 +200,12 @@ Para cancelar o compartilhamento de ativos compartilhados anteriormente como um 
 
    ![](assets/siderail.png)
 
-1. No sideral, clique em Links **[!UICONTROL compartilhados]**.
+1. Do lado de fora, clique em **[!UICONTROL Links compartilhados]**.
 
    ![](assets/navigationrail.png)
 
 1. Revise os links que você compartilhou da lista exibida.
-1. Para cancelar o compartilhamento de um link da lista, selecione-o e clique no ícone bin ao lado da entrada do link ou no ícone **[!UICONTROL Unshare]** na barra de ferramentas na parte superior.
+1. Para cancelar o compartilhamento de um link da lista, selecione-o e clique no ícone bin ao lado da entrada do link ou no ícone **[!UICONTROL Unshare]** da barra de ferramentas na parte superior.
 
    ![](assets/unshare-links.jpg)
 
@@ -213,4 +213,4 @@ Para cancelar o compartilhamento de ativos compartilhados anteriormente como um 
    >
    >A exibição de links compartilhados é específica do usuário. Este recurso não exibe todos os links compartilhados por todos os usuários de um locatário.
 
-1. Na caixa de mensagem de aviso, clique em **[!UICONTROL Continuar]** para confirmar o cancelamento do compartilhamento. A entrada do link é removida da lista de links compartilhados.
+1. Na caixa de mensagem de aviso, clique em **[!UICONTROL Continue]** para confirmar o cancelamento do compartilhamento. A entrada do link é removida da lista de links compartilhados.
