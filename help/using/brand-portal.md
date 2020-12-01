@@ -23,10 +23,10 @@ Como profissional de marketing, às vezes é necessário colaborar com parceiros
 
 No entanto, é um desafio desenvolver soluções que suportem o compartilhamento eficiente e seguro de logotipos de marca aprovados, diretrizes, ativos de campanha ou capturas de produtos com equipes internas, parceiros e revendedores estendidos.
 
-**O Portal** de marcas dos ativos Adobe Experience Manager (AEM) foca na necessidade do comerciante de colaborar com os usuários do Brand Portal distribuídos globalmente, fornecendo recursos de distribuição de ativos e contribuição de ativos.
+**Ativos da marca Adobe Experience Manager (AEM) O** Portalato da marca foca na necessidade do comerciante de colaborar com os usuários do Brand Portal distribuídos globalmente, fornecendo recursos de distribuição de ativos e contribuição de ativos.
 
-A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários do Brand Portal possam fazer upload de ativos para o Brand Portal e publicar na AEM Assets, sem precisar acessar o ambiente do autor. O recurso de contribuição é chamado de Fonte de **ativos no Portal**da marca. E, juntos, melhora a experiência geral do Brand Portal de distribuição de ativos e a contribuição dos usuários do Brand Portal (agências/equipes externas), acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado.
-Consulte Seleção de [recursos no Portal](brand-portal-asset-sourcing.md)de marcas.
+A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados para terceiros e usuários empresariais internos em dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários do Brand Portal possam fazer upload de ativos para o Brand Portal e publicar na AEM Assets, sem precisar acessar o ambiente do autor. O recurso de contribuição é chamado de **Assets Sourcing no Brand Portal**. E, juntos, melhora a experiência geral do Brand Portal de distribuição de ativos e a contribuição dos usuários do Brand Portal (agências/equipes externas), acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado.
+Consulte, [Origem de ativos no Portal de marcas](brand-portal-asset-sourcing.md).
 
 O ambiente de portal baseado em navegador permite que você carregue, navegue, pesquise, pré-visualização e exporte ativos facilmente em formatos aprovados.
 
@@ -38,7 +38,7 @@ Os ativos Adobe Experience Manager (AEM) são configurados com o Brand Portal vi
 >
 >A configuração do AEM Assets com o Brand Portal via Adobe Developer Console é suportada no AEM Assets como Cloud Service, AEM Assets 6.3 e superior.
 
-### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+### Pré-requisitos para configurar o AEM Assets com o Brand Portal {#prerequisites}
 
 Você precisa do seguinte para configurar o AEM Assets com o Brand Portal:
 
@@ -46,9 +46,9 @@ Você precisa do seguinte para configurar o AEM Assets com o Brand Portal:
 * URL do locatário do Brand Portal.
 * Um usuário com privilégios de administrador do sistema na organização IMS do locatário do Brand Portal.
 
-Para obter mais informações, consulte [Configuração do AEM Assets com Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+Para obter mais informações, consulte [configurar o AEM Assets com Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
 
-## Personalidades do usuário no Brand Portal {#Personas}
+## Personalidades do utilizador no Brand Portal {#Personas}
 
 O Brand Portal suporta as seguintes funções de usuário:
 
@@ -61,10 +61,10 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 
 |  | **Navegar** | **Pesquisar** | **Download** | **Compartilhar pastas** | **Compartilhar uma coleção** | **Compartilhar ativos como um link** | **Acesso às Ferramentas administrativas** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Usuário convidado** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visualizador** | ✓ | ✓ | ✓ | x | x | x | x |
-| **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
-| **Administrador** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Usuário convidado** | Can* | Can* | Can* | x | x | x | x |
+| **Visualizador** | Satélite | Satélite | Satélite | x | x | x | x |
+| **Editor** | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | x |
+| **Administrador** | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite |
 
 * Os usuários convidados podem navegar, acessar e pesquisar ativos somente em pastas públicas e coleções.
 
@@ -76,9 +76,9 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem execu
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Guest user {#guest-user}
+### Usuário convidado {#guest-user}
 
-Qualquer usuário com acesso limitado aos ativos no Brand Portal sem passar pela autenticação é um usuário convidado. A sessão de convidado permite que os usuários acessem pastas públicas e coleções. Como usuário convidado, você pode navegar pelos detalhes do ativo e ter visualização completa de ativos de membros de pastas públicas e coleções. Você pode pesquisar, baixar e adicionar ativos públicos à coleção do [!UICONTROL Lightbox] .
+Qualquer usuário com acesso limitado aos ativos no Brand Portal sem passar pela autenticação é um usuário convidado. A sessão de convidado permite que os usuários acessem pastas públicas e coleções. Como usuário convidado, você pode navegar pelos detalhes do ativo e ter visualização completa de ativos de membros de pastas públicas e coleções. Você pode pesquisar, baixar e adicionar ativos públicos à coleção [!UICONTROL Lightbox].
 
 No entanto, a sessão de convidado impede que você crie coleções e pesquisas salvas, além de compartilhá-las ainda mais. Os usuários em uma sessão de convidado não podem acessar as configurações de pastas e coleções e não podem compartilhar ativos como links. Esta é uma lista de tarefas que um usuário convidado pode executar:
 
@@ -88,7 +88,7 @@ No entanto, a sessão de convidado impede que você crie coleções e pesquisas 
 
 [Baixar ativos públicos](brand-portal-download-assets.md)
 
-[Adicionar ativos ao [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Adicionar ativos ao  [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visualizador {#viewer}
 
@@ -114,7 +114,7 @@ Além das tarefas que um visualizador pode executar, um editor pode executar as 
 
 ### Administrador {#administrator}
 
-Um administrador inclui um usuário marcado como administrador do sistema ou como administrador de produto do Portal de marca no [!UICONTROL Admin Console]. Um administrador pode adicionar e remover administradores e usuários do sistema, definir predefinições, enviar e-mail para usuários e usar o portal de visualização e relatórios de armazenamento.
+Um administrador inclui um usuário marcado como administrador do sistema ou como administrador do produto do Brand Portal em [!UICONTROL Admin Console]. Um administrador pode adicionar e remover administradores e usuários do sistema, definir predefinições, enviar e-mail para usuários e usar o portal de visualização e relatórios de armazenamento.
 
 Um administrador pode executar todas as tarefas que um editor pode executar as seguintes tarefas adicionais:
 
@@ -138,10 +138,10 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 
 [Publicar coleções no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## Alias alternativo para url do Brand Portal {#tenant-alias-for-portal-url}
+## Alias alternativo para o url do Brand Portal {#tenant-alias-for-portal-url}
 
 A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (alias) para o URL existente do locatário do Brand Portal. O URL do alias pode ser criado com um prefixo alternativo no URL.\
-Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]** pode obter **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
+Observe que somente o prefixo do URL do Portal de Marcas pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]** pode obter **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** criados mediante solicitação.
 
 No entanto, a instância do autor de AEM pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) somente com o URL de ID do locatário e não com o URL de alias do locatário (alternativo).
 
@@ -151,42 +151,42 @@ No entanto, a instância do autor de AEM pode ser [configurada](../using/configu
 >
 >Para substituir o alias antigo ou excluí-lo, é necessário seguir o mesmo processo.
 
-## Request access to Brand Portal {#request-access-to-brand-portal}
+## Solicitar acesso ao Brand Portal {#request-access-to-brand-portal}
 
-Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas solicitações são enviadas para os administradores do Brand Portal, que concedem acesso aos usuários por meio do Adobe [!UICONTROL Admin Console]. Depois que o acesso é concedido, os usuários recebem um email de notificação.
+Os usuários podem solicitar acesso ao Brand Portal na tela de logon. Essas solicitações são enviadas para administradores do Brand Portal, que concedem acesso aos usuários por meio do Adobe [!UICONTROL Admin Console]. Depois que o acesso é concedido, os usuários recebem um email de notificação.
 
 Para solicitar acesso, faça o seguinte:
 
-1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente à opção **[!UICONTROL Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione o **[!UICONTROL Clique aqui]** correspondente ao Acesso **[!UICONTROL de convidado?]**.
+1. Na página de logon do Brand Portal, selecione **[!UICONTROL Clique aqui]** correspondente a **[!UICONTROL Precisa de acesso?]**. Entretanto, para entrar na sessão de convidado, selecione **[!UICONTROL Clique aqui]** correspondente a **[!UICONTROL Acesso de convidado?]**.
 
    ![Tela de logon do Brand Portal](assets/bp-login-requestaccess.png)
 
    A página [!UICONTROL Solicitar acesso] é aberta.
 
-1. Para solicitar acesso ao Brand Portal de uma organização, é necessário ter um [!UICONTROL Adobe ID], um [!UICONTROL Enterprise ID]ou um [!UICONTROL Federated ID]válido.
+1. Para solicitar acesso ao Brand Portal de uma organização, você deve ter um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID] válido.
 
-   Na página [!UICONTROL Solicitar acesso] , faça logon usando sua ID (cenário 1) ou crie um [!UICONTROL Adobe ID] (cenário 2):<br />
+   Na página [!UICONTROL Solicitar acesso], faça logon usando sua ID (cenário 1) ou crie um [!UICONTROL Adobe ID] (cenário 2):<br />
    ![[!UICONTROL Solicitar acesso]](assets/bplogin_request_access_2.png)
 
    **Cenário 1**
-   1. Se você tiver um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
+   1. Se você tiver um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID], clique em **[!UICONTROL Entrar]**.
 A página [!UICONTROL Entrar] é aberta.
-   1. Forneça suas credenciais do [!UICONTROL Adobe ID] e clique em **[!UICONTROL Fazer logon]**.<br />
+   1. Forneça suas credenciais do [!UICONTROL Adobe ID] e clique em **[!UICONTROL Entrar]**.<br />
 
    ![Login no Adobe](assets/bplogin_request_access_3.png)
 
-   Você é redirecionado para a página [!UICONTROL Solicitar acesso] .<br />
+   Você é redirecionado para a página [!UICONTROL Solicitar acesso].<br />
    **Cenário 2**
-   1. Se você não tiver um [!UICONTROL Adobe ID], para criar um, clique em **[!UICONTROL Obter um Adobe ID]** na página [!UICONTROL Solicitar acesso] .
+   1. Se você não tiver um [!UICONTROL Adobe ID], para criar um, clique em **[!UICONTROL Obter um Adobe ID]** na página [!UICONTROL Solicitar acesso].
 A página [!UICONTROL Entrar] é aberta.
-   1. Click **[!UICONTROL Get an Adobe ID]**.
-A página [!UICONTROL Inscrever] é aberta.
+   1. Clique em **[!UICONTROL Obter um Adobe ID]**.
+A página [!UICONTROL Cadastrar-se] é aberta.
    1. Digite seu nome e sobrenome, ID de e-mail e senha.
-   1. Selecione **[!UICONTROL Cadastrar-se]**.<br />
+   1. Selecione **[!UICONTROL Inscreva-se]**.<br />
 
    ![](assets/bplogin_request_access_5.png)
 
-   Você é redirecionado para a página [!UICONTROL Solicitar acesso] .
+   Você é redirecionado para a página [!UICONTROL Solicitar acesso].
 
 1. A próxima página exibe seu nome e ID de e-mail usados para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.<br />
 
@@ -198,26 +198,26 @@ Os administradores de produtos do Brand Portal recebem solicitações de acesso 
 
 ![Notificação de acesso solicitada](assets/bplogin_request_access_7.png)
 
-Para conceder acesso, os administradores de produtos precisam clicar na notificação relevante na área de notificação do Brand Portal e, em seguida, clicar em **[!UICONTROL Conceder acesso]**.
+Para conceder acesso, os administradores de produtos precisam clicar na notificação relevante na área de notificação do Brand Portal e clicar em **[!UICONTROL Conceder acesso]**.
 Como alternativa, os administradores de produtos podem seguir o link fornecido no email de solicitação de acesso para visitar o Adobe [!UICONTROL Admin Console] e adicionar o usuário à configuração relevante do produto.
 
-Você é redirecionado para o home page [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) . Use o Adobe [!UICONTROL Admin Console] para criar usuários e atribuí-los a perfis de produtos (anteriormente conhecidos como configurações de produtos), que são exibidos como grupos no Brand Portal. Para obter mais informações sobre como adicionar usuários ao [!UICONTROL Admin Console], consulte [Adicionar um usuário](brand-portal-adding-users.md#add-a-user) (siga as Etapas 4 a 7 no procedimento para adicionar um usuário).
+Você é redirecionado para o home page [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Use o Adobe [!UICONTROL Admin Console] para criar usuários e atribuí-los a perfis de produtos (anteriormente conhecidos como configurações de produtos), que são exibidos como grupos no Brand Portal. Para obter mais informações sobre como adicionar usuários em [!UICONTROL Admin Console], consulte [Adicionar um usuário](brand-portal-adding-users.md#add-a-user) (siga as Etapas de 4 a 7 no procedimento para adicionar um usuário).
 
 ## Idiomas do Brand Portal {#brand-portal-language}
 
-Você pode alterar o idioma do Brand Portal nas Configurações [!UICONTROL do Adobe]Experience Cloud.
+Você pode alterar o idioma do Brand Portal de Adobe [!UICONTROL Configurações do Experience Cloud].
 
 ![Notificação de acesso solicitada](assets/BPLang.png)
 
 Para alterar o idioma:
 
-1. Selecione [!UICONTROL Usuário] > [!UICONTROL Editar Perfil] no menu superior.<br />
+1. Selecione [!UICONTROL Utilizador] > [!UICONTROL Editar Perfil] no menu superior.<br />
 
    ![Editar perfil](assets/EditBPProfile.png)
 
-1. Na página Configurações [!UICONTROL do] Experience Cloud, selecione um idioma no menu suspenso [!UICONTROL Idioma] .
+1. Na página [!UICONTROL Configurações do Experience Cloud], selecione um idioma no menu suspenso [!UICONTROL Idioma].
 
-## Notificação de manutenção do Portal de marcas {#brand-portal-maintenance-notification}
+## Notificação de manutenção do Brand Portal {#brand-portal-maintenance-notification}
 
 Antes que o Brand Portal esteja programado para manutenção, uma notificação será exibida como um banner depois que você fizer logon no Brand Portal. Uma notificação de amostra:
 
@@ -231,7 +231,7 @@ Você pode descartar esta notificação e continuar usando o Brand Portal. Esta 
 * [Notas de lançamento](brand-portal-release-notes.md)
 * [Formatos de arquivo não suportados](brand-portal-supported-formats.md)
 
-## Related resources {#related-resources}
+## Recursos relacionados {#related-resources}
 
 * [Atendimento ao cliente Adobe](https://helpx.adobe.com/br/marketing-cloud/contact-support.html)
 * [Fóruns do AEM](https://www.adobe.com/go/aod_forums_en)
