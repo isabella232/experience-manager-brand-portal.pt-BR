@@ -1,8 +1,8 @@
 ---
 title: Experiência de login pela primeira vez
 seo-title: Experiência de login pela primeira vez
-description: A experiência de logon pela primeira vez é a mesma para todos os novos usuários do Portal de marcas do AEM Assets, incluindo Administradores. Depois que um administrador adiciona você à conta do Brand Portal de sua organização, você não precisa aceitar convites, você é automaticamente adicionado. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
-seo-description: A experiência de logon pela primeira vez é a mesma para todos os novos usuários do Portal de marcas do AEM Assets, incluindo Administradores. Depois que um administrador adiciona você à conta do Brand Portal de sua organização, você não precisa aceitar convites, você é automaticamente adicionado. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
+description: A experiência de logon pela primeira vez é a mesma para todos os novos usuários do Portal de marcas da AEM Assets, incluindo Administradores. Depois que um administrador adiciona você à conta do Brand Portal de sua organização, você não precisa aceitar convites, você é automaticamente adicionado. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
+seo-description: A experiência de logon pela primeira vez é a mesma para todos os novos usuários do Portal de marcas da AEM Assets, incluindo Administradores. Depois que um administrador adiciona você à conta do Brand Portal de sua organização, você não precisa aceitar convites, você é automaticamente adicionado. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Experiência de login pela primeira vez {#first-time-login-experience}
 
-A experiência de logon pela primeira vez é a mesma para todos os novos usuários do Portal de marcas do AEM Assets, incluindo Administradores. Depois que um administrador adiciona você à conta do Brand Portal de sua organização, você não precisa aceitar convites, você é automaticamente adicionado. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
+A experiência de logon pela primeira vez é a mesma para todos os novos usuários do Portal de marcas da AEM Assets, incluindo Administradores. Depois que um administrador adiciona você à conta do Brand Portal de sua organização, você não precisa aceitar convites, você é automaticamente adicionado. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
 
 Veja a seguir as etapas a serem executadas para os usuários que fazem logon no Brand Portal pela primeira vez:
 
@@ -28,13 +28,13 @@ Veja a seguir as etapas a serem executadas para os usuários que fazem logon no 
 1. Na página de inscrição, especifique seus detalhes (incluindo nome, sobrenome, senha e país/região).
    >[!NOTE]
    >
-   >Se você for um usuário Adobe Marketing Cloud, uma página de logon será exibida em vez da página de inscrição. Para efetuar login no Adobe Marketing Cloud, digite seu Adobe ID e sua senha.
+   >Se você for um usuário existente do Adobe Marketing Cloud, uma página de logon será exibida em vez da página de inscrição. Para fazer logon no Adobe Marketing Cloud, digite seu Adobe ID e sua senha.
 
    >[!NOTE]
    >
-   >Se sua organização usar Enterprise IDs, em vez de exibir essa página de inscrição, você será redirecionado para a página de logon corporativo. Para obter mais informações, consulte [Enterprise ID, login e ajuda](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)da conta.
+   >Se sua organização usar Enterprise IDs, em vez de exibir essa página de inscrição, você será redirecionado para a página de logon corporativo. Para obter mais informações, consulte [Enterprise ID, login e ajuda da conta](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Clique em **[!UICONTROL Continuar]** para ir para a página do Brand Portal da sua organização.
+1. Clique em **[!UICONTROL Continuar]** para ir para a página do Portal de marcas da sua organização.
 1. Na página de logon do Brand Portal, clique em **[!UICONTROL Entrar]** para fazer logon no Brand Portal.
 
    ![Página Login no Portal de Marcas](assets/signin-onboarding.png)
