@@ -20,10 +20,10 @@ ht-degree: 1%
 
 # Acesso de convidado ao Brand Portal {#guest-access-to-brand-portal}
 
-O portal de marcas AEM permite que os convidados acessem o portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso aos ativos públicos (e coleções) do portal. Os usuários na sessão de convidado podem adicionar ativos à sua lightbox (coleção privada) e fazer download do mesmo até que sua sessão dure, o que é 2 horas a partir do início da sessão, a menos que o usuário convidado escolha [[!UICONTROL Encerrar sessão]](#exit-guest-session).
+O portal de marcas AEM permite que os convidados acessem o portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso aos ativos públicos (e coleções) do portal. Os usuários na sessão de convidado podem adicionar ativos a seus lightbox (coleção privada) e fazer download do mesmo até que sua sessão dure, o que acontece duas horas após o início da sessão, a menos que o usuário convidado escolha [[!UICONTROL Encerrar sessão]](#exit-guest-session).
 
-A funcionalidade de acesso de convidado permite que as organizações compartilhem [rapidamente os ativos](../using/brand-portal-sharing-folders.md#how-to-share-folders) aprovados com a audiência desejada em escala sem precisar incorporá-los. A partir da versão 6.4.2 do Brand Portal está equipada para atender a vários usuários convidados simultâneos, o que representa 10% da cota total de usuários por organização. Permitir o acesso de convidados economiza tempo para gerenciar e a pontuação de usuários a bordo que precisam usar funcionalidades limitadas no Brand Portal.\
-As organizações podem ativar (ou desativar) o acesso de convidados na conta do Brand Portal da organização usando a opção **[!UICONTROL Permitir acesso]** de convidados nas configurações de **[!UICONTROL acesso]** no painel de ferramentas administrativas.
+A funcionalidade de acesso de convidado permite que as organizações [compartilhem rapidamente ativos aprovados](../using/brand-portal-sharing-folders.md#how-to-share-folders) com a audiência desejada em escala sem precisar incorporá-los. A partir da versão 6.4.2 do Brand Portal está equipada para atender a vários usuários convidados simultâneos, o que representa 10% da cota total de usuários por organização. Permitir o acesso de convidados economiza tempo para gerenciar e a pontuação de usuários a bordo que precisam usar funcionalidades limitadas no Brand Portal.\
+As organizações podem habilitar (ou desabilitar) o acesso de convidados na conta do Brand Portal da organização usando a opção **[!UICONTROL Permitir acesso de convidados]** das configurações **[!UICONTROL Access]** no painel de ferramentas administrativas.
 
 <!--
 Comment Type: annotation
@@ -36,7 +36,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Iniciar sessão de convidado {#begin-guest-session}
 
-Para entrar no Brand Portal anonimamente, selecione **[!UICONTROL Clique aqui]** correspondente ao Acesso de **[!UICONTROL convidado?]** na tela de boas-vindas do Brand Portal. Digite a verificação de segurança de captura para conceder acesso ao uso do Brand Portal.
+Para entrar no Brand Portal anonimamente, selecione **[!UICONTROL Clique aqui]** correspondente a **[!UICONTROL Acesso de convidado?]** na tela de boas-vindas do Brand Portal. Digite a verificação de segurança de captura para conceder acesso ao uso do Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
@@ -44,9 +44,9 @@ Para entrar no Brand Portal anonimamente, selecione **[!UICONTROL Clique aqui]**
 
 
 Uma sessão de usuário convidado permanece ativa por 15 minutos.
-Isso significa que o estado do **[!UICONTROL Lightbox]** é preservado por 15 minutos da hora do start da sessão e, depois disso, a sessão do convidado atual é reiniciada para que o estado do Lightbox seja perdido.
+Isso significa que o estado de **[!UICONTROL Lightbox]** é preservado por 15 minutos do horário de start da sessão e, depois disso, a sessão de convidado atual é reiniciada para que o estado do Lightbox seja perdido.
 
-Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e adiciona recursos ao **[!UICONTROL Lightbox]** para download às 15:05 horas. Se o usuário não baixar a coleção do **[!UICONTROL Lightbox]** (ou seus ativos) antes das 15:15 horas (dentro de 15 minutos após o login), o usuário precisará reiniciar a sessão. A **[!UICONTROL Lightbox]** estará vazia, o que significa que os ativos carregados não estarão mais disponíveis se a sessão for perdida.
+Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e adiciona recursos a **[!UICONTROL Lightbox]** para download às 15:05 horas. Se o usuário não baixar a coleção **[!UICONTROL Lightbox]** (ou seus ativos) antes de 15:15 horas (dentro de 15 minutos após o login), o usuário terá que reiniciar a sessão. O **[!UICONTROL Lightbox]** estará vazio, o que significa que os ativos carregados não estarão mais disponíveis se a sessão for perdida.
 
 ## Sessões de convidado simultâneas permitidas {#concurrent-guest-sessions-allowed}
 
@@ -60,11 +60,11 @@ Ao entrar no Brand Portal como convidado, os usuários podem ver todos os [ativo
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-No entanto, os usuários convidados verão a árvore de pastas (começando pela pasta raiz) e as pastas compartilhadas organizadas em suas respectivas pastas pai ao fazer logon no Brand Portal, se os administradores tiverem ativado a configuração [Ativar hierarquia](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) de pastas.
+No entanto, os usuários convidados verão a árvore de pastas (começando pela pasta raiz) e as pastas compartilhadas organizadas em suas respectivas pastas pai ao fazer logon no Brand Portal, se os administradores tiverem ativado a configuração [Ativar hierarquia de pastas](../using/brand-portal-general-configuration.md#main-pars-header-1621071021).
 
 Essas pastas pai são as pastas virtuais e nenhuma ação pode ser executada nelas. É possível reconhecer essas pastas virtuais com um ícone de cadeado.
 
-Nenhuma tarefa de ação é visível ao passar o mouse ou ao selecioná-la na Visualização **[!UICONTROL do]** cartão, ao contrário das pastas compartilhadas. **[!UICONTROL O botão Visão geral]** é exibido ao selecionar uma pasta virtual na Visualização **[!UICONTROL de]** Coluna e na Visualização **[!UICONTROL de]** Lista.
+Nenhuma tarefa de ação é visível ao passar o mouse ou selecioná-la em **[!UICONTROL Visualização de cartão]**, ao contrário das pastas compartilhadas. **[!UICONTROL O botão]** Visão geral é exibido ao selecionar uma pasta virtual no  **[!UICONTROL Visualizador de]** colunas e na Visualização **[!UICONTROL de]** Listas.
 
 >[!NOTE]
 >
@@ -72,27 +72,27 @@ Nenhuma tarefa de ação é visível ao passar o mouse ou ao selecioná-la na Vi
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL A opção Configurações]** de visualização permite que os usuários convidados ajustem tamanhos de cartão na Visualização **[!UICONTROL do]** cartão ou colunas para exibição na Visualização **[!UICONTROL da]** Lista.
+**[!UICONTROL A opção]** Configurações de visualização permite que os usuários convidados ajustem os tamanhos de cartão nas colunas  **[!UICONTROL do]** Visualizador de cartão para exibição na Visualização **[!UICONTROL da]** Lista.
 
 ![](assets/nav-guest-user.png)
 
-A árvore **** Conteúdo permite que você percorra a hierarquia de ativos.
+A **[!UICONTROL árvore de conteúdo]** permite que você percorra a hierarquia de ativos.
 
 ![](assets/guest-login-ui.png)
 
-O Brand Portal fornece a opção **[!UICONTROL Visão geral]** para que os usuários convidados possam visualização em Propriedades **[!UICONTROL de]** ativos de ativos/pastas selecionadas. A opção **[!UICONTROL Visão geral]** está visível:
+O Brand Portal fornece a opção **[!UICONTROL Visão geral]** para que os usuários convidados possam visualização **[!UICONTROL Propriedades do ativo]** dos ativos/pastas selecionados. A opção **[!UICONTROL Visão geral]** está visível:
 
 * Na barra de ferramentas na parte superior da seleção de um ativo/pasta.
 * Na lista suspensa ao selecionar o Seletor de painel.
-Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Enquanto isso, na página de detalhes do ativo, selecionar a opção **[!UICONTROL Visão geral]** permite que os usuários vejam os metadados do ativo.
+Ao selecionar a opção **[!UICONTROL Visão geral]** enquanto um ativo/pasta está selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Enquanto isso, na página de detalhes do ativo, selecionar **[!UICONTROL Visão geral]** permite que os usuários vejam metadados do ativo.
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)<br />
 
-**[!UICONTROL A opção de navegação]** no painel esquerdo permite navegar de arquivos para coleções e voltar na sessão de convidado para que os usuários possam navegar pelos ativos em arquivos ou coleções.
+**[!UICONTROL A opção]** Navegação no painel esquerdo permite navegar de arquivos para coleções e voltar na sessão de convidado para que os usuários possam navegar pelos ativos em arquivos ou coleções.
 
-**[!UICONTROL A opção Filtrar]** permite que usuários convidados filtrem arquivos de ativos e pastas usando predicados de pesquisa definidos pelo administrador.
+**[!UICONTROL A opção]** Filterar permite que usuários convidados filtrem arquivos de ativos e pastas usando predicados de pesquisa definidos pelo administrador.
 
 ### Recursos do usuário convidado
 
@@ -114,7 +114,7 @@ Os usuários convidados podem acessar ativos públicos no Brand Portal, e també
 
 ### Baixar ativos na sessão de convidados
 
-Os usuários convidados podem baixar diretamente ativos compartilhados publicamente ou exclusivamente com usuários convidados no Brand Portal. Os usuários convidados também podem adicionar ativos ao **[!UICONTROL Lightbox]** (coleção pública) e baixar a coleção do **[!UICONTROL Lightbox]** antes que a sessão expire.
+Os usuários convidados podem baixar diretamente ativos compartilhados publicamente ou exclusivamente com usuários convidados no Brand Portal. Os usuários convidados também podem adicionar ativos a **[!UICONTROL Lightbox]** (coleção pública) e baixar a coleção **[!UICONTROL Lightbox]** antes que sua sessão expire.
 
 Para baixar ativos e coleções, use o ícone de download de:
 
@@ -123,7 +123,7 @@ Para baixar ativos e coleções, use o ícone de download de:
 
 ![](assets/download-on-guest.png)
 
-Selecionar **[!UICONTROL Ativar aceleração]** de download na caixa de diálogo [!UICONTROL Download] permite [aprimorar o desempenho](../using/accelerated-download.md)do download.
+Selecionar **[!UICONTROL Ativar a aceleração de download]** na caixa de diálogo [!UICONTROL Baixar] permite que você [aprimore o desempenho de download](../using/accelerated-download.md).
 
 ## Sair da sessão de convidado {#exit-guest-session}
 
@@ -133,4 +133,4 @@ Para sair de uma sessão de convidado, use **[!UICONTROL Encerrar sessão]** das
 
 ## Monitorando atividades de usuários convidados {#monitoring-guest-user-activities}
 
-Os administradores podem monitorar a interação do usuário convidado com o Brand Portal. Os relatórios gerados no Brand Portal podem fornecer informações importantes sobre as atividades de usuários convidados. Por exemplo, o relatório **[!UICONTROL Download]** pode ser usado para rastrear a contagem de ativos baixados pelo usuário convidado. **[!UICONTROL O relatório de logons]** de usuário pode informar quando o usuário convidado fez logon pela última vez no portal e a frequência de logons em uma duração especificada.
+Os administradores podem monitorar a interação do usuário convidado com o Brand Portal. Os relatórios gerados no Brand Portal podem fornecer informações importantes sobre as atividades de usuários convidados. Por exemplo, o relatório **[!UICONTROL Download]** pode ser usado para rastrear a contagem de ativos baixados pelo usuário convidado. **[!UICONTROL O relatório de]** Logons de Usuário pode informar quando o usuário convidado fez logon pela última vez no portal e a frequência de logons em uma duração especificada.
