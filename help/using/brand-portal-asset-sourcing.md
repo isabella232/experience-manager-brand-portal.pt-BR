@@ -27,16 +27,16 @@ ht-degree: 0%
 ---
 
 
-# Visão geral da Fonte de ativos {#overview-asset-sourcing-in-bp}
+# Visão geral da Origem de ativos {#overview-asset-sourcing-in-bp}
 
-**A Origem** de ativos permite que os usuários AEM (administradores/não administradores) criem novas pastas com uma propriedade de Contribuição **de** ativos adicional, garantindo que a nova pasta criada seja aberta para a submissão de ativos pelos usuários do Brand Portal. Isso aciona automaticamente um fluxo de trabalho que cria duas subpastas adicionais, chamadas de **COMPARTILHADO** e **NOVO**, na pasta recém-criada **Contribuição** . O administrador do AEM define o requisito fazendo upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como de um conjunto de ativos de linha de base, à pasta **SHARED** para garantir que os usuários do BP tenham as informações de referência de que precisam. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta recém-criada **Contribuição** no Brand Portal. Quando o usuário terminar de adicionar conteúdo na pasta **NEW** , poderá publicar a pasta de contribuição de volta no ambiente do autor AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
+**A** Origem de ativos permite que os usuários AEM (administradores/não administradores) criem novas pastas com uma propriedade  **de** contribuição de ativos adicional, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Isso aciona automaticamente um fluxo de trabalho que cria duas subpastas adicionais, chamadas **SHARED** e **NEW**, na pasta **Contribution** recém-criada. O administrador do AEM define o requisito fazendo upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como de um conjunto de ativos de linha de base, à pasta **SHARED** para garantir que os usuários do BP tenham as informações de referência de que precisam. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta recém-criada **Contribution** no Brand Portal. Quando o usuário terminar de adicionar conteúdo na pasta **NEW**, poderá publicar a pasta de contribuição de volta no ambiente do autor AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
 
 Além disso, toda a funcionalidade existente permanece inalterada. Os usuários do Brand Portal podem visualização, pesquisar e baixar ativos da pasta de contribuição, bem como de outras pastas permitidas. E os administradores podem compartilhar ainda mais a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
 
 ## Pré-requisitos {#prerequisites}
 
 * AEM 6.5.2 ou superior.
-* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Certifique-se de que sua instância do AEM Assets esteja configurada com o Brand Portal. Consulte, [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 * Certifique-se de que seu locatário do Brand Portal esteja configurado com uma instância do autor da AEM Assets.
 
 >[!NOTE]
@@ -55,7 +55,7 @@ Além disso, toda a funcionalidade existente permanece inalterada. Os usuários 
 >
 >O problema foi corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
 >
->Para uma correção imediata no AEM 6.5.4, é recomendável [baixar a correção](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalá-la na instância do autor.
+>Para uma correção imediata no AEM 6.5.4, é recomendável [baixar o hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalar na instância do autor.
 
 
 ## Consulte também:{#reference-articles}
