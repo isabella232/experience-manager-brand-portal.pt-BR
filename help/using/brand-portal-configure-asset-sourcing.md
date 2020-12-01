@@ -20,25 +20,26 @@ ht-degree: 1%
 
 # Configurar origem de ativos {#configure-asset-sourcing}
 
-Os administradores AEM podem configurar a Origem de **ativos** a partir da instância do autor AEM. O administrador habilita a configuração do sinalizador de recurso Origem de ativos **AEM Configuração** do console da Web e carrega a lista ativa de usuários do Portal de marcas no **AEM Assets**.
+AEM administradores podem configurar **Origem de ativos** a partir da instância do autor AEM. O administrador habilita a configuração do sinalizador do recurso Origem de ativos de **AEM Configuração do Console Web** e carrega a lista ativa de usuários do Portal de marcas em **AEM Assets**.
 
 >[!NOTE]
 >
->Antes de começar com a configuração, verifique se a instância do AEM Assets está configurada com o Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Antes de começar com a configuração, verifique se a instância do AEM Assets está configurada com o Brand Portal. Consulte, [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 O vídeo a seguir demonstra como configurar a origem do ativo na instância do autor do AEM:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
 
-## Ativar Seleção de Fornecedor de Ativos {#enable-asset-sourcing}
+## Habilitar Origem de Ativos {#enable-asset-sourcing}
 
 Os administradores AEM podem ativar a Origem de ativos na AEM Configuração do console da Web (também conhecido como Gerenciador de configuração).
 
 **Para ativar a Seleção de fornecedor de ativos:**
-1. Faça logon na instância do autor AEM e abra o URL padrão do Configuration Manager: http:// localhost:4502/system/console/configMgr
-1. Pesquise usando a palavra-chave **Origem** de ativos para localizar a Configuração do sinalizador de recursos de origem de **[!UICONTROL ativos]**
-1. Clique em Configuração **[!UICONTROL do sinalizador de recurso de origem de]** ativos para abrir a janela de configuração
-1. Marque a caixa de seleção **[!UICONTROL feature.flag.ative.status]** .
+1. Faça logon na instância do autor AEM e abra o Configuration Manager
+URL padrão: http:// localhost:4502/system/console/configMgr
+1. Pesquise usando a palavra-chave **Origem de ativos** para localizar **[!UICONTROL Configuração do sinalizador de recurso de origem de ativos]**
+1. Clique em **[!UICONTROL Configuração do sinalizador do recurso de origem de ativos]** para abrir a janela de configuração
+1. Marque a caixa de seleção **[!UICONTROL feature.flag.ative.status]**.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ![](assets/enable-asset-sourcing.png)
@@ -54,13 +55,14 @@ Os administradores AEM podem carregar o arquivo de configuração de usuário (.
 O administrador pode adicionar novos usuários AEM Admin Console, consulte [Gerenciar usuários](brand-portal-adding-users.md) para obter informações detalhadas. Depois de adicionar usuários ao Admin Console, esses usuários podem ser adicionados ao arquivo de configuração do usuário do Brand Portal e, em seguida, recebem permissão para acessar a pasta de contribuição.
 
 **Para fazer upload da lista de usuários do Brand Portal:**
-1. Efetue login na instância AEM autorURL padrão: http:// localhost:4502/aem/start.html
-1. No painel **Ferramentas** , navegue até **[!UICONTROL Ativos > Usuários do Brand Portal]**
+1. Faça logon na sua instância AEM autor
+URL padrão: http:// localhost:4502/aem/start.html
+1. No painel **Ferramentas**, navegue até **[!UICONTROL Ativos > Usuários do Brand Portal]**
 
    ![](assets/upload-user-list1.png)
 
 1. A janela Colaboradores de Upload do Portal de Marcas é aberta.
-Procure no computador local e carregue o arquivo **de** configuração (.csv) que contém a lista ativa de usuários do Brand Portal.
+Procure no computador local e carregue o arquivo **configuration (.csv)** que contém a lista ativa de usuários do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/upload-user-list2.png)
@@ -68,4 +70,4 @@ Procure no computador local e carregue o arquivo **de** configuração (.csv) qu
 
 Os administradores podem fornecer acesso a usuários específicos desta lista de usuário ao configurar a pasta de contribuição.
 
-Para obter mais informações, consulte [Configurar pasta](brand-portal-contribution-folder.md)de contribuição.
+Para obter mais informações, consulte [Configurar pasta de contribuição](brand-portal-contribution-folder.md).
