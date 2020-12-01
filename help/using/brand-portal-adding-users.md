@@ -17,11 +17,11 @@ ht-degree: 1%
 ---
 
 
-# Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
+# Gerenciar usuários, grupos e funções de usuário {#manage-users-groups-and-user-roles}
 
 Os administradores podem usar a Adobe Admin Console para criar usuários e perfis de produtos do Portal de Marcas da AEM Assets e gerenciar suas funções usando a interface de usuário do Portal de Marcas. Esse privilégio não está disponível para visualizadores e editores.
 
-No [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), você pode visualização todos os produtos associados à sua organização. Um produto pode ser qualquer solução de Experience Cloud, como Adobe Analytics, Adobe Target ou Portal de marca AEM. Você deve escolher o produto AEM Brand Portal e criar Perfis de produto.
+Em [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), você pode visualização todos os produtos associados à sua organização. Um produto pode ser qualquer solução de Experience Cloud, como Adobe Analytics, Adobe Target ou Portal de marca AEM. Você deve escolher o produto AEM Brand Portal e criar Perfis de produto.
 
 <!--
 Comment Type: draft
@@ -37,19 +37,19 @@ Esses perfis de produtos são sincronizados com a interface do usuário do Brand
 
 >[!NOTE]
 >
->Para criar grupos no Brand Portal, a partir do Adobe [!UICONTROL Admin Console], use **[!UICONTROL Produtos > Perfis]** do produto, em vez da página **[!UICONTROL Usuário > Grupos]** de usuários. Os perfis de produtos no Adobe [!UICONTROL Admin Console] são usados para criar grupos no Portal de marcas.
+>Para criar grupos no Brand Portal, a partir de Adobe [!UICONTROL Admin Console], use **[!UICONTROL Produtos > Perfis de produto]**, em vez de **[!UICONTROL página de usuário > Grupos de usuários]**. Os perfis de produto em Adobe [!UICONTROL Admin Console] são usados para criar grupos no Portal de marcas.
 
 ## Adicionar um usuário {#add-a-user}
 
-Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) para criar usuários e atribuí-los a perfis de produtos (*anteriormente conhecidos como configurações* de produtos), que são exibidos como grupos no Brand Portal. Você pode usar grupos para realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos.
+Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) para criar usuários e atribuí-los a perfis de produtos (*anteriormente conhecidos como configurações de produtos*), que são exibidos como grupos no Brand Portal. Você pode usar grupos para realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos.
 
 >[!NOTE]
 >
->Novos usuários que não têm acesso ao Brand Portal podem solicitar acesso na tela de logon do Brand Portal. Para obter mais informações, consulte [Solicitar acesso ao Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Depois de receber notificações de solicitação de acesso na área de notificação, clique na notificação relevante e clique em **[!UICONTROL Conceder acesso]**. Como alternativa, siga o link no email de solicitação de acesso recebido. Em seguida, para adicionar um usuário por meio do [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), siga as Etapas 4 a 7 do procedimento abaixo.
+>Novos usuários que não têm acesso ao Brand Portal podem solicitar acesso na tela de logon do Brand Portal. Para obter mais informações, consulte [Solicitar acesso ao Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Depois de receber notificações de solicitação de acesso na área de notificação, clique na notificação relevante e em **[!UICONTROL Conceder acesso]**. Como alternativa, siga o link no email de solicitação de acesso recebido. Em seguida, para adicionar um usuário por meio de [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), siga as Etapas de 4 a 7 no procedimento abaixo.
 
 >[!NOTE]
 >
->Você pode fazer logon no [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) diretamente ou no Portal da marca. Se você fizer logon diretamente, siga as Etapas 4 a 7 do procedimento abaixo para adicionar um usuário.
+>Você pode fazer login em [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) diretamente ou a partir do Brand Portal. Se você fizer logon diretamente, siga as Etapas 4 a 7 do procedimento abaixo para adicionar um usuário.
 
 1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
@@ -59,17 +59,17 @@ Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Consol
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-5.png)
 
-1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
+1. Na página [!UICONTROL Funções do usuário], clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
 
    ![Funções do usuário para iniciar o Admin Console](assets/launch_admin_console.png)
 
 1. No Admin Console, execute um dos procedimentos a seguir para criar um novo usuário:
 
-   * Na barra de ferramentas na parte superior, clique em **[!UICONTROL Visão geral]**. Na página [!UICONTROL Visão geral] , clique em **[!UICONTROL Atribuir usuários]** do cartão de produto do Brand Portal.
+   * Na barra de ferramentas na parte superior, clique em **[!UICONTROL Visão geral]**. Na página [!UICONTROL Visão geral], clique em **[!UICONTROL Atribuir usuários]** no cartão de produto do Brand Portal.
 
    ![Visão geral do Admin Console](assets/admin_console_overviewadduser.png)
 
-   * Na barra de ferramentas na parte superior, clique em **[!UICONTROL Usuários]**. Na página [!UICONTROL Usuários] , [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique em **[!UICONTROL Adicionar usuário]**.
+   * Na barra de ferramentas na parte superior, clique em **[!UICONTROL Usuários]**. Na página [!UICONTROL Usuários], [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique em **[!UICONTROL Adicionar usuário]**.
 
    ![Admin Console Adicionar usuários](assets/admin_console_adduseruserpage.png)
 
@@ -77,22 +77,22 @@ Se você for um administrador de produtos, use o Adobe [[!UICONTROL Admin Consol
 
    ![Adicionar usuário ao Brand Portal](assets/add_user_to_aem_bp.png)
 
-1. Atribua o usuário a pelo menos um perfil de produto (anteriormente conhecido como configurações de produto) para que o usuário possa acessar o Brand Portal. Selecione o perfil de produto apropriado no campo **[!UICONTROL Selecione um perfil para este produto]** .
-1. Clique em **[!UICONTROL Salvar]**. Um email de boas-vindas é enviado ao usuário que você adicionou. O usuário convidado pode acessar o Brand Portal clicando no link no email de boas-vindas e fazendo logon usando um [!UICONTROL Adobe ID]. Para obter mais informações, consulte Experiência [de logon pela](../using/brand-portal-onboarding.md)primeira vez.
+1. Atribua o usuário a pelo menos um perfil de produto (anteriormente conhecido como configurações de produto) para que o usuário possa acessar o Brand Portal. Selecione o perfil de produto apropriado no campo **[!UICONTROL Selecione um perfil para este produto]**.
+1. Clique em **[!UICONTROL Salvar]**. Um email de boas-vindas é enviado ao usuário que você adicionou. O usuário convidado pode acessar o Brand Portal clicando no link no email de boas-vindas e fazendo logon usando um [!UICONTROL Adobe ID]. Para obter mais informações, consulte [Experiência de logon pela primeira vez](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
-   >Se um usuário não conseguir fazer logon no Brand Portal, o administrador da organização deverá visitar o Adobe [!UICONTROL Admin Console] e verificar se o usuário está presente e se foi adicionado a pelo menos um perfil de produto.
+   >Se um usuário não conseguir fazer logon no Brand Portal, o Administrador da organização deverá visitar o Adobe [!UICONTROL Admin Console] e verificar se o usuário está presente e se foi adicionado a pelo menos um perfil de produto.
 
-   Para obter informações sobre a concessão de privilégios administrativos ao usuário, consulte [Fornecer privilégios de administrador aos usuários](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
+   Para obter informações sobre como conceder privilégios administrativos ao usuário, consulte [Fornecer privilégios de administrador a usuários](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
 ## Adicionar um perfil de produto {#add-a-product-profile}
 
-Perfis de produtos (anteriormente conhecidos como configurações de produtos) no [!UICONTROL Admin Console] são usados para criar grupos no Brand Portal, de modo que você possa realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos no Brand Portal. **O Brand Portal** é o perfil de produto padrão disponível; você pode criar mais perfis de produtos e adicionar usuários aos novos perfis de produtos.
+Perfis de produtos (anteriormente conhecidos como configurações de produtos) em [!UICONTROL Admin Console] são usados para criar grupos no Brand Portal, de modo que você possa realizar operações em massa, como gerenciamento de funções e compartilhamento de ativos no Brand Portal. **Brand** Portalis é o perfil de produto padrão disponível; você pode criar mais perfis de produtos e adicionar usuários aos novos perfis de produtos.
 
 >[!NOTE]
 >
->Você pode fazer logon no [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) diretamente ou no Portal da Marca. Se você fizer login diretamente no [!UICONTROL Admin Console] , siga as etapas 4 a 7 do procedimento abaixo para adicionar um perfil de produto.
+>Você pode fazer login em [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) diretamente ou a partir do Brand Portal. Se você fizer login diretamente em [!UICONTROL Admin Console], siga as Etapas 4-7 do procedimento abaixo para adicionar um perfil de produto.
 
 1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
@@ -102,30 +102,30 @@ Perfis de produtos (anteriormente conhecidos como configurações de produtos) n
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-6.png)
 
-1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
+1. Na página [!UICONTROL Funções do usuário], clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
 
    ![Iniciar Admin Console](assets/launch_admin_console.png)
 
 1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Produtos]**.
-1. Na página [!UICONTROL Produtos] , Perfis [!UICONTROL de] produto são selecionados por padrão. Clique em **[!UICONTROL Novo Perfil]**.
+1. Na página [!UICONTROL Produtos], [!UICONTROL Perfis de produto] é selecionado por padrão. Clique em **[!UICONTROL Novo Perfil]**.
 
    ![Adicionar novo Perfil de produto](assets/admin_console_addproductprofile.png)
 
-1. Na página [!UICONTROL Criar um novo Perfil] , forneça o nome do perfil, o nome de exibição, a descrição do perfil e escolha se deseja notificar os usuários por email quando eles forem adicionados ou removidos do perfil.
+1. Na página [!UICONTROL Criar um novo Perfil], forneça o nome do perfil, o nome de exibição, a descrição do perfil e escolha se deseja notificar os usuários por email quando eles forem adicionados ou removidos do perfil.
 
    ![Criar Perfil de produto](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-1. Clique em **[!UICONTROL Concluído]**. O grupo de configuração do produto, por exemplo, grupo **[!UICONTROL de]** vendas, é adicionado ao Brand Portal.
+1. Clique em **[!UICONTROL Concluído]**. O grupo de configuração do produto, por exemplo **[!UICONTROL Grupo de vendas]**, é adicionado ao Brand Portal.
 
    ![Perfis de produtos](assets/admin_console_productprofileadded.png)
 
 ## Adicionar usuários a um perfil de produto {#add-users-to-a-product-profile}
 
-Para adicionar usuários a um grupo do Brand Portal, adicione-os ao perfil de produto correspondente (anteriormente conhecido como configurações de produto) no [!UICONTROL Admin Console]. Você pode adicionar usuários individualmente ou em massa.
+Para adicionar usuários a um grupo do Brand Portal, adicione-os ao perfil de produto correspondente (anteriormente conhecido como configurações de produto) em [!UICONTROL Admin Console]. Você pode adicionar usuários individualmente ou em massa.
 
 >[!NOTE]
 >
->Você pode fazer logon no [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) diretamente ou no Portal da Marca. Se você fizer login diretamente no Admin Console, siga as Etapas 4 a 7 do procedimento abaixo para adicionar usuários a um perfil de produto.
+>Você pode fazer login em [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) diretamente ou a partir do Brand Portal. Se você fizer login diretamente no Admin Console, siga as Etapas 4 a 7 do procedimento abaixo para adicionar usuários a um perfil de produto.
 
 1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
@@ -135,12 +135,12 @@ Para adicionar usuários a um grupo do Brand Portal, adicione-os ao perfil de pr
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-7.png)
 
-1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
+1. Na página [!UICONTROL Funções do usuário], clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
 
    ![Lançamento [!DNL Admin Console]](assets/launch_admin_console.png)
 
 1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Produtos]**.
-1. Na página [!UICONTROL Produtos] , Perfis [!UICONTROL de] produto são selecionados por padrão. Abra o perfil de produto ao qual você deseja adicionar um usuário, por exemplo, grupo de vendas.
+1. Na página [!UICONTROL Produtos], [!UICONTROL Perfis de produto] é selecionado por padrão. Abra o perfil de produto ao qual deseja adicionar um usuário, por exemplo, [!UICONTROL Grupo de vendas].
 
    ![Perfis de produtos](assets/admin_console_productprofileadded.png)
 
@@ -150,7 +150,7 @@ Para adicionar usuários a um grupo do Brand Portal, adicione-os ao perfil de pr
 
    ![Grupo para mapear Perfis de produtos no Portal de marcas](assets/admin_console_productprofilesalesgroup.png)
 
-   * Na página [!UICONTROL Adicionar usuário ao grupo] de vendas, digite a ID do email do usuário que você deseja adicionar ou selecione o usuário na lista de sugestões que aparecem à medida que você digita.
+   * Na página [!UICONTROL Adicionar usuário ao grupo de vendas], digite a ID de email do usuário que você deseja adicionar ou selecione o usuário na lista de sugestões que aparecem à medida que você digita.
 
    ![Adicionar usuário a um grupo](assets/admin_console_addusertosalesgroup.png)
 
@@ -160,26 +160,26 @@ Para adicionar usuários a um grupo do Brand Portal, adicione-os ao perfil de pr
 
 1. Para adicionar usuários em massa ao perfil do produto, faça o seguinte:
 
-   * Escolha **[!UICONTROL reticências (...) > Adicionar usuários por CSV]**.
+   * Escolha **[!UICONTROL ellipsis (...) > Adicionar usuários por CSV]**.
 
    ![Adicionar usuários em massa](assets/admin_console_addbulkusers.png)
 
-   * Na página **[!UICONTROL Adicionar usuários por CSV]** , baixe um modelo CSV ou arraste e solte um arquivo CSV.
+   * Na página **[!UICONTROL Adicionar usuários por CSV]**, baixe um modelo CSV ou arraste e solte um arquivo CSV.
 
    ![Adicionar usuários por csv](assets/admin_console_addbulkuserscsv.png)
 
    * Clique em **[!UICONTROL Fazer upload]**.
-   Se você adicionou usuários ao perfil de produto padrão, ou seja, o Brand Portal, um email de boas-vindas é enviado para a ID de email dos usuários adicionados. Os usuários convidados podem acessar o Brand Portal clicando no link no email de boas-vindas e fazendo logon usando um [!UICONTROL Adobe ID]. Para obter mais informações, consulte Experiência [de logon pela](../using/brand-portal-onboarding.md)primeira vez.
+   Se você adicionou usuários ao perfil de produto padrão, ou seja, o Brand Portal, um email de boas-vindas é enviado para a ID de email dos usuários adicionados. Os usuários convidados podem acessar o Brand Portal clicando no link no email de boas-vindas e fazendo logon usando um [!UICONTROL Adobe ID]. Para obter mais informações, consulte [Experiência de logon pela primeira vez](../using/brand-portal-onboarding.md).
 
    Os usuários adicionados a um perfil de produto personalizado ou novo não recebem notificações por email.
 
 ## Fornecer privilégios de administrador aos usuários {#provide-administrator-privileges-to-users}
 
-Você pode fornecer o privilégio de administrador do sistema ou administrador do produto a um usuário do Brand Portal. Não forneça outros direitos administrativos disponíveis no [!UICONTROL Admin Console], como o administrador do perfil do produto, o administrador do grupo de usuários e o administrador do suporte. Para saber mais sobre essas funções, consulte Funções [](https://helpx.adobe.com/enterprise/using/admin-roles.html)administrativas.
+Você pode fornecer o privilégio de administrador do sistema ou administrador do produto a um usuário do Brand Portal. Não forneça outros direitos administrativos disponíveis em [!UICONTROL Admin Console], como o administrador do perfil do produto, o administrador do grupo de usuários e o administrador do suporte. Para saber mais sobre essas funções, consulte [Funções administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >
->Você pode fazer logon no [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) diretamente ou no Portal da Marca. Se você fizer logon diretamente no [!UICONTROL Admin Console] , siga as Etapas 4 a 8 do procedimento abaixo para adicionar um usuário a um perfil de produto.
+>Você pode fazer login em [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) diretamente ou a partir do Brand Portal. Se você fizer logon diretamente em [!UICONTROL Admin Console], siga as Etapas 4-8 do procedimento abaixo para adicionar um usuário a um perfil de produto.
 
 1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
@@ -189,19 +189,19 @@ Você pode fornecer o privilégio de administrador do sistema ou administrador d
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-8.png)
 
-1. Na página Funções [!UICONTROL do] usuário, clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
+1. Na página [!UICONTROL Funções do usuário], clique na guia **[!UICONTROL Gerenciamento]** e, em seguida, clique em **[!UICONTROL Iniciar Admin Console]**.
 
    ![Iniciar Admin Console](assets/launch_admin_console.png)
 
 1. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Usuários]**.
-1. Na página [!UICONTROL Usuários] , [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique no nome de usuário para o qual você deseja fornecer privilégios de administrador.
+1. Na página [!UICONTROL Usuários], [!UICONTROL Usuários] no painel esquerdo é selecionado por padrão. Clique no nome de usuário para o qual você deseja fornecer privilégios de administrador.
 
    ![Adicionar usuários no Admin Console](assets/admin_console_adduseruserpage.png)
 
-1. Na página perfil do usuário, localize a seção Direitos **** administrativos na parte inferior e escolha **[!UICONTROL reticências (...) > Editar direitos]**de administrador.
+1. Na página perfil do usuário, localize a seção **[!UICONTROL Direitos administrativos]** na parte inferior e escolha **[!UICONTROL reticências (...) > Editar direitos administrativos]**.
    ![Direitos de administrador na Admin Console](assets/admin_console_editadminrights.png)
 
-1. Na página [!UICONTROL Editar administrador] , selecione Administrador do sistema ou Administrador do produto.
+1. Na página [!UICONTROL Editar administrador], selecione Administrador do sistema ou Administrador do produto.
 
    ![Editar direitos de administrador no Admin Console](assets/admin_console_editadminrightsselection.png)
 
@@ -209,7 +209,7 @@ Você pode fornecer o privilégio de administrador do sistema ou administrador d
    >
    >O Brand Portal suporta apenas funções de Administrador de sistema e Administrador de produto.
    >
-   >A Adobe recomenda que você evite usar a função Administrador do sistema, pois ela concede privilégios de administrador em toda a organização para todos os produtos de uma organização. Por exemplo, um administrador de sistema de uma organização que inclui três produtos da Marketing Cloud tem todo o conjunto de privilégios para os três produtos. Somente um administrador do sistema pode configurar o AEM Assets para que os ativos possam ser publicados do AEM Assets para o Brand Portal. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >A Adobe recomenda que você evite usar a função Administrador do sistema, pois ela concede privilégios de administrador em toda a organização para todos os produtos de uma organização. Por exemplo, um administrador de sistema de uma organização que inclui três produtos da Marketing Cloud tem todo o conjunto de privilégios para os três produtos. Somente um administrador do sistema pode configurar o AEM Assets para que os ativos possam ser publicados do AEM Assets para o Brand Portal. Para obter mais informações, consulte [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >Por outro lado, a função Administrador do produto concede privilégios de administrador somente para um produto específico. Se quiser aplicar um controle de acesso mais granular no Brand Portal, use a função Administrador do produto e selecione o produto como Brand Portal.
 
@@ -221,7 +221,7 @@ Você pode fornecer o privilégio de administrador do sistema ou administrador d
 
    >[!NOTE]
    >
-   >Para revogar privilégios de administrador para um usuário, faça as alterações apropriadas na página **[!UICONTROL Editar administrador]** e clique em **[!UICONTROL Salvar]**.
+   >Para revogar privilégios de administrador para um usuário, faça as alterações apropriadas na página **[!UICONTROL Editar Admin]** e clique em **[!UICONTROL Salvar]**.
 
 
 ## Gerenciar funções de usuário {#manage-user-roles}
@@ -241,15 +241,15 @@ Além da função Administrador, o Brand Portal oferece suporte às seguintes fu
 
    ![Painel Ferramentas administrativas](assets/admin-tools-panel-9.png)
 
-1. Na página Funções [!UICONTROL do] usuário, a guia [!UICONTROL Usuários] é selecionada por padrão. Para o usuário cuja função você deseja alterar, selecione **[!UICONTROL Editor]** ou **[!UICONTROL Visualizador]** no menu suspenso **[!UICONTROL Função]** .
+1. Na página [!UICONTROL Funções do usuário], a guia [!UICONTROL Usuários] é selecionada por padrão. Para o usuário cuja função você deseja alterar, selecione **[!UICONTROL Editor]** ou **[!UICONTROL Visualizador]** no menu suspenso **[!UICONTROL Função]**.
 
    ![Modificar funções de usuários](assets/modify_user_role.png)
 
-   Para modificar a função de vários usuários simultaneamente, selecione os usuários e escolha a função apropriada no menu suspenso **[!UICONTROL Função]** .
+   Para modificar a função de vários usuários simultaneamente, selecione os usuários e escolha a função apropriada no menu suspenso **[!UICONTROL Função]**.
 
    >[!NOTE]
    >
-   >A lista [!UICONTROL Função] para usuários Administradores está desativada. Não é possível selecionar esses usuários para modificar suas funções.
+   >A lista [!UICONTROL Role] para usuários Administradores está desativada. Não é possível selecionar esses usuários para modificar suas funções.
 
 
    >[!NOTE]
@@ -261,11 +261,11 @@ Além da função Administrador, o Brand Portal oferece suporte às seguintes fu
 
    >[!NOTE]
    >
-   >As alterações nas permissões do usuário são refletidas na página Funções **[!UICONTROL do]** usuário somente depois que os usuários fazem login novamente no Brand Portal.
+   >As alterações nas permissões do usuário são refletidas na página **[!UICONTROL Funções do usuário]** somente depois que os usuários fizerem logon novamente no Brand Portal.
 
 ## Gerenciar funções e privilégios de grupo {#manage-group-roles-and-privileges}
 
-Um administrador pode associar privilégios específicos a um [grupo](../using/brand-portal-adding-users.md#main-pars-title-278567577) de usuários no Brand Portal. A guia **[!UICONTROL Grupos]** na página Funções **[!UICONTROL do]** usuário permite que os administradores:
+Um administrador pode associar privilégios específicos a um [grupo](../using/brand-portal-adding-users.md#main-pars-title-278567577) de usuários no Brand Portal. A guia **[!UICONTROL Grupos]** na página **[!UICONTROL Funções do Usuário]** permite que os administradores:
 
 * Atribuir funções a grupos de usuários
 * Restringir grupos de usuários para baixar representações originais de arquivos de imagem (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, imagem/photoshop, imagem , .psd, image/vnd.adobe.photoshop) do Brand Portal.
@@ -276,11 +276,11 @@ Um administrador pode associar privilégios específicos a um [grupo](../using/b
 
 Para modificar a função e o direito de acessar as representações originais de membros de grupos específicos, siga estas etapas:
 
-1. Na página Funções **[!UICONTROL do]** usuário, navegue até a guia **[!UICONTROL Grupos]** .
+1. Na página **[!UICONTROL Funções do usuário]**, navegue até a guia **[!UICONTROL Grupos]**.
 1. Selecione os grupos para os quais você deseja alterar funções.
-1. Selecione a função apropriada na lista suspensa **[!UICONTROL Função]** .
+1. Selecione a função apropriada na lista suspensa **[!UICONTROL Role]**.
 
-   Para permitir que os membros de um grupo tenham acesso às representações originais de arquivos de imagem (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, imagem/photoshop, /x-photoshop, .psd, image/vnd.adobe.photoshop), que eles baixam do portal ou link compartilhado, mantém a opção **[!UICONTROL Acesso ao original]** selecionada para esse grupo. Por padrão, a opção **[!UICONTROL Acesso ao original]** está selecionada para todos os usuários. Para impedir que um grupo de usuários acesse representações originais, desmarque a opção correspondente a esse grupo.
+   Para permitir que os membros de um grupo tenham acesso às representações originais de arquivos de imagem (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, imagem/photoshop, /x-photoshop, .psd, image/vnd.adobe.photoshop), que eles baixam do portal ou link compartilhado, mantenha a opção **[!UICONTROL Acesso ao original]** selecionada para esse grupo. Por padrão, a opção **[!UICONTROL Acesso ao Original]** está selecionada para todos os usuários. Para impedir que um grupo de usuários acesse representações originais, desmarque a opção correspondente a esse grupo.
 
    ![Funções do grupo de usuários](assets/access-original-rend.png)
 
