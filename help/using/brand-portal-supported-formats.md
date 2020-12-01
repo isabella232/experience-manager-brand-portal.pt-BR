@@ -1,8 +1,8 @@
 ---
 title: Formatos de arquivo não suportados
 seo-title: Formatos de arquivo não suportados
-description: 'Cada AEM Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz. '
-seo-description: 'Cada AEM Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz. '
+description: 'Cada Portal de marcas da AEM Assets suporta formatos de arquivo específicos, conforme indicado na matriz. '
+seo-description: 'Cada Portal de marcas da AEM Assets suporta formatos de arquivo específicos, conforme indicado na matriz. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -19,73 +19,73 @@ ht-degree: 47%
 
 # Formatos de arquivo não suportados {#supported-file-formats}
 
-Cada AEM Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz.
+Cada Portal de marcas da AEM Assets suporta formatos de arquivo específicos, conforme indicado na matriz.
 
-| Formato de arquivo | Ativos publicados no Brand Portal | Representações publicadas no Brand Portal | Metadados publicados no Brand Portal | Miniaturas publicadas no Brand Portal | Páginas de detalhes do ativo publicadas no Brand Portal | Compartilhamentos de link | Miniaturas de compartilhamento de links | pré-visualizações de compartilhamento de links |
+| Formato de arquivo | Ativos publicados no Brand Portal | Representações publicadas no Brand Portal | Metadados publicados no Brand Portal | Miniaturas publicadas no Brand Portal | Páginas de detalhes do ativo publicadas no Brand Portal | Compartilhamentos de link | Miniaturas de compartilhamento de links | Pré-visualizações de compartilhamento de links |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
-| PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PNM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PGM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PBM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PPM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
-| PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| EPS | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| DOC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| DOCX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODT* | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| HTML | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| RTF | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| XLS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| XLSX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| PPT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PPTX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| ODP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| QXP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| AAC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| MIDI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| 3GP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| MP3 | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| Mp4 | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| Mpg | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| OGA | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| OGG | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| RA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| WAV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| WMA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| DVI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| FLV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| M4V | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| MPG | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| OGV | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| MOV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
-| WMV | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| SWF | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| TGZ | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| JAR | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
-| RAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| TAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
-| Zip | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
+| PNG | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite |
+| GIF | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite |
+| Tiff | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| JPEG | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite |
+| BMP | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| PNM* | Satélite | ND | Satélite | ND | ND | Satélite | ND | ND |
+| PGM* | Satélite | ND | Satélite | ND | ND | Satélite | ND | ND |
+| PBM* | Satélite | ND | Satélite | ND | ND | Satélite | ND | ND |
+| PPM* | Satélite | ND | Satélite | ND | ND | Satélite | ND | ND |
+| PSD | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| EPS | Satélite | ND | Satélite | ND | ND | Satélite | ND | ✕ |
+| DNG | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| PICT | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| PSB* | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| JPG | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite |
+| AI | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| DOC | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| DOCX | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| ODT* | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| PDF | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| HTML | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| RTF | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| TXT | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| XLS | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| XLSX | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| ODS | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| PPT | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| PPTX | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| ODP | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| INDD | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| PS | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| QXP | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| EPUB | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | Satélite | ✕ |
+| AAC | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| MIDI | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| 3GP | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| MP3 | Satélite | ND | Satélite | ND | ✕ | Satélite | ✕ | ✕ |
+| Mp4 | Satélite | ND | Satélite | ND | Satélite | Satélite | ✕ | ✕ |
+| Mpg | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| OGA | Satélite | ND | Satélite | ND | ✕ | Satélite | ✕ | ✕ |
+| OGG | Satélite | ND | Satélite | ND | Satélite | Satélite | ✕ | ✕ |
+| RA | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| WAV | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| WMA | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| DVI | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| FLV | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| M4V | Satélite | ND | Satélite | ND | ✕ | Satélite | ✕ | ✕ |
+| MPG | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| OGV | Satélite | ND | Satélite | ND | Satélite | Satélite | ✕ | ✕ |
+| MOV | Satélite | ND | Satélite | ND | ND | Satélite | ✕ | ✕ |
+| WMV | Satélite | ND | Satélite | ND | ✕ | Satélite | ✕ | ✕ |
+| SWF | Satélite | ND | Satélite | ND | Satélite | Satélite | ✕ | ✕ |
+| TGZ | Satélite | ND | Satélite | ND | ND | Satélite | ND | ✕ |
+| JAR | Satélite | Satélite | Satélite | Satélite | ND | Satélite | Satélite | ✕ |
+| RAR | Satélite | ND | Satélite | ND | ND | Satélite | ND | ✕ |
+| TAR | Satélite | ND | Satélite | ND | ND | Satélite | ND | ✕ |
+| Zip | Satélite | Satélite | Satélite | Satélite | ND | Satélite | Satélite | ✕ |
 
 A seguinte legenda explica os símbolos usados na matriz:
 
 | Símbolo | Significado |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Este formato de arquivo suporta este recurso. |
+| Satélite | Este formato de arquivo suporta este recurso. |
 | ✕ | Este formato de arquivo não suporta este recurso. |
 | ND | Este recurso não se aplica a este formato de arquivo. |
-| * | Esse recurso requer suporte adicional para esse formato de arquivo na instância do autor de AEM, mas não no Portal de marcas depois que os ativos forem publicados no Portal de marcas. |
+| * | Este recurso requer suporte adicional para este formato de arquivo AEM instância do autor, mas não no Brand Portal após a publicação dos ativos no Brand Portal. |
