@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Create contribution folder {#create-contribution-folder}
+# Criar pasta de contribuição {#create-contribution-folder}
 
 
 AEM administradores e usuários não administradores com permissão para criar uma nova pasta podem criar uma pasta de contribuição no AEM Assets.
@@ -35,9 +35,9 @@ Para criar uma pasta de contribuição:
 
 1. Navegue até **[!UICONTROL Ativos]** > **[!UICONTROL Arquivos]**. Ele lista todas as pastas existentes no repositório AEM Assets.
 
-1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL A caixa de diálogo Criar pasta]** é aberta.
+1. Clique em **[!UICONTROL Criar]** para criar uma nova pasta. **[!UICONTROL A caixa de diálogo Criar]** pasta é aberta.
 
-1. Digite **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e marque a caixa de seleção Contribuição **[!UICONTROL do]** ativo.
+1. Digite **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e marque a caixa de seleção **[!UICONTROL Contribuição do ativo]**.
 É recomendável usar letras minúsculas sem espaço para nomear a pasta.
 
 1. Clique em **[!UICONTROL Criar]**. Você pode ver a pasta de contribuição listada no repositório AEM Assets.
@@ -49,10 +49,10 @@ Para criar uma pasta de contribuição:
 
    ![](assets/create-contribution-folder.png)
 
-1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL COMPARTILHADO]** e **[!UICONTROL NOVO]** são criadas automaticamente na pasta de contribuição.
+1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL SHARED]** e **[!UICONTROL NEW]** são criadas automaticamente na pasta de contribuição.
 
    ![](assets/contribution-folder.png)
 
-Agora você pode [configurar as propriedades](brand-portal-configure-contribution-folder-properties.md)da pasta de contribuição.
+Agora você pode [configurar as propriedades da pasta de contribuição](brand-portal-configure-contribution-folder-properties.md).
 
 
