@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,16 @@ Uma notificação por email/pulso é enviada para o usuário e administradores d
 1. **Em fila**  - Uma notificação é enviada para os administradores do Brand Portal e do usuário quando um fluxo de trabalho de publicação é acionado no Brand Portal.
 
 1. **Concluído**  - uma notificação é enviada para o usuário do Brand Portal e para os administradores do Brand Portal quando a pasta de contribuição é publicada com êxito na AEM Assets.
+
+
+**Publicar status do trabalho**
+
+Há dois relatórios que os administradores podem utilizar para visualização do status das pastas de contribuição de ativos publicadas do Brand Portal para a AEM Assets.
+
+* No Brand Portal, navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Status de contribuição de ativos]**. Este relatório reflete o status de todos os trabalhos de publicação, incluindo os diferentes estágios do fluxo de trabalho de publicação (em fila e concluído).
+
+* Na instância do autor do AEM Assets, navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Tarefas]**. Este relatório reflete apenas os trabalhos de publicação que estão em estado pendente.
+
+
 
 
