@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1940'
 ht-degree: 3%
 
 ---
@@ -35,12 +35,16 @@ O Portal de marcas do Adobe Experience Manager Assets aprimora a experiência de
 
 ## Configurar download de ativos {#configure-download}
 
-Os administradores do Brand Portal podem definir as configurações e permissões de download de ativos para os usuários do Brand Portal, permitindo que eles acessem e baixem representações de ativos da interface do Brand Portal.
+Os administradores do Brand Portal podem definir as configurações de download de ativos e grupo de usuários para os usuários do Brand Portal, permitindo que eles acessem e baixem as representações de ativos da interface do Brand Portal.
 
-O acesso e o download das execuções do Brand Portal são definidos pelas seguintes configurações:
+>[!NOTE]
+>
+>As configurações de download aplicadas na interface do usuário facilitam uma experiência de autoatendimento aos usuários do Brand Portal para configurar e baixar facilmente as execuções de ativos. Ele não restringe o download de ativos na camada do aplicativo, por exemplo, os usuários ainda podem acessar e baixar as representações de ativos com o caminho de URL completo.
+
+O acesso e o download das representações de ativos da interface do Brand Portal são definidos pelas seguintes configurações:
 
 * Ativar configurações de download
-* Configurar permissões de download
+* Definir configurações do grupo de usuários
 
 ### Habilitar configurações de download {#enable-download-settings}
 
@@ -75,11 +79,11 @@ Os administradores podem habilitar qualquer combinação de configurações para
 >
 >Somente os administradores podem baixar os ativos expirados. Para obter mais informações sobre ativos expirados, consulte [gerenciar direitos digitais de ativos](../using/manage-digital-rights-of-assets.md).
 
-### Configurar permissões de download {#configure-download-permissions}
+### Definir configurações de grupo de usuários {#configure-user-group-settings}
 
-Além das **[!UICONTROL Configurações de download]**, os administradores do Brand Portal podem configurar ainda mais as permissões para diferentes grupos de usuários para visualização e (ou) baixar os ativos originais e suas execuções.
+Além das **[!UICONTROL Configurações de download]**, os administradores do Brand Portal podem definir ainda mais as configurações de diferentes grupos de usuários para visualização e (ou) baixar os ativos originais e suas execuções.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**. Na página **[!UICONTROL Funções do usuário]**, navegue até a guia **[!UICONTROL Grupos]** para configurar as permissões de visualização e (ou) download para os grupos de usuários.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**. Na página **[!UICONTROL Funções do usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de visualização e (ou) download para os grupos de usuários.
 
 ![visualização-download-permissão](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ Com base na configuração, o fluxo de trabalho de download permanece constante 
 
 A matriz a seguir define se um usuário teria acesso às execuções dependendo das [configurações de download](#configure-download):
 
-| **Configurações de download: Representações personalizadas** | **Configurações de download: Representações do sistema** | **Permissões do grupo de usuários: Download original** | **Permissões do grupo de usuários: Baixar execuções** | **Resultado** |
+| **Configurações de download: Representações personalizadas** | **Configurações de download: Representações do sistema** | **Configurações do grupo de usuários: Download original** | **Configurações do grupo de usuários: Baixar execuções** | **Resultado** |
 |---|---|---|---|---|
 | LIGADO | LIGADO | LIGADO | LIGADO | Visualização e download de todas as execuções |
 | LIGADO | LIGADO | DESLIGADO | DESLIGADO | Visualização do ativo original |
@@ -112,7 +116,7 @@ Os usuários do Brand Portal podem baixar vários ativos, pastas que contêm ati
 
 >[!NOTE]
 >
->Entre em contato com o administrador do Brand Portal se você não tiver permissões para acessar ou baixar as execuções.
+>Entre em contato com o administrador do Brand Portal se você não tiver permissão para acessar ou baixar as representações de ativos.
 
 Se o usuário tiver acesso às execuções, o usuário receberá a caixa de diálogo aprimorada **[!UICONTROL Download]** com os seguintes recursos:
 * Visualização todas as representações disponíveis de qualquer ativo na lista de download.
@@ -196,9 +200,9 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
 >[!NOTE]
 >
->O Brand Portal suporta a configuração de Dynamic Media em ambos os modos - Híbrido e Scene 7.
+>O Brand Portal suporta a configuração do Dynamic Media nos modos Híbrido e Scene 7.
 >
->(*Se AEM instância do autor estiver em execução em **modo Híbrido de Mídia Dinâmica***)
+>(*Se AEM instância do autor estiver em execução em **modo Dynamic Media Híbrido***)
 >
 >Para pré-visualização ou download de representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação temporária do ativo em Pirâmide existe na instância do autor da AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado de AEM para o Brand Portal, sua representação em pirâmide também é publicada.
 
