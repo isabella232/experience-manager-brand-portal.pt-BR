@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
+source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 3%
@@ -39,7 +39,7 @@ Os administradores do Brand Portal podem definir as configurações de download 
 
 >[!NOTE]
 >
->As configurações de download aplicadas na interface do usuário facilitam uma experiência de autoatendimento aos usuários do Brand Portal para configurar e baixar facilmente as execuções de ativos. Ele não restringe o download de ativos na camada do aplicativo, por exemplo, os usuários ainda podem acessar e baixar as representações de ativos com o caminho de URL completo.
+>As configurações de download aplicadas na interface do usuário facilitam uma experiência de autoatendimento aos usuários do Brand Portal para configurar e baixar facilmente as execuções de ativos. Ela não restringe o download de ativos na camada do aplicativo, por exemplo, os usuários ainda podem acessar e baixar as representações de ativos com o caminho de URL completo.
 
 O acesso e o download das representações de ativos da interface do Brand Portal são definidos pelas seguintes configurações:
 
