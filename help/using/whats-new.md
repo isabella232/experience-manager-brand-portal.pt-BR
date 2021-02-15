@@ -1,8 +1,8 @@
 ---
 title: Novidades do AEM Assets Brand Portal
 seo-title: Novidades do AEM Assets Brand Portal
-description: Dê uma olhada nos novos recursos e melhorias para 2020.10.0.
-seo-description: Dê uma olhada nos novos recursos e melhorias para 2020.10.0.
+description: Dê uma olhada nos novos recursos e melhorias para 2021.02.0.
+seo-description: Dê uma olhada nos novos recursos e melhorias para 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 2%
+source-wordcount: '5798'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 2%
 # Novidades do AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilmente adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja os novos recursos e melhorias.
+
+## O que mudou em 2021.02.0 {#what-changed-in-feb-2021}
+
+O Brand Portal 2021.02.0 é uma versão aprimorada que foca no aprimoramento da experiência de download de ativos e inclui correções essenciais. Ela permite que os administradores configurem o comportamento padrão de download de pastas, coleções e download em massa de ativos no nível do locatário. O Brand Portal **[!UICONTROL Usage Report]** também foi modificado para refletir os usuários ativos do Brand Portal. Consulte as últimas [Notas de versão do Brand Portal](brand-portal-release-notes.md).
+
+
+### Download de ativos {#asset-download-setting}
+
+Além das **[!UICONTROL Configurações de download]** existentes, os administradores do Brand Portal agora podem configurar a configuração **[!UICONTROL Download de ativos]**. Essa configuração permite que os administradores controlem o comportamento padrão de download de pastas, coleções e download em massa de ativos (mais de 20 ativos) no nível do locatário.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+Anteriormente, todas as representações de ativos eram baixadas diretamente em uma pasta zip. A caixa de diálogo **[!UICONTROL Download]** foi ignorada para pastas e coleções, e não havia método para controlar o comportamento de download dos ativos, dificultando a busca de uma representação específica de um grande número de downloads.
+
+**[!UICONTROL A]** Download de ativos agora fornece uma opção para criar uma pasta separada para cada ativo ao baixar pastas, coleções ou download em massa de ativos.
+
+Se a configuração **[!UICONTROL Download de ativos]** estiver desativada, as pastas ou coleções serão baixadas em uma pasta zip contendo todas as representações de ativos na mesma pasta, exceto para baixar os ativos usando o link de compartilhamento.
+
+
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]**. Os administradores podem ativar a configuração **[!UICONTROL Download de ativos]** para criar pastas separadas para cada ativo enquanto baixam pastas, coleções e download em massa de ativos.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### Relatório de uso {#usage-report}
+
+O Portal de marcas **[!UICONTROL Relatório de uso]** foi modificado para refletir somente os usuários ativos do portal de marcas. Os usuários do portal de marcas que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos no **[!UICONTROL Relatório de uso]**.
+
+Anteriormente, os usuários ativos e inativos eram exibidos no Relatório de uso.
+
+![](assets/usage-report.png)
 
 ## O que mudou em 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![painel de execuções](assets/renditions-panel.png)
 
 
-### Configurar permissões de download {#download-permissions}
+### Definir configurações de download {#download-permissions}
 
-Além das configurações existentes **[!UICONTROL Download]**, os administradores do Brand Portal também podem configurar permissões para que diferentes grupos de usuários façam visualização e (ou) baixem o ativo original e suas representações da página de detalhes do ativo.
+Além das configurações existentes de **[!UICONTROL Download]**, os administradores do Brand Portal também podem definir as configurações de diferentes grupos de usuários para visualização e (ou) baixar o ativo original e suas representações da página de detalhes do ativo.
 
 Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
 
-Na página **[!UICONTROL Funções do usuário]**, navegue até a guia **[!UICONTROL Grupos]** para configurar as permissões de visualização e (ou) download para os grupos de usuários
+Na página **[!UICONTROL Funções do usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de visualização e (ou) download para os grupos de usuários.
 
 Anteriormente, as configurações estavam disponíveis somente para impedir que os usuários do grupo baixassem o ativo original.
 
@@ -159,8 +197,6 @@ O administrador do Brand Portal pode habilitar qualquer combinação para config
 * Se qualquer uma das **[!UICONTROL Representação personalizada]** ou **[!UICONTROL Representação do sistema]** estiver ativada, a caixa de diálogo **[!UICONTROL Download]** será exibida e o ativo original, juntamente com as representações do ativo, será baixado. Habilitar **[!UICONTROL Download rápido]** acelera o processo de download.
 
 Com base na configuração, o fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e o download de ativos usando o link de compartilhamento.
-
-![](assets/download-configuration.png)
 
 
 ## O que mudou em 6.4.6 {#what-changed-in-646}
@@ -346,7 +382,7 @@ Observe que a pesquisa nessas pastas retorna os resultados somente dos ativos qu
 
 Os usuários cuja instância de autor de AEM esteja no modo híbrido Dynamic Media podem pré-visualização e baixar as execuções de mídia dinâmica, além dos arquivos de vídeo originais.
 
-Para permitir a pré-visualização e o download de execuções de mídia dinâmica em contas de locatário específicas, os administradores precisam especificar **Configuração de Dynamic Media** (URL do serviço de vídeo (URL do Gateway DM) e ID de registro para buscar o vídeo dinâmico) na configuração **Vídeo** do painel de ferramentas administrativas.
+Para permitir a pré-visualização e o download de execuções de mídia dinâmica em contas de locatário específicas, os administradores precisam especificar **Configuração do Dynamic Media** (URL do serviço de vídeo (URL do Gateway DM) e ID de registro para buscar o vídeo dinâmico) na configuração **Vídeo** do painel de ferramentas administrativas.
 
 
 Os vídeos do Dynamic Media podem ser visualizados em:
@@ -355,7 +391,7 @@ Os vídeos do Dynamic Media podem ser visualizados em:
 * Visualização do cartão do ativo
 * Página pré-visualização de compartilhamento de links
 
-As codificações de Vídeo do Dynamic Media podem ser baixadas de:
+As codificações de vídeo Dynamic Media podem ser baixadas de:
 
 * Brand Portal
 * Link compartilhado
@@ -563,7 +599,7 @@ relatório de Uso O relatório de uso agora é consolidado com outros relatório
 ![](assets/accessassetreport.png)
 
 **A experiência do usuário aprimorada com a interface de**
-relatórios no Brand Portal tornou-se mais intuitiva e proporciona maior controle às organizações. Além de criar vários relatórios, os administradores agora podem revisitar os relatórios gerados e baixá-los ou excluí-los, pois esses relatórios são salvos no Brand Portal.
+relatórios no Brand Portal se tornou mais intuitiva e proporciona maior controle às organizações. Além de criar vários relatórios, os administradores agora podem revisitar os relatórios gerados e baixá-los ou excluí-los, pois esses relatórios são salvos no Brand Portal.
 
 Cada relatório que está sendo criado pode ser personalizado adicionando ou removendo colunas padrão. Além disso, colunas personalizadas podem ser adicionadas aos relatórios Download, Expiração e Publicação para controlar seu grau de granularidade.
 
@@ -694,7 +730,7 @@ Os administradores podem definir a data e a hora de expiração dos ativos antes
 
 ### Classificação de ativos aprimorada {#enhanced-asset-sorting}
 
-A classificação de ativos em uma pasta na visualização de listas não está mais restrita ao número de ativos exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
+A classificação de ativos em uma pasta na visualização de lista não está mais restrita ao número de ativos exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
 
 ### Relatórios aprimorado {#reporting-capabilities}
 
