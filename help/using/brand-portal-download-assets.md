@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1960'
 ht-degree: 3%
 
 ---
@@ -68,11 +68,16 @@ As configurações disponíveis são:
 
    Estas são as miniaturas que são geradas automaticamente no AEM Assets com base no fluxo de trabalho &quot;Ativo de atualização do DAM&quot;.
 
+* **[!UICONTROL Download de ativos]**
+
+   Permite baixar as representações em uma pasta separada para cada ativo. Esta configuração se aplica ao download de pastas, coleções e ao download em massa de ativos (mais de 20 ativos).
+
+
 Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]**.
 
 Os administradores podem habilitar qualquer combinação de configurações para que os usuários do Brand Portal acessem e baixem execuções.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Se o usuário tiver acesso às execuções, o usuário receberá a caixa de diá
 * Exclua representações dos ativos que não são necessárias para download.
 * Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes em um clique.
 * Aplique um conjunto diferente de representações para diferentes tipos de ativos.
-* Crie uma pasta separada para cada representação de ativo.
+* Crie uma pasta separada para cada ativo.
 * Baixe os ativos selecionados e suas representações.
 
 ![caixa de diálogo de download](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
    ![remover](assets/remove.png)
 
-   Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL Criar pasta separada para cada ativo]**. Por padrão, a hierarquia de pastas do Brand Portal é ignorada e todos os ativos são baixados em uma pasta zip.
+   Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL Criar pasta separada para cada ativo]**.
 
    O botão de download reflete a contagem dos itens selecionados. Quando terminar de aplicar as regras, clique em **[!UICONTROL Baixar itens]**.
 
@@ -195,7 +200,9 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
 >[!NOTE]
 >
->Se uma pasta, coleção ou mais de 20 ativos forem selecionados para download, a caixa de diálogo **[!UICONTROL Download]** será ignorada e todas as representações de ativos acessíveis ao usuário, excluindo as representações dinâmicas, serão baixadas em uma pasta zip. As representações de ativos são baixadas em uma pasta separada para cada ativo dentro da pasta zip.
+>Se uma pasta, coleção ou mais de 20 ativos forem selecionados para download, a caixa de diálogo **[!UICONTROL Download]** será ignorada e todas as representações de ativos acessíveis ao usuário, excluindo as representações dinâmicas, serão baixadas em uma pasta zip.
+>
+>Se a configuração **[!UICONTROL Download de ativos]** estiver ativada em **[!UICONTROL Configurações de download]**, as representações de ativos serão baixadas em uma pasta separada para cada ativo dentro da pasta zip.
 
 
 >[!NOTE]
