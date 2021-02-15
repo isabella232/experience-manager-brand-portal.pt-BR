@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Além das **[!UICONTROL Configurações de download]** existentes, os administra
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Anteriormente, todas as representações de ativos eram baixadas diretamente em uma pasta zip. A caixa de diálogo **[!UICONTROL Download]** foi ignorada para pastas e coleções, e não havia método para controlar o comportamento de download dos ativos, dificultando a busca de uma representação específica de um grande número de downloads.
+Anteriormente, todas as representações de ativos eram baixadas diretamente em uma pasta zip. A caixa de diálogo **[!UICONTROL Download]** foi ignorada para pastas e coleções, e não havia um método para controlar o comportamento de download dos ativos, dificultando a pesquisa por uma representação específica de um grande número de downloads.
 
 **[!UICONTROL A]** Download de ativos agora fornece uma opção para criar uma pasta separada para cada ativo ao baixar pastas, coleções ou download em massa de ativos.
 
@@ -199,7 +199,7 @@ O administrador do Brand Portal pode habilitar qualquer combinação para config
 Com base na configuração, o fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e o download de ativos usando o link de compartilhamento.
 
 
-## O que mudou em 6.4.6 {#what-changed-in-646}
+## O que mudou na versão 6.4.2 {#what-changed-in-646}
 
 No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Portal é alterado. O Brand Portal agora é compatível com o AEM Assets como Cloud Service, AEM Assets 6.3 e superior. No AEM Assets 6.3 e superior, o Brand Portal foi configurado anteriormente na interface clássica por meio do gateway OAuth herdado, que usa a troca de token JWT para obter um Token de acesso IMS para autorização. A AEM Assets agora está configurada com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
 
