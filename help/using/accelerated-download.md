@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 2%
@@ -28,7 +28,7 @@ O Brand Portal permite aprimorar o desempenho de download de arquivos de ativos 
 
 A configuração **[!UICONTROL Download rápido]** está ativada por padrão, o que reduz significativamente o tempo gasto para baixar os arquivos de ativos desejados do Brand Portal.
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## Pré-requisitos para acelerar o download do arquivo {#prerequisites-to-accelerate-file-download}
 
