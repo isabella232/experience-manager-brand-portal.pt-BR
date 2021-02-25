@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1935'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ As configurações disponíveis são:
 
 * **[!UICONTROL Download de ativos]**
 
-   Permite baixar as representações em uma pasta separada para cada ativo. Esta configuração se aplica ao download de pastas, coleções e ao download em massa de ativos (mais de 20 ativos).
+   Permite baixar as representações em uma pasta separada para cada ativo. A configuração é aplicável em pastas, coleções e download em massa de ativos (mais de 20 ativos).
 
 
 Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]**.
@@ -135,7 +135,7 @@ Se o usuário tiver acesso às execuções, o usuário receberá a caixa de diá
 
 >[!NOTE]
 >
->A caixa de diálogo **[!UICONTROL Download]** só é exibida se os ativos estiverem selecionados para download e **[!UICONTROL Representações personalizadas]** ou **[!UICONTROL Representações do sistema]** estiver ativada em **[!UICONTROL Definições de transferência]**.
+>A caixa de diálogo **[!UICONTROL Download]** só é exibida se **[!UICONTROL Representações personalizadas]** e (ou) **[!UICONTROL Representações do sistema]** estiver ativada em **[!UICONTROL Definições de transferência]**.
 
 
 ### Etapas para baixar ativos {#bulk-download}
@@ -157,7 +157,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
       >[!NOTE]
       >
-      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará a instalação do Acelerador de download Aspera.
+      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que [instale o Acelerador de download Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
    O botão de download reflete a contagem dos itens selecionados. Quando terminar de aplicar as regras, clique em **[!UICONTROL Baixar itens]**.
 
-   ![caixa de diálogo de download](assets/download-dialog-new.png)
+   ![caixa de diálogo de download](assets/download-dialog-box-new.png)
 
 1. Por padrão, a configuração **[!UICONTROL Download rápido]** está ativada em **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
 
    Para continuar usando **[!UICONTROL Download rápido]**, clique em **[!UICONTROL Permitir]**. Todas as renderizações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
 
-   Se você não quiser usar o IBM Aspera Connect, clique em **[!UICONTROL Negar]**. Se **[!UICONTROL Download rápido]** for negado ou falhar, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos. As renderizações selecionadas são baixadas em uma pasta zip sem usar o IBM Aspera Connect.
+   Se você não quiser usar o IBM Aspera Connect, clique em **[!UICONTROL Negar]**. Se **[!UICONTROL Download rápido]** for negado ou falhar, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Veja a seguir as etapas para baixar representações de ativos na página de det
 
    Para continuar usando **[!UICONTROL Download rápido]**, clique em **[!UICONTROL Permitir]**. Todas as renderizações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
 
-   Se você negar o uso de **[!UICONTROL Download rápido]**, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar o download. As renderizações selecionadas são baixadas em uma pasta zip sem usar o IBM Aspera Connect.
+   Se você negar o uso de **[!UICONTROL Download rápido]**, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
 
 >[!NOTE]
 >
