@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
+source-git-commit: 1a2ede041a08c687022108a3d5f52c258c6b945a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,11 @@ URL padrão: http:// localhost:4502/aem/start.html
 
    ![](assets/upload.png)
 
-1. No campo **[!UICONTROL Adicionar usuário ou grupo]**, adicione usuários do Brand Portal com os quais você deseja compartilhar a pasta de contribuição. Esses usuários podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal.
+1. No campo **[!UICONTROL Adicionar usuário]**, adicione usuários do Brand Portal com os quais você deseja compartilhar a pasta de contribuição. Esses usuários podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
->
->Atualmente, os grupos não podem ser atribuídos a uma pasta de contribuição.
 >
 >Os resultados da pesquisa são baseados na lista de usuário do Brand Portal configurada no AEM Assets. Verifique se você tem a lista atualizada do usuário do Brand Portal. Consulte, [Carregar lista de usuário do Brand Portal](brand-portal-configure-asset-sourcing.md).
