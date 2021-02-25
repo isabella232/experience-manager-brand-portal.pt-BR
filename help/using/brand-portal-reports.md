@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1023'
 ht-degree: 2%
 
 ---
@@ -39,11 +39,12 @@ Para visualização de um relatório, siga estas etapas:
 
    >[!NOTE]
    >
-   >O relatório de uso está presente por padrão no Brand Portal. Não pode ser criado ou excluído. Entretanto, você pode criar, baixar e excluir os relatórios Download, Expiração, Publicar, Compartilhamento de links e Logons de usuário.
+   >O relatório de uso é um relatório padrão gerado no Brand Portal. Não pode ser criado ou excluído. Entretanto, você pode criar, baixar e excluir os relatórios Download, Expiração, Publicar, Compartilhamento de links e Logons de usuário.
 
-   Para visualização de um relatório, toque/clique no link do relatório. Como alternativa, selecione o relatório e toque/clique no ícone de Visualização na barra de ferramentas.
+   Para visualização de um relatório, clique no link do relatório. Como alternativa, selecione o relatório e toque/clique no ícone de Visualização na barra de ferramentas.
 
-   **[!UICONTROL O]** Relatório de uso exibe informações sobre o número de usuários atuais do Brand Portal, o espaço de armazenamento ocupado por todos os ativos e a contagem total de ativos no Brand Portal. O relatório também exibe a capacidade permitida para cada uma dessas métricas de informação.
+   **[!UICONTROL O]** Relatório de uso exibe informações sobre o número de usuários ativos do Brand Portal, o espaço de armazenamento ocupado por todos os ativos e a contagem total de ativos no Brand Portal. Os usuários do portal de marcas que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos no **[!UICONTROL Relatório de uso]**.
+O relatório também exibe a capacidade permitida para cada uma dessas métricas de informação.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Os administradores podem gerar e gerenciar os seguintes relatórios padrão, dep
 As colunas no relatório Download, Expiração e Publicação podem ser personalizadas para exibição. Para gerar um relatório, siga estas etapas:
 
 1. Na barra de ferramentas na parte superior, toque/clique no logotipo AEM para acessar as ferramentas administrativas.
-
-   ![](assets/aemlogo.png)
 
 1. No painel de ferramentas administrativas, toque/clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página **[!UICONTROL Relatórios de ativos]**.
 
