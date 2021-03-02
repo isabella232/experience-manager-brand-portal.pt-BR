@@ -7,15 +7,15 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guia do Brand Portal
 user-guide-description: Use o AEM Assets Brand Portal para atender às necessidades de marketing, distribuindo com segurança os ativos de marca e de produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 71%
+source-wordcount: '283'
+ht-degree: 78%
 
 ---
 
 
-# Guia do Portal de Marcas do Adobe Experience Manager Assets {#using}
+# Guia do Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Guia do Brand Portal](using/home.md)
 + Introdução {#introduction}
@@ -25,7 +25,7 @@ ht-degree: 71%
    + [Perguntas frequentes](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
-   + [Como entender o Brand Portal com a AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
+   + [Noções básicas do Brand Portal com o AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar de AEM Assets no Brand Portal {#publish}
    + [Configurar o AEM Assets com o Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -36,19 +36,9 @@ ht-degree: 71%
    + [Publicar marcações no Brand Portal](using/brand-portal-publish-tags.md)
    + [Publicar predefinições, esquema e aspectos no Brand Portal](using/publish-schema-search-facets-presets.md)
 + Origem de ativos no Brand Portal {#asset-sourcing-in-brand-portal}
-   + [Visão geral](using/brand-portal-asset-sourcing.md)
-   + [Configurar origem de ativos em AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurar a pasta Contribuição no AEM Assets {#configure-contribution-folder}
-      + [Visão geral](using/brand-portal-contribution-folder.md)
-      + [Criar pasta de contribuição](using/brand-portal-create-contribution-folder.md)
-      + [Configurar as propriedades da pasta de contribuição](using/brand-portal-configure-contribution-folder-properties.md)
-      + [Fazer upload dos ativos da linha de base](using/brand-portal-upload-baseline-assets.md)
-      + [Publicar pasta de contribuição no Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Uso da Fonte de ativos no Portal de marcas {#using-asset-sourcing}
-      + [Visão geral](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Baixar os requisitos de ativos](using/brand-portal-download-asset-requirements.md)
-      + [Fazer upload de ativos para a pasta de contribuição](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publicar pasta de contribuição no AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Visão geral da origem dos ativos](using/brand-portal-asset-sourcing.md)
+   + [Configurar a pasta de contribuição no AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Publicar a pasta de contribuição no AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Compartilhar ativos com usuários {#share}
    + [Compartilhar uma coleção](using/brand-portal-share-collection.md)
    + [Compartilhar pastas](using/brand-portal-sharing-folders.md)
