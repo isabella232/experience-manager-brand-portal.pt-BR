@@ -1,8 +1,8 @@
 ---
 title: Notas de versão
 seo-title: Notas de versão
-description: Saiba mais sobre os recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager 2021.02.0.
-seo-description: Saiba mais sobre os aprimoramentos, os problemas críticos corrigidos e os problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager 2021.02.0.
+description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 2021.02.0.
+seo-description: Obtenha informações sobre aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 2021.02.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,17 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 11%
+source-wordcount: '558'
+ht-degree: 10%
 
 ---
 
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos no Portal de marcas dos ativos Adobe Experience Manager 2021.02.0.
+Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 2021.02.0.
 
 ## Informações da versão {#release-information}
 
@@ -31,7 +31,7 @@ Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e 
 
 ## Visão geral {#overview}
 
-O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilmente adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, pré-visualizações, baixem e exportem ativos em formatos corporativos aprovados, a qualquer momento e em qualquer lugar.
+O Portal da Marca de Ativos Adobe Experience Manager (AEM) ajuda você a adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados, a qualquer hora e em qualquer lugar.
 
 ## Novidades da versão 2021.02.0 {#whats-new-in-2021.02.0}
 
@@ -39,7 +39,9 @@ O Portal de marcas de ativos Adobe Experience Manager (AEM) ajuda você a facilm
 
 Esta versão inclui os seguintes novos recursos:
 
-* Uma configuração adicional de **[!UICONTROL Download de ativos]** foi introduzida em **[!UICONTROL Definições de Transferência]**. Ele cria uma pasta separada para cada ativo ao baixar pastas, coleções ou download em massa de ativos. Consulte [configurações de download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* O recurso de origem dos ativos agora está disponível no AEM Assets as a Cloud Service. Ela permite que os usuários do Brand Portal façam upload de ativos para as pastas de contribuição permitidas e publiquem a pasta de contribuição do Brand Portal para a instância do AEM Assets as a Cloud Service.
+
+* Uma configuração adicional de **[!UICONTROL Download de ativo]** foi introduzida nas **[!UICONTROL Configurações de download]**. Ele cria uma pasta separada para cada ativo ao baixar as pastas, as coleções ou o download em massa dos ativos. Consulte [configurações de download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -68,7 +70,7 @@ Brand Portal users can exclude specific renditions which are not required and di
 Esta versão inclui os seguintes aprimoramentos:
 
 * Para download de pasta, uma pasta separada é criada para cada ativo usando o link de compartilhamento independentemente das **[!UICONTROL Configurações de download]**.
-* O Brand Portal **[!UICONTROL Usage Report]** foi modificado para refletir somente os usuários ativos do Brand Portal.
+* O **[!UICONTROL Relatório de uso do Brand Portal]** foi modificado para refletir apenas os usuários ativos do Brand Portal.
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -80,15 +82,15 @@ Esta versão inclui os seguintes aprimoramentos:
 
 Esta versão inclui correções para os seguintes problemas críticos:
 
-* Caso apenas os ativos originais sejam baixados, o ativo reflete sua própria extensão e não abre até que a extensão seja manualmente alterada para zip.
+* Caso apenas os ativos originais sejam baixados, o ativo reflete sua própria extensão e não abre até que a extensão seja alterada manualmente para zip.
 * A interface do usuário da pasta de coleção não responde ao clicar na seta de navegação.
-* **[!UICONTROL O]** botão Criar fica visível na  **** Columnview, mesmo quando as pastas estão vazias.
+* **** O botão Criar está visível na  **** Exibição de coluna, mesmo quando as pastas estão vazias.
 * **[!UICONTROL A]** pesquisa Omni falha com uma mensagem de erro 414 (Request-URI Too Long) se o dispatcher for ignorado ao acessar a instância do Brand Portal.
-* Uma pasta zip vazia será baixada se o ativo contiver uma vírgula (`,`) no nome do arquivo.
+* Uma pasta zip vazia é baixada se o ativo contiver uma vírgula (`,`) no nome do arquivo.
 * Os usuários do visualizador têm a opção de adicionar usuários à coleção que criaram.
-* Comportamento inconsistente ocorre quando um ativo (miniatura ou representação da Web) é baixado usando o link de compartilhamento.
+* Comportamento inconsistente é observado quando um ativo (miniatura ou renderização da Web) é baixado usando o link de compartilhamento.
 
-Consulte [Novidades do Brand Portal 2021.02.0](whats-new.md).
+Consulte [novidades do Brand Portal 2021.02.0](whats-new.md).
 
 <!--
 ### Known Issues {#known-issues}
@@ -139,7 +141,7 @@ This release includes the following known issues:
 
 ## Idiomas {#languages}
 
-A interface de usuário do Brand Portal está disponível nos seguintes idiomas:
+A interface do usuário do Brand Portal está disponível nos seguintes idiomas:
 
 * Inglês
 * Alemão
@@ -153,16 +155,16 @@ A interface de usuário do Brand Portal está disponível nos seguintes idiomas:
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para determinar quais plataformas são certificadas para execução com esta versão do Brand Portal, consulte a coluna **Suporte para interface otimizada ao toque** na tabela na seção **Navegadores suportados para criação de interface de usuário** de [Requisitos técnicos](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Para verificar quais plataformas são certificadas para execução com esta versão do Brand Portal, consulte a coluna **Suporte para interface otimizada para toque** na tabela na seção **Navegadores suportados para criação de interface de usuário** de [Requisitos técnicos](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
 * [Página do produto Adobe Experience Manager em adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Documentação do Portal de marcas de ativos](https://helpx.adobe.com/br/experience-manager/brand-portal/user-guide.html)
+* [Documentação do Assets Brand Portal](https://helpx.adobe.com/br/experience-manager/brand-portal/user-guide.html)
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
-Estes sites estão disponíveis somente para clientes. Se você for um cliente e precisar de acesso, entre em contato com seu gerente de contas do Adobe.
+Estes sites estão disponíveis somente para clientes. Se você for um cliente do e precisar de acesso, entre em contato com o gerente de conta da Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
@@ -170,4 +172,4 @@ Estes sites estão disponíveis somente para clientes. Se você for um cliente e
 
 * [Acesso ao produto](https://login.marketing.adobe.com)
 
-* [Atendimento ao cliente Adobe](https://helpx.adobe.com/contact.html)
+* [Atendimento ao cliente da Adobe](https://helpx.adobe.com/contact.html)
