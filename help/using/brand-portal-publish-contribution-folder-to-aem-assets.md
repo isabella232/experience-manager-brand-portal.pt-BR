@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ O painel Brand Portal reflete todas as pastas existentes permitidas para o usuá
 
 1. Faça logon na instância do Brand Portal.
 1. Selecione a pasta de contribuição no painel Brand Portal .
-1. Clique em **[!UICONTROL Propriedades]** ![](assets/properties.png). A janela Propriedade é aberta, exibindo os detalhes da pasta Contribuição do ativo.
-   ![](assets/download-asset-requirement1.png)
-1. Clique em **[!UICONTROL Baixar resumo]** ![](assets/download.png) para baixar o documento de requisito de ativos no computador local.
+1. Clique em **[!UICONTROL Propriedades]**. A janela Propriedade que contém os detalhes da pasta de contribuição é aberta.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. Clique na opção **[!UICONTROL Baixar resumo]** para baixar o documento de requisito de ativos em sua máquina local.
+
+   ![](assets/download.png)
+
 1. Volte para o painel Brand Portal .
 1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL SHARED]** e **[!UICONTROL NEW]** na pasta de contribuição. A pasta COMPARTILHADA contém todos os ativos de linha de base (conteúdo de referência) compartilhados pelos administradores.
 1. Você pode baixar a pasta **[!UICONTROL SHARED]** contendo todos os ativos da linha de base em sua máquina local.
-Ou, você pode abrir a pasta **[!UICONTROL SHARED]** e clicar em **Download** ícone ![](assets/download.png) para baixar arquivos/pastas individuais.
-   ![](assets/download-asset-requirement3.png)
+Ou abra a pasta **[!UICONTROL SHARED]** e clique no ícone **Download** para baixar arquivos/pastas individuais.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 Analise o resumo (documento de requisito de ativo) e consulte os ativos da linha de base para entender os requisitos de ativos. Agora, você pode criar novos ativos para contribuição e carregá-los na pasta de contribuição.
 
@@ -82,15 +91,15 @@ O painel Brand Portal reflete todas as pastas existentes permitidas para o usuá
 
 1. Clique na pasta **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Files]** para carregar arquivos individuais ou pastas (.zip) contendo vários ativos.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Navegue e faça upload de ativos (arquivos ou pastas) para a pasta **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 Depois de fazer upload de todos os ativos ou pastas para a NOVA pasta, publique a pasta de contribuição no AEM Assets.
 
@@ -110,7 +119,7 @@ Certifique-se de ter passado pelos requisitos do ativo e carregado os ativos rec
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 Uma notificação por email/pulso é enviada ao usuário e administradores do Brand Portal em diferentes estágios do fluxo de trabalho de publicação:
 1. **Em fila**  - Uma notificação é enviada ao usuário do Brand Portal e aos administradores do Brand Portal quando um fluxo de trabalho de publicação é acionado no Brand Portal.
@@ -129,21 +138,17 @@ Há dois relatórios que os administradores podem utilizar para visualizar o sta
 
    ![](assets/contribution-folder-status.png)
 
-* No AEM Assets (no local ou serviço gerenciado), navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Trabalhos]**. Este relatório reflete o estado final (Sucesso ou Erro) de todos os trabalhos de publicação.
+* No AEM Assets (no local ou serviço gerenciado), navegue até **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Este relatório reflete o estado final (Sucesso ou Erro) de todos os trabalhos de publicação.
 
    ![](assets/publishing-status.png)
 
-* No AEM Assets as a Cloud Service, navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Ativos]** > **[!UICONTROL Relatórios]**.
+* No AEM Assets as a Cloud Service, navegue até **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**.
 
-   Clique no botão **[!UICONTROL Create]** e selecione **[!UICONTROL Publish]** para criar um relatório de publicação.
+   Ou você pode navegar diretamente para **[!UICONTROL Jobs]** a partir da navegação global.
 
-   ![](assets/create-publish-report.png)
+   Este relatório reflete o estado final (Sucesso ou Erro) de todos os trabalhos de publicação, incluindo a importação de ativos do Brand Portal para o AEM Assets as a Cloud Service.
 
-   Insira o **[!UICONTROL Título]** e **[!UICONTROL Descrição]**, selecione o **[!UICONTROL Caminho da Pasta]** da pasta de contribuição e agende o relatório para **[!UICONTROL Agora]**. Clique em **[!UICONTROL Avançar]**.
-
-   ![](assets/create-publish-report1.png)
-
-   Selecione os atributos de campo que você deseja no relatório e gere-o. Este relatório reflete o estado final (Sucesso ou Erro) de todos os trabalhos de publicação.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
