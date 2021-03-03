@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 10%
 
 ---
@@ -91,6 +91,13 @@ Esta versão inclui correções para os seguintes problemas críticos:
 * Comportamento inconsistente é observado quando um ativo (miniatura ou renderização da Web) é baixado usando o link de compartilhamento.
 
 Consulte [novidades do Brand Portal 2021.02.0](whats-new.md).
+
+
+### Problemas conhecidos {#known-issues}
+
+Esta versão inclui o seguinte problema conhecido:
+
+* Os usuários não estão recebendo notificações por email dos fluxos de trabalho de publicação da origem dos ativos.
 
 <!--
 ### Known Issues {#known-issues}
