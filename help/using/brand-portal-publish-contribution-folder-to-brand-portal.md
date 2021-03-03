@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ O usuário do AEM executa as seguintes atividades ao configurar uma pasta de con
 Administradores do AEM e usuários não administradores com permissão para criar uma nova pasta podem criar uma pasta de contribuição no AEM Assets.
 Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuição de ativo, garantindo que a nova pasta criada esteja aberta para o envio de ativos pelos usuários do Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas SHARED e NEW, na pasta de contribuição.
 
+
 >[!NOTE]
 >
 >Você pode criar várias pastas de contribuição em uma pasta. Não crie uma pasta de contribuição dentro de outra pasta de contribuição.
+
+Você pode configurar as propriedades da pasta de contribuição separadamente e ao criar a pasta de contribuição. Neste exemplo, estamos configurando as propriedades separadamente.
 
 **Para criar uma pasta de contribuição:**
 1. Faça logon na instância do AEM Assets.
@@ -68,7 +71,6 @@ Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuiç�
 
    ![](assets/contribution-folder.png)
 
-Você também pode configurar as propriedades da pasta de contribuição ao criar a pasta de contribuição.
 
 ## Configurar as propriedades da pasta de contribuição {#configure-contribution-folder-properties}
 
