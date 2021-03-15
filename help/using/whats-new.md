@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
+source-wordcount: '6125'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,19 @@ O Brand Portal 2021.02.0 é uma versão aprimorada que inclui o fluxo de trabalh
 
 ### Automação do Brand Portal no AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-O AEM Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager. Um usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS que a do AEM Assets como uma instância do Cloud Service.
+O AEM Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager.
 
 Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Console do Desenvolvedor do Adobe.
+
+Um usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS que a do AEM Assets como uma instância do Cloud Service.
+
+Para ativar o Brand Portal em seu AEM Assets como uma instância do Cloud Service:
+
+1. Faça logon no Adobe Cloud Manager e navegue até **[!UICONTROL Ambientes]**.
+1. Selecione os ambientes (um por um) na lista para exibir os detalhes do ambiente. Depois de encontrar o ambiente associado ao Brand Portal, clique no botão **[!UICONTROL Ativate Brand Portal]** para iniciar o fluxo de trabalho de ativação.
+1. Quando o locatário do Brand Portal é ativado, o status é alterado para Ativado.
+
+![Exibir status](assets/create-environment5.png)
 
 Consulte [ativar Brand Portal no AEM Assets como um Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
@@ -279,7 +289,7 @@ O usuário AEM então define o requisito fazendo o upload de um resumo sobre os 
 
 Quando o usuário terminar de adicionar conteúdo na pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
 
-Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição, bem como das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
+Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição, bem como das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos às coleções.
 
 >[!NOTE]
 >
