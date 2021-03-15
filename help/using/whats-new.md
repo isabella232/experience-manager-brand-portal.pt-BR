@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '6069'
+source-wordcount: '6053'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ O Brand Portal 2021.02.0 é uma versão aprimorada que inclui o fluxo de trabalh
 
 O AEM Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager. Um usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS que a do AEM Assets como uma instância do Cloud Service.
 
-Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
+Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Console do Desenvolvedor do Adobe.
 
 Consulte [ativar Brand Portal no AEM Assets como um Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
@@ -448,7 +448,7 @@ O lançamento oferece uma experiência de download simplificada com um número r
 * Optar por baixar apenas as representações (e não os ativos originais).
 * Baixar os ativos quando o acesso às renderizações originais é restrito.
 
-## O que mudou na 6.4.6 {#what-changed-in-1}
+## O que mudou na 6.4.2 {#what-changed-in-1}
 
 A versão do Brand Portal 6.4.2 traz uma variedade de recursos para atender às necessidades de distribuição de ativos das organizações e ajudá-las a alcançar um grande número de usuários distribuídos globalmente por meio do acesso de Convidado e da experiência ideal com downloads acelerados. O Brand Portal também oferece maior controle às organizações por meio de novas configurações para administradores, relatórios recém-adicionados e atende a solicitações de clientes.
 
