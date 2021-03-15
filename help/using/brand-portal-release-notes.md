@@ -2,7 +2,7 @@
 title: Notas de versão
 seo-title: Notas de versão
 description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 2021.02.0.
-seo-description: Obtenha informações sobre aprimoramentos, problemas críticos corrigidos e problemas conhecidos no Adobe Experience Manager Assets Brand Portal 2021.02.0.
+seo-description: Saiba mais sobre as melhorias, os problemas críticos corrigidos e os problemas conhecidos no Adobe Experience Manager Assets Brand Portal 2021.02.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 10%
 
 ---
@@ -24,14 +24,14 @@ Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigid
 
 ## Informações da versão {#release-information}
 
-| Produto | Portal de marcas do Adobe Experience Manager Assets |
+| Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Versão | 2021.02.0 |
 | Data | Fevereiro de 2021 |
 
 ## Visão geral {#overview}
 
-O Portal da Marca de Ativos Adobe Experience Manager (AEM) ajuda você a adquirir, controlar e distribuir com segurança ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados, a qualquer hora e em qualquer lugar.
+O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros externos e usuários comerciais internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados, a qualquer hora e em qualquer lugar.
 
 ## Novidades da versão 2021.02.0 {#whats-new-in-2021.02.0}
 
@@ -39,9 +39,11 @@ O Portal da Marca de Ativos Adobe Experience Manager (AEM) ajuda você a adquiri
 
 Esta versão inclui os seguintes novos recursos:
 
-* O recurso de origem dos ativos agora está disponível no AEM Assets as a Cloud Service. Ela permite que os usuários do Brand Portal façam upload de ativos para as pastas de contribuição permitidas e publiquem a pasta de contribuição do Brand Portal para a instância do AEM Assets as a Cloud Service.
+* O AEM Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager.
 
-* Uma configuração adicional de **[!UICONTROL Download de ativo]** foi introduzida nas **[!UICONTROL Configurações de download]**. Ele cria uma pasta separada para cada ativo ao baixar as pastas, as coleções ou o download em massa dos ativos. Consulte [configurações de download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* O recurso de origem dos ativos agora está disponível no AEM Assets as a Cloud Service. Ela permite que os usuários do Brand Portal façam upload de ativos para as pastas de contribuição permitidas e publiquem a pasta de contribuição do Brand Portal para o AEM Assets como uma instância do Cloud Service.
+
+* Uma configuração adicional de **[!UICONTROL Download de ativo]** foi introduzida nas **[!UICONTROL Configurações de download]**. Ele cria uma pasta separada para cada ativo ao baixar as pastas, as coleções ou o download em massa dos ativos.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -171,7 +173,7 @@ Para verificar quais plataformas são certificadas para execução com esta vers
 
 ## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
 
-Estes sites estão disponíveis somente para clientes. Se você for um cliente do e precisar de acesso, entre em contato com o gerente de conta da Adobe.
+Estes sites estão disponíveis somente para clientes. Se você for um cliente do e precisar de acesso, entre em contato com o gerente de conta do Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
@@ -179,4 +181,4 @@ Estes sites estão disponíveis somente para clientes. Se você for um cliente d
 
 * [Acesso ao produto](https://login.marketing.adobe.com)
 
-* [Atendimento ao cliente da Adobe](https://helpx.adobe.com/contact.html)
+* [Atendimento ao cliente do Adobe](https://helpx.adobe.com/contact.html)
