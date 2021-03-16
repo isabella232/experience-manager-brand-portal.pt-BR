@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 3%
 
 ---
@@ -24,15 +24,15 @@ O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, con
 
 ## O que mudou em 2021.02.0 {#what-changed-in-feb-2021}
 
-O Brand Portal 2021.02.0 é uma versão aprimorada que inclui o fluxo de trabalho de automação do Brand Portal no AEM Assets as a Cloud Service, facilita o recurso de origem de ativos no AEM Assets as a Cloud Service, melhorias na experiência de download de ativos e inclui correções críticas. Também permite que os administradores configurem o comportamento padrão de download de pastas, coleções e download em massa de ativos no nível do locatário. O **[!UICONTROL Relatório de uso do Brand Portal]** também foi modificado para refletir os usuários ativos do Brand Portal. Consulte as [Notas de versão do Brand Portal](brand-portal-release-notes.md) mais recentes.
+O Brand Portal 2021.02.0 é uma versão de aprimoramento que inclui o fluxo de trabalho de ativação do Brand Portal no AEM Assets as a Cloud Service, facilita o recurso de origem de ativos no AEM Assets as a Cloud Service, melhorias na experiência de download de ativos e inclui correções críticas. Também permite que os administradores configurem o comportamento padrão de download de pastas, coleções e download em massa de ativos no nível do locatário. O **[!UICONTROL Relatório de uso do Brand Portal]** também foi modificado para refletir os usuários ativos do Brand Portal. Consulte as [Notas de versão do Brand Portal](brand-portal-release-notes.md) mais recentes.
 
-### Automação do Brand Portal no AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+### Ativar o Brand Portal no AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-O AEM Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager.
+O AEM Assets as a Cloud Service agora está qualificado para ter uma instância pré-configurada do Brand Portal. O usuário do Cloud Manager pode ativar o Brand Portal no AEM Assets como uma instância do Cloud Service.
 
 Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Console do Desenvolvedor do Adobe.
 
-Um usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS que a do AEM Assets como uma instância do Cloud Service.
+O usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS que a do AEM Assets como uma instância do Cloud Service.
 
 Para ativar o Brand Portal em seu AEM Assets como uma instância do Cloud Service:
 
@@ -289,7 +289,7 @@ O usuário AEM então define o requisito fazendo o upload de um resumo sobre os 
 
 Quando o usuário terminar de adicionar conteúdo na pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
 
-Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição, bem como das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos às coleções.
+Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição, bem como das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ O lançamento oferece uma experiência de download simplificada com um número r
 * Optar por baixar apenas as representações (e não os ativos originais).
 * Baixar os ativos quando o acesso às renderizações originais é restrito.
 
-## O que mudou na 6.4.2 {#what-changed-in-1}
+## O que mudou na 6.4.6 {#what-changed-in-1}
 
 A versão do Brand Portal 6.4.2 traz uma variedade de recursos para atender às necessidades de distribuição de ativos das organizações e ajudá-las a alcançar um grande número de usuários distribuídos globalmente por meio do acesso de Convidado e da experiência ideal com downloads acelerados. O Brand Portal também oferece maior controle às organizações por meio de novas configurações para administradores, relatórios recém-adicionados e atende a solicitações de clientes.
 
