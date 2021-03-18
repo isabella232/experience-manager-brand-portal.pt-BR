@@ -1,34 +1,29 @@
 ---
 cloud: experience-cloud
-solution-title: Aprendizagem e suporte
-solution-hub-url: https://helpx.adobe.com/br/support/experience-manager.html
-solution-image: null
-getting-started-title: Introdução
-getting-started-url: https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html
-tutorials-title: Tutoriais
-tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.pt-BR
 solution: Experience Manager
+feature-set: Experience Manager Assets
+type: Documentação
 index: y
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 12%
+source-wordcount: '112'
+ht-degree: 87%
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de acordo de recompra que passam para os arquivos TOC.md do guia do usuário no repo. Se desejar alterar o conteúdo de metadata.md de qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
+O arquivo metadata.md inclui metadados de nível de repositório que passam para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo de metadata.md de qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-| metadata | o que ele faz |
+| metadados | para que serve |
 |--- |--- |
-| título da solução | Usado no cabeçalho do artigo como link |
-| solution-hub-url | Abre a página do hub helpx |
-| ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
-| getting-started-url | Link para a página de introdução ao helpx |
-| tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
-| níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
-| repo git | Especifica o local do acordo de recompra primário para uso interno |
+| solution-title | Usado no cabeçalho do artigo como link |
+| solution-hub-url | Abre a página de ajuda do hub |
+| solution-icon | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
+| getting-started-url | Link para a página de introdução |
+| tutorials-url | Link para tutoriais em vídeo — tutoriais de ajuda ou tutoriais de KT |
+| mini-toc-levels | Calcula o número de níveis de cabeçalho exibidos no painel direito. O padrão é 2 |
+| git-repo | Especifica o local do acordo de recompra principal para uso interno |
