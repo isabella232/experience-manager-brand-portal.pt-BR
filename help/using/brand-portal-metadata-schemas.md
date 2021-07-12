@@ -8,15 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1756'
 ht-degree: 12%
 
 ---
-
 
 # Usar o formulário de esquema de metadados {#use-the-metadata-schema-form}
 
@@ -126,7 +125,7 @@ A seguir estão os valores válidos para essa propriedade:
 >
 >Todos os campos de metadados são somente leitura no formulário editor de metadados de um ativo. Como os metadados do ativo devem ser editados no AEM Assets antes que um ativo seja publicado no Brand Portal.
 
-#### Adicione ou exclua uma guia no formulário de esquema {#add-or-delete-a-tab-in-the-schema-form}
+#### Adicionar ou excluir uma guia no formulário de esquema {#add-or-delete-a-tab-in-the-schema-form}
 
 O formulário de esquema padrão inclui as guias **[!UICONTROL Basic]** e **[!UICONTROL Advanced]**. O editor de esquema permite adicionar ou excluir uma guia.
 
@@ -188,7 +187,7 @@ Para excluir um formulário, selecione-o e clique no ícone **[!UICONTROL Delete
 
 Além dos formulários padrão, você pode adicionar formulários personalizados a ativos de vários tipos MIME ou criar um novo formulário em um tipo de formulário apropriado. Por exemplo, para adicionar um novo modelo para o subtipo **[!UICONTROL image/png]**, crie o formulário nos formulários &quot;image&quot;. O título do formulário de esquema é o nome do subtipo. Nesse caso, o título é &quot;png&quot;.
 
-#### Uso de um modelo de esquema existente para vários tipos MIME {#using-an-existing-schema-template-for-various-mime-types}
+#### Uso de um template de schema existente para vários tipos MIME {#using-an-existing-schema-template-for-various-mime-types}
 
 Você pode usar um modelo existente para um tipo MIME diferente. Por exemplo, use o formulário **image/jpeg** para ativos do tipo MIME **image/png**.
 
