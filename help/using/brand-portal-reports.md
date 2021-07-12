@@ -8,19 +8,18 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1023'
+ht-degree: 2%
 
 ---
 
-
 # Trabalhar com relatórios {#work-with-reports}
 
-A capacidade de geração de relatórios é fundamental para avaliar o uso do Brand Portal e saber como usuários internos e externos interagem com ativos aprovados. Os administradores podem exibir o relatório de Uso do Brand Portal , que está sempre disponível na página Relatórios de ativos . No entanto, os relatórios para logons de usuários e ativos baixados, expirados, publicados e compartilhados por meio de links podem ser gerados e exibidos na página Relatórios de ativos . Esses relatórios são úteis na análise da implantação de ativos, que permitem derivar métricas principais de sucesso para medir a adoção de ativos aprovados dentro e fora da organização.
+O recurso de geração de relatórios é fundamental para avaliar o uso do Brand Portal e saber como usuários internos e externos interagem com ativos aprovados. Os administradores podem exibir o relatório de Uso da Brand Portal, que está sempre disponível na página Relatórios de ativos . No entanto, os relatórios para logons de usuários e ativos baixados, expirados, publicados e compartilhados por meio de links podem ser gerados e exibidos na página Relatórios de ativos . Esses relatórios são úteis na análise da implantação de ativos, que permitem derivar métricas principais de sucesso para medir a adoção de ativos aprovados dentro e fora da organização.
 
 A interface de gerenciamento de relatórios é intuitiva e inclui opções e controles otimizados para acessar relatórios salvos. Você pode visualizar, baixar ou excluir relatórios da página Relatórios de ativos , onde todos os relatórios gerados anteriormente são listados.
 
@@ -44,12 +43,12 @@ Para visualizar um relatório, siga estas etapas:
 
    Para exibir um relatório, clique no link do relatório. Como alternativa, selecione o relatório e toque/clique no ícone Exibir na barra de ferramentas.
 
-   **[!UICONTROL O]** Relatório de uso exibe informações sobre o número de usuários ativos do Brand Portal, o espaço de armazenamento ocupado por todos os ativos e o total de ativos contam no Brand Portal. Os usuários do portal da marca que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos no **[!UICONTROL Relatório de uso]**.
+   **[!UICONTROL O]** Relatório de uso exibe informações sobre o número de usuários ativos do Brand Portal, o espaço de armazenamento ocupado por todos os ativos e o total de ativos é contado no Brand Portal. Os usuários do portal da marca que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos no **[!UICONTROL Relatório de uso]**.
 O relatório também exibe a capacidade permitida para cada uma dessas métricas de informações.
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL O relatório]** Logons de usuário fornece informações sobre os usuários que fizeram logon no Brand Portal. O relatório mostra nomes para exibição, IDs de email, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório.
+   **[!UICONTROL User]** Loginsreport fornece informações sobre os usuários que fizeram logon no Brand Portal. O relatório mostra nomes para exibição, IDs de email, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório.
 
    ![](assets/user-logins.png)
 
@@ -65,13 +64,13 @@ O relatório também exibe a capacidade permitida para cada uma dessas métricas
 
    ![](assets/expiration-report.png)
 
-   **** Publicar relatório lista e fornece informações sobre todos os ativos publicados do AEM no Brand Portal em um período especificado.
+   **** Publicar relatório lista e fornece informações sobre todos os ativos que são publicados do AEM para a Brand Portal em um período de tempo especificado.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Publicar relatório não exibe informações sobre fragmentos de conteúdo, pois os fragmentos de conteúdo não podem ser publicados no Brand Portal.
+   >Publicar relatório não exibe informações sobre fragmentos de conteúdo, pois os fragmentos de conteúdo não podem ser publicados na Brand Portal.
 
    **[!UICONTROL O]** relatório Compartilhamento de links lista todos os ativos compartilhados por meio de links da interface do Brand Portal em um período específico. O relatório também informa quando o ativo foi compartilhado por link, por meio do qual o usuário, quando o link expira e o número de links compartilhados para o locatário (e usuários com os quais o link de ativo foi compartilhado). As colunas do Relatório de compartilhamento de link não são personalizáveis.
 
