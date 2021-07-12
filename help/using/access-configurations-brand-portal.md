@@ -9,25 +9,24 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 10%
 
 ---
 
-
 # Administrar acesso de usuários no Brand Portal {#administer-user-access-on-brand-portal}
 
-O AEM Assets Brand Portal 6.4.2 em diante autoriza os administradores a configurar o acesso de convidado e permitir que os usuários solicitem acesso ao Brand Portal de sua organização. Essas configurações foram fornecidas como configurações de **[!UICONTROL Configurações de acesso]** no painel administrativo. Ambas as configurações estão desativadas por padrão.
+O AEM Assets Brand Portal 6.4.2 em diante autoriza os administradores a configurar o acesso de convidado e permitir que os usuários solicitem acesso no Brand Portal de sua organização. Essas configurações foram fornecidas como configurações de **[!UICONTROL Configurações de acesso]** no painel administrativo. Ambas as configurações estão desativadas por padrão.
 
 ![](assets/access-configs.png)
 
-****   AConfiguração para permitir acesso de convidado no Brand Portal usando o Acesso de  **[!UICONTROL convidado?]** link na tela de boas-vindas do Brand Portal. (O padrão está desativado)
+****   AConfiguração para permitir acesso de convidado no Brand Portal usando o Acesso de  **[!UICONTROL convidado?]** na tela de boas-vindas do Brand Portal. (O padrão está desativado)
 
-****   BConfiguration para permitir que os usuários solicitem acesso ao Brand Portal usando  **[!UICONTROL Need access?]** link na tela de boas-vindas do Brand Portal. (O padrão está desativado)
+****   BConfiguration para permitir que os usuários solicitem acesso ao Brand Portal usando  **[!UICONTROL Need access?]** na tela de boas-vindas do Brand Portal. (O padrão está desativado)
 
 ## Permitir acesso de convidado {#allow-guest-access}
 
