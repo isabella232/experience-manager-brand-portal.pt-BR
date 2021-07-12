@@ -9,31 +9,30 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
 
-
 # Gerenciar direitos digitais dos ativos {#manage-digital-rights-of-assets}
 
-Garantir a distribuição e uso seguros dos ativos criativos e do material da marca é essencial para proteger sua marca. Isso pode ser aplicado dentro e fora da organização, associando uma data de expiração (e hora) aos ativos aprovados publicados do AEM ao Brand Portal, ou licenciando esses ativos para uso condicional. Além disso, o Brand Portal permite especificar uma data de expiração para os links para os ativos compartilhados do Brand Portal.
+Garantir a distribuição e uso seguros dos ativos criativos e do material da marca é essencial para proteger sua marca. Isso pode ser aplicado dentro e fora da organização, associando uma data de expiração (e hora) aos ativos aprovados publicados do AEM para a Brand Portal ou licenciando esses ativos para uso condicional. Além disso, o Brand Portal permite especificar uma data de expiração para os links para os ativos compartilhados do Brand Portal.
 
-Leia para saber como os ativos são protegidos no Brand Portal e entender as permissões de uso associadas.
+Leia para saber como os ativos são protegidos no Brand Portal e compreender as permissões de uso associadas.
 
 ## Expiração do ativo {#asset-expiration}
 
-A expiração de ativos é uma maneira eficaz de controlar o uso de ativos aprovados no Brand Portal em uma organização. Todos os ativos publicados do AEM Assets para o Brand Portal podem ter uma data de expiração, o que restringe o uso desses ativos por diferentes funções de usuário.
+A expiração de ativos é uma maneira eficaz de controlar o uso de ativos aprovados na Brand Portal em uma organização. Todos os ativos publicados do AEM Assets para o Brand Portal podem ter uma data de expiração, o que restringe o uso desses ativos por diferentes funções de usuário.
 
 ### Permissões de uso relacionadas a ativos expirados {#usage-permissions-expired-assets}
 
 No Brand Portal, os administradores podem exibir, baixar e adicionar ativos expirados às coleções. Enquanto isso, os Editores e Visualizadores só podem exibir e adicionar ativos expirados às coleções.
 
-Os administradores podem publicar ativos expirados do AEM Assets no Brand Portal. No entanto, os ativos expirados não podem ser compartilhados por meio do link no Brand Portal. Se você selecionar qualquer ativo expirado de uma pasta contendo ativos expirados e não expirados, a ação **[!UICONTROL Compartilhar link]** não estará disponível. Mas, se você selecionar uma pasta que contém ativos expirados e não expirados, as ações [!UICONTROL Compartilhar] e **[!UICONTROL Compartilhar link]** estarão disponíveis.
+Os administradores podem publicar ativos expirados do AEM Assets para o Brand Portal. No entanto, os ativos expirados não podem ser compartilhados por meio do link da Brand Portal. Se você selecionar qualquer ativo expirado de uma pasta contendo ativos expirados e não expirados, a ação **[!UICONTROL Compartilhar link]** não estará disponível. Mas, se você selecionar uma pasta que contém ativos expirados e não expirados, as ações [!UICONTROL Compartilhar] e **[!UICONTROL Compartilhar link]** estarão disponíveis.
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ A tabela a seguir exibe as permissões de uso de ativos expirados:
 >
 >Se Visualizadores e Editores baixarem uma pasta contendo ativos expirados e não expirados, somente os ativos não expirados serão baixados. Se uma pasta contiver somente ativos expirados, uma pasta vazia será baixada.
 
-### Status de expiração de ativos {#expiration-status-of-assets}
+### Status de expiração dos ativos {#expiration-status-of-assets}
 
 Você pode visualizar o status de expiração dos ativos em sua **[!UICONTROL Exibição de cartão]**. Um sinalizador vermelho no cartão indica que o ativo expirou.
 
@@ -62,19 +61,19 @@ Você pode visualizar o status de expiração dos ativos em sua **[!UICONTROL Ex
 >
 >As exibições Lista e Coluna não exibem o status de expiração dos ativos.
 
-## Expiração do link de ativo {#asset-link-expiration}
+## Expiração do link do ativo {#asset-link-expiration}
 
 Ao compartilhar ativos por meio de links, Administradores e Editores podem definir uma data e hora de expiração usando o campo **[!UICONTROL Expiration]** na caixa de diálogo **[!UICONTROL Compartilhamento de link]**. A expiração padrão do link é de sete dias a partir da data em que o link é compartilhado.
 
 ![](assets/asset-link-sharing.png)
 
-Isso garante que os ativos compartilhados como links expirem na data e hora definidas pelos administradores e editores do Brand Portal e não podem mais ser visualizados e baixados além da data de expiração. Como os ativos compartilhados por meio de links também podem ser visualizados por usuários externos que não fazem parte da organização, ao especificar a expiração, você pode garantir que seus ativos aprovados estejam protegidos e não sejam expostos a entidades desconhecidas além de um tempo especificado.
+Isso garante que os ativos compartilhados como links expirem na data e hora definidas pelos administradores e editores do Brand Portal, e não podem mais ser visualizados e baixados além da data de expiração. Como os ativos compartilhados por meio de links também podem ser visualizados por usuários externos que não fazem parte da organização, ao especificar a expiração, você pode garantir que seus ativos aprovados estejam protegidos e não sejam expostos a entidades desconhecidas além de um tempo especificado.
 
 Para obter mais informações sobre o compartilhamento de links, consulte [Compartilhar ativos como um link](../using/brand-portal-link-share.md).
 
 ## Ativos licenciados {#licensed-assets}
 
-Os ativos licenciados estão sujeitos à aceitação de um contrato de licença antes do download do Brand Portal. Este contrato para ativos licenciados vem quando você baixa o ativo diretamente do Brand Portal ou por meio de um link compartilhado. Independentemente de expirar ou não, os ativos protegidos por licença podem ser visualizados por todos os usuários. No entanto, o download e o uso de ativos licenciados expirados são limitados. Para saber mais sobre o comportamento de ativos licenciados expirados e atividades permitidas com base em funções de usuário, consulte [permissões de uso de ativos expirados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Os ativos licenciados estão sujeitos à aceitação de um contrato de licença antes do download da Brand Portal. Este contrato para ativos licenciados vem quando você baixa diretamente o ativo da Brand Portal ou por meio de um link compartilhado. Independentemente de expirar ou não, os ativos protegidos por licença podem ser visualizados por todos os usuários. No entanto, o download e o uso de ativos licenciados expirados são limitados. Para saber mais sobre o comportamento de ativos licenciados expirados e atividades permitidas com base em funções de usuário, consulte [permissões de uso de ativos expirados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
 Os ativos protegidos por licença têm [contrato de licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito definindo a [propriedade de metadados](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) do ativo no AEM Assets.
 
