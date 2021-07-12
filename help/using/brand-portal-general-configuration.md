@@ -9,15 +9,14 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 4%
 
 ---
-
 
 # Administrar configurações de locatários gerais {#administer-general-tenant-configurations}
 
@@ -57,7 +56,7 @@ Para ativar/desativar cada uma dessas configurações:
 
 ## Permitir a criação de coleções públicas por não administradores {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Permitir que coleções públicas ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) criaçãocontroles de configuração se não administradores podem criar coleções públicas no Brand Portal. A configuração é ativada por padrão. Ao desabilitar a configuração, as organizações podem evitar a existência de várias coleções públicas em seu portal para que o espaço do sistema possa ser salvo.
+[[!UICONTROL Permitir que coleções públicas ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) criem controles de configuração se não administradores podem criar coleções públicas no Brand Portal. A configuração é ativada por padrão. Ao desabilitar a configuração, as organizações podem evitar a existência de várias coleções públicas em seu portal para que o espaço do sistema possa ser salvo.
 
 ## Permitir a criação de coleções inteligentes públicas por não administradores {#allow-public-smart-collections-creation-by-non-admins}
 
