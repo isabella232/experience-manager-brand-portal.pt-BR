@@ -8,21 +8,20 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 10%
 
 ---
-
 
 # Usar facetas de busca personalizada {#use-custom-search-facets}
 
 Os administradores podem adicionar predicados de pesquisa ao painel [!UICONTROL Filtros] para personalizar a pesquisa e tornar a funcionalidade de pesquisa versátil.
 
-O Brand Portal oferece suporte a [pesquisa facetada](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) para pesquisas granulares de ativos de marca aprovados, o que é possível devido a [**Filtros** painel](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Os aspectos de pesquisa são disponibilizados no painel Filtros por meio do **[!UICONTROL Formulário de pesquisa]** nas ferramentas administrativas. Um formulário de pesquisa padrão chamado Painel de pesquisa do administrador de ativos existe na página Pesquisar Forms nas ferramentas administrativas. No entanto, os administradores podem personalizar o painel Filtros padrão editando o Formulário de pesquisa padrão (Painel de pesquisa do administrador de ativos) adicionando, modificando ou removendo predicados de pesquisa, tornando assim a funcionalidade de pesquisa versátil.
+O Brand Portal suporta [pesquisa facetada](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) para pesquisas granulares de ativos de marca aprovados, o que é possível devido a [**Filtros** painel](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Os aspectos de pesquisa são disponibilizados no painel Filtros por meio do **[!UICONTROL Formulário de pesquisa]** nas ferramentas administrativas. Um formulário de pesquisa padrão chamado Painel de pesquisa do administrador de ativos existe na página Pesquisar Forms nas ferramentas administrativas. No entanto, os administradores podem personalizar o painel Filtros padrão editando o Formulário de pesquisa padrão (Painel de pesquisa do administrador de ativos) adicionando, modificando ou removendo predicados de pesquisa, tornando assim a funcionalidade de pesquisa versátil.
 
 Você pode usar vários predicados de pesquisa para personalizar o painel **[!UICONTROL Filters]**. Por exemplo, adicione o predicado de propriedade para procurar ativos que correspondem a uma única propriedade especificada neste predicado. Adicione o predicado de opções para procurar ativos que correspondam a um ou mais valores especificados para uma propriedade específica. Adicione o predicado de intervalo de datas para procurar ativos criados em um intervalo de datas especificado.
 
