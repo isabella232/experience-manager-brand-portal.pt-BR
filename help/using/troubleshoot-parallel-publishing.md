@@ -8,25 +8,24 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 3%
 
 ---
 
-
 # Solucionar problemas na publicação paralela no Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-O Brand Portal é configurado com o AEM Assets para ter ativos da marca aprovados assimilados (ou publicados) sem interrupções da instância do autor do AEM Assets. Depois de [configurado](../using/configure-aem-assets-with-brand-portal.md), o AEM Author usa um agente de replicação para replicar os ativos selecionados para o serviço em nuvem do Brand Portal para uso aprovado pelos usuários do Brand Portal. Vários agentes de replicação são usados AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 e em diante para permitir a publicação paralela de alta velocidade.
+O Brand Portal é configurado com o AEM Assets para ter ativos de marca aprovados assimilados (ou publicados) sem interrupções da instância de criação do AEM Assets. Depois de [configurado](../using/configure-aem-assets-with-brand-portal.md), o AEM Author usa um agente de replicação para replicar os ativos selecionados para o serviço em nuvem do Brand Portal para uso aprovado pelos usuários do Brand Portal. Vários agentes de replicação são usados AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 e em diante para permitir a publicação paralela de alta velocidade.
 
 >[!NOTE]
 >
 >O Adobe recomenda atualizar para o AEM 6.4.1.0 para garantir que o AEM Assets Brand Portal seja configurado com êxito com o AEM Assets. Uma limitação no AEM 6.4 dá um erro ao configurar o AEM Assets com o Brand Portal e a replicação falha.
 
-Ao configurar o serviço em nuvem para o brand portal em **[!UICONTROL /etc/cloudservice]**, todos os usuários e token necessários são gerados automaticamente e salvos no repositório. A configuração do Cloud Service é criada, os usuários de serviço necessários para os agentes de replicação e replicação replicarem conteúdo também são criados. Isso cria quatro agentes de replicação. Assim, ao publicar vários ativos do AEM no Brand Portal, eles são enfileirados e distribuídos entre esses agentes de replicação por meio da Round Robin.
+Ao configurar o serviço em nuvem para o brand portal em **[!UICONTROL /etc/cloudservice]**, todos os usuários e token necessários são gerados automaticamente e salvos no repositório. A configuração do Cloud Service é criada, os usuários de serviço necessários para os agentes de replicação e replicação replicarem conteúdo também são criados. Isso cria quatro agentes de replicação. Assim, ao publicar vários ativos do AEM para o Brand Portal, eles são enfileirados e distribuídos entre esses agentes de replicação por meio da Round Robin.
 
 No entanto, a publicação pode falhar intermitentemente devido a - trabalhos de sling grandes, rede aumentada e **[!UICONTROL E/S de disco]** na instância de autor do AEM, ou desempenho lento da instância de autor do AEM. Portanto, é recomendável testar a conexão com o(s) agente(s) de replicação antes de começar a publicar.
 
@@ -116,7 +115,7 @@ Se um agente de replicação (que estava publicando no brand portal muito bem) p
 
 Se houver falhas de publicação contínuas e a fila estiver bloqueada, você deverá verificar **[!UICONTROL test connection]** e tentar resolver os erros que estão sendo relatados.
 
-Com base nos erros, é recomendável registrar um tíquete de suporte para que a equipe de engenharia do Brand Portal possa ajudá-lo a resolver problemas.
+Com base nos erros, é recomendável registrar um tíquete de suporte para que a equipe de engenharia da Brand Portal possa ajudá-lo a resolver os problemas.
 
 
 ## Configure os agentes de replicação para evitar o erro de tempo limite de conexão {#connection-timeout}
