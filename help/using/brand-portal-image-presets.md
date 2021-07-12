@@ -1,30 +1,29 @@
 ---
 title: Aplicar predefinições de imagens ou representações dinâmicas
 seo-title: Aplicar predefinições de imagens ou representações dinâmicas
-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes. '
-seo-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes. '
+description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades. '
+seo-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 4%
+source-wordcount: '871'
+ht-degree: 3%
 
 ---
 
-
 # Aplicar predefinições de imagens ou representações dinâmicas {#apply-image-presets-or-dynamic-renditions}
 
-Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de tamanhos, formatos e propriedades diferentes.
+Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades.
 
 Uma predefinição de imagem é usada para gerar representações dinâmicas de imagens que podem ser visualizadas e baixadas. Ao visualizar imagens e suas representações, você pode escolher uma predefinição para reformatar imagens de acordo com as especificações definidas pelo Administrador.
 
-(*Se AEM instância do autor estiver em execução em **Modo Híbrido Dynamic Media***) Para exibir representações dinâmicas de um ativo no Brand Portal, verifique se a representação tiff Pyramid existe na instância do autor AEM de onde você publica no Brand Portal. Ao publicar o ativo, sua representação PTIFF também é publicada no Brand Portal.
+(*Se AEM instância do autor estiver em execução em **Modo Dynamic Media Híbrido***) Para exibir representações dinâmicas de um ativo no Brand Portal, verifique se a representação tiff em Pyramid existe na instância do autor AEM de onde você publica no Brand Portal. Ao publicar o ativo, sua representação PTIFF também é publicada no Brand Portal.
 
 >[!NOTE]
 >
@@ -69,7 +68,7 @@ Os administradores de AEM podem criar predefinições de imagens que são exibid
 1. Clique em **[!UICONTROL Salvar]**. A predefinição de imagem é criada e exibida na página de predefinições de imagem.
 1. Para excluir uma predefinição de imagem, selecione-a na página de predefinições de imagem e clique em **[!UICONTROL Excluir]**. Na página de confirmação, clique em **[!UICONTROL Delete]** para confirmar a exclusão. A predefinição de imagem é removida da página de predefinições de imagem.
 
-## Aplicar predefinições de imagens ao visualizar imagens {#apply-image-presets-when-previewing-images}
+## Aplicar predefinições de imagens ao visualizar imagens  {#apply-image-presets-when-previewing-images}
 
 Ao visualizar imagens e suas representações, escolha entre as predefinições existentes para reformatar as imagens de acordo com as especificações definidas pelo Administrador.
 
@@ -84,9 +83,9 @@ Ao visualizar imagens e suas representações, escolha entre as predefinições 
 
 ## Aplicar predefinições de imagens ao baixar imagens {#apply-image-presets-when-downloading-images}
 
-Ao baixar imagens e suas representações no Brand Portal, não é possível escolher entre as predefinições de imagens existentes. Entretanto, é possível personalizar as propriedades da predefinição de imagens com base nas quais deseja reformatar as imagens.
+Ao baixar imagens e suas representações do Brand Portal, não é possível escolher entre as predefinições de imagens existentes. Entretanto, é possível personalizar as propriedades da predefinição de imagens com base nas quais deseja reformatar as imagens.
 
-1. Na interface do Brand Portal, siga um destes procedimentos:
+1. Na interface do Brand Portal, execute um dos seguintes procedimentos:
 
    * Passe o ponteiro do mouse sobre a imagem que deseja baixar. Nas miniaturas de ação rápida disponíveis, clique no ícone **[!UICONTROL Download]**.
 
