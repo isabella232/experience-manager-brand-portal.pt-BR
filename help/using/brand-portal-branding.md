@@ -1,28 +1,27 @@
 ---
 title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
 seo-title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
-description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de fundo específica (papel de parede) para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
-seo-description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de fundo específica (papel de parede) para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
+description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon da Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
+seo-description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon da Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '812'
+ht-degree: 2%
 
 ---
 
-
 # Personalizar papel de parede, cabeçalho e mensagens de e-mail {#customize-wallpaper-header-and-email-message}
 
-Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de fundo específica (papel de parede) para a página de logon do Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
+Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon da Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
 
-## Personalizar o wallpaper da tela de logon {#customize-the-login-screen-wallpaper}
+## Personalizar o papel de parede da tela de logon {#customize-the-login-screen-wallpaper}
 
 Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é exibido na página de logon.
 
@@ -46,7 +45,7 @@ Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é e
    Faça uma das seguintes opções:
 
    * Para carregar uma imagem do seu computador, clique em **[!UICONTROL Upload]**. Navegue até a imagem desejada e faça upload dela.
-   * Para usar uma imagem existente do Brand Portal, clique em **[!UICONTROL Selecionar a partir de]** existente. Escolha uma imagem usando o seletor de ativos.
+   * Para usar uma imagem Brand Portal existente, clique em **[!UICONTROL Selecionar a partir de]** existente. Escolha uma imagem usando o seletor de ativos.
 
    ![](assets/asset-picker.png)
 
@@ -74,7 +73,7 @@ Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é e
 
 ## Personalizar o cabeçalho {#customize-the-header}
 
-O cabeçalho é exibido em várias páginas do Brand Portal depois que você faz logon no Brand Portal.
+O cabeçalho aparece em várias páginas do Brand Portal depois que você faz o logon no Brand Portal.
 
 1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
 
@@ -90,7 +89,7 @@ O cabeçalho é exibido em várias páginas do Brand Portal depois que você faz
 
 1. Para carregar uma imagem de cabeçalho, clique no ícone **[!UICONTROL Escolher imagem]** e escolha **[!UICONTROL Carregar]**.
 
-   Para usar uma imagem existente do Brand Portal, escolha **[!UICONTROL Selecionar a partir de]** existente.
+   Para usar uma imagem Brand Portal existente, escolha **[!UICONTROL Selecionar a partir de]** existente.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -105,7 +104,7 @@ Para salvar as alterações, clique em **[!UICONTROL Save]** na barra de ferrame
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Preview]** para gerar uma pré-visualização da interface do Brand Portal com a imagem de cabeçalho.
+1. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Preview]** para gerar uma pré-visualização da interface do Brand Portal com a imagem do cabeçalho.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
