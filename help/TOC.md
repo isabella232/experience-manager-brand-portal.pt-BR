@@ -7,9 +7,8 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guia do Brand Portal
 user-guide-description: Use o AEM Assets Brand Portal para atender às necessidades de marketing, distribuindo com segurança os ativos de marca e de produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 feature: Brand Portal
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
+role: User
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 80%
@@ -23,7 +22,7 @@ ht-degree: 80%
 + Introdução {#introduction}
    + [Visão geral](using/brand-portal.md)
    + [Novidades do AEM Assets Brand Portal](using/whats-new.md)
-   + [Notas de lançamento](using/brand-portal-release-notes.md)
+   + [Notas de versão](using/brand-portal-release-notes.md)
    + [Perguntas frequentes](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
