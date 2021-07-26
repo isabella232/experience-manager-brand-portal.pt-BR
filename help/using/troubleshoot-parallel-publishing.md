@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -74,11 +74,11 @@ ii. delete
    i. procurar usuário `mac-<tenantid>replication`
 ii. excluir este usuário
 
-Agora o sistema está tudo limpo. Agora você pode tentar criar uma nova configuração de cloudservice e ainda usar o aplicativo JWT existente em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Não há necessidade de criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração de nuvem recém-criada.
+Agora o sistema está tudo limpo. Agora você pode tentar criar uma nova configuração de cloudservice e ainda usar o aplicativo JWT existente em `https://legacy-oauth.cloud.adobe.io/`. Não há necessidade de criar um novo aplicativo, mas apenas a chave pública precisa ser atualizada da configuração de nuvem recém-criada.
 
 ## Problema de visibilidade do locatário do aplicativo JWT do Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Se em [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), todas as organizações (locatários) para as quais os usuários atuais mantêm o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um locatário necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
+Se em `https://legacy-oauth.cloud.adobe.io/`, todas as organizações (locatários) para as quais os usuários atuais mantêm o administrador do sistema serão listadas. Se você não encontrar o nome da organização aqui ou não puder criar um aplicativo para um locatário necessário aqui, verifique se você tem direitos suficientes (administrador do sistema) para fazer isso.
 
 Há um problema conhecido nessa interface do usuário que para qualquer locatário, somente os 10 aplicativos principais estão visíveis. Ao criar o aplicativo, mantenha-se nessa página e marque o URL. Não é necessário acessar a página de listagem do aplicativo e encontrar o aplicativo que você criou. Você pode pressionar este URL marcado diretamente e atualizar/excluir o aplicativo, sempre que necessário.
 
