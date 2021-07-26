@@ -10,14 +10,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1043'
 ht-degree: 3%
 
 ---
 
-# Acelere os downloads do Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
+# Acelere os downloads da Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
 
 A Adobe Experience Manager Assets Brand Portal permite aprimorar o desempenho de download de arquivos de ativos grandes integrando-se à IBM Aspera Connect, que é um aplicativo de instalação sob demanda. O aplicativo usa tecnologia proprietária para remover custos indiretos de TCP e ajuda a melhorar a velocidade de transferência dos arquivos de ativos. Essa integração garante uma melhor experiência de download.
 
@@ -29,13 +29,13 @@ A configuração **[!UICONTROL Fast Download]** é ativada por padrão, o que re
 
 ![](assets/download-settings-new.png)
 
-## Pré-requisitos para acelerar o download de arquivo {#prerequisites-to-accelerate-file-download}
+## Pré-requisitos para acelerar o download de arquivos {#prerequisites-to-accelerate-file-download}
 
 Para baixar os arquivos mais rápido, verifique o seguinte:
 
 * Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]** e verifique se a configuração **[!UICONTROL Download rápido]** está ativada em **[!UICONTROL Definições de Download]**.
 * Certifique-se de que a porta 33001 (TCP e UDP) esteja aberta no firewall. Para obter mais informações sobre os pré-requisitos, consulte a [documentação do IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* [Instale o IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) na extensão do seu navegador usando privilégios de administrador.
+* [Instale o IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) na extensão do seu navegador usando privilégios de administrador.
 * Para obter o suporte de plataforma do cliente de transferência Aspera, consulte [Matriz de suporte da plataforma IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Baixar domínios {#download-domains}
@@ -92,7 +92,7 @@ Para baixar ativos mais rapidamente da Brand Portal:
 
 1. Por padrão, a configuração **[!UICONTROL Fast Download]** é ativada nas **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para baixar ativos usando o IBM Aspera Connect.
 
-   Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador ou a versão existente estiver desatualizada, ele solicitará que você [instale o Acelerador de download Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+   Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador ou a versão existente estiver desatualizada, ele solicitará que você [instale o Acelerador de download Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
    ![](assets/aspera-not-launched.png)
 
@@ -186,7 +186,7 @@ Para usar a funcionalidade de download acelerado no Microsoft Edge, remova o sit
 1. Clique na **[!UICONTROL Zona de sites confiáveis]** e clique em **[!UICONTROL Sites]**.
 1. Remova o site do Brand Portal da lista.
 
-## Assimilar as preferências do cliente Connect {#aspera-connect-client-preferences}
+## Assimilar preferências do cliente Connect {#aspera-connect-client-preferences}
 
 Existem algumas preferências úteis que podem ser definidas na preferência do IBM Aspera Connect Client clicando com o botão direito do mouse no ícone e selecionando **[!UICONTROL Preferências]**.
 
