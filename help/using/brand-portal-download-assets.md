@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1954'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ A Adobe Experience Manager Assets Brand Portal aprimora a experiência de downlo
 
 >[!NOTE]
 >
->No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, o que usa o IBM Aspera Connect para download acelerado dos ativos. [Instale o IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) na extensão do navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
+>No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, o que usa o IBM Aspera Connect para download acelerado dos ativos. [Instale o IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) na extensão do navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
 >
 >Se não quiser usar o IBM Aspera Connect e continuar com o processo normal de download, entre em contato com o administrador do Brand Portal para desativar a configuração **[!UICONTROL Fast Download]**.
 
@@ -45,7 +45,7 @@ O acesso e o download das representações de ativos da interface do Brand Porta
 * Ativar definições de transferência
 * Definir configurações do grupo de usuários
 
-### Ativar as definições de transferência {#enable-download-settings}
+### Ativar definições de transferência {#enable-download-settings}
 
 Os administradores podem ativar o ativo **[!UICONTROL Configurações de download]** para definir o conjunto de representações acessível aos usuários do Brand Portal para download.
 
@@ -156,7 +156,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
       >[!NOTE]
       >
-      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que você [instale o Acelerador de download Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que você [instale o Acelerador de download Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
 
       >[!NOTE]
@@ -399,7 +399,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-## Desempenho de download esperado {#expected-download-performance}
+## Desempenho esperado de download {#expected-download-performance}
 
 A experiência de download de arquivo pode variar para usuários em locais de clientes diferentes, dependendo de fatores como conectividade local com a Internet e latência de servidor. O desempenho de download esperado para o arquivo de 2 GB observado em diferentes locais do cliente é o seguinte, com o servidor Brand Portal em Oregon, Estados Unidos:
 
