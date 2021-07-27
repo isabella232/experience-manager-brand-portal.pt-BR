@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1944'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ A Adobe Experience Manager Assets Brand Portal aprimora a experiência de downlo
 
 >[!NOTE]
 >
->No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, o que usa o IBM Aspera Connect para download acelerado dos ativos. [Instale o IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) na extensão do navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
+>No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, o que usa o IBM Aspera Connect para download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) na extensão do seu navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
 >
 >Se não quiser usar o IBM Aspera Connect e continuar com o processo normal de download, entre em contato com o administrador do Brand Portal para desativar a configuração **[!UICONTROL Fast Download]**.
 
@@ -156,7 +156,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
       >[!NOTE]
       >
-      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que você [instale o Acelerador de download Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
+      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que você instale o Acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
       >[!NOTE]
