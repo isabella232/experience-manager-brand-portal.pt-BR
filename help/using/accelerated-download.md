@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Para baixar os arquivos mais rápido, verifique o seguinte:
 
 * Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Download]** e verifique se a configuração **[!UICONTROL Download rápido]** está ativada em **[!UICONTROL Definições de Download]**.
 * Certifique-se de que a porta 33001 (TCP e UDP) esteja aberta no firewall. Para obter mais informações sobre os pré-requisitos, consulte a [documentação do IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* [Instale o IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) na extensão do seu navegador usando privilégios de administrador.
+* **Instale o IBM Aspera Connect 3.9.9** na extensão do seu navegador usando privilégios de administrador (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Para obter o suporte de plataforma do cliente de transferência Aspera, consulte [Matriz de suporte da plataforma IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Baixar domínios {#download-domains}
@@ -92,7 +92,7 @@ Para baixar ativos mais rapidamente da Brand Portal:
 
 1. Por padrão, a configuração **[!UICONTROL Fast Download]** é ativada nas **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para baixar ativos usando o IBM Aspera Connect.
 
-   Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador ou a versão existente estiver desatualizada, ele solicitará que você [instale o Acelerador de download Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
+   Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador ou a versão existente estiver desatualizada, ele solicitará a instalação do Acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
