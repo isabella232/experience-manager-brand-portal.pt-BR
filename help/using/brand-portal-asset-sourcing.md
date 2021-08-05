@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
+source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 5%
+source-wordcount: '651'
+ht-degree: 3%
 
 ---
 
@@ -54,8 +54,11 @@ Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usu�
 >Há um problema conhecido no AEM Assets 6.5.4. Os usuários do Brand Portal não podem publicar os ativos da pasta de contribuição no AEM Assets ao atualizar para o Adobe Developer Console.
 >
 >O problema é corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
->
->Para uma correção imediata no AEM 6.5.4, é recomendável [baixar o hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e instalar na instância do autor.
+
+<!--
+
+>For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
+-->
 
 <!--
 ## Configure Asset Sourcing {#configure-asset-sourcing}
@@ -126,7 +129,7 @@ Navegue pelo computador local e faça o upload do arquivo **configuration (.csv)
 
 Os administradores podem fornecer acesso a usuários específicos nesta lista de usuários enquanto configuram uma pasta de contribuição. Somente os usuários atribuídos a uma pasta de contribuição terão acesso à pasta de contribuição e publicarão ativos do Brand Portal na AEM Assets.
 
-## Consulte também:{#reference-articles}
+## Consulte também: {#reference-articles}
 
 * [Configurar e publicar a pasta de contribuição no Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
