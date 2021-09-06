@@ -1,8 +1,8 @@
 ---
 title: Compartilhar ativos como um link
-seo-title: Compartilhar ativos como um link
+seo-title: Share assets as a link
 description: Os administradores da AEM Assets Brand Portal podem compartilhar links de vários ativos com usuários internos autorizados e entidades externas, incluindo parceiros e fornecedores. Os editores podem exibir e compartilhar somente os ativos compartilhados com eles.
-seo-description: Os administradores da AEM Assets Brand Portal podem compartilhar links de vários ativos com usuários internos autorizados e entidades externas, incluindo parceiros e fornecedores. Os editores podem exibir e compartilhar somente os ativos compartilhados com eles.
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
@@ -27,10 +27,6 @@ O compartilhamento de ativos por meio de um link é uma maneira conveniente de d
 -->
 
 Para obter mais informações, consulte [Gerenciamento de usuários, grupos e funções de usuário](../using/brand-portal-adding-users.md#manage-user-roles).
-
->[!NOTE]
->
->É permitido até 5 GB de download de zip usando o recurso de compartilhamento de link no Brand Portal.
 
 
 Veja a seguir as etapas para compartilhar ativos como um link:
@@ -107,7 +103,7 @@ Para baixar os ativos compartilhados:
 
 >[!NOTE]
 >
->A Brand Portal restringe o download de ativos maiores que 5 GB por tamanho de arquivo.
+>O Brand Portal restringe o download de ativos maiores que **1** GB por tamanho de arquivo usando o compartilhamento de link.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,9 +124,6 @@ Para baixar os ativos compartilhados:
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
 ## Suporte de visualização e miniatura para formatos de ativos {#preview-thumbnail-support}
