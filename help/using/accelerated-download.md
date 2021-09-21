@@ -1,8 +1,8 @@
 ---
 title: Acelere os downloads da Brand Portal
-seo-title: Acelere os downloads da Brand Portal
+seo-title: Speed up the Brand Portal downloads
 description: Melhore o desempenho de download do Brand Portal e dos links compartilhados.
-seo-description: Melhore o desempenho de download do Brand Portal e dos links compartilhados.
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1037'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,10 @@ Para baixar os arquivos mais rápido, verifique o seguinte:
 * Certifique-se de que a porta 33001 (TCP e UDP) esteja aberta no firewall. Para obter mais informações sobre os pré-requisitos, consulte a [documentação do IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * **Instale o IBM Aspera Connect 3.9.9** na extensão do seu navegador usando privilégios de administrador (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Para obter o suporte de plataforma do cliente de transferência Aspera, consulte [Matriz de suporte da plataforma IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+
+>[!NOTE]
+>
+>Há um problema conhecido com o IBM Aspera Connect. O download rápido não funciona com o IBM Aspera Connect versão 3.10 e superior.
 
 ## Baixar domínios {#download-domains}
 
@@ -208,7 +212,7 @@ Se a aceleração de download não estiver funcionando para você, siga estas et
 
    Se as portas não estiverem OK, entre em contato com a equipe de rede e verifique se as portas 33001 (TCP e UDP) não estão bloqueadas no firewall.
 
-1. Se as portas estiverem OK, verifique se sua rede não está lenta, medindo a largura de banda disponível usando [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Se as portas estiverem OK, verifique se a rede não está lenta, medindo a largura de banda disponível usando [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Se a largura de banda for de alguns (1-10 Mbps) ou em Kbps, use Aspera Preferences e tente limitar a largura de banda igual à largura de banda disponível.
 
