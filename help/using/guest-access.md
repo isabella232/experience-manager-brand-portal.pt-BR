@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,10 @@ Por exemplo, um usuário convidado faz logon no Brand Portal às 1500 horas e ad
 ## Sessões de convidado simultâneas permitidas {#concurrent-guest-sessions-allowed}
 
 O número de sessões de convidado simultâneas é limitado a 10% da cota total de usuários por organização. Significa que para uma organização com cota de usuário de 200, no máximo 20 usuários convidados podem trabalhar ao mesmo tempo. O 21º usuário tem acesso negado e só pode acessar como convidado se a sessão de qualquer um dos 20 usuários convidados ativos terminar.
+
+>[!NOTE]
+>
+>A Brand Portal não envia notificação se o número de usuários licenciados exceder o valor contratado (cota). Além disso, não restringe nenhuma atividade dos usuários licenciados.
 
 ## Interação do usuário convidado com o Brand Portal {#guest-user-interaction-with-brand-portal}
 
