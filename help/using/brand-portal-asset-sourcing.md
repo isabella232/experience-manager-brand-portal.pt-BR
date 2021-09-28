@@ -1,15 +1,15 @@
 ---
 title: Origem de ativos no Brand Portal
-seo-title: Origem de ativos no Brand Portal
+seo-title: Asset Sourcing in Brand Portal
 description: Obtenha informações sobre o recurso de fornecimento de ativos lançado na Adobe Experience Manager Assets Brand Portal.
-seo-description: Obtenha informações sobre o recurso de fornecimento de ativos lançado na Adobe Experience Manager Assets Brand Portal.
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-sub-product: ativos
+sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usu�
 >
 >Há um problema conhecido no AEM Assets 6.5.4. Os usuários do Brand Portal não podem publicar os ativos da pasta de contribuição no AEM Assets ao atualizar para o Adobe Developer Console.
 >
->O problema é corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
+>O problema é corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
 
 <!--
 
@@ -117,6 +117,7 @@ Uma pasta de contribuição só pode ser compartilhada com os usuários ativos d
 Os administradores podem adicionar novos usuários AEM Admin Console, consulte [Gerenciar usuários](brand-portal-adding-users.md) para obter informações detalhadas. Após adicionar usuários no Admin Console, eles podem ser adicionados ao arquivo de configuração do usuário do Brand Portal e, em seguida, atribuídos permissão para acessar a pasta de contribuição.
 
 **Para fazer upload da lista de usuários do Brand Portal:**
+
 1. Faça logon na instância do AEM Assets.
 1. No painel **Ferramentas**, navegue até **[!UICONTROL Ativos]** > **[!UICONTROL Usuários do Brand Portal]**.
 

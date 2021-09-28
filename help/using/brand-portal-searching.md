@@ -1,32 +1,31 @@
 ---
 title: Buscar ativos no Brand Portal
-seo-title: Pesquisa de ativos e pesquisa salva no AEM Brand Portal
-description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
-seo-description: A capacidade de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o Omnisearch, e filtros de pesquisa ajudam a restringir ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
+seo-title: Asset searching and saved search on AEM Brand Portal
+description: O recurso de pesquisa do Brand Portal permite que você pesquise rapidamente ativos relevantes usando o omnisearch, e os filtros de pesquisa ajudam a limitar ainda mais sua pesquisa. Salve suas pesquisas como coleções inteligentes para o futuro.
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1123'
 ht-degree: 7%
 
 ---
 
-
 # Buscar ativos no Brand Portal {#search-assets-on-brand-portal}
 
-O recurso de pesquisa do Brand Portal permite que você pesquise rapidamente os ativos relevantes usando o Omnisearch e a busca por facetas que usam filtros para ajudá-lo a restringir ainda mais sua pesquisa. Você também pode salvar suas pesquisas como coleções inteligentes para o futuro.
+O recurso de pesquisa do Brand Portal permite pesquisar rapidamente ativos relevantes usando o omnisearch e a pesquisa de faceta que usa filtros para ajudá-lo a restringir ainda mais sua pesquisa. Você também pode salvar suas pesquisas como coleções inteligentes para o futuro.
 
 ## Pesquisar ativos usando o Omnisearch {#search-assets-using-omnisearch}
 
 Para pesquisar ativos no Brand Portal:
 
-1. Na barra de ferramentas, clique no ícone **[!UICONTROL Pesquisar]** ou pressione a tecla &quot;**[!UICONTROL /]**&quot; para iniciar o Omnisearch.
+1. Na barra de ferramentas, clique no ícone **[!UICONTROL Search]** ou pressione a tecla &quot;**[!UICONTROL /]**&quot; para iniciar o Omnisearch.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -36,71 +35,71 @@ Para pesquisar ativos no Brand Portal:
 
    >[!NOTE]
    >
-   >São necessários pelo menos 3 caracteres no Omnisearch para que sugestões de pesquisa sejam exibidas.
+   >São necessários pelo menos 3 caracteres no omnisearch para que sugestões de pesquisa sejam exibidas.
 
-1. Selecione dentre as sugestões relacionadas que aparecem na lista suspensa para acessar rapidamente os ativos relevantes.
+1. Selecione entre as sugestões relacionadas que aparecem na lista suspensa para acessar rapidamente os ativos relevantes.
 
    ![](assets/assets-search-result.png)
 
    *Pesquisa de ativos usando o omnisearch*
 
-Para saber mais sobre o comportamento da pesquisa com ativos marcados inteligentes, consulte [compreender os resultados e o comportamento da pesquisa](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Para saber mais sobre o comportamento de pesquisa com ativos com tags inteligentes, consulte [entender os resultados e o comportamento da pesquisa](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
 
 ## Pesquisar usando aspectos no painel Filtros {#search-using-facets-in-filters-panel}
 
-Os aspectos de pesquisa no painel Filtros adicionam granularidade à sua experiência de pesquisa e tornam a funcionalidade de pesquisa eficiente. Os aspectos de pesquisa usam várias dimensões (predicados) que permitem executar pesquisas complexas. É possível detalhar facilmente para o nível de detalhes desejado para uma pesquisa mais focada.
+Os aspectos de pesquisa no painel Filtros adicionam granularidade à sua experiência de pesquisa e tornam a funcionalidade de pesquisa eficiente. Os aspectos de pesquisa usam várias dimensões (predicados) que permitem executar pesquisas complexas. Você pode detalhar facilmente até o nível de detalhes desejado para uma pesquisa mais focada.
 
-Por exemplo, se você estiver procurando uma imagem, poderá escolher se deseja um bitmap ou uma imagem vetorial. Você pode reduzir ainda mais o escopo da pesquisa especificando o tipo MIME para a imagem na faceta de pesquisa Tipo de arquivo. Da mesma forma, ao pesquisar documentos, você pode especificar o formato, por exemplo, PDF ou MS Word.<br />
+Por exemplo, se estiver procurando uma imagem, você pode escolher se deseja um bitmap ou uma imagem vetorial. Você pode reduzir ainda mais o escopo da pesquisa especificando o tipo MIME da imagem na faceta de pesquisa Tipo de arquivo . Da mesma forma, ao pesquisar documentos, é possível especificar o formato, por exemplo, PDF ou MS Word.
 
-![Painel filtros no painel Brand ](assets/file-type-search.png "PortalFilters no Brand Portal")
+![Painel Filtros no painel ](assets/file-type-search.png "Brand PortalFilters no Brand Portal")
 
-O painel **[!UICONTROL Filtros]** inclui algumas facetas padrão, como - **[!UICONTROL Navegador de caminhos]**, **[!UICONTROL Tipo de arquivo]**, **[!UICONTROL Tamanho do arquivo]**, **[!UICONTROL Estado]** e **[!UICONTROL Orientação]**. No entanto, você pode [adicionar aspectos de pesquisa personalizados](../using/brand-portal-search-facets.md) ou remover aspectos de pesquisa específicos do painel **[!UICONTROL Filtros]** adicionando ou removendo predicados no Formulário de pesquisa subjacente. Veja a lista dos [predicados de pesquisa disponíveis e utilizáveis no Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+O painel **[!UICONTROL Filtros]** inclui algumas facetas padrão, como **[!UICONTROL Navegador de caminho]**, **[!UICONTROL Tipo de arquivo]**, **[!UICONTROL Tamanho de arquivo]**, **[!UICONTROL Status]** e **[!UICONTROL Orientação]**. No entanto, você pode [adicionar facetas de pesquisa personalizadas](../using/brand-portal-search-facets.md) ou remover facetas de pesquisa específicas do painel **[!UICONTROL Filtros]** adicionando ou removendo predicados no Formulário de pesquisa subjacente. Consulte a lista de [predicados de pesquisa disponíveis e utilizáveis no Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-Para aplicar filtros à sua pesquisa, use os [aspectos de pesquisa](../using/brand-portal-search-facets.md) disponíveis:
+Para aplicar filtros à sua pesquisa, usando os [aspectos de pesquisa disponíveis](../using/brand-portal-search-facets.md):
 
 1. Clique no ícone de sobreposição e selecione **[!UICONTROL Filtro]**.
 
    ![](assets/selectorrail.png)
 
-1. No painel **[!UICONTROL Filtros]** à esquerda, selecione as opções apropriadas para aplicar os filtros relevantes.
+1. No painel **[!UICONTROL Filters]** à esquerda, selecione as opções apropriadas para aplicar os filtros relevantes.
 Por exemplo, use os seguintes filtros padrão:
 
-   * **[!UICONTROL Navegador]** de caminho para pesquisar ativos em um diretório específico. O caminho de pesquisa padrão do predicado para Navegador de caminho é `/content/dam/mac/<tenant-id>/`, que pode ser configurado editando o formulário de pesquisa padrão.
+   * **[!UICONTROL Navegador]** de caminhos para pesquisar ativos em um diretório específico. O caminho de pesquisa padrão do predicado para Navegador de caminhos é `/content/dam/mac/<tenant-id>/`, que pode ser configurado ao editar o formulário de pesquisa padrão.
    >[!NOTE]
    >
-   >Para usuários não administradores, [!UICONTROL Navegador de caminhos] no painel [!UICONTROL Filtro] mostra somente a estrutura de conteúdo das pastas (e suas pastas ancestrais) compartilhadas com eles.\
-   >Para administrar usuários, o Navegador de caminhos permite navegar até qualquer pasta no Portal de marcas.
+   >Para usuários não administradores, o [!UICONTROL Navegador de caminhos] no painel [!UICONTROL Filtro] mostra apenas a estrutura de conteúdo das pastas (e suas pastas ancestrais) compartilhadas com elas.\
+   >Para administradores de usuários, o Navegador de caminhos permite navegar para qualquer pasta no Brand Portal.
 
-   * **[!UICONTROL Tipo de]** arquivo para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativo que você está procurando. Além disso, você pode restringir o escopo da pesquisa, por exemplo, especificar o tipo MIME (Tiff, Bitmap, Imagens GIMP) para imagem ou formato (PDF ou MS Word) para os documentos.
-   * **[!UICONTROL Tamanho do arquivo]** para pesquisar ativos com base em seu tamanho. Você pode especificar os limites inferior e superior do intervalo de tamanho para restringir sua pesquisa e especificar a unidade de medida a ser pesquisada.
-   * **[!UICONTROL Os]** Estatutos buscam ativos com base nos status dos ativos, como Aprovação (Aprovada, Alterações Solicitadas, Rejeitada, Pendente) e Expiração.
-   * **[!UICONTROL Média]** para pesquisar ativos com base na classificação dos ativos.
-   * **[!UICONTROL Orientação]** para procurar ativos com base na orientação (horizontal, vertical, quadrada) dos ativos.
-   * **[!UICONTROL Estilo]** para procurar ativos com base no estilo (colorido, monocromático) dos ativos.
-   * **[!UICONTROL Video]** Formatto para pesquisar ativos de vídeo com base em seu formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+   * **[!UICONTROL Tipo de]** arquivo para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativo que você está procurando. Além disso, você pode limitar o escopo de sua pesquisa, por exemplo, especificar o tipo MIME (Tiff, Bitmap, GIMP Images) para imagem ou formato (PDF ou MS Word) para os documentos.
+   * **[!UICONTROL Tamanho do arquivo]** para procurar ativos com base em seu tamanho. Você pode especificar os limites inferior e superior para o intervalo de tamanho para restringir sua pesquisa e especificar a unidade de medida a ser pesquisada.
+   * **** Status para procurar ativos com base em status de ativos, como Aprovação (Aprovada, Alterações Solicitadas, Rejeitada, Pendente) e Expiração.
+   * **[!UICONTROL Taxa média]** para procurar ativos com base na classificação dos ativos.
+   * **** Orientação para procurar ativos com base na orientação (horizontal, vertical, quadrado) dos ativos.
+   * **** Estilo para procurar ativos com base no estilo (colorido, monocromático) dos ativos.
+   * **[!UICONTROL O]** Formato de vídeo pesquisa por ativos de vídeo com base em seu formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
-   Você pode usar [aspectos de pesquisa personalizados](../using/brand-portal-search-facets.md) no painel Filtros editando o Formulário de pesquisa subjacente.
+   Você pode usar [facetas de pesquisa personalizadas](../using/brand-portal-search-facets.md) no painel Filtros, editando o Formulário de pesquisa subjacente.
 
-   * **[!UICONTROL O]** Predicado de propriedade, se usado no formulário de pesquisa, permite pesquisar ativos que correspondem a uma propriedade de metadados para a qual o predicado está mapeado.\
+   * **[!UICONTROL O]** Predicado de propriedade, se usado no formulário de pesquisa, permite pesquisar ativos que correspondem a uma propriedade de metadados para a qual o predicado é mapeado.\
       Por exemplo, se o Predicado de propriedade estiver mapeado para [!UICONTROL `jcr:content /metadata/dc:title`], você poderá pesquisar ativos com base em seu título.\
-      O [!UICONTROL Predicado de propriedade] oferece suporte a pesquisas de texto para:
+      O [!UICONTROL Predicado de Propriedade] suporta pesquisas de texto para:
 
       **Frases parciais**
 Para permitir a pesquisa do ativo usando frases parciais no predicado da propriedade, maque a caixa de seleção **[!UICONTROL Pesquisa parcial]** em Pesquisar formulário.\
       Isso permite pesquisar pelos ativos desejados mesmo que não especifique as palavras/frases exatas usadas nos metadados do ativo.\
       É possível:
-      * Especifique uma palavra que ocorre em sua frase pesquisada na faceta no painel Filtros. Por exemplo, se você pesquisar pelo termo **climb** (e o Predicado de propriedade estiver mapeado para a propriedade [!UICONTROL `dc:title`]), todos os ativos com a palavra **climb** em sua frase de título serão retornados.
+      * Especifique uma palavra que ocorre na frase pesquisada na faceta no painel Filtros . Por exemplo, se você pesquisar o termo **climb** (e o Predicado de propriedade estiver mapeado para [!UICONTROL `dc:title`] propriedade), todos os ativos com a palavra **climb** em sua frase de título serão retornados.
       * Especificar uma parte da palavra, que ocorre na frase pesquisada, juntamente com o caracter curinga (*) para preencher as lacunas.
 Por exemplo, pesquisando por:
-         * **climb*** retorna todos os ativos com palavras que começam com os caracteres &quot;escalar&quot; em suas frases de título.
-         * ***** Inicia todos os ativos com palavras que terminam com caracteres que &quot;sobem&quot; em suas frases de título.
-         * ***climb*** retorna todos os ativos com palavras que incluem os caracteres &quot;escalar&quot; em suas frases de título.
+         * **climb*** retorna todos os ativos que têm palavras começando com os caracteres &quot;climb&quot; na frase de título.
+         * ***** transforma todos os ativos com palavras que terminam com caracteres &quot;escalam&quot; em suas frases de título.
+         * ***climb*** retorna todos os ativos com palavras que incluem os caracteres &quot;climb&quot; na frase de título.
 
-Para permitir pesquisas que não diferenciem maiúsculas de minúsculas no predicado de propriedade, ative a variável       **Texto sem distinção entre maiúsculas e**
-minúsculasPara permitir pesquisas sem distinção entre maiúsculas e minúsculas no predicado de propriedade, ative a  **[!UICONTROL opção Ignorar]** caixa de seleção no Formulário de pesquisa. Por padrão, a pesquisa de texto no predicado de propriedade faz distinção entre maiúsculas e minúsculas.
+Para permitir a pesquisa que não diferencia maiúsculas de minúsculas no predicado da propriedade, habilite a variável       ****
+Texto que não diferencia maiúsculas e minúsculasPara permitir uma pesquisa que não diferencia maiúsculas e minúsculas no predicado da propriedade, ative a caixa de seleção  **[!UICONTROL Ignorar]** caixa no Formulário de pesquisa. Por padrão, a pesquisa de texto no predicado de propriedade diferencia maiúsculas de minúsculas.
    >[!NOTE]
    >
-   >Ao marcar a caixa de seleção **[!UICONTROL Pesquisa parcial]**, **[!UICONTROL Ignorar caso]** é selecionado por padrão.
+   >Ao marcar a caixa de seleção **[!UICONTROL Pesquisa parcial]**, **[!UICONTROL Ignorar maiúsculas e minúsculas]** é selecionado por padrão.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -108,9 +107,9 @@ minúsculasPara permitir pesquisas sem distinção entre maiúsculas e minúscul
 
    ![](assets/omnisearch-with-filters.png)
 
-   Resultado da pesquisa do ativo com contagem de resultados da pesquisa.
+   Resultado da pesquisa do ativo com a contagem dos resultados da pesquisa.
 
-1. Você pode navegar para um item facilmente a partir do resultado da pesquisa e retornar ao mesmo resultado da pesquisa usando o botão Voltar no seu navegador sem precisar executar novamente o query de pesquisa.
+1. Você pode navegar facilmente para um item a partir do resultado da pesquisa e retornar para o mesmo resultado usando o botão Voltar em seu navegador, sem precisar executar a consulta de pesquisa novamente.
 
 ## Salvar suas pesquisas como coleção inteligente {#save-your-searches-as-smart-collection}
 
@@ -118,13 +117,13 @@ Você pode salvar as configurações de pesquisa como uma coleção inteligente 
 
 Para salvar as configurações de pesquisa como uma coleção inteligente:
 
-1. Toque/ clique em **[!UICONTROL Salvar coleção inteligente]** e forneça um nome para a coleção inteligente.
+1. Toque/clique em **[!UICONTROL Salvar coleção inteligente]** e forneça um nome para a coleção inteligente.
 
    Para tornar a coleção inteligente acessível a todos os usuários, selecione **[!UICONTROL Public]**. Uma mensagem confirma que a coleção inteligente foi criada e adicionada à lista de suas pesquisas salvas.
 
    >[!NOTE]
    >
-   >Os usuários não administradores podem ser restringidos de tornar públicas as coleções inteligentes, para evitar ter um grande número de coleções inteligentes públicas criadas por usuários não administradores no Portal de marcas da organização. As organizações podem desativar a configuração **[!UICONTROL Permitir a criação de coleções inteligentes públicas]** a partir das configurações **[!UICONTROL Geral]** disponíveis no painel de ferramentas administrativas.
+   >Usuários não administradores podem ser impedidos de tornar coleções inteligentes públicas, para evitar um grande número de coleções inteligentes públicas criadas por usuários não administradores no Brand Portal da organização. As organizações podem desativar a configuração **[!UICONTROL Permitir a criação de coleções inteligentes públicas]** a partir das configurações **[!UICONTROL Geral]** disponíveis no painel Ferramentas administrativas.
 
    ![](assets/save_smartcollectionui.png)
 

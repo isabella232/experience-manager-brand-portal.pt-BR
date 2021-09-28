@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes
+title: 'Perguntas frequentes '
 seo-title: null
 description: Saiba mais sobre as perguntas mais frequentes na Adobe Experience Manager Assets Brand Portal.
 seo-description: null
@@ -10,14 +10,14 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
 
-# Perguntas frequentes {#frequently-asked-questions}
+# Perguntas frequentes  {#frequently-asked-questions}
 
 As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas que os usuários finais podem ter ao trabalhar com a versão mais recente do AEM Assets Brand Portal 6.4.6 ou versões anteriores.
 
@@ -38,7 +38,7 @@ As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas 
 
 **Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição no AEM Assets no AEM 6.5.4 por meio do Console do desenvolvedor do Adobe.
 
-O problema é corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
+O problema é corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ Esse problema pode ocorrer quando você configurou um locatário do Brand Portal
 **Ans.** Geralmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver esse problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
 
 Execute as seguintes etapas para configurar o agente de replicação:
+
 1. Faça logon na instância do autor do AEM Assets.
 1. No painel **Ferramentas**, navegue até **[!UICONTROL Implantação]** > **[!UICONTROL Replicação]**.
 1. Na página Replicação , clique em **[!UICONTROL Agentes no autor]**. Você pode ver os quatro agentes de replicação do seu locatário do Brand Portal.

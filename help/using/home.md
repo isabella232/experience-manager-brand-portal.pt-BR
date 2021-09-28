@@ -1,20 +1,19 @@
 ---
-title: Guia do Portal de Marcas do Adobe Experience Manager Assets
-seo-title: Guia do Portal de Marcas do Adobe Experience Manager Assets
-description: Guia do Portal de Marcas do Adobe Experience Manager Assets
-seo-description: Descreve como usar o Brand Portal
-translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+title: Guia do Adobe Experience Manager Assets Brand Portal
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
+description: Guia do Adobe Experience Manager Assets Brand Portal
+seo-description: Describes how to use Brand Portal
+exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 74%
+source-wordcount: '345'
+ht-degree: 75%
 
 ---
 
+# Guia do Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-# Guia do Portal de Marcas do Adobe Experience Manager Assets {#aem-brand-portal}
-
-**Ativos da Adobe Experience Manager Marca** As organizações auxiliares de marca para atender às suas necessidades de marketing, distribuindo com segurança os recursos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
+**Marca do Adobe Experience Manager Assets** As organizações Portalaid atendem às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 
 A falta de uma solução de compartilhamento de ativos seguros pode resultar em:
 
@@ -46,8 +45,8 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Solucionar problemas na publicação paralela](troubleshoot-parallel-publishing.md) | Solucione problemas de replicação entre o Brand Portal e o AEM Assets. |
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
-| [Seleção de recursos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a Seleção de ativos no AEM Assets, fazer upload de ativos no Brand Portal e publicar a pasta de contribuição de volta no AEM Assets. |
+| [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a origem dos ativos no AEM Assets, faça upload dos ativos no Brand Portal e publique a pasta de contribuição de volta no AEM Assets. |
 
 ### Recursos úteis
 
-* [Como entender o Brand Portal com a AEM Assets](https://docs.adobe.com/content/help/br/experience-manager-brand-portal/using/home.html)
+* [Noções básicas do Brand Portal com o AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
