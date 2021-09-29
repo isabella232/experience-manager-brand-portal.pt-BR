@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1468'
 ht-degree: 1%
 
 ---
@@ -204,6 +204,8 @@ Isso vale para qualquer pasta publicada do AEM Assets para a Brand Portal e da p
 
 Estes sites estão disponíveis somente para clientes. Se você for um cliente do e precisar de acesso, entre em contato com o gerente de conta do Adobe.
 
-* [](https://daycare.day.com) [Acesso ao produto](https://login.marketing.adobe.com)
+<!--
+* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Atendimento ao cliente do Adobe](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+-->
