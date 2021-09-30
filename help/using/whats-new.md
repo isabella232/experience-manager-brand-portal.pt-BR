@@ -1,8 +1,8 @@
 ---
 title: Novidades do Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e aprimoramentos da versão 2021.08.0
-seo-description: What are the new features and enhancements for 2021.08.0
+description: Quais são os novos recursos e aprimoramentos da versão 2021.10.0?
+seo-description: What are the new features and enhancements for 2021.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '6317'
+source-wordcount: '6339'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
 # Novidades do AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 A Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja a seguir os novos recursos e aprimoramentos.
+
+## O que mudou em 2021.10.0 {#what-changed-in-october-2021}
+
+O Brand Portal 2021.10.0 é uma versão interna que inclui correções para os problemas críticos. Consulte as [Notas de versão do Brand Portal](brand-portal-release-notes.md) mais recentes.
 
 ## O que mudou em 2021.08.0 {#what-changed-in-august-2021}
 
@@ -232,7 +236,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 Além das configurações existentes **[!UICONTROL Download]**, os administradores do Brand Portal também podem definir configurações para diferentes grupos de usuários para visualizar e (ou) baixar o ativo original e suas representações na página de detalhes do ativo.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
 
 Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
 
