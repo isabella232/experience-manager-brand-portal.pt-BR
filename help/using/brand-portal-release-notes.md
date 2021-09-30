@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 13%
+source-wordcount: '396'
+ht-degree: 12%
 
 ---
 
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 Esta versão inclui correções para os seguintes problemas críticos:
 
-* Os ativos publicados da Brand Portal não aparecem no Experience Manager Assets para uma pasta de contribuição específica.
-* O **[!UICONTROL totalUploadSize]** de um locatário do Brand Portal não é reduzido quando a publicação de uma pasta de contribuição é cancelada.
+* Os ativos de uma pasta de contribuição do mesmo tamanho não são publicados do Brand Portal para o Experience Manager Assets.
+* O tamanho de uma pasta de contribuição de ativos não é reduzido quando a publicação da pasta de contribuição é cancelada.
 * Os usuários não podem remover o perfil de esquema de metadados aplicado de uma pasta.
 * A contagem de grupos na página de permissões do usuário está incorreta.
 * A página de coleções demora muito para navegar pela lista.
