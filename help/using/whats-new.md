@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6340'
 ht-degree: 1%
 
 ---
 
-# Novidades do AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Novidades do Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 A Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja a seguir os novos recursos e aprimoramentos.
 
@@ -236,7 +236,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 Além das configurações existentes **[!UICONTROL Download]**, os administradores do Brand Portal também podem definir configurações para diferentes grupos de usuários para visualizar e (ou) baixar o ativo original e suas representações na página de detalhes do ativo.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
 Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
 
@@ -525,7 +525,7 @@ Da mesma forma, os ativos publicados podem ser removidos do portal posteriorment
 
 ### Alias do locatário configurável no URL
 
-As organizações podem personalizar o URL do portal, com um prefixo alternativo no URL. Para obter um alias para o nome do locatário em seu URL de portal existente, as organizações devem entrar em contato com o suporte ao Adobe.
+As organizações podem personalizar o URL do portal, com um prefixo alternativo no URL. Para obter um alias para o nome do locatário em seu URL do portal existente, as organizações devem entrar em contato com o Suporte ao cliente.
 
 Somente o prefixo do URL do Brand Portal pode ser personalizado e não o URL inteiro.\
 Por exemplo, uma organização com o domínio existente **geomettrix.brand-portal.adobe.com** pode obter **geomettrixinc.brand-portal.adobe.com** criado mediante solicitação.
@@ -668,7 +668,7 @@ O Brand Portal 6.4.1 é uma versão de atualização da plataforma que traz vár
 
 * Novo recurso para visualizar arquivos de áudio, carregados do AEM, na página de detalhes do ativo.
 * Novo recurso Ativos relacionados fornecido nas propriedades dos Ativos. Os ativos relacionados a outros ativos de origem/derivados no AEM e publicados no Brand Portal agora têm seu relacionamento intacto no Brand Portal, com links para os ativos relacionados na página de propriedades.
-* Uma nova configuração para impedir que usuários não administradores criem coleções públicas foi introduzida. As organizações podem trabalhar com a equipe de suporte do Adobe para configurar esse recurso em contas específicas.
+* Uma nova configuração para impedir que usuários não administradores criem coleções públicas foi introduzida. As organizações podem trabalhar com a equipe de Suporte ao cliente para configurar esse recurso em contas específicas.
 
 ### Melhorias de pesquisa
 

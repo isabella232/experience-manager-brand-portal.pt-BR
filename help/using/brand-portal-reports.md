@@ -1,8 +1,8 @@
 ---
 title: Trabalhar com relatórios
-seo-title: Trabalhar com relatórios
-description: Os administradores do AEM Assets Brand Portal podem exibir relatórios sobre o uso do Brand Portal e criar, gerenciar e exibir relatórios sobre ativos baixados, expirados, publicados e links compartilhados por meio do Brand Portal.
-seo-description: Os administradores do AEM Assets Brand Portal podem exibir relatórios sobre o uso do Brand Portal e criar, gerenciar e exibir relatórios sobre ativos baixados, expirados, publicados e links compartilhados por meio do Brand Portal.
+seo-title: Work with reports
+description: Os administradores do Experience Manager Assets Brand Portal podem exibir relatórios sobre o uso do Brand Portal e criar, gerenciar e exibir relatórios sobre ativos baixados, expirados, publicados e links compartilhados por meio do Brand Portal.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '996'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ A interface de gerenciamento de relatórios é intuitiva e inclui opções e con
 
 Para visualizar um relatório, siga estas etapas:
 
-1. Na barra de ferramentas na parte superior, toque/clique no logotipo do AEM para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, toque/clique no logotipo Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ O relatório também exibe a capacidade permitida para cada uma dessas métricas
 
    ![](assets/expiration-report.png)
 
-   **** Publicar relatório lista e fornece informações sobre todos os ativos que são publicados do AEM para a Brand Portal em um período de tempo especificado.
+   **** O Relatório de publicação lista e fornece informações sobre todos os ativos publicados do Experience Manager Assets para a Brand Portal em um período de tempo especificado.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Os administradores podem gerar e gerenciar os seguintes relatórios padrão, dep
 
 As colunas no relatório Download, Expiração e Publicação podem ser personalizadas para visualização. Para gerar um relatório, siga estas etapas:
 
-1. Na barra de ferramentas na parte superior, toque/clique no logotipo do AEM para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, toque/clique no logotipo Experience Manager para acessar as ferramentas administrativas.
 
 1. No painel Ferramentas administrativas, toque/clique em **[!UICONTROL Criar/gerenciar relatórios]** para abrir a página **[!UICONTROL Relatórios de ativos]**.
 

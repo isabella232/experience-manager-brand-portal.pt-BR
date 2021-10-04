@@ -1,45 +1,44 @@
 ---
-title: 'Configurar e publicar a pasta de contribuição do AEM Assets no Brand Portal '
-seo-title: Configurar e publicar a pasta de contribuição do AEM Assets no Brand Portal
-description: Obtenha informações sobre como configurar e publicar uma pasta de contribuição do AEM Assets no Brand Portal.
-seo-description: Obtenha informações sobre como configurar e publicar uma pasta de contribuição do AEM Assets no Brand Portal.
+title: 'Configurar e publicar a pasta de contribuição do Experience Manager Assets para a Brand Portal '
+seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
+description: Obtenha informações sobre como configurar e publicar uma pasta de contribuição do Experience Manager Assets para o Brand Portal.
+seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
+# Configurar a pasta de contribuição no Experience Manager Assets {#configure-contribution-folder}
 
-# Configurar a pasta de contribuição no AEM Assets {#configure-contribution-folder}
+Para o fornecimento de ativos colaborativos, os usuários do Experience Manager Assets (administradores e usuários não administradores com permissão) podem criar novas pastas do tipo **Contribuição de ativos**, garantindo que a nova pasta criada esteja aberta para o envio de ativos por usuários do Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas **SHARED** e **NEW**, na pasta recém-criada **Contribution**.
 
-Para o fornecimento de ativos colaborativos, os usuários do AEM (administradores e usuários não administradores com permissão) podem criar novas pastas do tipo **Contribuição de ativos**, garantindo que a nova pasta criada esteja aberta para o envio de ativos por usuários do Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas **SHARED** e **NEW**, na pasta recém-criada **Contribution**.
+O usuário do Experience Manager Assets então define os requisitos do ativo carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos da linha de base, na pasta **SHARED** para garantir que os usuários do Brand Portal tenham as informações necessárias. O administrador pode conceder aos usuários ativos da Brand Portal acesso à pasta de contribuição antes de publicar a pasta de Contribuição recém-criada na Brand Portal.
 
-O usuário do AEM então define os requisitos do ativo carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos da linha de base, à pasta **SHARED** para garantir que os usuários do Brand Portal tenham as informações necessárias. O administrador pode conceder acesso aos usuários ativos do Brand Portal à pasta de contribuição antes de publicar a pasta de Contribuição recém-criada no Brand Portal.
-
-O vídeo a seguir demonstra como configurar uma pasta Contribuição no AEM Assets:
+O vídeo a seguir demonstra como configurar uma pasta Contribuição no Experience Manager Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-O usuário do AEM executa as seguintes atividades ao configurar uma pasta de contribuição:
+O usuário do Experience Manager Assets executa as seguintes atividades ao configurar uma pasta de contribuição:
 
 * [Criar pasta de contribuição](#create-contribution-folder)
 * [Fazer upload dos requisitos de ativos e atribuir colaboradores](#configure-contribution-folder-properties)
 * [Fazer upload de ativos da linha de base](#uplad-new-assets-to-contribution-folder)
-* [Publicar a pasta de contribuição do AEM Assets no Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Publicar a pasta de contribuição do Experience Manager Assets para o Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Criar pasta de contribuição {#create-contribution-folder}
 
 
-Administradores do AEM e usuários não administradores com permissão para criar uma nova pasta podem criar uma pasta de contribuição no AEM Assets.
-Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuição de ativo, garantindo que a nova pasta criada esteja aberta para o envio de ativos pelos usuários do Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas SHARED e NEW, na pasta de contribuição.
+Os administradores do Experience Manager Assets e usuários não administradores com permissão para criar uma nova pasta podem criar uma pasta de contribuição no Experience Manager Assets.
+Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuição de ativo, garantindo que a nova pasta criada esteja aberta para o envio de ativos pelos usuários da Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas SHARED e NEW, na pasta de contribuição.
 
 
 >[!NOTE]
@@ -49,16 +48,17 @@ Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuiç�
 Você pode configurar as propriedades da pasta de contribuição separadamente e ao criar a pasta de contribuição. Neste exemplo, estamos configurando as propriedades separadamente.
 
 **Para criar uma pasta de contribuição:**
-1. Faça logon na instância do AEM Assets.
 
-1. Navegue até **[!UICONTROL Assets]** > **[!UICONTROL Arquivos]**. Ela lista todas as pastas existentes no repositório do AEM Assets.
+1. Faça logon na instância do Experience Manager Assets.
+
+1. Navegue até **[!UICONTROL Assets]** > **[!UICONTROL Arquivos]**. Ele lista todas as pastas existentes no repositório do Experience Manager Assets.
 
 1. Clique em **[!UICONTROL Criar]** para criar uma nova pasta. **[!UICONTROL A caixa de diálogo Criar]** pasta é aberta.
 
 1. Insira **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e selecione a caixa de seleção **[!UICONTROL Contribuição do ativo]**.
 É recomendável usar letras minúsculas sem espaço para nomear a pasta.
 
-1. Clique em **[!UICONTROL Criar]**. Você pode ver a pasta de contribuição listada no repositório do AEM Assets.
+1. Clique em **[!UICONTROL Criar]**. Você pode ver a pasta de contribuição listada no repositório do Experience Manager Assets.
 
    >[!NOTE]
    >
@@ -74,17 +74,17 @@ Você pode configurar as propriedades da pasta de contribuição separadamente e
 
 ## Configurar as propriedades da pasta de contribuição {#configure-contribution-folder-properties}
 
-O administrador do AEM executa as seguintes atividades ao configurar as propriedades de uma pasta de contribuição.
+O administrador do Experience Manager Assets realiza as seguintes atividades ao configurar as propriedades de uma pasta de contribuição.
 
 * **Adicionar descrição**: Forneça uma descrição de alto nível da pasta de contribuição.
 * **Upload breve**: Fazer upload do documento de Requisito de ativo contendo informações relacionadas ao ativo.
 * **Adicionar colaboradores**: Adicione usuários do Brand Portal para conceder acesso à pasta de contribuição.
 
-O requisito de ativos refere-se aos detalhes fornecidos pelos administradores para ajudar os colaboradores (usuários do Brand Portal) a entender a necessidade e os requisitos da pasta de contribuição. O administrador faz upload de um documento de requisito de ativo que contém um resumo sobre o tipo de ativos que devem ser adicionados à pasta de contribuição e às informações relacionadas a ativos, por exemplo, finalidade, tipo de imagens, tamanho máximo etc.
+O requisito de ativo refere-se aos detalhes fornecidos pelos administradores para ajudar os colaboradores (usuários do Brand Portal) a entender a necessidade e os requisitos da pasta de contribuição. O administrador faz upload de um documento de requisito de ativo que contém um resumo sobre o tipo de ativos que devem ser adicionados à pasta de contribuição e às informações relacionadas a ativos, por exemplo, finalidade, tipo de imagens, tamanho máximo etc.
 
 **Para configurar as propriedades da pasta de contribuição:**
 
-1. Faça logon na instância do AEM Assets.
+1. Faça logon na instância do Experience Manager Assets.
 
 1. Navegue até **[!UICONTROL Assets > Files]** e localize a pasta de contribuição.
 1. Selecione a pasta de contribuição e clique em **[!UICONTROL Properties]** para abrir a janela Propriedades da pasta.
@@ -106,35 +106,35 @@ O requisito de ativos refere-se aos detalhes fornecidos pelos administradores pa
 
 >[!NOTE]
 >
->Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada no AEM Assets. Certifique-se de ter a lista de usuários atualizada do Brand Portal.
+>Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada no Experience Manager Assets. Certifique-se de ter a lista de usuários atualizada do Brand Portal.
 
 ## Fazer upload de ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
 
-Os usuários do Brand Portal podem baixar os requisitos de ativos para entender a necessidade de contribuição.
+Os usuários da Brand Portal podem baixar os requisitos de ativos para entender a necessidade de contribuição.
 Em seguida, eles podem criar novos ativos para contribuição e carregá-los na pasta NEW na pasta de contribuição.
 
 >[!NOTE]
 >
->Os usuários do Brand Portal podem fazer upload de ativos somente para a nova pasta.
+>Os usuários do Brand Portal podem fazer upload de ativos somente para a pasta NEW .
 >
 >O limite máximo de upload para qualquer locatário do Brand Portal é **10** GB que é aplicado cumulativamente a todas as pastas de contribuição.
 
 
-Após publicar os ativos recém-criados no AEM Assets, os usuários do Brand Portal podem excluí-los da NOVA pasta. Enquanto isso, o administrador do Brand Portal pode excluir os ativos das pastas NOVO e COMPARTILHADO.
+Após publicar os ativos recém-criados no Experience Manager Assets, os usuários do Brand Portal podem excluí-los da NOVA pasta. Enquanto isso, o administrador do Brand Portal pode excluir os ativos das pastas NOVO e COMPARTILHADO.
 
 Quando o objetivo de criar a pasta de contribuição for atingido, o administrador do Brand Portal poderá excluir a pasta de contribuição para liberar o espaço de upload para outros usuários.
 
 >[!NOTE]
 >
->É recomendável liberar o espaço de upload após a publicação da pasta de contribuição nos ativos AEM para que ele fique disponível para outros usuários do Brand Portal para contribuição.
+>É recomendável liberar o espaço de upload após a publicação da pasta de contribuição nos Ativos do Experience Manager para que ele fique disponível para contribuição dos outros usuários do Brand Portal.
 >
->Se for necessário estender o limite de upload do locatário do Brand Portal para além de **10** GB, entre em contato com o Suporte da Adobe especificando o requisito.
+>Se for necessário estender o limite de upload do seu locatário do Brand Portal para além de **10** GB, entre em contato com o Suporte ao cliente especificando o requisito.
 
 
 **Para fazer upload de novos ativos:**
 
 1. Faça logon na instância do Brand Portal.
-O painel Brand Portal reflete todas as pastas existentes permitidas para o usuário do Brand Portal junto com a pasta de contribuição recém-compartilhada.
+O painel do Brand Portal reflete todas as pastas existentes permitidas para o usuário do Brand Portal junto com a pasta de contribuição compartilhada recentemente.
 
 1. Selecione a pasta de contribuição e clique em para abri-la. A pasta de contribuição contém duas subpastas - **[!UICONTROL SHARED]** e **[!UICONTROL NEW]**.
 
@@ -150,17 +150,17 @@ O painel Brand Portal reflete todas as pastas existentes permitidas para o usuá
 
    ![](assets/upload-new-assets3.png)
 
-Depois de fazer upload de todos os ativos ou pastas para a NOVA pasta, publique a pasta de contribuição no AEM Assets.
+Após fazer upload de todos os ativos ou pastas para a NOVA pasta, publique a pasta de contribuição nos Ativos do Experience Manager.
 
 
 ## Publicar a pasta de contribuição no Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Depois que a pasta de contribuição é configurada, o usuário do AEM (administrador/não administrador) pode publicar a pasta de contribuição do AEM Assets no Brand Portal. Os usuários do Brand Portal que tiverem permissão para acessar a pasta de contribuição receberão uma notificação por e-mail/pulso ao concluir a ação de publicação.
+Depois que a pasta de contribuição é configurada, o usuário do Experience Manager Assets (administrador/não administrador) pode publicar a pasta de contribuição do Experience Manager Assets para a Brand Portal. Os usuários da Brand Portal que tiverem permissão para acessar a pasta de contribuição receberão uma notificação por e-mail/pulso na conclusão da ação de publicação.
 
 
 **Para publicar a pasta de contribuição:**
 
-1. Faça logon na instância do AEM Assets.
+1. Faça logon na instância do Experience Manager Assets.
 
 1. Navegue até **[!UICONTROL Assets > Files]** e localize a pasta de contribuição na qual deseja publicar no Brand Portal.
 1. Selecione a pasta de contribuição e clique em **[!UICONTROL Publicação rápida]** > **[!UICONTROL Publicar no Brand Portal]**.
@@ -169,4 +169,4 @@ Depois que a pasta de contribuição é configurada, o usuário do AEM (administ
 
    Você receberá uma mensagem de sucesso assim que a pasta de contribuição for publicada no Brand Portal.
 
-Uma notificação por e-mail/pulso é enviada aos usuários do Brand Portal atribuídos à pasta de contribuição. Os usuários do Brand Portal podem acessar a pasta de contribuição e iniciar a contribuição. Consulte [Fazer upload de ativos para a pasta de contribuição e publicar no AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Uma notificação por e-mail/pulso é enviada aos usuários da Brand Portal atribuídos à pasta de contribuição. Os usuários da Brand Portal podem acessar a pasta de contribuição e iniciar a contribuição. Consulte [Fazer upload de ativos para a pasta de contribuição e publicar no Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).

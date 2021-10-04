@@ -1,8 +1,8 @@
 ---
 title: Aplicar predefinições de imagens ou representações dinâmicas
 seo-title: Apply image presets or dynamic renditions
-description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades. '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: 'Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o Experience Manager Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # Aplicar predefinições de imagens ou representações dinâmicas {#apply-image-presets-or-dynamic-renditions}
 
-Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o AEM Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades.
+Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos em um nome. As predefinições de imagens permitem que o Experience Manager Assets Brand Portal forneça dinamicamente imagens de diferentes tamanhos, formatos e propriedades.
 
 Uma predefinição de imagem é usada para gerar representações dinâmicas de imagens que podem ser visualizadas e baixadas. Ao visualizar imagens e suas representações, você pode escolher uma predefinição para reformatar imagens de acordo com as especificações definidas pelo Administrador.
 
-(*Se AEM instância do autor estiver em execução em **Modo Dynamic Media Híbrido***) Para exibir representações dinâmicas de um ativo no Brand Portal, verifique se a representação tiff em Pyramid existe na instância do autor AEM de onde você publica no Brand Portal. Ao publicar o ativo, sua representação PTIFF também é publicada no Brand Portal.
+(*Se a instância do autor do Experience Manager Assets estiver em execução no **Modo híbrido Dynamic Media***) Para exibir representações dinâmicas de um ativo no Brand Portal, verifique se a representação tiff do Pyramid existe na instância do autor do Experience Manager Assets de onde você publica no Brand Portal. Ao publicar o ativo, sua representação PTIFF também é publicada no Brand Portal.
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ Para obter mais informações sobre os parâmetros necessários ao criar predefi
 
 ## Criar uma predefinição de imagem {#create-an-image-preset}
 
-Os administradores de AEM podem criar predefinições de imagens que são exibidas como representações dinâmicas na página de detalhes do ativo. Você pode criar uma predefinição de imagem do zero ou salvar uma predefinição existente com um novo nome. Ao criar uma predefinição de imagem, escolha um tamanho para a entrega de imagem e os comandos de formatação. Quando uma imagem é entregue para exibição, sua aparência é otimizada de acordo com os comandos escolhidos.
+Os administradores do Experience Manager Assets podem criar predefinições de imagens que são exibidas como representações dinâmicas na página de detalhes do ativo. Você pode criar uma predefinição de imagem do zero ou salvar uma predefinição existente com um novo nome. Ao criar uma predefinição de imagem, escolha um tamanho para a entrega de imagem e os comandos de formatação. Quando uma imagem é entregue para exibição, sua aparência é otimizada de acordo com os comandos escolhidos.
 
 >[!NOTE]
 >
 >As representações dinâmicas de uma imagem são criadas usando seu TIFF de pirâmide. Se o TIFF de Pirâmide não estiver disponível para nenhum ativo, as representações dinâmicas desse ativo não poderão ser buscadas no Portal da Marca.
 >
->Se AEM instância do autor estiver em execução no **Modo híbrido Dynamic Media**, as representações de Pyramid TIFF de ativos de imagem serão criadas e salvas AEM repositório.
+>Se a instância do autor do Experience Manager Assets estiver em execução no **Modo híbrido Dynamic Media**, as representações de Pyramid TIFF de ativos de imagem serão criadas e salvas no repositório do Experience Manager Assets.
 >
->Enquanto que, se AEM instância do autor estiver em execução no **modo Dynamic Media Scene7**, as representações de Pyramid TIFF de ativos de imagem existem no servidor Scene7.
+>Enquanto que, se a instância do autor do Experience Manager Assets estiver em execução no **modo Dynamic Media Scene7**, as representações de Pyramid TIFF de ativos de imagem existem no servidor Scene7.
 >
 >Quando esses ativos são publicados no portal da marca, as predefinições de imagem são aplicadas e as representações dinâmicas são exibidas.
 
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
 1. No painel de ferramentas administrativas, clique em **[!UICONTROL Predefinições de imagem]**.
 

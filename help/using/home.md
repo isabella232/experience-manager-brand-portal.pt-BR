@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Guia do Adobe Experience Manager Assets Brand Portal
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 75%
+source-wordcount: '348'
+ht-degree: 69%
 
 ---
 
@@ -41,8 +41,8 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 |--- |---|
 | [Novidades](whats-new.md) | O que mudou e ofertas mais recentes no Brand Portal através de lançamentos anteriores. |
 | [Notas de lançamento](brand-portal-release-notes.md) | Aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão atual. |
-| [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Como replicar o Brand Portal com AEM Assets para publicar ativos. |
-| [Solucionar problemas na publicação paralela](troubleshoot-parallel-publishing.md) | Solucione problemas de replicação entre o Brand Portal e o AEM Assets. |
+| [Configurar o Experience Manager Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Como replicar o Brand Portal com o Experience Manager Assets para publicar ativos. |
+| [Solucionar problemas na publicação paralela](troubleshoot-parallel-publishing.md) | Solucione problemas de replicação entre o Brand Portal e o Experience Manager Assets. |
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
 | [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a origem dos ativos no AEM Assets, faça upload dos ativos no Brand Portal e publique a pasta de contribuição de volta no AEM Assets. |

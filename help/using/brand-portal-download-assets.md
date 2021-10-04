@@ -1,8 +1,8 @@
 ---
 title: Baixar ativos
-seo-title: Baixar ativos
+seo-title: Download assets
 description: Todos os usuários podem baixar simultaneamente vários ativos e pastas acessíveis. Dessa forma, os ativos de marca aprovados podem ser distribuídos com segurança para uso offline.
-seo-description: Todos os usuários podem baixar simultaneamente vários ativos e pastas acessíveis. Dessa forma, os ativos de marca aprovados podem ser distribuídos com segurança para uso offline.
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1924'
 ht-degree: 4%
 
 ---
@@ -59,13 +59,13 @@ As configurações disponíveis são:
 
    Permite o download de representações personalizadas e (ou) dinâmicas dos ativos.
 
-   Todas as representações de ativos diferentes do ativo original e as representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma representação estática personalizada no AEM Assets, enquanto que somente o administrador de AEM pode criar representações dinâmicas personalizadas. Para obter detalhes, consulte [como aplicar predefinições de imagens ou representações dinâmicas](../using/brand-portal-image-presets.md).
+   Todas as representações de ativos diferentes do ativo original e as representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma representação estática personalizada no Experience Manager Assets, enquanto que, somente o administrador pode criar representações dinâmicas personalizadas. Para obter detalhes, consulte [como aplicar predefinições de imagens ou representações dinâmicas](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Representações do sistema]**
 
    Permite baixar representações geradas pelo sistema dos ativos.
 
-   Essas são as miniaturas geradas automaticamente no AEM Assets com base no fluxo de trabalho &quot;Ativo de atualização do DAM&quot;.
+   Essas são as miniaturas geradas automaticamente no Experience Manager Assets com base no fluxo de trabalho &quot;Ativo de atualização DAM&quot;.
 
 * **[!UICONTROL Download de ativo]**
 
@@ -87,7 +87,7 @@ Os administradores podem ativar qualquer combinação de configurações para os
 
 Além das **[!UICONTROL Configurações de download]**, os administradores do Brand Portal podem configurar ainda mais as configurações para diferentes grupos de usuários para visualizar e (ou) baixar os ativos originais e suas execuções.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**. Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -208,9 +208,9 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 >
 >O Brand Portal suporta a configuração do Dynamic Media no modo Híbrido e Scene7.
 >
->(*Se AEM instância do autor estiver em execução em **Modo Dynamic Media Híbrido***)
+>(*Se a instância do autor do Experience Manager Assets estiver em execução em **Modo Dynamic Media Híbrido***)
 >
->Para visualizar ou baixar representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação tiff de Pirâmide do ativo existe na instância do autor do AEM Assets de onde os ativos foram publicados. Quando um ativo é publicado do AEM para o Brand Portal, sua representação tiff do Pyramid também é publicada.
+>Para visualizar ou baixar representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação tiff de Pirâmide do ativo existe na instância do autor do Experience Manager Assets de onde os ativos foram publicados. Quando um ativo é publicado do Experience Manager Assets para o Brand Portal, sua representação tiff em Pirâmide também é publicada.
 
 
 

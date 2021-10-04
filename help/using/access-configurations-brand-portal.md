@@ -1,8 +1,8 @@
 ---
 title: Administrar acesso de usuários no Brand Portal
-seo-title: Administrar acesso de usuários no Brand Portal
+seo-title: Administer user access on Brand Portal
 description: Configure o acesso de convidado e o acesso de novos usuários no portal da marca.
-seo-description: Configure o acesso de convidado e o acesso de novos usuários no portal da marca.
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 10%
+source-wordcount: '288'
+ht-degree: 9%
 
 ---
 
 # Administrar acesso de usuários no Brand Portal {#administer-user-access-on-brand-portal}
 
-O AEM Assets Brand Portal 6.4.2 em diante autoriza os administradores a configurar o acesso de convidado e permitir que os usuários solicitem acesso no Brand Portal de sua organização. Essas configurações foram fornecidas como configurações de **[!UICONTROL Configurações de acesso]** no painel administrativo. Ambas as configurações estão desativadas por padrão.
+O Adobe Experience Manager Assets Brand Portal 6.4.2 em diante autoriza os administradores a configurar o acesso de convidado e permitir que os usuários solicitem acesso no Brand Portal de sua organização. Essas configurações foram fornecidas como configurações de **[!UICONTROL Configurações de acesso]** no painel administrativo. Ambas as configurações estão desativadas por padrão.
 
 ![](assets/access-configs.png)
 

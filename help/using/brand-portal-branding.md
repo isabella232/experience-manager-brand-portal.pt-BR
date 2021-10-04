@@ -1,8 +1,8 @@
 ---
 title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
-seo-title: Personalizar papel de parede, cabeçalho e mensagens de e-mail
+seo-title: Customize wallpaper, header, and email message
 description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon da Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
-seo-description: Os administradores do Brand Portal podem fazer personalizações limitadas na interface exibida para os usuários. Você pode escolher uma imagem de plano de fundo específica (wallpaper) para a página de logon da Brand Portal. Você também pode adicionar uma imagem de cabeçalho e personalizar emails de compartilhamento de ativos para corresponder à marca do cliente.
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '762'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Os administradores do Brand Portal podem fazer personalizações limitadas na in
 
 Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é exibido na página de logon.
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Na ausência de uma imagem de wallpaper personalizada, um wallpaper padrão é e
 
 O cabeçalho aparece em várias páginas do Brand Portal depois que você faz o logon no Brand Portal.
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -127,7 +127,7 @@ Para salvar as alterações, clique em **[!UICONTROL Save]** na barra de ferrame
 
 Quando os ativos são compartilhados como um link, os usuários recebem um email contendo o link. Os administradores podem personalizar as mensagens, ou seja, o logotipo, a descrição e o rodapé desses emails.
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 

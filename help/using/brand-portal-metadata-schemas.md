@@ -1,8 +1,8 @@
 ---
 title: Usar o formulário de esquema de metadados
-seo-title: Usar o formulário de esquema de metadados
+seo-title: Use the metadata schema form
 description: Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
-seo-description: Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1718'
 ht-degree: 12%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 12%
 
 Um esquema de metadados descreve o layout da página Propriedades e as propriedades de metadados exibidas para ativos que usam o esquema específico. O esquema aplicado a um ativo determina os campos de metadados que aparecem na página Propriedades.
 
-A página **[!UICONTROL Propriedades]** de cada ativo inclui propriedades de metadados padrão, dependendo do tipo MIME do ativo. Os administradores podem usar o Editor de esquema de metadados para modificar esquemas existentes ou adicionar esquemas de metadados personalizados. O AEM Assets Brand Portal fornece formulários padrão para ativos de vários tipos MIME. No entanto, também é possível adicionar formulários personalizados a esses ativos.
+A página **[!UICONTROL Propriedades]** de cada ativo inclui propriedades de metadados padrão, dependendo do tipo MIME do ativo. Os administradores podem usar o Editor de esquema de metadados para modificar esquemas existentes ou adicionar esquemas de metadados personalizados. O Experience Manager Assets Brand Portal fornece formulários padrão para ativos de vários tipos MIME. No entanto, também é possível adicionar formulários personalizados a esses ativos.
 
 ## Adicionar um formulário de esquema de metadados {#add-a-metadata-schema-form}
 
 Para criar um novo formulário de esquema de metadados, faça o seguinte:
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Para criar um novo formulário de esquema de metadados, faça o seguinte:
 
 Para editar um formulário de esquema de metadados, faça o seguinte:
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ A guia **[!UICONTROL Criar formulário]** lista itens que podem ser usados no fo
 | **[!UICONTROL Número]** | Adicione um componente de número. |
 | **[!UICONTROL Data]** | Adicione um componente de data. |
 | **[!UICONTROL Lista suspensa]** | Adicione uma lista suspensa. |
-| **[!UICONTROL Tags padrão]** | Adicionar uma tag. **Observação:** talvez os administradores precisem alterar o valor do caminho, por exemplo,  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se publicarem o formulário de esquema de metadados de AEM, onde o caminho não inclui informações do locatário, por exemplo,  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Tags inteligentes]** | Tags detectadas automaticamente se você adquiriu e configurou o complemento de tags inteligentes AEM. |
+| **[!UICONTROL Tags padrão]** | Adicionar uma tag. **Observação:** talvez os administradores precisem alterar o valor do caminho, por exemplo,  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se publicarem o formulário de esquema de metadados do Experience Manager Assets, onde o caminho não inclui informações do locatário, por exemplo,  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Tags inteligentes]** | Tags detectadas automaticamente se você adquiriu e configurou o complemento de tags inteligentes do Experience Manager Assets. |
 | **[!UICONTROL Campo oculto]** | Adicione um campo oculto. Ele é enviado como um parâmetro POST quando o ativo é salvo. |
 | **[!UICONTROL Ativo referenciado por]** | Adicione este componente para exibir a lista de ativos referenciados pelo ativo. |
 | **[!UICONTROL Fazer referência ao ativo]** | Adicionar para exibir uma lista de ativos que fazem referência ao ativo. |
-| **[!UICONTROL Classificação do ativo]** | Classificação média de um ativo adicionado do AEM Assets antes de ser publicado no Brand Portal. |
+| **[!UICONTROL Classificação do ativo]** | Classificação média de um ativo adicionado do Experience Manager Assets antes de ser publicado no Brand Portal. |
 | **[!UICONTROL Metadados do contexto]** | Adicionar para controlar a exibição de outras guias de metadados na página Propriedades de ativos. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ A seguir estão os valores válidos para essa propriedade:
 
 >[!NOTE]
 >
->Todos os campos de metadados são somente leitura no formulário editor de metadados de um ativo. Como os metadados do ativo devem ser editados no AEM Assets antes que um ativo seja publicado no Brand Portal.
+>Todos os campos de metadados são somente leitura no formulário editor de metadados de um ativo. Como os metadados do ativo devem ser editados no Experience Manager Assets antes que um ativo seja publicado no Brand Portal.
 
 #### Adicionar ou excluir uma guia no formulário de esquema {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ O Brand Portal permite personalizar e controlar o esquema de metadados de modo q
 
 Para aplicar um formulário de esquema de metadados a uma pasta, faça o seguinte:
 
-1. Na barra de ferramentas AEM na parte superior, clique no logotipo Adobe para acessar as ferramentas administrativas.
+1. Na barra de ferramentas na parte superior, clique no logotipo do Experience Manager para acessar as ferramentas administrativas.
 
    ![](assets/aemlogo.png)
 

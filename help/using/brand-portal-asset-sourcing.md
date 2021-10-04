@@ -17,16 +17,16 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
 
 # Visão geral da origem dos ativos {#overview-asset-sourcing-in-bp}
 
-**A** origem do ativo permite que os usuários do AEM (administradores/usuários não administradores) criem novas pastas com uma propriedade adicional  **de** contribuição do ativo, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas **SHARED** e **NEW**, na pasta recém-criada **Contribution**. O administrador do AEM então define o requisito fazendo o upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos da linha de base, à pasta **SHARED** para garantir que os usuários da BP tenham as informações de referência necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta recém-criada **Contribuição** no Brand Portal. Quando o usuário terminar de adicionar conteúdo na pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
+**A** origem do ativo permite que os usuários do Experience Manager Assets (administradores/usuários não administradores) criem novas pastas com uma propriedade adicional  **de** Contribuição do ativo, garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários da Brand Portal. Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas **SHARED** e **NEW**, na pasta recém-criada **Contribution**. O administrador então define o requisito fazendo o upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos da linha de base, à pasta **SHARED** para garantir que os usuários da BP tenham as informações de referência necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar a pasta recém-criada **Contribuição** no Brand Portal. Quando o usuário terminar de adicionar conteúdo na pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do Experience Manager. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no Experience Manager Assets.
 
 Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição, bem como das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
 
@@ -36,8 +36,8 @@ Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usu�
 
 ## Pré-requisitos {#prerequisites}
 
-* AEM Assets como uma instância do Cloud Service, AEM Assets 6.5.2 ou superior.
-* Certifique-se de que a instância do AEM Assets esteja configurada com o Brand Portal. Consulte [Configurar o AEM Assets com Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Ativos Experience Manager como uma instância do Cloud Service, Experience Manager Assets 6.5.2 ou superior.
+* Verifique se a instância do Experience Manager Assets está configurada com o Brand Portal. Consulte [Configurar ativos do Experience Manager com Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,15 +45,15 @@ Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usu�
 
 >[!NOTE]
 >
->O recurso de origem dos ativos é ativado por padrão no AEM Assets as a Cloud Service, AEM Assets 6.5.9 e superior.
+>O recurso de origem dos ativos é ativado por padrão no Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 e superior.
 >
 >As configurações existentes continuarão a funcionar nas versões anteriores.
 
 >[!NOTE]
 >
->Há um problema conhecido no AEM Assets 6.5.4. Os usuários do Brand Portal não podem publicar os ativos da pasta de contribuição no AEM Assets ao atualizar para o Adobe Developer Console.
+>Há um problema conhecido no Experience Manager Assets 6.5.4. Os usuários da Brand Portal não podem publicar os ativos da pasta de contribuição nos Experience Manager Assets ao atualizar para o Adobe Developer Console.
 >
->O problema é corrigido no AEM 6.5.5. Você pode atualizar sua instância do AEM Assets para o service pack mais recente AEM 6.5.5 e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
+>O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar a instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
 
 <!--
 
@@ -102,23 +102,23 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Fazer upload da lista de usuários do Brand Portal {#upload-bp-user-list}
 
-AEM administradores podem fazer upload do arquivo de configuração de usuário (.csv) do Brand Portal que contém a lista de usuários ativos do Brand Portal no AEM Assets para permitir o acesso ao recurso de origem dos ativos.
+Os administradores do Experience Manager Assets podem fazer upload do arquivo de configuração de usuário (.csv) do Brand Portal contendo a lista de usuários ativos do Brand Portal no Experience Manager Assets para permitir o acesso ao recurso de origem de ativos.
 
 Uma pasta de contribuição só pode ser compartilhada com os usuários ativos da Brand Portal definidos na lista de usuários. O administrador também pode adicionar novos usuários no arquivo de configuração e fazer upload da lista de usuários modificada.
 
 >[!NOTE]
 >
->Certifique-se de que a instância do AEM Assets esteja configurada com o Brand Portal. Consulte [Configurar o AEM Assets com Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Verifique se a instância do Experience Manager Assets está configurada com o Brand Portal. Consulte [Configurar ativos do Experience Manager com Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
 >O formato do arquivo CSV é o mesmo que o compatível no Admin Console para importação de usuários em massa. Email, nome e sobrenome são obrigatórios.
 
-Os administradores podem adicionar novos usuários AEM Admin Console, consulte [Gerenciar usuários](brand-portal-adding-users.md) para obter informações detalhadas. Após adicionar usuários no Admin Console, eles podem ser adicionados ao arquivo de configuração do usuário do Brand Portal e, em seguida, atribuídos permissão para acessar a pasta de contribuição.
+Os administradores podem adicionar novos usuários no Admin Console, consulte [Gerenciar usuários](brand-portal-adding-users.md) para obter informações detalhadas. Após adicionar usuários no Admin Console, eles podem ser adicionados ao arquivo de configuração do usuário do Brand Portal e, em seguida, atribuídos permissão para acessar a pasta de contribuição.
 
 **Para fazer upload da lista de usuários do Brand Portal:**
 
-1. Faça logon na instância do AEM Assets.
+1. Faça logon na instância do Experience Manager Assets.
 1. No painel **Ferramentas**, navegue até **[!UICONTROL Ativos]** > **[!UICONTROL Usuários do Brand Portal]**.
 
 1. A janela Brand Portal Upload Contributors é aberta.
@@ -128,10 +128,10 @@ Navegue pelo computador local e faça o upload do arquivo **configuration (.csv)
    ![](assets/upload-user-list2.png)
 
 
-Os administradores podem fornecer acesso a usuários específicos nesta lista de usuários enquanto configuram uma pasta de contribuição. Somente os usuários atribuídos a uma pasta de contribuição terão acesso à pasta de contribuição e publicarão ativos do Brand Portal na AEM Assets.
+Os administradores podem fornecer acesso a usuários específicos nesta lista de usuários enquanto configuram uma pasta de contribuição. Somente os usuários atribuídos a uma pasta de contribuição terão acesso à pasta de contribuição e publicarão ativos do Brand Portal para o Experience Manager Assets.
 
 ## Consulte também: {#reference-articles}
 
 * [Configurar e publicar a pasta de contribuição no Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Publicar a pasta de contribuição no AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publicar a pasta de contribuição no Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
