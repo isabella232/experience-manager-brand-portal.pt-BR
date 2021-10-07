@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Saiba como publicar tags do Experience Manager Assets para o Brand Portal.
 
-As tags são úteis na organização de ativos e aprimoram a capacidade de pesquisa de ativos aos quais estão associadas. As tags podem ser consideradas palavras-chave ou rótulos (metadados) anexados a ativos e permitem que os ativos sejam encontrados rapidamente como o resultado de uma pesquisa. Para saber como atribuir tags a ativos no Experience Manager Assets, consulte [usar tags para organizar ativos](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+As tags são úteis na organização de ativos e aprimoram a capacidade de pesquisa de ativos aos quais estão associadas. As tags podem ser consideradas palavras-chave ou rótulos (metadados) anexados a ativos e permitem que os ativos sejam encontrados rapidamente como o resultado de uma pesquisa. Para saber como atribuir tags a ativos no Experience Manager Assets, consulte [usar tags para organizar ativos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 As tags (associadas aos ativos e coleções no AEM) são publicadas automaticamente no Brand Portal quando os ativos (e coleções) com as tags associadas são publicados no Brand Portal. As tags publicadas são úteis na ativação das pesquisas para localizar os ativos associados.
 
@@ -50,7 +50,7 @@ tagsFaça logon na instância do autor do AEM com privilégios administrativos e
 
       *(obrigatório)* Um título de exibição para a tag.
    * **[!UICONTROL Nome]**
-      *(obrigatório)* Um nome para a tag. Se não especificado, um nome de nó válido é criado a partir do Título. Consulte [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(obrigatório)* Um nome para a tag. Se não especificado, um nome de nó válido é criado a partir do Título. Consulte [TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html).
    * **Descrição**
 
       *(opcional)* Uma descrição da tag.
@@ -67,7 +67,7 @@ PathJCR da tag.
 
 1. **Anexe a tag a um ativo (ou coleção)**.
 
-   Selecione um ativo (ou coleção) e anexe a tag desejada usando a seção Propriedades ou a seção Gerenciar tags desse ativo. Para saber mais sobre como atribuir tags a ativos no AEM Assets, consulte [usar tags para organizar ativos](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Selecione um ativo (ou coleção) e anexe a tag desejada usando a seção Propriedades ou a seção Gerenciar tags desse ativo. Para saber mais sobre como atribuir tags a ativos no AEM Assets, consulte [usar tags para organizar ativos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 1. **Publicar ativos (ou coleções) no Brand Portal**.\
    Ao publicar um ativo (ou coleção) no Brand Portal, a tag anexada também está disponível no Brand Portal.

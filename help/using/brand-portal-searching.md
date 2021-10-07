@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -43,7 +43,7 @@ Para pesquisar ativos no Brand Portal:
 
    *Pesquisa de ativos usando o omnisearch*
 
-Para saber mais sobre o comportamento de pesquisa com ativos com tags inteligentes, consulte [entender os resultados e o comportamento da pesquisa](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Para saber mais sobre o comportamento de pesquisa com ativos com tags inteligentes, consulte [entender os resultados e o comportamento da pesquisa](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
 ## Pesquisar usando aspectos no painel Filtros {#search-using-facets-in-filters-panel}
 
@@ -75,7 +75,7 @@ Por exemplo, use os seguintes filtros padrão:
    * **** Status para procurar ativos com base em status de ativos, como Aprovação (Aprovada, Alterações Solicitadas, Rejeitada, Pendente) e Expiração.
    * **[!UICONTROL Taxa média]** para procurar ativos com base na classificação dos ativos.
    * **** Orientação para procurar ativos com base na orientação (horizontal, vertical, quadrado) dos ativos.
-   * **** Estilo para procurar ativos com base no estilo (colorido, monocromático) dos ativos.
+   * **** Estilo para pesquisar ativos com base no estilo (colorido, monocromático) dos ativos.
    * **[!UICONTROL O]** Formato de vídeo pesquisa por ativos de vídeo com base em seu formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
    Você pode usar [facetas de pesquisa personalizadas](../using/brand-portal-search-facets.md) no painel Filtros, editando o Formulário de pesquisa subjacente.

@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 1%
@@ -19,14 +19,14 @@ ht-degree: 1%
 
 # Perguntas frequentes  {#frequently-asked-questions}
 
-As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas que os usuários finais podem encontrar ao trabalhar com a versão mais recente do Experience Manager Assets Brand Portal 6.4.6 ou versões anteriores.
+As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas que os usuários finais podem ter ao trabalhar com a versão mais recente do Experience Manager Assets Brand Portal 6.4.6 ou versões anteriores.
 
 
 ## Perguntas frequentes sobre o Brand Portal 6.4.6  {#faqs-bp646}
 
 **Ques. O endpoint OAuth existente (`https://legacy-oauth.cloud.adobe.io/login`) herdado não está funcionando. Qual poderia ser o motivo possível?**
 
-**Ans.** A configuração herdada de OAuth está obsoleta. Você deve atualizar as instâncias do autor do Experience Manager Assets para o service pack mais recente e configurá-las por meio do Console do desenvolvedor do Adobe. Consulte [Configurar ativos do Experience Manager com Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração Legacy OAuth funcione até a atualização, atualize o endpoint Legacy OAuth para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** A configuração herdada de OAuth está obsoleta. Você deve atualizar as instâncias de autor do Experience Manager Assets para o service pack mais recente e configurá-las por meio do Console do desenvolvedor do Adobe. Consulte [Configurar o Experience Manager Assets com Brand Portal](configure-aem-assets-with-brand-portal.md) para obter detalhes. No entanto, para que a configuração Legacy OAuth funcione até a atualização, atualize o endpoint Legacy OAuth para `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ As Perguntas frequentes do Brand Portal se concentram nas consultas e problemas 
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. Não consigo publicar os ativos da pasta de contribuição do Brand Portal para o Experience Manager Assets após atualizar para o Adobe Developer Console. Minha instância de autor está no Experience Manager Assets 6.5.4. Qual pode ser o motivo possível?**
+**Ques. Não consigo publicar os ativos da pasta de contribuição do Brand Portal para o Experience Manager Assets após atualizar para o Console do desenvolvedor do Adobe. Minha instância do autor está no Experience Manager Assets 6.5.4. Qual pode ser o motivo possível?**
 
 **Ans.** Sim, há um problema conhecido ao publicar os ativos da pasta de contribuição no Experience Manager Assets 6.5.4 por meio do Console do desenvolvedor do Adobe.
 
-O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar a instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Adobe Developer Console.
+O problema é corrigido no Experience Manager Assets 6.5.5. Você pode atualizar sua instância do Experience Manager Assets para o service pack mais recente e [atualizar suas configurações](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) no Console do Desenvolvedor do Adobe.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,14 +46,14 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**Ques. Não vejo o conteúdo da pasta de contribuição publicado na Brand Portal no Experience Manager Assets. Qual poderia ser o motivo possível?**
+**Ques. Não vejo o conteúdo da pasta de contribuição publicado no Brand Portal no Experience Manager Assets. Qual poderia ser o motivo possível?**
 
 **Ans.** Entre em contato com o administrador do Experience Manager Assets para verificar as configurações e garantir que o locatário do Brand Portal esteja configurado com apenas uma instância do autor do Experience Manager Assets.
 
 Esse problema pode ocorrer quando você configurou um locatário do Brand Portal em várias instâncias do autor do Experience Manager Assets. Por exemplo, o administrador configura o mesmo locatário do Brand Portal na instância do autor do Experience Manager Assets do ambiente de preparo e produção. Nesse caso, a publicação de ativos é acionada no Brand Portal, mas a instância do autor do Experience Manager Assets não pôde importar o cuz do ativo, pois o agente de replicação não recebe o token de solicitação.
 
 
-**Ques. Não consigo publicar ativos do Experience Manager Assets no Brand Portal. O log de replicação declara que a conexão atingiu o tempo limite. Existe uma correção rápida?**
+**Ques. Não consigo publicar ativos do Experience Manager Assets para o Brand Portal. O log de replicação declara que a conexão atingiu o tempo limite. Existe uma correção rápida?**
 
 **Ans.** Geralmente, a publicação falha com um erro de tempo limite se houver várias solicitações pendentes na fila de replicação. Para resolver esse problema, verifique se os agentes de replicação estão configurados para evitar o tempo limite.
 
@@ -74,7 +74,7 @@ Execute as seguintes etapas para configurar o agente de replicação:
 
 **Ques. Qual é a maior alteração na versão 6.4.5 do Brand Portal?**
 
-**Ans.** O Experience Manager Assets Brand Portal 6.4.5 é uma versão de recurso que permite que os usuários do Brand Portal façam upload de conteúdo dentro da instância do Brand Portal e publiquem a pasta Contribuição de volta nos Ativos do Experience Manager sem precisar de direitos de administrador.
+**Ans.** O Experience Manager Assets Brand Portal 6.4.5 é uma versão de recurso que permite aos usuários do Brand Portal fazer upload de conteúdo da instância do Brand Portal e publicar a pasta Contribuição de volta no Experience Manager Assets sem precisar de direitos de administrador.
 Para obter mais informações, consulte [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md).
 
 
@@ -106,7 +106,7 @@ Para atualizações e alterações de versão, é recomendável rastrear as [Not
 
 **Ques. Quem pode criar uma pasta de Contribuição?**
 
-**Ans.** Qualquer usuário do Experience Manager Assets com permissões para criar uma nova pasta no Experience Manager Assets pode criar uma pasta  **** Contribuição. Para criar uma pasta **Contribuição**, crie uma nova pasta do tipo **Contribuição de ativos**.
+**Ans.** Qualquer usuário do Experience Manager Assets que tenha permissões para criar uma nova pasta no Experience Manager Assets pode criar uma pasta  **** Contribuição. Para criar uma pasta **Contribuição**, crie uma nova pasta do tipo **Contribuição de ativos**.
 Essa pasta é compartilhada com os usuários ativos da Brand Portal para contribuição.
 
 
@@ -132,7 +132,7 @@ Os usuários do Brand Portal acessam a pasta **Contribuição** e fazem upload d
 
 **Ques. Posso fazer upload de ativos para qualquer pasta permitida?**
 
-**Ans.** Nem todas as pastas permitidas. Um usuário do Brand Portal pode fazer upload de conteúdo somente para a pasta **Contribuição** que é compartilhada pelo administrador do Experience Manager Assets ou do Brand Portal.
+**Ans.** Nem todas as pastas permitidas. Um usuário do Brand Portal pode fazer upload de conteúdo somente para a pasta **Contribuição** que é compartilhada pelo administrador do Experience Manager Assets ou Brand Portal.
 
 
 
@@ -158,19 +158,19 @@ Os usuários do Brand Portal acessam a pasta **Contribuição** e fazem upload d
 
 **Ques. Onde posso ver o status dos trabalhos de importação e publicação?**
 
-**Ans.** No Experience Manager Assets, você pode ver o status de uma importação na página  **** asyncjob. No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status da contribuição de ativos]**.
+**Ans.** No Experience Manager Assets, é possível ver o status de uma importação na página  **** assíncrono. No Brand Portal, você pode ver o status de um trabalho de publicação em **[!UICONTROL Ferramentas > Status da contribuição de ativos]**.
 
 
 
 **Ques. Qual é a frequência de um trabalho de importação que é executado periodicamente no Experience Manager?**
 
-**Ans.** No Experience Manager Assets, a pesquisa é executada a cada 5 minutos.
+**Ans.** No Experience Manager Assets, a pesquisa é realizada a cada 5 minutos.
 
 
 
 **Ques. Existe algum limite no número de vezes que uma pasta pode ser publicada do Brand Portal para o Experience Manager Assets?**
 
-**Ans.** Não, todos os ativos na  **** NEWfolder são publicados no Experience Manager Assets, independentemente do fato de terem sido publicados anteriormente. Toda vez que uma pasta **Contribution** é publicada do Brand Portal para o Experience Manager Assets, ela substitui o conteúdo da pasta **NEW**.
+**Ans.** Não, todos os ativos na  **** NEWfolder são publicados na Experience Manager Assets, independentemente de terem sido publicados anteriormente. Toda vez que uma pasta **Contribution** é publicada do Brand Portal para o Experience Manager Assets, ela substitui o conteúdo da pasta **NEW**.
 
 
 
@@ -207,5 +207,5 @@ Estes sites estão disponíveis somente para clientes. Se você for um cliente d
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support]()
 -->

@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
@@ -28,7 +28,7 @@ A Adobe Experience Manager Assets Brand Portal aprimora a experiência de downlo
 
 >[!NOTE]
 >
->No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, o que usa o IBM Aspera Connect para download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) na extensão do seu navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
+>No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, que usa o IBM Aspera Connect para download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) na extensão do navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
 >
 >Se não quiser usar o IBM Aspera Connect e continuar com o processo normal de download, entre em contato com o administrador do Brand Portal para desativar a configuração **[!UICONTROL Fast Download]**.
 
@@ -59,13 +59,13 @@ As configurações disponíveis são:
 
    Permite o download de representações personalizadas e (ou) dinâmicas dos ativos.
 
-   Todas as representações de ativos diferentes do ativo original e as representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma representação estática personalizada no Experience Manager Assets, enquanto que, somente o administrador pode criar representações dinâmicas personalizadas. Para obter detalhes, consulte [como aplicar predefinições de imagens ou representações dinâmicas](../using/brand-portal-image-presets.md).
+   Todas as representações de ativos diferentes do ativo original e as representações geradas pelo sistema são chamadas de representações personalizadas. Inclui representações estáticas e dinâmicas disponíveis para o ativo. Qualquer usuário pode criar uma representação estática personalizada no Experience Manager Assets, enquanto, somente o administrador pode criar representações dinâmicas personalizadas. Para obter detalhes, consulte [como aplicar predefinições de imagens ou representações dinâmicas](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Representações do sistema]**
 
    Permite baixar representações geradas pelo sistema dos ativos.
 
-   Essas são as miniaturas geradas automaticamente no Experience Manager Assets com base no fluxo de trabalho &quot;Ativo de atualização DAM&quot;.
+   Essas são as miniaturas geradas automaticamente no Experience Manager Assets com base no fluxo de trabalho &quot;Ativo de atualização do DAM&quot;.
 
 * **[!UICONTROL Download de ativo]**
 
@@ -87,7 +87,7 @@ Os administradores podem ativar qualquer combinação de configurações para os
 
 Além das **[!UICONTROL Configurações de download]**, os administradores do Brand Portal podem configurar ainda mais as configurações para diferentes grupos de usuários para visualizar e (ou) baixar os ativos originais e suas execuções.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**. Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -156,14 +156,14 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
       >[!NOTE]
       >
-      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que você instale o Acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará a instalação do Acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
       >[!NOTE]
       >
       >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a página **[!UICONTROL Gerenciamento de direitos autorais]**. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.
       > 
-      >Os ativos protegidos por licença têm [contrato de licença anexado](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) a eles, o que é feito definindo a [propriedade de metadados](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) do ativo no Experience Manager Assets.
+      >Os ativos protegidos por licença têm [contrato de licença anexado](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) a eles, o que é feito definindo a [propriedade de metadados](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) do ativo no Experience Manager Assets.
 
 
       ![ativo licenciado](assets/licensed-asset-new.png)
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1530'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Entretanto, é um desafio desenvolver soluções que ofereçam suporte ao compar
 
 **Adobe Experience Manager (AEM) Assets Brand** Portal focaliza a necessidade do profissional de marketing de colaborar com os usuários globais da Brand Portal, fornecendo recursos de distribuição de ativos e contribuição de ativos.
 
-A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados a terceiros e usuários de negócios internos em todos os dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários da Brand Portal façam upload de ativos no Brand Portal e publiquem no Experience Manager Assets, sem precisar acessar o ambiente de criação. O recurso de contribuição é chamado como **Origem de ativos no Brand Portal**. E, em conjunto, melhora a experiência geral da Brand Portal de distribuição de ativos e contribuição dos usuários da Brand Portal (agências/equipes externas), acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado.
+A distribuição de ativos permite que você adquira, controle e distribua com facilidade ativos criativos aprovados a terceiros e usuários de negócios internos em todos os dispositivos. Enquanto isso, a contribuição de ativos permite que os usuários do Brand Portal façam upload de ativos no Brand Portal e publiquem no Experience Manager Assets, sem precisar acessar o ambiente de criação. O recurso de contribuição é chamado como **Origem de ativos no Brand Portal**. E, em conjunto, melhora a experiência geral da Brand Portal de distribuição de ativos e contribuição dos usuários da Brand Portal (agências/equipes externas), acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado.
 Consulte [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md).
 
 O ambiente de portal baseado em navegador permite fazer upload, navegar, pesquisar, visualizar e exportar ativos facilmente em formatos aprovados.
@@ -35,11 +35,11 @@ A configuração do Adobe Experience Manager Assets com o Brand Portal permite a
 
 >[!NOTE]
 >
->A configuração dos ativos do Experience Manager com o Brand Portal é compatível com o Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 e superior.
+>A configuração do Experience Manager Assets com Brand Portal é compatível com o Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 e superior.
 
-O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager. O fluxo de trabalho de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS dos Ativos do Experience Manager como uma instância do Cloud Service.
+O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager. O workflow de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância as a Cloud Service do Experience Manager Assets.
 
-Enquanto isso, o Experience Manager Assets (no local e serviço gerenciado) é configurado manualmente com o Brand Portal usando o Adobe Desenvolvedor Console, que obtém um token Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
+Enquanto isso, o Experience Manager Assets (no local e serviço gerenciado) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
 
 Para obter mais informações, consulte [configurar o Experience Manager Assets com Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -129,9 +129,9 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 
 [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publicar pastas no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publicar pastas no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Publicar coleções no Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publicar coleções no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alias alternativo para o url do Brand Portal {#tenant-alias-for-portal-url}
 
@@ -229,7 +229,7 @@ Antes da Brand Portal ser agendada para manutenção, uma notificação é exibi
 ## Recursos relacionados {#related-resources}
 
 <!--
-* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe Customer Support]()
 -->
 
 * [Fóruns do AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
