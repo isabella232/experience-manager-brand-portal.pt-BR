@@ -11,25 +11,25 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '421'
 ht-degree: 11%
 
 ---
 
 # Configurar o Experience Manager Assets com o Brand Portal {#configure-integration}
 
-A configuração do Adobe Experience Manager Assets com o Brand Portal permite a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal. Ela permite que os usuários do Experience Manager Assets publiquem e distribuam ativos com os usuários do Brand Portal. Os usuários da Brand Portal podem acessar os ativos compartilhados e contribuir fazendo upload de novos ativos para as pastas de contribuição de ativos e publicando-os de volta aos Ativos do Experience Manager.
+A configuração do Adobe Experience Manager Assets com o Brand Portal permite a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal. Ela permite que os usuários do Experience Manager Assets publiquem e distribuam ativos com os usuários do Brand Portal. Os usuários da Brand Portal podem acessar os ativos compartilhados e contribuir fazendo upload de novos ativos para as pastas de contribuição de ativos e publicando-os de volta no Experience Manager Assets.
 
-A configuração do Experience Manager Assets com o Brand Portal é compatível com:
+A configuração do Experience Manager Assets com Brand Portal é compatível com:
 
 * Experience Manager Assets as a Cloud Service
 * Experience Manager Assets (no local e serviço gerenciado) 6.3 e superior
 
-O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager. O fluxo de trabalho de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS dos Ativos do Experience Manager como uma instância do Cloud Service.
+O Experience Manager Assets as a Cloud Service é configurado automaticamente com o Brand Portal ao ativar o Brand Portal no Cloud Manager. O workflow de ativação cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância as a Cloud Service do Experience Manager Assets.
 
-Enquanto isso, o Experience Manager Assets (no local e serviço gerenciado) é configurado manualmente com o Brand Portal usando o Adobe Desenvolvedor Console, que obtém um token Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
+Enquanto isso, o Experience Manager Assets (no local e serviço gerenciado) é configurado manualmente com o Brand Portal usando o Adobe Developer Console, que obtém um token Adobe Identity Management Services (IMS) para autorização do locatário do Brand Portal.
 
 >[!NOTE]
 >
@@ -56,4 +56,4 @@ As etapas para configurar o AEM Assets com Brand Portal são diferentes dependen
 | **AEM 6.5 (6.5.4.0 e superior)** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 e superior)** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 e superior)** | [Criar configuração](https://helpx.adobe.com/br/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Atualizar configuração](https://helpx.adobe.com/br/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Entre em contato com o suporte | Entre em contato com o suporte |
+| **AEM 6.2** | Entre em contato com o Suporte ao cliente | Entre em contato com o Suporte ao cliente |

@@ -1,5 +1,5 @@
 ---
-title: Novidades do Experience Manager Assets Brand Portal
+title: Novidades no Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
 description: Quais são os novos recursos e aprimoramentos da versão 2021.10.0?
 seo-description: What are the new features and enhancements for 2021.10.0
@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '6340'
+source-wordcount: '6294'
 ht-degree: 1%
 
 ---
 
-# Novidades do Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Novidades no Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 A Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja a seguir os novos recursos e aprimoramentos.
 
@@ -109,17 +109,17 @@ O Brand Portal 2021.06.0 é uma versão interna que inclui correções para os p
 
 ## O que mudou em 2021.02.0 {#what-changed-in-feb-2021}
 
-O Brand Portal 2021.02.0 é uma versão de aprimoramento que inclui o fluxo de trabalho de ativação do Brand Portal no AEM Assets as a Cloud Service, facilita o recurso de origem dos ativos no AEM Assets as a Cloud Service, aprimoramentos na experiência de download de ativos e inclui correções críticas. Também permite que os administradores configurem o comportamento padrão de download de pastas, coleções e download em massa de ativos no nível do locatário. O **[!UICONTROL Relatório de uso]** do Brand Portal também foi modificado para refletir os usuários ativos do Brand Portal.
+O Brand Portal 2021.02.0 é uma versão de aprimoramento que inclui o fluxo de trabalho de ativação do Brand Portal no AEM Assets as a Cloud Service, facilita o recurso de origem de ativos no AEM Assets as a Cloud Service, aprimoramentos na experiência de download de ativos e inclui correções críticas. Também permite que os administradores configurem o comportamento padrão de download de pastas, coleções e download em massa de ativos no nível do locatário. O **[!UICONTROL Relatório de uso]** do Brand Portal também foi modificado para refletir os usuários ativos do Brand Portal.
 
 ### Ativar o Brand Portal no AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-O AEM Assets as a Cloud Service agora está qualificado para ter uma instância do Brand Portal pré-configurada. O usuário do Cloud Manager pode ativar o Brand Portal na AEM Assets como uma instância do Cloud Service.
+O AEM Assets as a Cloud Service agora está qualificado para ter uma instância pré-configurada do Brand Portal. O usuário do Cloud Manager pode ativar o Brand Portal na instância as a Cloud Service do AEM Assets.
 
-Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Console do desenvolvedor do Adobe.
+Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Console do Desenvolvedor do Adobe.
 
-O usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da AEM Assets como uma instância do Cloud Service.
+O usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância do AEM Assets as a Cloud Service.
 
-Para ativar o Brand Portal em sua AEM Assets como uma instância do Cloud Service:
+Para ativar o Brand Portal na sua instância do AEM Assets as a Cloud Service:
 
 1. Faça logon no Adobe Cloud Manager e navegue até **[!UICONTROL Ambientes]**.
 1. Selecione os ambientes (um por um) na lista. Depois de encontrar o ambiente associado ao Brand Portal, clique no botão **[!UICONTROL Ativate Brand Portal]** para iniciar o workflow de ativação.
@@ -127,11 +127,11 @@ Para ativar o Brand Portal em sua AEM Assets como uma instância do Cloud Servic
 
 ![Exibir status](assets/create-environment5.png)
 
-Consulte [ativar o Brand Portal no AEM Assets como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+Consulte [ativar o Brand Portal no AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Origem de ativos no AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-O recurso de origem dos ativos agora está disponível no AEM Assets as a Cloud Service. O recurso é ativado por padrão para todos os usuários do serviço de nuvem. Os usuários permitidos do Brand Portal podem contribuir com o fornecimento de ativos, carregando novos ativos nas pastas de contribuição e publicando a pasta de contribuição do Brand Portal para o AEM Assets como uma instância do Cloud Service. Os administradores podem revisar e aprovar a contribuição dos usuários do Brand Portal para distribuí-los ainda mais para outros usuários do Brand Portal.
+O recurso de origem dos ativos agora está disponível no AEM Assets as a Cloud Service. O recurso é ativado por padrão para todos os usuários do serviço de nuvem. Os usuários permitidos do Brand Portal podem contribuir com o fornecimento de ativos carregando novos ativos nas pastas de contribuição e publicando a pasta de contribuição do Brand Portal para a instância do AEM Assets as a Cloud Service. Os administradores podem revisar e aprovar a contribuição dos usuários do Brand Portal para distribuí-los ainda mais para outros usuários do Brand Portal.
 
 Anteriormente, a origem dos ativos só estava disponível no AEM Assets (no local e no serviço gerenciado).
 
@@ -236,7 +236,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 Além das configurações existentes **[!UICONTROL Download]**, os administradores do Brand Portal também podem definir configurações para diferentes grupos de usuários para visualizar e (ou) baixar o ativo original e suas representações na página de detalhes do ativo.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
 
 Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
 
@@ -275,7 +275,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### Visualizador de documentos {#doc-viewer}
 
-O Visualizador de documentos melhora a experiência de visualização de PDF. Ele fornece uma experiência semelhante à do Adobe Document Cloud enquanto visualiza os arquivos PDF no Brand Portal.
+O Visualizador de documentos melhora a experiência de visualização de PDF. Ele fornece uma experiência semelhante à do Adobe Document Cloud enquanto visualiza os arquivos do PDF no Brand Portal.
 
 Anteriormente, opções limitadas estavam disponíveis para exibir os arquivos PDF.
 
@@ -325,7 +325,7 @@ No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Por
 | **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+| **AEM 6.2** | | 
 
    -->
 
@@ -336,7 +336,7 @@ As etapas para configurar o AEM Assets com Brand Portal são diferentes dependen
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+
 -->
 
 
@@ -351,7 +351,7 @@ As etapas para configurar o AEM Assets com Brand Portal são diferentes dependen
 | **AEM 6.5 (6.5.4.0 e superior)** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 e superior)** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 e superior)** | [Criar configuração](https://helpx.adobe.com/br/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Atualizar configuração](https://helpx.adobe.com/br/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Entre em contato com o suporte | Entre em contato com o suporte |
+| **AEM 6.2** | Entre em contato com o Suporte ao cliente | Entre em contato com o Suporte ao cliente |
 
 >[!NOTE]
 >
@@ -375,7 +375,7 @@ O usuário do AEM então define o requisito fazendo o upload de um resumo sobre 
 
 Quando o usuário terminar de adicionar conteúdo na pasta **NEW**, ele poderá publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
 
-Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição e das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar as propriedades e adicionar ativos às coleções.
+Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição e das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos às coleções.
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ Da mesma forma, especificando:
 >
 >Ao marcar a caixa de seleção **Pesquisa parcial**, **Ignorar maiúsculas e minúsculas** é selecionado por padrão.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## O que mudou na 6.4.3 {#what-changed-in}
 
@@ -467,7 +467,7 @@ A miniatura padrão das pastas virtuais é a imagem em miniatura da primeira pas
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Pesquisar na hierarquia ou caminho de pasta específico
 
@@ -487,7 +487,7 @@ Pesquisar nessas pastas retorna somente os resultados dos ativos que foram compa
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Suporte para representações de vídeo do Dynamic Media
 
@@ -509,11 +509,11 @@ Os vídeos do Dynamic Media podem ser visualizados em:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Publicação agendada para o Brand Portal
 
-Fluxo de trabalho de publicação de ativos (e pastas) de [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) A instância do autor para o Brand Portal pode ser agendada para uma data e hora posteriores.
+Fluxo de trabalho de publicação de ativos (e pastas) de [AEM (6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=pt-BR) A instância do autor para o Brand Portal pode ser agendada para uma data e hora posteriores.
 
 Da mesma forma, os ativos publicados podem ser removidos do portal posteriormente, agendando o fluxo de trabalho Cancelar publicação do Brand Portal .
 
@@ -521,7 +521,7 @@ Da mesma forma, os ativos publicados podem ser removidos do portal posteriorment
 
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Alias do locatário configurável no URL
 
@@ -530,11 +530,11 @@ As organizações podem personalizar o URL do portal, com um prefixo alternativo
 Somente o prefixo do URL do Brand Portal pode ser personalizado e não o URL inteiro.\
 Por exemplo, uma organização com o domínio existente **geomettrix.brand-portal.adobe.com** pode obter **geomettrixinc.brand-portal.adobe.com** criado mediante solicitação.
 
-No entanto, a instância do autor do AEM pode ser [configurada](https://helpx.adobe.com/br/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) somente com o URL da ID do locatário e não com o URL do alias do locatário (alternativo).
+No entanto, a instância do autor do AEM pode ser [configurada](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) somente com o URL da ID do locatário e não com o URL do alias do locatário (alternativo).
 
 As organizações podem atender às suas necessidades de marca, personalizando o URL do portal, em vez de aderir ao URL fornecido pelo Adobe.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Fazer download de aprimoramentos de experiência
 
@@ -563,7 +563,7 @@ Os usuários da Brand Portal podem aplicar downloads rápidos baseados no IBM As
 
 ![](assets/donload-assets-dialog-2.png)
 
-Para habilitar o download acelerado baseado em IBM Aspera para a organização, os administradores **Ativar Aceleração de Download** (que está desabilitada por padrão) de [Configurações Gerais](brand-portal-general-configuration.md#allow-download-acceleration) no painel de ferramentas administrativas. Para saber mais sobre os pré-requisitos e as etapas de solução de problemas para baixar arquivos de ativos mais rapidamente do Brand Portal e links compartilhados, consulte [Guia para acelerar downloads do Brand Portal](../using/accelerated-download.md#main-pars-header).
+Para habilitar o download acelerado baseado no IBM Aspera para a organização, os administradores **Ativar Aceleração de Download** (que está desabilitada por padrão) de [Configurações Gerais](brand-portal-general-configuration.md#allow-download-acceleration) no painel Ferramentas administrativas. Para saber mais sobre os pré-requisitos e as etapas de solução de problemas para baixar arquivos de ativos mais rapidamente do Brand Portal e links compartilhados, consulte [Guia para acelerar downloads do Brand Portal](../using/accelerated-download.md#main-pars-header).
 
 ### Relatório de logons do usuário
 
@@ -754,7 +754,7 @@ O Brand Portal agora exibe um banner de notificação alguns dias antes de uma a
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Para obter mais informações, consulte [Notificação de manutenção do Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+Para obter mais informações, consulte [Notificação de manutenção do Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
 
 ### Aprimoramento de ativos licenciados compartilhados usando o recurso de compartilhamento de link {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
