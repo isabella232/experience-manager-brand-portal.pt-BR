@@ -1,5 +1,5 @@
 ---
-title: 'Configurar e publicar a pasta de contribuição do Experience Manager Assets para a Brand Portal '
+title: 'Configurar e publicar a pasta de contribuição do Experience Manager Assets para o Brand Portal '
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Obtenha informações sobre como configurar e publicar uma pasta de contribuição do Experience Manager Assets para o Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,10 @@ Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuiç�
 
 >[!NOTE]
 >
->Você pode criar várias pastas de contribuição em uma pasta. Não crie uma pasta de contribuição dentro de outra pasta de contribuição.
+>Você pode criar várias pastas de contribuição em uma pasta.
+>
+>Uma pasta de contribuição de ativos contém pastas NOVO e COMPARTILHADO para a distribuição e contribuição dos ativos. Não crie uma pasta de ativo, pasta ou contribuição dentro de uma pasta de contribuição de ativos.
+
 
 Você pode configurar as propriedades da pasta de contribuição separadamente e ao criar a pasta de contribuição. Neste exemplo, estamos configurando as propriedades separadamente.
 
@@ -74,7 +77,7 @@ Você pode configurar as propriedades da pasta de contribuição separadamente e
 
 ## Configurar as propriedades da pasta de contribuição {#configure-contribution-folder-properties}
 
-O administrador do Experience Manager Assets realiza as seguintes atividades ao configurar as propriedades de uma pasta de contribuição.
+O administrador do Experience Manager Assets executa as seguintes atividades ao configurar as propriedades de uma pasta de contribuição.
 
 * **Adicionar descrição**: Forneça uma descrição de alto nível da pasta de contribuição.
 * **Upload breve**: Fazer upload do documento de Requisito de ativo contendo informações relacionadas ao ativo.
@@ -126,7 +129,7 @@ Quando o objetivo de criar a pasta de contribuição for atingido, o administrad
 
 >[!NOTE]
 >
->É recomendável liberar o espaço de upload após a publicação da pasta de contribuição nos Ativos do Experience Manager para que ele fique disponível para contribuição dos outros usuários do Brand Portal.
+>É recomendável liberar o espaço de upload após a publicação da pasta de contribuição no Experience Manager Assets para que ele fique disponível para contribuição dos outros usuários do Brand Portal.
 >
 >Se for necessário estender o limite de upload do seu locatário do Brand Portal para além de **10** GB, entre em contato com o Suporte ao cliente especificando o requisito.
 
@@ -150,12 +153,12 @@ O painel do Brand Portal reflete todas as pastas existentes permitidas para o us
 
    ![](assets/upload-new-assets3.png)
 
-Após fazer upload de todos os ativos ou pastas para a NOVA pasta, publique a pasta de contribuição nos Ativos do Experience Manager.
+Após fazer upload de todos os ativos ou pastas para a pasta NEW , publique a pasta de contribuição na Experience Manager Assets.
 
 
 ## Publicar a pasta de contribuição no Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Depois que a pasta de contribuição é configurada, o usuário do Experience Manager Assets (administrador/não administrador) pode publicar a pasta de contribuição do Experience Manager Assets para a Brand Portal. Os usuários da Brand Portal que tiverem permissão para acessar a pasta de contribuição receberão uma notificação por e-mail/pulso na conclusão da ação de publicação.
+Depois que a pasta de contribuição é configurada, o usuário do Experience Manager Assets (administrador/não administrador) pode publicar a pasta de contribuição do Experience Manager Assets para o Brand Portal. Os usuários da Brand Portal que tiverem permissão para acessar a pasta de contribuição receberão uma notificação por e-mail/pulso na conclusão da ação de publicação.
 
 
 **Para publicar a pasta de contribuição:**
