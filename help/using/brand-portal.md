@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 6%
+source-wordcount: '1528'
+ht-degree: 7%
 
 ---
 
@@ -61,7 +61,9 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem reali
 | **Editor** | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | x |
 | **Administrador** | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo |
 
-* Usuários convidados podem navegar, acessar e pesquisar ativos somente em pastas públicas e coleções.
+>[!NOTE]
+>
+>Os usuários convidados podem navegar, acessar e pesquisar ativos somente em pastas públicas e coleções.
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -77,23 +79,23 @@ Qualquer usuário que tenha acesso limitado a ativos no Brand Portal sem passar 
 
 No entanto, a sessão de convidado impede que você crie coleções e pesquisas salvas e as compartilhe mais. Os usuários em uma sessão de convidado não podem acessar as configurações de pasta e coleção e não podem compartilhar ativos como link. Esta é uma lista de tarefas que um usuário convidado pode executar:
 
-[Procurar e acessar ativos públicos](browse-assets-brand-portal.md)
+* [Procurar e acessar ativos públicos](browse-assets-brand-portal.md)
 
-[Pesquisar ativos públicos](brand-portal-searching.md)
+* [Pesquisar ativos públicos](brand-portal-searching.md)
 
-[Baixar ativos públicos](brand-portal-download-assets.md)
+* [Baixar ativos públicos](brand-portal-download-assets.md)
 
-[Adicionar ativos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+* [Adicionar ativos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visualizador {#viewer}
 
 Um usuário padrão no Brand Portal normalmente é um usuário com a função de Visualizador. Um usuário com essa função pode acessar pastas, coleções e ativos permitidos. O usuário também pode navegar, visualizar, baixar e exportar ativos (representações originais ou específicas), definir configurações da conta e procurar ativos. Esta é uma lista de tarefas que um Visualizador pode executar:
 
-[Procurar ativos](browse-assets-brand-portal.md)
+* [Procurar ativos](browse-assets-brand-portal.md)
 
-[Pesquisar por ativos](brand-portal-searching.md)
+* [Pesquisar por ativos](brand-portal-searching.md)
 
-[Baixar ativos](brand-portal-download-assets.md)
+* [Baixar ativos](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
@@ -101,11 +103,11 @@ Um usuário com a função de Editor pode executar todas as tarefas que um Visua
 
 Além das tarefas que um Visualizador pode executar, um Editor pode executar as seguintes tarefas adicionais:
 
-[Compartilhar pastas](brand-portal-sharing-folders.md)
+* [Compartilhar pastas](brand-portal-sharing-folders.md)
 
-[Compartilhar uma coleção](brand-portal-share-collection.md)
+* [Compartilhar uma coleção](brand-portal-share-collection.md)
 
-[Compartilhar ativos como um link](brand-portal-link-share.md)
+* [Compartilhar ativos como um link](brand-portal-link-share.md)
 
 ### Administrador {#administrator}
 
@@ -113,30 +115,30 @@ Um administrador inclui um usuário marcado como administrador de sistema ou adm
 
 Um administrador pode executar todas as tarefas que um Editor pode realizar as seguintes tarefas adicionais:
 
-[Gerenciar usuários, grupos e cargos de usuários](brand-portal-adding-users.md)
+* [Gerenciar usuários, grupos e cargos de usuários](brand-portal-adding-users.md)
 
-[Personalizar papel de parede, cabeçalhos de página e emails](brand-portal-branding.md)
+* [Personalizar papel de parede, cabeçalhos de página e emails](brand-portal-branding.md)
 
-[Usar facetas de busca personalizada](brand-portal-search-facets.md)
+* [Usar facetas de busca personalizada](brand-portal-search-facets.md)
 
-[Usar o formulário de esquema de metadados](brand-portal-metadata-schemas.md)
+* [Usar o formulário de esquema de metadados](brand-portal-metadata-schemas.md)
 
-[Aplicar predefinições de imagens ou representações dinâmicas](brand-portal-image-presets.md)
+* [Aplicar predefinições de imagens ou representações dinâmicas](brand-portal-image-presets.md)
 
-[Trabalhar com relatórios](brand-portal-reports.md)
+* [Trabalhar com relatórios](brand-portal-reports.md)
 
 Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes tarefas:
 
-[Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
+* [Configurar o AEM Assets com o Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publicar pastas no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [Publicar pastas no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Publicar coleções no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [Publicar coleções no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alias alternativo para o url do Brand Portal {#tenant-alias-for-portal-url}
 
 A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (alias) para o URL existente do locatário do Brand Portal. O URL de alias pode ser criado com um prefixo alternativo no URL.\
-Observe que somente o prefixo do URL do Brand Portal pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente **[!UICONTROL geomettrix.brand-portal.adobe.com]** pode obter **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** criado mediante solicitação.
+Observe que somente o prefixo do URL do Brand Portal pode ser personalizado e não o URL inteiro. Por exemplo, uma organização com o domínio existente `geomettrix.brand-portal.adobe.com` pode ser criada `geomettrixinc.brand-portal.adobe.com` mediante solicitação.
 
 No entanto, a instância do autor do AEM pode ser [configurada](../using/configure-aem-assets-with-brand-portal.md) somente com o URL da ID do locatário e não com o URL do alias do locatário (alternativo).
 
@@ -160,30 +162,33 @@ Para solicitar acesso, faça o seguinte:
 
 1. Para solicitar acesso ao Brand Portal de uma organização, você deve ter um [!UICONTROL Adobe ID] válido, [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID] válido.
 
-   Na página [!UICONTROL Solicitar acesso], faça logon usando sua ID (cenário 1) ou crie um [!UICONTROL Adobe ID] (cenário 2):<br />
+   Na página [!UICONTROL Solicitar acesso], faça logon usando sua ID (cenário 1) ou crie um [!UICONTROL Adobe ID] (cenário 2):
+
    ![[!UICONTROL Solicitar acesso]](assets/bplogin_request_access_2.png)
 
    **Cenário 1**
+
    1. Se você tiver um [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] ou [!UICONTROL Federated ID], clique em **[!UICONTROL Conectar]**.
 A página [!UICONTROL Fazer logon] é aberta.
-   1. Forneça suas credenciais [!UICONTROL Adobe ID] e clique em **[!UICONTROL Fazer logon]**.<br />
 
-   ![Logon no Adobe](assets/bplogin_request_access_3.png)
+   1. Forneça suas credenciais do [!UICONTROL Adobe ID] e clique em **[!UICONTROL Fazer logon]**.
 
-   Você é redirecionado para a página [!UICONTROL Solicitar acesso].<br />
+      ![Logon no Adobe](assets/bplogin_request_access_3.png)
+   Você é redirecionado para a página [!UICONTROL Solicitar acesso].
+
    **Cenário 2**
+
    1. Se você não tiver um [!UICONTROL Adobe ID], para criar um, clique em **[!UICONTROL Obter um Adobe ID]** na página [!UICONTROL Solicitar acesso].
 A página [!UICONTROL Fazer logon] é aberta.
    1. Clique em **[!UICONTROL Obter uma Adobe ID]**.
 A página [!UICONTROL Cadastrar-se] é aberta.
    1. Insira seu nome e sobrenome, ID de email e senha.
-   1. Selecione **[!UICONTROL Inscreva-se]**.<br />
+   1. Selecione **[!UICONTROL Inscreva-se]**.
 
-   ![](assets/bplogin_request_access_5.png)
-
+      ![](assets/bplogin_request_access_5.png)
    Você é redirecionado para a página [!UICONTROL Solicitar acesso].
 
-1. A próxima página exibe seu nome e a ID de email usada para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.<br />
+1. A próxima página exibe seu nome e a ID de email usada para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -206,7 +211,7 @@ Você pode alterar o idioma Brand Portal de Adobe [!UICONTROL Experience Cloud S
 
 Para alterar o idioma:
 
-1. Selecione [!UICONTROL Usuário] > [!UICONTROL Editar Perfil] no menu superior.<br />
+1. Selecione [!UICONTROL Usuário] > [!UICONTROL Editar perfil] no menu superior.
 
    ![Editar perfil](assets/EditBPProfile.png)
 
