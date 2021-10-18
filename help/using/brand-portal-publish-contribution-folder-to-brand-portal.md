@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Para criar uma pasta de contribuição, crie uma nova pasta do tipo Contribuiç�
 
 >[!NOTE]
 >
->Você pode criar várias pastas de contribuição em uma pasta.
+>Os administradores podem criar várias pastas de contribuição de ativos em uma pasta.
 >
->Uma pasta de contribuição de ativos contém pastas NOVO e COMPARTILHADO para a distribuição e contribuição dos ativos. Não crie uma pasta de ativo, pasta ou contribuição dentro de uma pasta de contribuição de ativos.
+>Uma pasta de contribuição de ativos contém pastas NOVO e COMPARTILHADO para a distribuição e contribuição dos ativos. Não crie um ativo, pasta ou pasta de contribuição dentro de uma pasta de contribuição.
 
 
 Você pode configurar as propriedades da pasta de contribuição separadamente e ao criar a pasta de contribuição. Neste exemplo, estamos configurando as propriedades separadamente.

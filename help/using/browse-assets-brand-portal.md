@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -26,7 +26,7 @@ O logotipo Experience Manager na barra de ferramentas na parte superior facilita
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Seletor de painéis no canto superior esquerdo da lista suspensa do Brand Portal para expor as opções para navegar nas hierarquias de ativos, simplificar sua pesquisa e exibir recursos.
 
@@ -106,7 +106,7 @@ A exibição de lista exibe informações para cada recurso no nível atual. A e
 * Dimension
 * Tamanho
 * Classificação
-* Caminho da pasta que mostra a hierarquia de ativos<sup>*</sup>
+* Caminho da pasta que mostra a hierarquia de ativos
 * Data de publicação do ativo no Brand Portal
 
 A coluna Caminho permite identificar facilmente o local do ativo na hierarquia de pastas. Você pode navegar para baixo na hierarquia tocando/clicando no nome do recurso e fazer backup usando a [navegação estrutural no cabeçalho](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
