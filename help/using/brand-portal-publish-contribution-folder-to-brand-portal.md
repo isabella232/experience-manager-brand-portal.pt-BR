@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ O requisito de ativo refere-se aos detalhes fornecidos pelos administradores par
 
 >[!NOTE]
 >
->Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada no Experience Manager Assets. Certifique-se de ter a lista de usuários atualizada do Brand Portal.
+>Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada no Experience Manager Assets. Certifique-se de ter atualizado a lista de usuários do Brand Portal.
+
+Os administradores podem baixar o arquivo `user.csv` de [!DNL Admin Console] e usá-lo como modelo base para adicionar usuários do Brand Portal. Vá para [!UICONTROL Users] e clique na lista [!UICONTROL Exportar usuários para csv] opção para baixar o arquivo `users.csv`. A lista de usuários de exemplo a seguir detalha os atributos necessários para adicionar os usuários. O único atributo obrigatório para uma entrada de usuário é `Email` e todos os outros atributos são opcionais.
+
+[Obter arquivo](assets/users.csv)
 
 ## Fazer upload de ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
 
