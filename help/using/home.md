@@ -4,16 +4,16 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Guia do Adobe Experience Manager Assets Brand Portal
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: d3076552969eb17264f5f27cbe7527470c01299d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 69%
+source-wordcount: '377'
+ht-degree: 64%
 
 ---
 
 # Guia do Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Marca do Adobe Experience Manager Assets** As organizações Portalaid atendem às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
+**Adobe Experience Manager Assets Brand Portal** O auxilia as organizações a atender às suas necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 
 A falta de uma solução de compartilhamento de ativos seguros pode resultar em:
 
@@ -46,6 +46,7 @@ Este guia do usuário documenta insights para ofertas e fluxos de trabalho princ
 | [Formatos de arquivo não suportados](brand-portal-supported-formats.md) | Formatos de arquivo suportados no Brand Portal para visualização e download. |
 | [Publicar ativos no Brand Portal](brand-portal-sharing-folders.md) | Como publicar pastas, coleções, links, predefinições, esquema, aspectos e tags no Brand Portal. |
 | [Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md) | Como configurar a origem dos ativos no AEM Assets, faça upload dos ativos no Brand Portal e publique a pasta de contribuição de volta no AEM Assets. |
+| [Vídeos de recursos do Brand Portal](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Saiba como usar o Experience Manager Assets Brand Portal com a ajuda de tutoriais em vídeo. |
 
 ### Recursos úteis
 
