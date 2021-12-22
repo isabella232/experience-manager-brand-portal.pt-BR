@@ -10,18 +10,18 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 533b2a637700770ff08c88da92892af863265902
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
 # Configurar a pasta de contribuição no Experience Manager Assets {#configure-contribution-folder}
 
-Para o fornecimento de ativos colaborativos, os usuários do Experience Manager Assets (administradores e usuários não administradores com permissão) podem criar novas pastas do tipo **Contribuição de ativos**, garantindo que a nova pasta criada esteja aberta para o envio de ativos por usuários do Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas **SHARED** e **NEW**, na pasta recém-criada **Contribution**.
+Para o fornecimento de ativos colaborativos, os usuários do Experience Manager Assets (administradores e usuários não administradores com permissão) podem criar novas pastas do tipo **Contribuição de ativos**, garantindo que a nova pasta criada esteja aberta para o envio de ativos pelos usuários do Brand Portal.  Isso aciona automaticamente um workflow que cria duas subpastas adicionais, chamadas de **COMPARTILHADO** e **NOVO**, no **Contribuição** pasta.
 
-O usuário do Experience Manager Assets então define os requisitos do ativo carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos da linha de base, na pasta **SHARED** para garantir que os usuários do Brand Portal tenham as informações necessárias. O administrador pode conceder aos usuários ativos da Brand Portal acesso à pasta de contribuição antes de publicar a pasta de Contribuição recém-criada na Brand Portal.
+O usuário do Experience Manager Assets então define os requisitos do ativo carregando um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição, bem como um conjunto de ativos da linha de base, à **COMPARTILHADO** para garantir que os usuários do Brand Portal tenham as informações necessárias. O administrador pode conceder aos usuários ativos da Brand Portal acesso à pasta de contribuição antes de publicar a pasta de Contribuição recém-criada na Brand Portal.
 
 O vídeo a seguir demonstra como configurar uma pasta Contribuição no Experience Manager Assets:
 
@@ -54,11 +54,11 @@ Você pode configurar as propriedades da pasta de contribuição separadamente e
 
 1. Faça logon na instância do Experience Manager Assets.
 
-1. Navegue até **[!UICONTROL Assets]** > **[!UICONTROL Arquivos]**. Ele lista todas as pastas existentes no repositório do Experience Manager Assets.
+1. Navegar para **[!UICONTROL Ativos]** > **[!UICONTROL Arquivos]**. Ele lista todas as pastas existentes no repositório do Experience Manager Assets.
 
-1. Clique em **[!UICONTROL Criar]** para criar uma nova pasta. **[!UICONTROL A caixa de diálogo Criar]** pasta é aberta.
+1. Clique em **[!UICONTROL Criar]** para criar uma nova pasta. **[!UICONTROL Criar pasta]** será aberta.
 
-1. Insira **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e selecione a caixa de seleção **[!UICONTROL Contribuição do ativo]**.
+1. Enter **[!UICONTROL Título]** e **[!UICONTROL Nome]** da pasta e selecione o **[!UICONTROL Contribuição de ativos]** caixa de seleção.
 É recomendável usar letras minúsculas sem espaço para nomear a pasta.
 
 1. Clique em **[!UICONTROL Criar]**. Você pode ver a pasta de contribuição listada no repositório do Experience Manager Assets.
@@ -70,7 +70,7 @@ Você pode configurar as propriedades da pasta de contribuição separadamente e
 
    ![](assets/create-contribution-folder.png)
 
-1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL SHARED]** e **[!UICONTROL NEW]** são criadas automaticamente na pasta de contribuição.
+1. Clique para abrir a pasta de contribuição, você pode ver duas subpastas -**[!UICONTROL COMPARTILHADO]** e **[!UICONTROL NOVO]** são criadas automaticamente na pasta de contribuição.
 
    ![](assets/contribution-folder.png)
 
@@ -89,20 +89,20 @@ O requisito de ativo refere-se aos detalhes fornecidos pelos administradores par
 
 1. Faça logon na instância do Experience Manager Assets.
 
-1. Navegue até **[!UICONTROL Assets > Files]** e localize a pasta de contribuição.
-1. Selecione a pasta de contribuição e clique em **[!UICONTROL Properties]** para abrir a janela Propriedades da pasta.
+1. Navegar para **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição.
+1. Selecione a pasta de contribuição e clique em **[!UICONTROL Propriedades]** para abrir a janela Propriedades da pasta.
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
-1. Navegue até a guia **[!UICONTROL Contribuição do ativo]**.
-1. Insira **[!UICONTROL Descrição]** de alto nível da pasta de contribuição.
-1. Clique em **[!UICONTROL Fazer upload do resumo]** para navegar do computador local e fazer upload de um **Documento de requisitos de ativos**.
+1. Navegar para **[!UICONTROL Contribuição de ativos]** guia .
+1. Inserir alto nível **[!UICONTROL Descrição]** da pasta de contribuição.
+1. Clique em **[!UICONTROL Carregar resumo]** para navegar pelo computador local e fazer upload de um **Documento de requisitos de ativos**.
 
    ![](assets/upload.png)
 
-1. No campo **[!UICONTROL Adicionar usuário]**, adicione usuários do Brand Portal com quem deseja compartilhar a pasta de contribuição. Esses usuários podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal.
+1. No **[!UICONTROL Adicionar usuário]** , adicione usuários do Brand Portal com quem deseja compartilhar a pasta de contribuição. Esses usuários podem acessar e fazer upload de conteúdo para a pasta de contribuição usando a interface do Brand Portal.
 1. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/contribution-folder-property3.png)
@@ -111,51 +111,33 @@ O requisito de ativo refere-se aos detalhes fornecidos pelos administradores par
 >
 >Os resultados da pesquisa são baseados na lista de usuários do Brand Portal configurada no Experience Manager Assets. Certifique-se de ter atualizado a lista de usuários do Brand Portal.
 
-Os administradores podem baixar o arquivo `user.csv` de [!DNL Admin Console] e usá-lo como modelo base para adicionar usuários do Brand Portal. Vá para [!UICONTROL Users] e clique na lista [!UICONTROL Exportar usuários para csv] opção para baixar o arquivo `users.csv`. A lista de usuários de exemplo a seguir detalha os atributos necessários para adicionar os usuários. O único atributo obrigatório para uma entrada de usuário é `Email` e todos os outros atributos são opcionais.
+Os administradores podem baixar a variável `user.csv` arquivo de [!DNL Admin Console] e usá-lo como o modelo base para adicionar usuários do Brand Portal. Ir para [!UICONTROL Usuários] e clique no botão [!UICONTROL Exportar lista de usuários para csv] para baixar a `users.csv` arquivo. A lista de usuários de exemplo a seguir detalha os atributos necessários para adicionar os usuários. O único atributo obrigatório para uma entrada de usuário é o `Email` e todos os outros atributos são opcionais.
 
 [Obter arquivo](assets/users.csv)
 
 ## Fazer upload de ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
 
-Os usuários da Brand Portal podem baixar os requisitos de ativos para entender a necessidade de contribuição.
-Em seguida, eles podem criar novos ativos para contribuição e carregá-los na pasta NEW na pasta de contribuição.
+O usuário do Experience Manager Assets faz upload de um conjunto de ativos da linha de base para a **COMPARTILHADO** para garantir que os usuários do Brand Portal tenham as informações necessárias.
 
->[!NOTE]
->
->Os usuários do Brand Portal podem fazer upload de ativos somente para a pasta NEW .
->
->O limite máximo de upload para qualquer locatário do Brand Portal é **10** GB que é aplicado cumulativamente a todas as pastas de contribuição.
+**Para fazer upload de ativos da linha de base:**
 
+1. Faça logon na instância do Experience Manager Assets.
 
-Após publicar os ativos recém-criados no Experience Manager Assets, os usuários do Brand Portal podem excluí-los da NOVA pasta. Enquanto isso, o administrador do Brand Portal pode excluir os ativos das pastas NOVO e COMPARTILHADO.
+1. Navegar para **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição.
 
-Quando o objetivo de criar a pasta de contribuição for atingido, o administrador do Brand Portal poderá excluir a pasta de contribuição para liberar o espaço de upload para outros usuários.
+1. Selecione a pasta de contribuição e clique em para abri-la.
 
->[!NOTE]
->
->É recomendável liberar o espaço de upload após a publicação da pasta de contribuição no Experience Manager Assets para que ele fique disponível para contribuição dos outros usuários do Brand Portal.
->
->Se for necessário estender o limite de upload do seu locatário do Brand Portal para além de **10** GB, entre em contato com o Suporte ao cliente especificando o requisito.
-
-
-**Para fazer upload de novos ativos:**
-
-1. Faça logon na instância do Brand Portal.
-O painel do Brand Portal reflete todas as pastas existentes permitidas para o usuário do Brand Portal junto com a pasta de contribuição compartilhada recentemente.
-
-1. Selecione a pasta de contribuição e clique em para abri-la. A pasta de contribuição contém duas subpastas - **[!UICONTROL SHARED]** e **[!UICONTROL NEW]**.
-
-1. Clique na pasta **[!UICONTROL NEW]**.
+1. Clique no botão **[!UICONTROL NOVO]** pasta.
 
    ![](assets/upload-new-assets1.png)
 
-1. Clique em **[!UICONTROL Create]** > **[!UICONTROL Files]** para carregar arquivos individuais ou pastas (.zip) contendo vários ativos.
+1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Arquivos]** para carregar arquivos individuais ou pastas (.zip) contendo vários ativos.
 
    ![](assets/upload-new-assets2.png)
 
-1. Navegue e faça upload de ativos (arquivos ou pastas) para a pasta **[!UICONTROL NEW]**.
+1. Procure e faça upload de ativos (arquivos ou pastas) no **[!UICONTROL NOVO]** pasta.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-asset4.png)
 
 Após fazer upload de todos os ativos ou pastas para a pasta NEW , publique a pasta de contribuição na Experience Manager Assets.
 
@@ -169,11 +151,11 @@ Depois que a pasta de contribuição é configurada, o usuário do Experience Ma
 
 1. Faça logon na instância do Experience Manager Assets.
 
-1. Navegue até **[!UICONTROL Assets > Files]** e localize a pasta de contribuição na qual deseja publicar no Brand Portal.
+1. Navegar para **[!UICONTROL Ativos > Arquivos]** e localize a pasta de contribuição na qual deseja publicar no Brand Portal.
 1. Selecione a pasta de contribuição e clique em **[!UICONTROL Publicação rápida]** > **[!UICONTROL Publicar no Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    Você receberá uma mensagem de sucesso assim que a pasta de contribuição for publicada no Brand Portal.
 
-Uma notificação por e-mail/pulso é enviada aos usuários da Brand Portal atribuídos à pasta de contribuição. Os usuários da Brand Portal podem acessar a pasta de contribuição e iniciar a contribuição. Consulte [Fazer upload de ativos para a pasta de contribuição e publicar no Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Uma notificação por e-mail/pulso é enviada aos usuários da Brand Portal atribuídos à pasta de contribuição. Os usuários da Brand Portal podem acessar a pasta de contribuição e iniciar a contribuição. Consulte [Faça upload de ativos para a pasta de contribuição e publique no Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
