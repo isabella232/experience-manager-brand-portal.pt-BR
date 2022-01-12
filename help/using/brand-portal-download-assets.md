@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 4%
+source-wordcount: '2026'
+ht-degree: 3%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 4%
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-A Adobe Experience Manager Assets Brand Portal aprimora a experiência de download permitindo que os usuários baixem simultaneamente vários ativos e pastas acessíveis a eles no Brand Portal. Dessa forma, os ativos de marca aprovados podem ser distribuídos com segurança para uso offline. Leia para saber como baixar ativos aprovados do Brand Portal e o que esperar do [desempenho de download](../using/brand-portal-download-assets.md#expected-download-performance).
+A Adobe Experience Manager Assets Brand Portal aprimora a experiência de download permitindo que os usuários baixem simultaneamente vários ativos e pastas acessíveis a eles no Brand Portal. Dessa forma, os ativos de marca aprovados podem ser distribuídos com segurança para uso offline. Leia para saber como baixar ativos aprovados da Brand Portal e o que esperar do [desempenho de download](../using/brand-portal-download-assets.md#expected-download-performance).
 
 
 >[!NOTE]
 >
->No Brand Portal 2020.10.0 (e superior), a configuração **[!UICONTROL Fast Download]** é ativada por padrão, que usa o IBM Aspera Connect para download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) na extensão do navegador antes de baixar os ativos do Brand Portal. Para obter mais detalhes, consulte o [guia para acelerar downloads do Brand Portal](../using/accelerated-download.md).
+>No Brand Portal 2020.10.0 (e superior), a variável **[!UICONTROL Download rápido]** está ativada por padrão, o que usa o IBM Aspera Connect para fazer o download acelerado dos ativos. Instale o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) na extensão do navegador antes de baixar os ativos da Brand Portal. Para obter mais detalhes, consulte [guia para acelerar downloads da Brand Portal](../using/accelerated-download.md).
 >
->Se não quiser usar o IBM Aspera Connect e continuar com o processo normal de download, entre em contato com o administrador do Brand Portal para desativar a configuração **[!UICONTROL Fast Download]**.
+>Se você não quiser usar o IBM Aspera Connect e continuar com o processo normal de download, entre em contato com o administrador do Brand Portal para desativar o **[!UICONTROL Download rápido]** configuração.
 
 ## Configurar download de ativos {#configure-download}
 
@@ -53,7 +53,7 @@ As configurações disponíveis são:
 
 * **[!UICONTROL Download rápido]**
 
-   Ele fornece download acelerado dos ativos usando o IBM Aspera Connect. Por padrão, a configuração **[!UICONTROL Fast Download]** é ativada nas **[!UICONTROL Configurações de download]**.
+   Ele fornece download acelerado dos ativos usando o IBM Aspera Connect. Por padrão, a variável **[!UICONTROL Download rápido]** está ativada na variável **[!UICONTROL Configurações de download]**.
 
 * **[!UICONTROL Representações personalizadas]**
 
@@ -72,7 +72,7 @@ As configurações disponíveis são:
    Permite baixar as representações em uma pasta separada para cada ativo. A configuração é aplicável em pastas, coleções e download em massa de ativos (mais de 20 ativos).
 
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
+Faça logon no locatário do Brand Portal como administrador e acesse **[!UICONTROL Ferramentas]** > **[!UICONTROL Baixar]**.
 
 Os administradores podem ativar qualquer combinação de configurações para os usuários do Brand Portal acessarem e baixarem representações.
 
@@ -81,13 +81,13 @@ Os administradores podem ativar qualquer combinação de configurações para os
 
 >[!NOTE]
 >
->Somente os administradores podem baixar os ativos expirados. Para obter mais informações sobre ativos expirados, consulte [gerenciar direitos digitais de ativos](../using/manage-digital-rights-of-assets.md).
+>Somente os administradores podem baixar os ativos expirados. Para obter mais informações sobre ativos expirados, consulte [gerenciar direitos digitais dos ativos](../using/manage-digital-rights-of-assets.md).
 
 ### Definir configurações do grupo de usuários {#configure-user-group-settings}
 
-Além das **[!UICONTROL Configurações de download]**, os administradores do Brand Portal podem configurar ainda mais as configurações para diferentes grupos de usuários para visualizar e (ou) baixar os ativos originais e suas execuções.
+Além do **[!UICONTROL Configurações de download]**, os administradores do Brand Portal podem definir ainda mais as configurações de diferentes grupos de usuários para visualizar e (ou) baixar os ativos originais e suas execuções.
 
-Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Na página **[!UICONTROL Funções de usuário]**, navegue até a guia **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
+Faça logon no locatário do Brand Portal como administrador e acesse **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**. No **[!UICONTROL Funções do usuário]** navegue até a página **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -97,7 +97,7 @@ Faça logon no locatário do Brand Portal como administrador e navegue até **[!
 
 Com base na configuração, o fluxo de trabalho de download permanece constante para ativos autônomos, vários ativos, pastas contendo ativos, ativos licenciados ou não licenciados e download de ativos usando o link de compartilhamento.
 
-A matriz a seguir define se um usuário teria acesso às representações, dependendo das [configurações de download](#configure-download):
+A matriz a seguir define se um usuário teria acesso às representações, dependendo da variável [configurações de download](#configure-download):
 
 | **Configurações de download: Representações personalizadas** | **Configurações de download: Representações do sistema** | **Configurações do grupo de usuários: Baixar Original** | **Configurações do grupo de usuários: Fazer download de representações** | **Resultado** |
 |---|---|---|---|---|
@@ -122,7 +122,7 @@ Os usuários do Brand Portal podem baixar vários ativos, pastas que contêm ati
 >
 >Entre em contato com o administrador do Brand Portal se você não tiver permissão para acessar ou baixar as representações do ativo.
 
-Se o usuário tiver acesso a representações, ele receberá a caixa de diálogo aprimorada **[!UICONTROL Download]** com os seguintes recursos:
+Se o usuário tiver acesso a representações, o usuário receberá o **[!UICONTROL Baixar]** com os seguintes recursos:
 * Exibir todas as representações disponíveis de qualquer ativo na lista de download.
 * Exclua representações dos ativos que não são necessárias para download.
 * Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes em um clique.
@@ -134,87 +134,93 @@ Se o usuário tiver acesso a representações, ele receberá a caixa de diálogo
 
 >[!NOTE]
 >
->A caixa de diálogo **[!UICONTROL Download]** só aparecerá se **[!UICONTROL Representações Personalizadas]** e (ou) **[!UICONTROL Representações do Sistema]** estiver ativada nas **[!UICONTROL Definições de Transferência]**.
+>O **[!UICONTROL Baixar]** será exibida somente se **[!UICONTROL Representações personalizadas]** e (ou) **[!UICONTROL Representações do sistema]** está ativada no **[!UICONTROL Configurações de download]**.
 
 
 ### Etapas para baixar ativos {#bulk-download}
 
 Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da interface da Brand Portal:
 
-1. Faça logon no locatário do Brand Portal. Por padrão, a visualização **[!UICONTROL Arquivos]** é aberta e contém todos os ativos e pastas publicados.
+1. Faça logon no locatário do Brand Portal. Por padrão, a variável **[!UICONTROL Arquivos]** é aberta uma visualização que contém todos os ativos e pastas publicados.
 
    Faça uma das seguintes opções:
 
-   * Selecione os ativos ou pastas que deseja baixar. Na barra de ferramentas na parte superior, clique no ícone **[!UICONTROL Download]**.
+   * Selecione os ativos ou pastas que deseja baixar. Na barra de ferramentas na parte superior, clique no botão **[!UICONTROL Baixar]** ícone .
 
       ![selecionar vários ativos](assets/select-assets-new.png)
 
-   * Para baixar representações específicas de ativos de um ativo, passe o ponteiro do mouse sobre ele e clique no ícone **[!UICONTROL Download]** disponível nas miniaturas de ação rápida.
+   * Para baixar representações de ativos específicos de um ativo, passe o ponteiro do mouse sobre ele e clique no botão **[!UICONTROL Baixar]** ícone disponível nas miniaturas de ação rápida.
 
       ![select-asset](assets/select-asset.png)
 
 
       >[!NOTE]
       >
-      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará a instalação do Acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+      >Se você estiver baixando os ativos pela primeira vez e não tiver o IBM Aspera Connect instalado em seu navegador, ele solicitará que você instale o Acelerador de download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
       >[!NOTE]
       >
-      >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a página **[!UICONTROL Gerenciamento de direitos autorais]**. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.
+      >Se os ativos que você está baixando também incluírem ativos licenciados, você será redirecionado para a **[!UICONTROL Gerenciamento de direitos autorais]** página. Nesta página, selecione os ativos, clique em **[!UICONTROL Concordar]** e, em seguida, clique em **[!UICONTROL Baixar]**. Se você optar por discordar, os ativos licenciados não serão baixados.
       > 
-      >Os ativos protegidos por licença têm [contrato de licença anexado](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) a eles, o que é feito definindo a [propriedade de metadados](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) do ativo no Experience Manager Assets.
+      >Os ativos protegidos por licença têm [contrato de licença anexo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) para eles, o que é feito definindo o [propriedade de metadados](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) no Experience Manager Assets.
 
 
       ![ativo licenciado](assets/licensed-asset-new.png)
 
-1. A caixa de diálogo **[!UICONTROL Download]** listando todos os ativos selecionados é aberta.
+1. O **[!UICONTROL Baixar]** será exibida a lista de todos os ativos selecionados.
 
    Clique em qualquer ativo para exibir as representações disponíveis e marque as caixas de seleção correspondentes às representações que deseja baixar.
 
-   Você pode selecionar ou excluir manualmente as representações de ativos individuais, ou clicar no ícone **Aplicar** para selecionar o mesmo conjunto de representações para baixar tipos de ativos semelhantes (todos os arquivos de imagem neste exemplo). Na caixa de diálogo **[!UICONTROL Aplicar todos]**, clique em **[!UICONTROL Concluído]** para aplicar a regra a todos os ativos semelhantes.
+   Você pode selecionar ou excluir manualmente as representações de ativos individuais, ou clicar no botão **Aplicar** ícone para selecionar o mesmo conjunto de representações para baixar para tipos de ativos semelhantes (todos os arquivos de imagem neste exemplo). No **[!UICONTROL Aplicar tudo]** , clique em **[!UICONTROL Concluído]** para aplicar a regra a todos os ativos semelhantes.
 
    ![apply-all](assets/apply.png)
 
-   Você também pode remover um ativo da lista de download (se necessário) clicando no ícone **Remove**.
+   Também é possível remover um ativo da lista de download (se necessário), clicando em **Remover** ícone .
 
    ![remover](assets/remove.png)
 
-   Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, marque a caixa de seleção **[!UICONTROL Criar pasta separada para cada ativo]**.
+   Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, selecione a variável **[!UICONTROL Criar uma pasta separada para cada ativo]** caixa de seleção.
 
-   O botão de download reflete a contagem dos itens selecionados. Quando terminar de aplicar as regras, clique em **[!UICONTROL Baixar itens]**.
+   O botão de download reflete a contagem dos itens selecionados. Depois de concluir a aplicação das regras, clique em **[!UICONTROL Baixar itens]**.
 
    ![caixa de diálogo de download](assets/download-dialog-box-new.png)
 
-1. Por padrão, a configuração **[!UICONTROL Fast Download]** é ativada nas **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** somente) Os seguintes problemas conhecidos serão corrigidos na próxima versão:
+   >
+   >A caixa de diálogo de download lista as representações de recorte inteligente do ativo selecionado, no entanto, o usuário não pode baixar as representações de recorte inteligente.
 
-   Para continuar usando **[!UICONTROL Download Rápido]**, clique em **[!UICONTROL Permitir]**. Todas as representações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
+1. Por padrão, a variável **[!UICONTROL Download rápido]** está ativada na variável **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
 
-   Se não quiser usar o IBM Aspera Connect, clique em **[!UICONTROL Negar]**. Se **[!UICONTROL Fast Download]** for negado ou falhar, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
+   Para continuar usando **[!UICONTROL Download rápido]**, clique em **[!UICONTROL Permitir]**. Todas as representações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
+
+   Se não quiser usar o IBM Assimilar Connect, clique em **[!UICONTROL Negar]**. If **[!UICONTROL Download rápido]** for negado ou falhar, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
 
 >[!NOTE]
 >
->Se a configuração **[!UICONTROL Fast Download]** for desativada pelo administrador, as representações selecionadas serão baixadas diretamente em uma pasta zip sem usar o IBM Aspera Connect.
+>Se a variável **[!UICONTROL Download rápido]** for desativada pelo administrador, as representações selecionadas serão baixadas diretamente em uma pasta zip sem usar o IBM Aspera Connect.
 
 >[!NOTE]
 >
->Se a configuração **[!UICONTROL Download de ativo]** estiver ativada nas **[!UICONTROL Configurações de download]**, as representações de ativo serão baixadas em uma pasta separada para cada ativo dentro da pasta zip.
+>Se a variável **[!UICONTROL Download de ativos]** está ativada na variável **[!UICONTROL Configurações de download]**, as representações de ativos são baixadas em uma pasta separada para cada ativo dentro da pasta zip.
 >  
 >Se os ativos forem baixados de um link compartilhado, as representações de ativos serão baixadas em uma pasta separada para cada ativo dentro da pasta zip.
 >
->Se uma pasta, coleção ou mais de 20 ativos forem selecionados para download, a caixa de diálogo **[!UICONTROL Download]** será ignorada e todas as representações de ativos acessíveis ao usuário, excluindo as representações dinâmicas, serão baixadas em uma pasta zip.
+>Se uma pasta, coleção ou mais de 20 ativos forem selecionados para download, a variável **[!UICONTROL Baixar]** é ignorada e todas as representações de ativos acessíveis ao usuário, excluindo as representações dinâmicas, são baixadas em uma pasta zip.
 
 >[!NOTE]
 >
 >O Brand Portal suporta a configuração do Dynamic Media no modo Híbrido e Scene7.
 >
->(*Se a instância do autor do Experience Manager Assets estiver em execução em **Modo Dynamic Media Híbrido***)
+>(*Se a instância do autor do Experience Manager Assets estiver em execução em **Modo híbrido do Dynamic Media***)
 >
 >Para visualizar ou baixar representações dinâmicas de um ativo, verifique se a mídia dinâmica está ativada e se a representação tiff de Pirâmide do ativo existe na instância do autor do Experience Manager Assets de onde os ativos foram publicados. Quando um ativo é publicado do Experience Manager Assets para o Brand Portal, sua representação tiff em Pirâmide também é publicada.
 
 
 
-Se você não for [autorizado pelo administrador a ter acesso às representações originais](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), as representações originais dos ativos selecionados não serão baixadas.
+Se você não [autorizado pelo administrador a ter acesso às representações originais](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), as representações originais dos ativos selecionados não são baixadas.
 
 ![mensagem sem acesso](assets/no-access-message.png)
 
@@ -228,31 +234,39 @@ Se você não for [autorizado pelo administrador a ter acesso às representaçõ
 
 Além do fluxo de trabalho de download, há outro método de baixar as representações de ativos individuais diretamente da página de detalhes do ativo.
 
-Os usuários podem visualizar representações diferentes, selecionar representações específicas e baixá-las diretamente do painel **[!UICONTROL Representações]** na página Detalhes do ativo sem precisar abrir a caixa de diálogo **[!UICONTROL Download]**.
+Os usuários podem visualizar diferentes representações, selecionar representações específicas e baixá-las diretamente do **[!UICONTROL Representações]** na página de detalhes do ativo sem precisar abrir o **[!UICONTROL Baixar]** caixa de diálogo.
 
 
 A seguir estão as etapas para baixar representações de ativos na página de detalhes do ativo:
 
 1. Faça logon no locatário do Brand Portal e clique no ativo para abrir a página de detalhes do ativo.
-1. Clique no ícone de sobreposição à esquerda e em **[!UICONTROL Representações]**.
+1. Clique no ícone de sobreposição à esquerda e, em seguida, clique em **[!UICONTROL Representações]**.
 
    ![navegação de representação](assets/rendition-navigation.png)
 
-1. O painel **[!UICONTROL Representações]** lista todas as representações de ativos acessíveis com base nas [configurações de download do ativo](#configure-download).
+1. O **[!UICONTROL Representações]** lista todas as representações de ativos acessíveis com base no ativo [configurações de download](#configure-download).
 
    Selecione representações específicas que deseja baixar e clique em **[!UICONTROL Baixar itens]**.
 
    ![painel representações](assets/renditions-panel.png)
 
-1. Por padrão, a configuração **[!UICONTROL Fast Download]** é ativada nas **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** somente) Os seguintes problemas conhecidos serão corrigidos na próxima versão:
+   >
+   >O **[!UICONTROL Representações]** O painel não lista todas as representações estáticas dos ativos publicados no Brand Portal após 16 de dezembro de 2021.
+   >
+   >O **[!UICONTROL Representações]** O painel lista as representações de recorte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de recorte inteligente.
 
-   Para continuar usando **[!UICONTROL Download Rápido]**, clique em **[!UICONTROL Permitir]**. Todas as representações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
+1. Por padrão, a variável **[!UICONTROL Download rápido]** está ativada na variável **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
 
-   Se você negar usando **[!UICONTROL Fast Download]**, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
+   Para continuar usando **[!UICONTROL Download rápido]**, clique em **[!UICONTROL Permitir]**. Todas as representações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
+
+   Se você negar o uso de **[!UICONTROL Download rápido]**, o sistema preenche uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
 
 >[!NOTE]
 >
->Se a configuração **[!UICONTROL Fast Download]** for desativada pelo administrador, as representações selecionadas serão baixadas diretamente em uma pasta zip sem usar o IBM Aspera Connect.
+>Se a variável **[!UICONTROL Download rápido]** for desativada pelo administrador, as representações selecionadas serão baixadas diretamente em uma pasta zip sem usar o IBM Aspera Connect.
 
 
 >[!NOTE]
