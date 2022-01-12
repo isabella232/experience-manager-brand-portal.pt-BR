@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
 workflow-type: tm+mt
 source-wordcount: '2026'
 ht-degree: 3%
@@ -188,7 +188,7 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
    >[!CAUTION]
    >
-   >(**Experience Manager Assets as a Cloud Service** somente) Os seguintes problemas conhecidos serão corrigidos na próxima versão:
+   >(**Experience Manager Assets as a Cloud Service** somente) O seguinte problema conhecido será corrigido na próxima versão:
    >
    >A caixa de diálogo de download lista as representações de recorte inteligente do ativo selecionado, no entanto, o usuário não pode baixar as representações de recorte inteligente.
 
