@@ -8,7 +8,7 @@ breadcrumb-title: Guia do Brand Portal
 user-guide-description: Use o Experience Manager Assets Brand Portal para atender às necessidades de marketing, distribuindo com segurança os ativos de marca e produto aprovados a agências externas, parceiros, equipes internas e revendedores para download.
 feature: Brand Portal
 role: User
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 61%
@@ -21,12 +21,12 @@ ht-degree: 61%
 + [Guia do Brand Portal](using/home.md)
 + Introdução {#introduction}
    + [Visão geral](using/brand-portal.md)
-   + [Novidades do Experience Manager Assets Brand Portal](using/whats-new.md)
+   + [Novidades no Experience Manager Assets Brand Portal](using/whats-new.md)
    + [Notas de versão](using/brand-portal-release-notes.md)
    + [Perguntas frequentes ](using/brand-portal-faqs.md)
    + [Formatos de arquivo não suportados](using/brand-portal-supported-formats.md)
    + [Acesso de convidado ao Brand Portal](using/guest-access.md)
-   + [Noções básicas sobre o Brand Portal com o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Noções básicas do Brand Portal com o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Navegar por ativos no Brand Portal](using/browse-assets-brand-portal.md)
 + Publicar do Experience Manager Assets no Brand Portal {#publish}
    + [Configurar o Experience Manager Assets com o Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -48,7 +48,7 @@ ht-degree: 61%
    + [Buscar ativos no Brand Portal](using/brand-portal-searching.md)
    + [Usar facetas de busca personalizada](using/brand-portal-search-facets.md)
 + Usar recursos de download {#download}
-   + [Baixar ativos](using/brand-portal-download-assets.md)
+   + [Baixar ativos](using/download-assets.md)
    + [Suporte a vídeo dinâmico no Brand Portal](using/dynamic-video-brand-portal.md)
    + [Gerenciar a coleção lightbox](using/brand-portal-light-box.md)
    + [Gerenciar direitos digitais dos ativos](using/manage-digital-rights-of-assets.md)
