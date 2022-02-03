@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 3%
+source-wordcount: '1924'
+ht-degree: 4%
 
 ---
 
@@ -123,6 +123,7 @@ Os usuários do Brand Portal podem baixar vários ativos, pastas que contêm ati
 >Entre em contato com o administrador do Brand Portal se você não tiver permissão para acessar ou baixar as representações do ativo.
 
 Se o usuário tiver acesso a representações, o usuário receberá o **[!UICONTROL Baixar]** com os seguintes recursos:
+
 * Exibir todas as representações disponíveis de qualquer ativo na lista de download.
 * Exclua representações dos ativos que não são necessárias para download.
 * Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes em um clique.
@@ -186,17 +187,19 @@ Veja a seguir as etapas para baixar ativos ou pastas que contêm ativos da inter
 
    ![caixa de diálogo de download](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** somente) O seguinte problema conhecido será corrigido na próxima versão:
-   >
-   >A caixa de diálogo de download lista as representações de recorte inteligente do ativo selecionado, no entanto, o usuário não pode baixar as representações de recorte inteligente.
-
 1. Por padrão, a variável **[!UICONTROL Download rápido]** está ativada na variável **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
 
    Para continuar usando **[!UICONTROL Download rápido]**, clique em **[!UICONTROL Permitir]**. Todas as representações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
 
    Se não quiser usar o IBM Assimilar Connect, clique em **[!UICONTROL Negar]**. If **[!UICONTROL Download rápido]** for negado ou falhar, o sistema preencherá uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ A seguir estão as etapas para baixar representações de ativos na página de d
 
    ![painel representações](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** somente) Os seguintes problemas conhecidos serão corrigidos na próxima versão:
-   >
-   >O **[!UICONTROL Representações]** O painel não lista todas as representações estáticas dos ativos publicados no Brand Portal após 16 de dezembro de 2021.
-   >
-   >O **[!UICONTROL Representações]** O painel lista as representações de recorte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de recorte inteligente.
 
 1. Por padrão, a variável **[!UICONTROL Download rápido]** está ativada na variável **[!UICONTROL Configurações de download]**. Portanto, uma caixa de confirmação é exibida para permitir o download acelerado usando o IBM Aspera Connect.
 
    Para continuar usando **[!UICONTROL Download rápido]**, clique em **[!UICONTROL Permitir]**. Todas as representações selecionadas são baixadas em uma pasta zip usando o IBM Aspera Connect.
 
    Se você negar o uso de **[!UICONTROL Download rápido]**, o sistema preenche uma mensagem de erro. Clique no botão **[!UICONTROL Download normal]** para continuar baixando os ativos.
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >

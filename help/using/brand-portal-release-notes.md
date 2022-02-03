@@ -1,8 +1,8 @@
 ---
 title: Notas de versão
 seo-title: Release Notes
-description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2021.10.0 do Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2022.02.0 do Adobe Experience Manager Assets Brand Portal.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 12%
+source-wordcount: '537'
+ht-degree: 9%
 
 ---
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2021.10.0 do Adobe Experience Manager Assets Brand Portal.
+Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2022.02.0 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
 | Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versão | 2021.10.0 |
-| Data | Outubro de 2021 |
+| Versão | 2022.02.0 |
+| Data | Fevereiro de 2022 |
 
 ## Visão geral {#overview}
 
 O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos aprovados pela empresa, a qualquer hora e em qualquer lugar.
 
-## Novidades da versão 2021.10.0 {#whats-new-in-2021.10.0}
+## Novidades da versão 2022.02.0 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 Esta versão inclui correções para os seguintes problemas críticos:
 
-* Os ativos de uma pasta de contribuição do mesmo tamanho não são publicados do Brand Portal para o Experience Manager Assets.
-* Quando uma pasta de contribuição de ativos não é publicada, o tamanho da pasta de contribuição não é reduzido.
-* Os usuários não podem remover o perfil de esquema de metadados aplicado de uma pasta.
-* A contagem de grupos na página de permissões do usuário está incorreta.
-* A página de coleções demora muito para navegar pela lista.
+* Os usuários não podem pesquisar, navegar ou abrir pastas. A interface do usuário reflete a mensagem de erro: `Failed to load data`.
+* O **[!UICONTROL Representações]** O painel não lista todas as representações estáticas dos ativos publicados no Brand Portal.
+* O **[!UICONTROL Representações]** O painel lista as representações de recorte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de recorte inteligente.
+* A caixa de diálogo de download lista as representações de recorte inteligente do ativo selecionado, no entanto, o usuário não pode baixar as representações de recorte inteligente.
+* Um usuário não administrador está obtendo apenas a representação do ativo original ao baixar um ativo. O sistema e as representações personalizadas não são baixadas.
+* Ao aplicar filtro de pesquisa para baixar um ativo, a variável `Download` estiver desativado na caixa de diálogo de download e não permitir que o usuário baixe o ativo.
+* If `Smart Tags` e (ou) `Color Tags` estiverem ativadas, a caixa de diálogo de download listará as variáveis `json` arquivos como representações e downloads `json` arquivos na pasta zip arquivada.
+* Os usuários anônimos não podem baixar ativos usando um link compartilhado porque o link redireciona para a página de logon da Brand Portal.
+* O sistema não está refletindo o valor correto para o número de usuários simultâneos ativos.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ Esta versão inclui os seguintes problemas conhecidos:
    No entanto, os usuários ativos que estão conectados ao Brand Portal podem continuar trabalhando até que a sessão atual expire.
 
 * Ao navegar do Brand Portal para o Admin Console, os administradores podem ver uma tela extra para selecionar a organização.
+
+* If `Color Tags` estiverem ativadas e o usuário fizer o download de uma pasta ou coleção, uma `xml` é baixado para cada ativo da pasta (ou coleção) na pasta zip arquivada.
 
 
 <!--
@@ -204,7 +211,7 @@ A interface do usuário do Brand Portal está disponível nos seguintes idiomas:
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para determinar quais plataformas são certificadas para execução com esta versão do Brand Portal, consulte a coluna **Suporte para interface otimizada para toque** na tabela na seção **Navegadores suportados para criação de interface de usuário** de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Para verificar quais plataformas são certificadas para execução com esta versão do Brand Portal, consulte **Suporte para interface otimizada para toque** na tabela na **Navegadores compatíveis para criação de interface de usuário** seção de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Links {#links}
 
