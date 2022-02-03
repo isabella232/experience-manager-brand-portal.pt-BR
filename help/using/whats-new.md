@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '6316'
 ht-degree: 1%
@@ -184,14 +184,14 @@ O Brand Portal 2020.10.0 é uma versão aprimorada que tem como foco simplificar
 
 Anteriormente, a variável **[!UICONTROL Baixar]** apareceu com várias opções, como criar uma pasta separada para cada ativo, ativo de email, selecionar ativo original, representações personalizadas, representações dinâmicas, excluir representações do sistema e ativar a aceleração de download, que eram ambíguas a usuários não técnicos ou novos, especialmente quando vários ativos ou pastas foram selecionados para download. Além disso, o usuário não pôde ver todas as representações de ativos ou excluir uma representação personalizada ou dinâmica específica.
 
-O novo **[!UICONTROL Baixar]** O diálogo generaliza o processo de seleção e filtragem de ativos, o que facilita que os usuários do Brand Portal tomem decisões eficazes ao baixar as representações de ativos. Ela lista todos os ativos selecionados e suas representações, dependendo do [**[!UICONTROL Baixar]**](download-assets.md) configuração e **[!UICONTROL Baixar]** configurações.
+O novo **[!UICONTROL Baixar]** O diálogo generaliza o processo de seleção e filtragem de ativos, o que facilita que os usuários do Brand Portal tomem decisões eficazes ao baixar as representações de ativos. Ela lista todos os ativos selecionados e suas representações, dependendo do [**[!UICONTROL Baixar]**](brand-portal-download-assets.md) configuração e **[!UICONTROL Baixar]** configurações.
 
 >[!NOTE]
 >
 >Todos os usuários agora têm **[!UICONTROL Download rápido]** habilitado por padrão e requer o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) instalado na extensão do navegador antes de baixar os ativos do Brand Portal.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 No **[!UICONTROL Baixar]** , os usuários podem:
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e diretamente [baixar as representações selecionadas no painel Representações](download-assets.md#download-assets-from-asset-details-page) na página de detalhes do ativo sem precisar abrir o **[!UICONTROL Baixar]** caixa de diálogo.
+No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e diretamente [baixar as representações selecionadas no painel Representações](brand-portal-download-assets.md#download-assets-from-asset-details-page) na página de detalhes do ativo sem precisar abrir o **[!UICONTROL Baixar]** caixa de diálogo.
 
 
 <!-- 
@@ -294,7 +294,7 @@ Com o Visualizador de documentos, os usuários do Brand Portal agora têm as op�
 
 ### Baixar experiência {#download-configurations}
 
-O processo de download de ativos é remodelado, fornecendo uma experiência simplificada ao usuário enquanto [download de ativos do Brand Portal](download-assets.md).
+O processo de download de ativos é remodelado, fornecendo uma experiência simplificada ao usuário enquanto [download de ativos do Brand Portal](brand-portal-download-assets.md).
 
 O fluxo de trabalho existente de download de ativos do Brand Portal é inevitavelmente seguido pela aparência de um  **[!UICONTROL Baixar]** com várias opções de download para escolher.
 

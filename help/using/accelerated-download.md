@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
@@ -90,7 +90,7 @@ Para baixar ativos mais rapidamente da Brand Portal:
 
    Para preservar a hierarquia de pastas do Brand Portal ao baixar ativos, selecione a variável **[!UICONTROL Criar uma pasta separada para cada ativo]** caixa de seleção.
 
-   O botão de download reflete a contagem dos itens selecionados. Depois de concluir a aplicação das regras, clique em **[!UICONTROL Baixar itens]**. Para saber mais sobre como aplicar regras, consulte [baixar ativos](../using/download-assets.md#download-assets).
+   O botão de download reflete a contagem dos itens selecionados. Depois de concluir a aplicação das regras, clique em **[!UICONTROL Baixar itens]**. Para saber mais sobre como aplicar regras, consulte [baixar ativos](../using/brand-portal-download-assets.md#download-assets).
 
    ![caixa de diálogo de download](assets/download-dialog-box-new.png)
 

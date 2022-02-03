@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 7%
@@ -83,7 +83,7 @@ No entanto, a sessão de convidado impede que você crie coleções e pesquisas 
 
 * [Pesquisar ativos públicos](brand-portal-searching.md)
 
-* [Baixar ativos públicos](download-assets.md)
+* [Baixar ativos públicos](brand-portal-download-assets.md)
 
 * [Adicionar ativos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ Um usuário padrão no Brand Portal normalmente é um usuário com a função de
 
 * [Pesquisar por ativos](brand-portal-searching.md)
 
-* [Baixar ativos](download-assets.md)
+* [Baixar ativos](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
