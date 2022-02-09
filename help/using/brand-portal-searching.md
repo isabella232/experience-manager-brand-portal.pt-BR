@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 7%
+source-wordcount: '1225'
+ht-degree: 6%
 
 ---
 
 # Buscar ativos no Brand Portal {#search-assets-on-brand-portal}
 
-O recurso de pesquisa do Brand Portal permite pesquisar rapidamente ativos relevantes usando o omnisearch e a pesquisa de faceta que usa filtros para ajudá-lo a restringir ainda mais sua pesquisa. Você pode pesquisar ativos em arquivos ou pastas e salvar seus resultados de pesquisa como coleções inteligentes. No entanto, não é possível pesquisar ativos de uma coleção usando pesquisa omnisearch ou facet.
+O recurso de pesquisa do Brand Portal permite pesquisar rapidamente ativos relevantes usando o omnisearch e a pesquisa de faceta que usa filtros para ajudá-lo a restringir ainda mais sua pesquisa. Você pode pesquisar ativos em arquivos ou pastas e salvar seus resultados de pesquisa como coleções inteligentes.
+
+>[!NOTE]
+>
+>O Brand Portal não oferece suporte à Pesquisa de coleção usando o omnisearch.
+>
+>No entanto, é possível usar [pesquise filtros para obter a lista de coleções relevantes](#search-collection).
 
 ## Pesquisar ativos usando o Omnisearch {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Para salvar as configurações de pesquisa como uma coleção inteligente:
 1. No **[!UICONTROL Editar coleção inteligente]** caixa de diálogo, selecione **[!UICONTROL Salvar como]** e insira um nome para a coleção inteligente. Clique em **[!UICONTROL Salvar]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Coleção de pesquisa {#search-collection}
+
+Omnisearch não é compatível com coleções. No entanto, você pode aplicar filtros de pesquisa para listar as coleções relevantes no [!UICONTROL Coleções] interface.
+
+No [!UICONTROL Coleções] , clique no ícone de sobreposição para abrir o painel de filtro no painel esquerdo. Aplique filtros de pesquisa únicos ou múltiplos dos filtros disponíveis (`modified date`, `access type`e `tags`). Ele lista o conjunto mais relevante de coleções com base nos filtros aplicados.
+
+![](assets/collection-search.png)
