@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
+source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1585'
 ht-degree: 6%
 
 ---
@@ -73,9 +73,9 @@ A tabela a seguir lista as tarefas que os usuários nessas funções podem reali
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Usuário convidado {#guest-user}
+### Usuário convidado (usuário leve) {#guest-user}
 
-Qualquer usuário que tenha acesso limitado a ativos no Brand Portal sem passar pela autenticação é um usuário convidado. A sessão de convidado permite que os usuários acessem pastas e coleções públicas. Como usuário convidado, você pode navegar pelos detalhes do ativo e ter uma visualização completa do ativo de membros de pastas e coleções públicas. Você pode pesquisar, baixar e adicionar ativos públicos ao [!UICONTROL Lightbox] coleção.
+O Experience Manager Assets Brand Portal permite [acesso de convidado](#request-access-to-brand-portal) para o Brand Portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso às pastas e coleções públicas. Como usuário convidado, você pode navegar pelos detalhes do ativo e ter uma visualização completa do ativo de membros de pastas e coleções públicas. Você pode pesquisar, baixar e adicionar ativos públicos ao [!UICONTROL Lightbox] coleção.
 
 No entanto, a sessão de convidado impede que você crie coleções e pesquisas salvas e as compartilhe mais. Os usuários em uma sessão de convidado não podem acessar as configurações de pasta e coleção e não podem compartilhar ativos como link. Esta é uma lista de tarefas que um usuário convidado pode executar:
 
@@ -87,9 +87,11 @@ No entanto, a sessão de convidado impede que você crie coleções e pesquisas 
 
 * [Adicionar ativos a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-### Visualizador {#viewer}
+Para obter mais informações, consulte [acesso de convidado ao Brand Portal](../using/guest-access.md).
 
-Um usuário padrão no Brand Portal normalmente é um usuário com a função de Visualizador. Um usuário com essa função pode acessar pastas, coleções e ativos permitidos. O usuário também pode navegar, visualizar, baixar e exportar ativos (representações originais ou específicas), definir configurações da conta e procurar ativos. Esta é uma lista de tarefas que um Visualizador pode executar:
+### Visualizador (usuário padrão) {#viewer}
+
+Um usuário padrão é um usuário do Brand Portal definido em [!DNL Admin Console] que tem acesso ao Brand Portal com a função de Visualizador. Um usuário com essa função pode fazer logon no Brand Portal e acessar pastas, coleções e ativos permitidos. O usuário também pode navegar, visualizar, baixar e exportar ativos (representações originais ou específicas), definir configurações da conta e procurar ativos. Esta é uma lista de tarefas que um Visualizador pode executar:
 
 * [Procurar ativos](browse-assets-brand-portal.md)
 
