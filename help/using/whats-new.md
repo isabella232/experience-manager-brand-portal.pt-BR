@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '6316'
+source-wordcount: '6325'
 ht-degree: 1%
 
 ---
@@ -317,7 +317,7 @@ Com base na configuração, o fluxo de trabalho de download permanece constante 
 
 ## O que mudou na 6.4.6 {#what-changed-in-646}
 
-No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Portal é alterado. O Brand Portal agora é compatível com o AEM Assets as a Cloud Service, AEM Assets 6.3 e superior. No AEM Assets 6.3 e superior, a Brand Portal foi configurada anteriormente na interface clássica por meio do Gateway OAuth herdado, que usa a troca de token JWT para obter um token de Acesso IMS para autorização. Agora, o AEM Assets é configurado com o Brand Portal por meio do Console do desenvolvedor do Adobe, que obtém um token IMS para autorização do locatário do Brand Portal.
+No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Portal é alterado. O Brand Portal agora é compatível com o AEM Assets as a Cloud Service, AEM Assets 6.3 e superior. No AEM Assets 6.3 e superior, a Brand Portal foi configurada anteriormente na interface clássica por meio do Gateway OAuth herdado, que usa a troca de token JWT para obter um token de Acesso IMS para autorização. Agora, o AEM Assets é configurado com o Brand Portal por meio do Console do Adobe Developer, que obtém um token IMS para autorização do locatário do Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -389,7 +389,10 @@ Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usu�
 
 ### Fazer upload de ativos para a pasta de contribuição {#upload-assets-in-bp}
 
-Os usuários da Brand Portal com permissões apropriadas podem baixar os requisitos de ativos para entender a necessidade de contribuição e fazer upload de vários ativos ou pastas contendo vários ativos para a pasta de contribuição. No entanto, observe que os usuários do Brand Portal só podem fazer upload de ativos para o **NOVO** subpasta. O **COMPARTILHADO** destina-se à distribuição de requisitos e ativos de linha de base.
+Os usuários da Brand Portal com permissões apropriadas podem fazer upload de ativos individuais ou pastas (arquivo .zip) contendo vários ativos para a pasta de contribuição. Um usuário pode fazer upload de vários ativos para uma pasta de contribuição de ativos. No entanto, apenas uma pasta pode ser criada de cada vez.
+
+Os usuários da Brand Portal só podem fazer upload de ativos para a **NOVO** subpasta. O **COMPARTILHADO** destina-se à distribuição de requisitos e ativos de linha de base.
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,19 +429,19 @@ Por exemplo, se o formulário de pesquisa no Brand Portal usar o Predicado de pr
 
 #### Pesquisa curinga {#wildcard-search}
 
-O Brand Portal permite usar o asterisco (*) na consulta de pesquisa, juntamente com uma parte da palavra na frase pesquisada.
+O Brand Portal permite usar o asterisco (&#42;) na consulta de pesquisa, juntamente com uma parte da palavra na frase pesquisada.
 
 **Caso de uso. Se não tiver certeza das palavras exatas que ocorrem na frase pesquisada, você pode usar uma pesquisa curinga para preencher as lacunas em sua consulta de pesquisa.
 
-Por exemplo, especificar **subida*** retorna todos os ativos com palavras começando com os caracteres **subida** na frase de título, se o formulário de pesquisa no Brand Portal usar o Predicado de propriedade para pesquisa parcial no título dos ativos.
+Por exemplo, especificar **subida&#42;** retorna todos os ativos com palavras começando com os caracteres **subida** na frase de título, se o formulário de pesquisa no Brand Portal usar o Predicado de propriedade para pesquisa parcial no título dos ativos.
 
 ![](assets/wildcard-prop.png)
 
 Da mesma forma, especificando:
 
-* ***subida** retorna todos os ativos que têm palavras que terminam com caracteres **subida** na frase do título.
+* **&#42;subida** retorna todos os ativos que têm palavras que terminam com caracteres **subida** na frase do título.
 
-* ***subida*** retorna todos os ativos com palavras que incluem os caracteres **subida** na frase do título.
+* **&#42;subida&#42;** retorna todos os ativos com palavras que incluem os caracteres **subida** na frase do título.
 
 >[!NOTE]
 >

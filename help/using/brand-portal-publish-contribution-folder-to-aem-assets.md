@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Analise o resumo (documento de requisito de ativo) e consulte os ativos da linha
 
 ## Fazer upload de ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
 
-Após verificar os requisitos de ativos, os usuários do Brand Portal podem criar novos ativos para contribuição e carregá-los na pasta NOVA na pasta de contribuição.
+Após verificar os requisitos de ativos, os usuários do Brand Portal podem criar novos ativos para contribuição e carregá-los na pasta NOVA na pasta de contribuição. Um usuário pode fazer upload de vários ativos para uma pasta de contribuição de ativos. No entanto, apenas uma pasta pode ser criada de cada vez.
 
 >[!NOTE]
 >
