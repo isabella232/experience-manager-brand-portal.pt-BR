@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -113,7 +113,11 @@ Além das tarefas que um Visualizador pode executar, um Editor pode executar as 
 
 Um administrador inclui um usuário marcado como administrador de sistema ou administrador de produto da Brand Portal em [!UICONTROL Admin Console]. Um administrador pode adicionar e remover administradores e usuários do sistema, definir predefinições, enviar emails para usuários e exibir relatórios de uso e armazenamento do portal.
 
-Um administrador pode executar todas as tarefas que um Editor pode realizar as seguintes tarefas adicionais:
+>[!NOTE]
+>
+>No Brand Portal, um usuário marcado com a função de administrador de suporte no [!UICONTROL Admin Console] tem os mesmos privilégios de um administrador de sistema.
+
+Um administrador pode executar todas as tarefas que um Editor pode executar. Veja a seguir as tarefas adicionais que um administrador pode executar:
 
 * [Gerenciar usuários, grupos e cargos de usuários](brand-portal-adding-users.md)
 
@@ -229,7 +233,7 @@ Antes da Brand Portal ser agendada para manutenção, uma notificação é exibi
 
 * [Novidades](whats-new.md)
 * [Notas de versão](brand-portal-release-notes.md)
-* [Formatos de arquivo não suportados](brand-portal-supported-formats.md)
+* [Formatos de arquivo não compatíveis](brand-portal-supported-formats.md)
 
 ## Recursos relacionados {#related-resources}
 
