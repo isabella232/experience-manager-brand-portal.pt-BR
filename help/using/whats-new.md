@@ -1,8 +1,8 @@
 ---
 title: Novidades no Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e aprimoramentos da versão 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Quais são os novos recursos e aprimoramentos da versão 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
+source-wordcount: '6482'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 1%
 # Novidades no Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 A Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja a seguir os novos recursos e aprimoramentos.
+
+## O que mudou em 2022.05.0 {#what-changed-in-May-2022}
+
+O Brand Portal agora executa trabalhos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir os ativos na pasta Contribuição manualmente para manter o tamanho da pasta abaixo do limite. Você também pode monitorar o status das tarefas de exclusão executadas automaticamente usando a variável **[!UICONTROL Ferramentas]** > **[!UICONTROL Status da contribuição de ativos]** > **[!UICONTROL Relatórios de exclusão]** no Brand Portal. O relatório de uma tarefa fornece os seguintes detalhes:
+
+* Hora de início da tarefa
+* Hora de término da tarefa
+* Status da tarefa
+* Total dos ativos incluídos numa tarefa
+* Total de ativos excluídos com êxito em uma tarefa.
+
+![Relatório de exclusão](assets/deletion-reports.png)
+
+Também é possível fazer uma busca detalhada para exibir os detalhes de cada ativo incluído em um job de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório.
+
+![Relatório de Exclusão Detalhado](assets/deletion-reports-detailed.png)
+
+Além disso, o Brand Portal 2022.05.0 inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+
 
 ## O que mudou em 2022.02.0 {#what-changed-in-Feb-2022}
 
