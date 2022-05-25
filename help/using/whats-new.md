@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6482'
+source-wordcount: '6493'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,8 @@ O Brand Portal agora executa trabalhos automáticos a cada doze horas para exclu
 * Hora de término da tarefa
 * Status da tarefa
 * Total dos ativos incluídos numa tarefa
-* Total de ativos excluídos com êxito em uma tarefa.
+* Total de ativos excluídos com êxito em uma tarefa
+* Armazenamento total disponibilizado como resultado da execução do trabalho
 
 ![Relatório de exclusão](assets/deletion-reports.png)
 
@@ -138,7 +139,7 @@ O Brand Portal 2021.02.0 é uma versão de aprimoramento que inclui o fluxo de t
 
 O AEM Assets as a Cloud Service agora está qualificado para ter uma instância pré-configurada do Brand Portal. O usuário do Cloud Manager pode ativar o Brand Portal na instância as a Cloud Service do AEM Assets.
 
-Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Console do Desenvolvedor do Adobe.
+Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Adobe Developer Console.
 
 O usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância do AEM Assets as a Cloud Service.
 

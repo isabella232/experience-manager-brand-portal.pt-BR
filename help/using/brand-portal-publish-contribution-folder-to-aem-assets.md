@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Ou você pode abrir o **[!UICONTROL COMPARTILHADO]** e clique no botão **Baixar
 Analise o resumo (documento de requisito de ativo) e consulte os ativos da linha de base para entender os requisitos de ativos. Agora, você pode criar novos ativos para contribuição e carregá-los na pasta de contribuição.
 
 
-## Fazer upload de ativos para a pasta de contribuição {#uplad-new-assets-to-contribution-folder}
+## Fazer upload de ativos para a pasta de contribuição {#upload-new-assets-to-contribution-folder}
 
 Após verificar os requisitos de ativos, os usuários do Brand Portal podem criar novos ativos para contribuição e carregá-los na pasta NOVA na pasta de contribuição. Um usuário pode fazer upload de vários ativos para uma pasta de contribuição de ativos. No entanto, apenas uma pasta pode ser criada de cada vez.
 
@@ -138,7 +138,7 @@ Há dois relatórios que os administradores podem utilizar para visualizar o sta
 
 * No Brand Portal, navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Status da contribuição de ativos]**. Este relatório reflete o status de todos os trabalhos de publicação em estágios diferentes do fluxo de trabalho de publicação.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * No Experience Manager Assets (no local ou serviço gerenciado), navegue até **[!UICONTROL Ativos]** > **[!UICONTROL Tarefas]**. Este relatório reflete o estado final (Sucesso ou Erro) de todos os trabalhos de publicação.
 
@@ -157,3 +157,58 @@ Há dois relatórios que os administradores podem utilizar para visualizar o sta
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Exclusão automática de ativos publicados na Experience Manager Assets na pasta Contribuição {#automatically-delete-published-assets-from-contribution-folder}
+
+A Brand Portal agora executa trabalhos automáticos a cada doze horas para verificar todas as pastas de Contribuição e excluir todos os ativos publicados no AEM. Como resultado, não é necessário excluir os ativos na pasta Contribuição manualmente para manter o tamanho da pasta abaixo do [limite](#upload-new-assets-to-contribution-folder). Você também pode monitorar o status dos trabalhos de exclusão executados automaticamente nos últimos sete dias. O relatório de uma tarefa fornece os seguintes detalhes:
+
+* Hora de início da tarefa
+* Hora de término da tarefa
+* Status da tarefa
+* Total dos ativos incluídos numa tarefa
+* Total de ativos excluídos com êxito em uma tarefa
+* Armazenamento total disponibilizado como resultado da execução do trabalho
+
+   ![Relatório de exclusão](assets/deletion-reports.png)
+
+Também é possível fazer uma busca detalhada para exibir os detalhes de cada ativo incluído em um job de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório.
+
+![Relatório de Exclusão Detalhado](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Os clientes podem solicitar que o Suporte ao cliente do Adobe desative e reative o recurso de exclusão automática de trabalho ou altere a frequência de execução.
+> * Este recurso está disponível com o Experience Manager 6.5.13.0 e versões posteriores.
+
+
+### Exibir e baixar relatórios de exclusão {#view-delete-jobs}
+
+Para exibir e baixar relatórios para um trabalho de exclusão:
+
+1. No Brand Portal, navegue até **[!UICONTROL Ferramentas]**>**[!UICONTROL Status da contribuição de ativos]**>**[!UICONTROL Relatórios de exclusão]** opção.
+
+1. Selecione um trabalho e clique em **[!UICONTROL Exibir]** para visualizar o relatório.
+
+   Exibir os detalhes de cada ativo incluído em um job de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório. Clique em **[!UICONTROL Baixar]** para baixar o relatório da tarefa no formato CSV.
+
+   O status de exclusão de um ativo no relatório pode ter os seguintes valores possíveis:
+
+   * **Excluído** - O ativo é excluído da pasta Contribuição com êxito.
+
+   * **Não encontrado** - A Brand Portal não pôde localizar o ativo na pasta Contribuição. O ativo já é excluído da pasta manualmente.
+
+   * **Ignorado** - A Brand Portal ignorou a exclusão do ativo, pois há uma nova versão disponível para o ativo na pasta Contribuição, que ainda não foi publicada no Experience Manager.
+
+   * **Falha** - O Brand Portal não pôde excluir o ativo. Há três tentativas de excluir um ativo com um `Failed` excluir status. Se o ativo falhar na terceira tentativa de exclusão, será necessário excluir o ativo manualmente.
+
+### Excluir um relatório
+
+O Brand Portal também permite selecionar um ou vários relatórios e excluí-los manualmente.
+
+Para excluir um relatório:
+
+1. Navegar para **[!UICONTROL Ferramentas]**>**[!UICONTROL Status da contribuição de ativos]**>**[!UICONTROL Relatórios de exclusão]** opção.
+
+1. Selecione um ou mais relatórios e clique em **[!UICONTROL Excluir]**.
+
+
