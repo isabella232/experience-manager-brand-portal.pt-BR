@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.pt-BR
+git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.pt-BR
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
