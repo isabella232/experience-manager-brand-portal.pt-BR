@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 15%
 
 ---
@@ -37,7 +37,8 @@ O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, con
 ### Problemas críticos corrigidos {#critical-issues-fixed}
 
 Esta versão inclui correções para os seguintes problemas críticos:
-* Quando o NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
+
+* Quando o Asset compute não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
 * Quando a ação de visualização falhar, não há notificação para comunicar a falha.
 * A propriedade Cota de Upload de Locatário está sendo definida com imprecisão para locatários.
 * Ao clicar em **Baixar todos os itens** e há um grande número de representações disponíveis para um ativo, o Brand Portal baixa um arquivo .ZIP inválido.
