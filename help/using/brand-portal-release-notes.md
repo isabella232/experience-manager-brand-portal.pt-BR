@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 13%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2022.05.0 do Adobe Experience Manager Assets Brand Portal.
+Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2022.08.0 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
 | Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versão | 2022.05.0 |
-| Data | Maio de 2022 |
+| Versão | 2022.08.0 |
+| Data | Agosto de 2022 |
 
 ## Visão geral {#overview}
 
 O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos aprovados pela empresa, a qualquer hora e em qualquer lugar.
 
-## Novidades da versão 2022.05.0 {#whats-new-in-2022.05.0}
+## Novidades da versão 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Problemas críticos corrigidos {#critical-issues-fixed}
+
+Esta versão inclui correções para os seguintes problemas críticos:
+* Quando o NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
+* Quando a ação de visualização falhar, não há notificação para comunicar a falha.
+* A propriedade Cota de Upload de Locatário está sendo definida com imprecisão para locatários.
+* Ao clicar em **Baixar todos os itens** e há um grande número de representações disponíveis para um ativo, o Brand Portal baixa um arquivo .ZIP inválido.
+* A tradução de algumas cadeias de caracteres é truncada na interface do usuário do Brand Portal.
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### Novos recursos {#new-features}
+<!--
+### New features {#new-features}
 
-O Brand Portal agora executa trabalhos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir os ativos na pasta Contribuição manualmente para manter o tamanho da pasta abaixo do limite. Consulte [Novidades no Experience Manager Assets Brand Portal](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### Problemas críticos corrigidos {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-Esta versão inclui correções para os seguintes problemas críticos:
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* Ao baixar uma pasta ou coleção que inclui ativos com tags de cores, um arquivo XML também é baixado.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* Ao baixar um vídeo que inclui representações, o Brand Portal cria um arquivo .ZIP inválido.
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* Ao criar predefinições e ativos AEM criá-los e publicá-los no Brand Portal e selecionar representações dinâmicas ao baixar os ativos, não é possível extrair os ativos baixados. Arquivo ZIP.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Problemas ao baixar ativos de vídeo de determinadas pastas disponíveis no Brand Portal.
-
-* Quando você compartilha o URL da pasta Contribuição usando um email, as funções do Visualizador e do Editor enfrentam problemas ao acessar sua pasta pai usando a navegação estrutural.
-
-* A origem do relatório publicado exibe um horário de início de trabalho incorreto.
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Esta versão inclui o seguinte problema conhecido:
 
-* Localização parcial no conteúdo do relatório de origem do ativo.
+* Localização parcial no conteúdo do relatório de origem do ativo
 
 
 <!--
