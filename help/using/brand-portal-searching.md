@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
+source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 6%
+source-wordcount: '1254'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ Para saber mais sobre o comportamento de pesquisa com ativos marcados inteligent
 
 Os aspectos de pesquisa no painel Filtros adicionam granularidade à sua experiência de pesquisa e tornam a funcionalidade de pesquisa eficiente. Os aspectos de pesquisa usam várias dimensões (predicados) que permitem executar pesquisas complexas. Você pode detalhar facilmente até o nível de detalhes desejado para uma pesquisa mais focada.
 
-Por exemplo, se estiver procurando uma imagem, você pode escolher se deseja um bitmap ou uma imagem vetorial. Você pode reduzir ainda mais o escopo da pesquisa especificando o tipo MIME da imagem na faceta de pesquisa Tipo de arquivo . Da mesma forma, ao pesquisar documentos, é possível especificar o formato, por exemplo, PDF ou MS Word.
+Por exemplo, se estiver procurando uma imagem, você pode escolher se deseja um bitmap ou uma imagem vetorial. Você pode reduzir ainda mais o escopo da pesquisa especificando o tipo MIME da imagem na faceta de pesquisa Tipo de arquivo . Da mesma forma, ao procurar documentos, você pode especificar o formato, por exemplo, PDF ou MS® Word.
 
 ![Painel Filtros no Brand Portal](assets/file-type-search.png "Painel Filtros no Brand Portal")
 
@@ -76,7 +76,7 @@ Por exemplo, use os seguintes filtros padrão:
    >Para usuários não administradores, [!UICONTROL Navegador de caminhos] em [!UICONTROL Filtro] mostra somente a estrutura de conteúdo das pastas (e suas pastas ancestrais) compartilhadas com elas.\
    >Para administradores de usuários, o Navegador de caminhos permite navegar para qualquer pasta no Brand Portal.
 
-   * **[!UICONTROL Tipo de arquivo]** para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativos que você está procurando. Além disso, você pode limitar o escopo de sua pesquisa, por exemplo, especificar o tipo MIME (Tiff, Bitmap, GIMP Images) para imagem ou formato (PDF ou MS Word) para os documentos.
+   * **[!UICONTROL Tipo de arquivo]** para especificar o tipo (imagem, documento, multimídia, arquivo) do arquivo de ativos que você está procurando. Além disso, você pode limitar o escopo de sua pesquisa, por exemplo, especificar o tipo MIME (Tiff, Bitmap, GIMP Images) para imagem ou formato (PDF ou MS® Word) para os documentos.
    * **[!UICONTROL Tamanho do arquivo]** para procurar ativos com base em seu tamanho. Você pode especificar os limites inferior e superior para o intervalo de tamanho para restringir sua pesquisa e especificar a unidade de medida a ser pesquisada.
    * **[!UICONTROL Status]** para pesquisar ativos com base em status de ativos, como Aprovação (Aprovada, Alterações Solicitadas, Rejeitada, Pendente) e Expiração.
    * **[!UICONTROL Classificação média]** procurar ativos com base na classificação dos ativos.
@@ -91,15 +91,24 @@ Por exemplo, use os seguintes filtros padrão:
       O [!UICONTROL Predicado de propriedade] O suporta pesquisas de texto para:
 
       **Frases parciais**
-Para permitir a pesquisa do ativo usando frases parciais no predicado da propriedade, maque a caixa de seleção **[!UICONTROL Pesquisa parcial]** em Pesquisar formulário.\
-      Isso permite pesquisar pelos ativos desejados mesmo que não especifique as palavras/frases exatas usadas nos metadados do ativo.\
+Para permitir a pesquisa do ativo usando frases parciais no predicado da propriedade, maque a caixa de seleção **[!UICONTROL Pesquisa parcial]** em Pesquisar formulário. Isso permite pesquisar pelos ativos desejados mesmo que não especifique as palavras/frases exatas usadas nos metadados do ativo.
+
+      >[!NOTE]
+      >
+      > O Brand Portal oferece suporte aos seguintes campos referentes à Pesquisa parcial:
+      >* jcr:content/metadata/dc:title
+      >* jcr:content/jcr:title
+      >* jcr:content/metadata/dam:search_promote
+      >* jcr:content/metadata/dc:format
+
+
       É possível:
       * Especifique uma palavra que ocorre na frase pesquisada na faceta no painel Filtros . Por exemplo, se você pesquisar pelo termo **subida** (e o Predicado de propriedade é mapeado para [!UICONTROL `dc:title`] ), em seguida, todos os ativos com a palavra **subida** na frase de título são retornadas.
-      * Especificar uma parte da palavra, que ocorre na frase pesquisada, juntamente com o caracter curinga (*) para preencher as lacunas.
+      * Especifique uma parte da palavra, que ocorre na frase pesquisada, juntamente com um caractere curinga (&#42;) para preencher as lacunas.
 Por exemplo, pesquisando por:
-         * **subida*** retorna todos os ativos que têm palavras começando com os caracteres &quot;climb&quot; na frase de título.
-         * ***subida** retorna todos os ativos com palavras que terminam com caracteres &quot;climb&quot; em sua frase de título.
-         * ***subida*** retorna todos os ativos com palavras que incluem os caracteres &quot;climb&quot; na frase de título.
+         * **subida&#42;** retorna todos os ativos que têm palavras começando com os caracteres &quot;climb&quot; na frase de título.
+         * **&#42;subida** retorna todos os ativos com palavras que terminam com caracteres &quot;climb&quot; em sua frase de título.
+         * **&#42;subida&#42;** retorna todos os ativos com palavras que incluem os caracteres &quot;climb&quot; na frase de título.
 
 Para permitir a pesquisa que não diferencia maiúsculas de minúsculas no predicado da propriedade, habilite a variável       **Texto sem diferenciação entre maiúsculas e minúsculas**
 Para permitir a pesquisa que não diferencia maiúsculas de minúsculas no predicado da propriedade, habilite a variável **[!UICONTROL Ignorar maiúsculas e minúsculas]** caixa de seleção em Formulário de pesquisa. Por padrão, a pesquisa de texto no predicado de propriedade diferencia maiúsculas de minúsculas.
