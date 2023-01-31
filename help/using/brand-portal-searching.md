@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1358'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Para pesquisar ativos no Brand Portal:
    >[!NOTE]
    >
    >* São necessários pelo menos 3 caracteres no omnisearch para que sugestões de pesquisa sejam exibidas.
-   >* Quando você pesquisa os termos `mountain` ou `biking` em seguida, omnisearch fornece os resultados de pesquisa com o texto `mountain` E `biking` em seus campos de metadados. Caso contrário, o comportamento será OU no caso de Tags inteligentes, o que significa que os resultados com `mountain` OU `biking` em suas respectivas tags inteligentes são recuperadas.
+   >* Ao procurar por `mountain biking`, o omnisearch retorna todos os ativos nos resultados de pesquisa que têm ambos `mountain` e `biking` disponíveis nos campos de metadados. Por exemplo, `mountain` no `Title` e `biking` no `Description` campo. Ambos os termos devem estar disponíveis nos campos de metadados para serem exibidos nos resultados da pesquisa. No entanto, o omnisearch retorna o ativo nos resultados de pesquisa mesmo se apenas um dos dois termos estiver disponível no campo de metadados Tags inteligentes . Por exemplo, se um ativo contiver `mountain` como uma das Tags inteligentes e não contém `biking` em qualquer outro campo de metadados e você pesquisar por `mountain biking`, omnisearch ainda retorna o ativo nos resultados de pesquisa.
 
 
 1. Selecione entre as sugestões relacionadas que aparecem na lista suspensa para acessar rapidamente os ativos relevantes.
