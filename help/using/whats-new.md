@@ -1,18 +1,18 @@
 ---
 title: Novidades no Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e aprimoramentos da versão 2022.10.0?
-seo-description: What are the new features and enhancements for 2022.10.0
+description: Quais são os novos recursos e aprimoramentos da versão 2032.02.0
+seo-description: What are the new features and enhancements for 2023.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
+source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
 workflow-type: tm+mt
-source-wordcount: '6515'
+source-wordcount: '6547'
 ht-degree: 2%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 2%
 
 A Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja a seguir os novos recursos e aprimoramentos.
 
+## O que mudou em 2023.02.0 {#what-changed-in-February-2023}
+
+O Brand Portal 2023.02.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+
 ## O que mudou em 2022.10.0 {#what-changed-in-October-2022}
 
-O Brand Portal 2022.10.0 inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2022.10.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2022.08.0 {#what-changed-in-August-2022}
 
-O Brand Portal 2022.08.0 inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2022.08.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2022.05.0 {#what-changed-in-May-2022}
 
