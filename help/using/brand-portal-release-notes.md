@@ -1,7 +1,7 @@
 ---
 title: Notas de versão
 seo-title: Release Notes
-description: Saiba mais sobre os recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2023.05.0 do Adobe Experience Manager Assets Brand Portal.
+description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2023.05.0 do Adobe Experience Manager Assets Brand Portal.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2023.05.0 do Adobe Experience Manager Assets Brand Portal.
+Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2023.05.0 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
@@ -30,24 +30,24 @@ Saiba mais sobre os novos recursos, aprimoramentos, problemas críticos corrigid
 
 ## Visão geral {#overview}
 
-O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos aprovados pela empresa, a qualquer hora e em qualquer lugar.
+O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados — a qualquer momento e em qualquer lugar.
 
 ## Novidades em 2023.05.0 {#whats-new-in-2023.05.0}
 
-### Problemas críticos corrigidos {#critical-issues-fixed}
+### Problemas Críticos Corrigidos {#critical-issues-fixed}
 
 #### Correções de erros {#bug-fixes}
 
 Esta versão inclui correções para os seguintes problemas críticos:
-* Se ocorrer um erro ao baixar um ativo de um link compartilhado, a variável `Notice` e `Close` rótulos do prompt de erro não estão localizados.
-* Exibições do Brand Portal **Campos de cabeçalho da solicitação muito grandes** erro ao acessar filtros de pesquisa usando `Filter` painel.
+* Se ocorrer um erro ao baixar um Ativo de um link compartilhado, a variável `Notice` e `Close` os rótulos do prompt de erro não estão localizados.
+* Brand Portal displays **Campos de cabeçalho de solicitação muito grandes** erro ao acessar filtros de pesquisa usando `Filter` painel.
 
 ### Problemas conhecidos {#known-issues}
 
-Esta versão inclui o seguinte problema conhecido:
+Esta versão inclui os seguintes problemas conhecidos:
 
-* Localização parcial no conteúdo do relatório de origem do ativo.
-* Poucos campos do perfil do usuário não são editáveis no perfil do usuário.
+* Localização parcial no conteúdo do relatório de origem do Ativo.
+* Alguns campos do perfil do usuário não podem ser editados no perfil do usuário.
 
 ## Versões anteriores
 
@@ -56,58 +56,58 @@ Esta versão inclui o seguinte problema conhecido:
 **Correções de erros**
 
 Esta versão inclui correções para os seguintes problemas críticos:
-* Não é possível atualizar a imagem de perfil na Brand Portal.
-* O painel da árvore de conteúdo não pode ser redimensionado. Se o nome do arquivo for maior que a largura padrão da árvore de conteúdo, não será possível arrastar a árvore de conteúdo horizontalmente e verticalmente. Como resultado, nomes de arquivo mais longos não podem ser lidos.
+* A imagem do perfil não pode ser atualizada no Brand Portal.
+* O painel da árvore de conteúdo não é redimensionável. Se o nome do arquivo for maior que a largura padrão da árvore de conteúdo, não será possível arrastar a árvore de conteúdo na horizontal e na vertical. Como resultado, nomes de arquivo mais longos não são legíveis.
 * Os resultados da pesquisa são inconsistentes para o mesmo predicado de propriedade usado duas vezes nos formulários de pesquisa.
-* O texto nas páginas de logon intermediárias não está localizado para todos os idiomas.
+* O texto nas páginas de logon intermediárias não está traduzido para todos os idiomas.
 
 **Aprimoramentos**
 
 Esta versão inclui os seguintes aprimoramentos:
 * Um novo visualizador de PDF moderno está disponível para uma visualização aprimorada dos ativos de PDF.
-* Agora você pode optar por ativar ou desativar as notificações de origem do ativo para administradores. Navegar para [!UICONTROL Configurações gerais] e, em seguida, ativar ou desativar [!UICONTROL `Notify Administrator of asset contribution`].
+* Agora você pode optar por ativar ou desativar as notificações de origem de ativos para Administradores. Navegue até [!UICONTROL Configurações gerais] e, em seguida, ativar ou desativar [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Notificar o administrador para contribuição de ativos](assets/notify-admin.png)
+   ![Notificar o administrador sobre a contribuição de ativos](assets/notify-admin.png)
 
-* Um usuário não autorizado não pode solicitar acesso à Brand Portal se o acesso à solicitação estiver desativado.
-* As organizações provisionadas apenas para o Brand Portal estão visíveis na lista do seletor de perfil.
+* Um usuário não autorizado não pode solicitar acesso à Brand Portal se a solicitação de acesso estiver desativada.
+* Somente as organizações provisionadas para o Brand Portal estão visíveis na lista do seletor de perfis.
 
 **Problemas conhecidos**
 
-Esta versão inclui o seguinte problema conhecido:
+Esta versão inclui os seguintes problemas conhecidos:
 
-* Localização parcial no conteúdo do relatório de origem do ativo.
-* Poucos campos do perfil do usuário não são editáveis no perfil do usuário.
+* Localização parcial no conteúdo do relatório de origem do Ativo.
+* Alguns campos do perfil do usuário não podem ser editados no perfil do usuário.
 
 ### Versão de outubro de 2022 {#oct-2022}
 
-**Problemas críticos corrigidos**
+**Problemas Críticos Corrigidos**
 
-Esta versão inclui correções para os seguintes problemas críticos:
+Essa versão inclui correções para os seguintes problemas críticos:
 * Tempos de resposta lentos ao copiar arquivos grandes do Brand Portal para uma ferramenta de terceiros.
-* Quando você marca a caixa de seleção de contagem de representações, as caixas de seleção para selecionar representações individuais são desativadas.
+* Ao marcar a caixa de seleção Contagem de representações, as caixas de seleção para selecionar representações individuais são desativadas.
 * Tempo de resposta lento para pesquisa.
 
 >[!IMPORTANT]
 >
->As notificações de pulso no AEM Assets Brand Portal serão interrompidas a partir de 1º de dezembro de 2022. Em vez de Notificações de Pulse, você continuará recebendo notificações por email para os seguintes eventos:
->* Compartilhamento de ativos por link
->* Fluxo de trabalho de solicitação de acesso
+>As notificações por push no AEM Assets Brand Portal serão descontinuadas a partir de 1º de dezembro de 2022. Em vez de notificações Pulse, você continuará recebendo notificações por email para os seguintes eventos:
+>* Compartilhamento de ativos por meio de link
+>* Solicitando fluxo de trabalho de acesso
 >* Compartilhamento da pasta de contribuição
 >* Iniciando exportação para AEM
->* Exportação concluída para AEM
+>* Exportação para AEM concluída
 >
 
 
 ### Versão de agosto de 2022 {#aug-2022}
 
-**Problemas críticos corrigidos**
+**Problemas Críticos Corrigidos**
 
-Esta versão inclui correções para os seguintes problemas críticos:
-* Quando o NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
-* Quando a ação de visualização falhar, não há notificação para comunicar a falha.
-* Valor impreciso para a propriedade totalUploadedSize de cada ativo é fixo.
-* Ao clicar em **Baixar todos os itens** e há um grande número de representações disponíveis para um ativo, o Brand Portal baixa um arquivo .ZIP inválido.
+Essa versão inclui correções para os seguintes problemas críticos:
+* Quando a NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
+* Quando a ação de visualização falha, não há notificação para comunicar a falha.
+* Valor impreciso da propriedade totalUploadedSize para cada ativo corrigido.
+* Ao clicar em **Baixar todos os itens** e houver um grande número de representações disponíveis para um ativo, a Brand Portal baixa um arquivo .ZIP inválido.
 * A tradução de algumas cadeias de caracteres é truncada na interface do usuário do Brand Portal.
 
 ### Versão de maio de 2022 {#may-2022}
@@ -116,31 +116,31 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 O Brand Portal agora executa processos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite.
 
-**Problemas críticos corrigidos**
+**Problemas Críticos Corrigidos**
 
 Esta versão inclui correções para os seguintes problemas críticos:
 
 * Ao baixar uma pasta ou coleção que inclui ativos com tags de cores, um arquivo XML também é baixado.
 * Ao baixar um vídeo que inclui representações, o Brand Portal cria um arquivo .ZIP inválido.
-* Ao criar predefinições e ativos AEM criá-los e publicá-los no Brand Portal e selecionar representações dinâmicas ao baixar os ativos, não é possível extrair o arquivo .ZIP baixado.
+* Ao criar predefinições e ativos no AEM, publicá-los no Brand Portal e selecionar representações dinâmicas ao baixar os ativos, não é possível extrair o arquivo .ZIP baixado.
 * Problemas ao baixar ativos de vídeo de determinadas pastas disponíveis no Brand Portal.
-* Quando você compartilha o URL da pasta Contribuição usando um email, as funções do Visualizador e do Editor enfrentam problemas ao acessar sua pasta pai usando a navegação estrutural.
-* A origem do relatório publicado exibe um horário de início de trabalho incorreto.
+* Ao compartilhar o URL da pasta Contribuição por email, as funções de Visualizador e Editor enfrentam problemas ao acessar a pasta principal por meio da navegação estrutural.
+* O relatório de publicação de origem exibe uma hora inicial de trabalho incorreta.
 
 ### Versão de fevereiro de 2022 {#feb-2022}
 
 **Novos recursos**
 
-* O limite de tempo limite da sessão para os usuários convidados foi reduzido de 2 horas para 15 minutos.
-* Os **[!UICONTROL Exibir páginas]** A opção foi removida para PDF de várias páginas, pois o usuário agora pode visualizar as páginas do PDF no Visualizador do Adobe Document Cloud.
+* O limite de tempo limite de sessão para os usuários convidados foi reduzido de 2 horas para 15 minutos.
+* O montante **[!UICONTROL Exibir páginas]** A opção foi removida para PDF de várias páginas, pois o usuário agora pode exibir as páginas de PDF do visualizador do Adobe Document Cloud.
 * Os usuários não podem pesquisar, navegar ou abrir pastas. A interface do usuário reflete a mensagem de erro: `Failed to load data`.
-* O **[!UICONTROL Representações]** O painel não lista todas as representações estáticas dos ativos publicados no Brand Portal.
-* O **[!UICONTROL Representações]** O painel lista as representações de recorte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de recorte inteligente.
-* A caixa de diálogo de download lista as representações de recorte inteligente do ativo selecionado, no entanto, o usuário não pode baixar as representações de recorte inteligente.
-* Um usuário não administrador está obtendo apenas a representação do ativo original ao baixar um ativo. O sistema e as representações personalizadas não são baixadas.
-* Ao aplicar filtro de pesquisa para baixar um ativo, a variável `Download` estiver desativado na caixa de diálogo de download e não permitir que o usuário baixe o ativo.
-* If `Smart Tags` e (ou) `Color Tags` estiverem ativadas, a caixa de diálogo de download listará as variáveis `json` arquivos como representações e downloads `json` arquivos na pasta zip arquivada.
-* Os usuários anônimos não podem baixar ativos usando um link compartilhado porque o link redireciona para a página de logon da Brand Portal.
+* A variável **[!UICONTROL Representações]** O painel não lista todas as representações estáticas dos ativos publicados no Brand Portal.
+* A variável **[!UICONTROL Representações]** O painel lista as representações de corte inteligente do ativo, no entanto, o usuário não pode visualizar ou baixar as representações de corte inteligente.
+* A caixa de diálogo de download lista as representações de corte inteligente do ativo selecionado. No entanto, o usuário não pode baixar as representações de corte inteligente.
+* Um usuário não administrador está obtendo somente a representação do ativo original ao baixar um ativo. O sistema e as representações personalizadas não são baixados.
+* Ao aplicar o filtro de pesquisa para baixar um ativo, a variável `Download` O botão está desativado na caixa de diálogo de download e não permite que o usuário baixe o ativo.
+* Se `Smart Tags` e (ou) `Color Tags` estiverem ativados, a caixa de diálogo de download listará as `json` arquivos como representações e faz o download desses `json` arquivos na pasta zip arquivada.
+* Os usuários anônimos não conseguem baixar ativos usando um link compartilhado porque o link redireciona para a página de logon do Brand Portal.
 * O sistema não está refletindo o valor correto para o número de usuários simultâneos ativos.
 
 <!--
@@ -322,16 +322,16 @@ A interface do usuário do Brand Portal está disponível nos seguintes idiomas:
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para verificar quais plataformas são certificadas para execução com esta versão do Brand Portal, consulte **Suporte para interface otimizada para toque** na tabela na **Navegadores compatíveis para criação de interface de usuário** seção de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Para determinar quais plataformas estão certificadas para execução com esta versão do Brand Portal, consulte **Suporte para interface otimizada para toque** na tabela no **Navegadores compatíveis com a interface de criação de usuário** seção de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Links {#links}
 
 * [Página do produto Adobe Experience Manager em adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Documentação do Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
-## Acesso e suporte ao produto (sites restritos) {#product-access-and-support-restricted-sites}
+## Acesso e suporte do produto (sites restritos) {#product-access-and-support-restricted-sites}
 
-Esses sites só estão disponíveis para clientes do . Se você for um cliente do e precisar de acesso, entre em contato com o gerente de conta do Adobe.
+Esses sites só estão disponíveis para clientes do. Se você for um cliente do e precisar de acesso, entre em contato com o gerente de conta da Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 

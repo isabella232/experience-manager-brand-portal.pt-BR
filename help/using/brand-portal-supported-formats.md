@@ -1,7 +1,7 @@
 ---
-title: Formatos de arquivo não suportados
+title: Formatos de arquivo não compatíveis
 seo-title: Supported file formats
-description: 'Cada Experience Manager Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz. '
+description: Cada Experience Manager Assets Brand Portal é compatível com formatos de arquivo específicos, conforme indicado na matriz.
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -16,75 +16,75 @@ ht-degree: 48%
 
 ---
 
-# Formatos de arquivo não suportados {#supported-file-formats}
+# Formatos de arquivo não compatíveis {#supported-file-formats}
 
-Cada Experience Manager Assets Brand Portal suporta formatos de arquivo específicos, conforme indicado na matriz.
+Cada Experience Manager Assets Brand Portal é compatível com formatos de arquivo específicos, conforme indicado na matriz.
 
-| Formato de arquivo | Ativos publicados na Brand Portal | Representações publicadas no Brand Portal | Metadados publicados na Brand Portal | Miniaturas publicadas no Brand Portal | Páginas de detalhes do ativo publicadas na Brand Portal | Compartilhamentos de link | Miniaturas de compartilhamento de link | Visualizações de compartilhamento de link |
+| Formato de arquivo | Ativos publicados no Brand Portal | Representações publicadas no Brand Portal | Metadados publicados no Brand Portal | Miniaturas publicadas no Brand Portal | Páginas de detalhes do ativo publicadas no Brand Portal | Vincular compartilhamentos | Miniaturas de compartilhamento de link | Visualizações de compartilhamento de link |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
-| PNG | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo |
-| GIF | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo |
-| Tiff | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| JPEG | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo |
-| BMP | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| PNM* | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ND |
-| PGM* | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ND |
-| PBM* | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ND |
-| PPM* | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ND |
-| PSD | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| EPS | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ✕ |
-| DNG | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| PICT | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| PSB* | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| JPG | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo |
-| AI | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| DOC | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| DOCX | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| ODT* | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| PDF | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| HTML | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| RTF | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| TXT | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| XLS | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| XLSX | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| ODS | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| PPT | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| PPTX | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| ODP | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| INDD | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| PS | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| QXP | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| EPUB | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ✕ |
-| AAC | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| MIDI | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| 3GP | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| MP3 | Instantâneo | ND | Instantâneo | ND | ✕ | Instantâneo | ✕ | ✕ |
-| Mp4 | Instantâneo | ND | Instantâneo | ND | Instantâneo | Instantâneo | ✕ | ✕ |
-| Mpg | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| OGA | Instantâneo | ND | Instantâneo | ND | ✕ | Instantâneo | ✕ | ✕ |
-| OGG | Instantâneo | ND | Instantâneo | ND | Instantâneo | Instantâneo | ✕ | ✕ |
-| ARM | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| WAV | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| WMA | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| DVI | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| FLV | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| M4V | Instantâneo | ND | Instantâneo | ND | ✕ | Instantâneo | ✕ | ✕ |
-| MPG | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| OGV | Instantâneo | ND | Instantâneo | ND | Instantâneo | Instantâneo | ✕ | ✕ |
-| MOV | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ✕ | ✕ |
-| WMV | Instantâneo | ND | Instantâneo | ND | ✕ | Instantâneo | ✕ | ✕ |
-| SWF | Instantâneo | ND | Instantâneo | ND | Instantâneo | Instantâneo | ✕ | ✕ |
-| TGZ | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ✕ |
-| JAR | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ND | Instantâneo | Instantâneo | ✕ |
-| RAR | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ✕ |
-| TAR | Instantâneo | ND | Instantâneo | ND | ND | Instantâneo | ND | ✕ |
-| Zip | Instantâneo | Instantâneo | Instantâneo | Instantâneo | ND | Instantâneo | Instantâneo | ✕ |
+| PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ µ |
+| JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PNM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PGM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PBM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PPM* | ✓ | ND | ✓ | ND | ND | ✓ | ND | ND |
+| PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| EPS | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
+| DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| IA | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| DOC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| DOCX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| ODT* | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| HTML | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| RTF | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| XLS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| XLSX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| ODS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| PPT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PPTX | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| ODP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PS | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| QXP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| AAC | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| MIDI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| 3GP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| MP3 | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
+| Mp4 | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
+| Mpg | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| OGA | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
+| OGG | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
+| RA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| WAV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| WMA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| DVI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| FLV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| M4V | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
+| MPG | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| OGV | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
+| MOV | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| WMV | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
+| SWF | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
+| TGZ | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
+| JAR | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
+| RAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
+| TAR | ✓ | ND | ✓ | ND | ND | ✓ | ND | ✕ |
+| Zip | ✓ | ✓ | ✓ | ✓ | ND | ✓ | ✓ | ✕ |
 
 A legenda a seguir explica os símbolos usados na matriz:
 
 | Símbolo | Significado |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Instantâneo | Este formato de arquivo é compatível com esse recurso. |
-| ✕ | Este formato de arquivo não é compatível com esse recurso. |
-| ND | Esse recurso não se aplica a esse formato de arquivo. |
-| * | Esse recurso requer suporte complementar para esse formato de arquivo AEM instância do autor, mas não no Brand Portal depois que os ativos são publicados no Brand Portal. |
+| ✓ | Este formato de arquivo é compatível com este recurso. |
+| ✕ | Este formato de arquivo não oferece suporte a este recurso. |
+| ND | Este recurso não se aplica a este formato de arquivo. |
+| * | Esse recurso exige suporte complementar para esse formato de arquivo na instância do autor do AEM, mas não no Brand Portal, depois que os ativos são publicados no Brand Portal. |

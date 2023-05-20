@@ -1,7 +1,7 @@
 ---
 title: Experiência de login pela primeira vez
 seo-title: First-time login experience
-description: A primeira experiência de logon é a mesma para todos os novos usuários do Experience Manager Assets Brand Portal, incluindo Administradores. Depois que um Administrador adicionar você à conta Brand Portal de sua organização, você não precisará aceitar convites, você será adicionado automaticamente. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
+description: A primeira experiência de logon é a mesma para todos os novos usuários do Experience Manager Assets Brand Portal, incluindo Administradores. Depois que um administrador adiciona você à conta da Brand Portal de sua organização, você não precisa aceitar convites e é adicionado automaticamente. Você recebe um email de boas-vindas que contém um link para a conta da Brand Portal de sua organização.
 seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Experiência de login pela primeira vez {#first-time-login-experience}
 
-A primeira experiência de logon é a mesma para todos os novos usuários do Experience Manager Assets Brand Portal, incluindo Administradores. Depois que um Administrador adicionar você à conta Brand Portal de sua organização, você não precisará aceitar convites, você será adicionado automaticamente. Você recebe um email de boas-vindas que contém um link para a conta do Brand Portal de sua organização.
+A primeira experiência de logon é a mesma para todos os novos usuários do Experience Manager Assets Brand Portal, incluindo Administradores. Depois que um administrador adiciona você à conta da Brand Portal de sua organização, você não precisa aceitar convites e é adicionado automaticamente. Você recebe um email de boas-vindas que contém um link para a conta da Brand Portal de sua organização.
 
 A seguir estão as etapas a serem executadas para os usuários que fazem logon no Brand Portal pela primeira vez:
 
@@ -31,13 +31,13 @@ A seguir estão as etapas a serem executadas para os usuários que fazem logon n
 
    >[!NOTE]
    >
-   >Se sua organização usar Enterprise IDs, em vez de visualizar essa página de inscrição, você será redirecionado para a página de logon empresarial. Para obter mais informações, consulte [Enterprise ID, faça logon e ajuda da conta](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Se sua organização usar Enterprise IDs, em vez de visualizar essa página de inscrição, você será redirecionado para a página de logon corporativo. Para obter mais informações, consulte [Enterprise ID, logon e ajuda da conta](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Clique em **[!UICONTROL Continuar]** para prosseguir para a página do Brand Portal de sua organização.
-1. Na página de logon do Brand Portal, clique em **[!UICONTROL Fazer logon]** para fazer logon no Brand Portal.
+1. Clique em **[!UICONTROL Continuar]** para prosseguir para a página Brand Portal de sua organização.
+1. Na página de logon da Brand Portal, clique em **[!UICONTROL Conectar]** para fazer logon no Brand Portal.
 
    ![Página de logon do Brand Portal](assets/signin-onboarding.png)
 
    >[!NOTE]
    >
-   >Para poder fazer logon no Brand Portal, você deve ter direito a pelo menos um perfil de produto do Experience Manager Assets.
+   >Para fazer logon no Brand Portal, você deve ter direito a pelo menos um perfil de produto do Experience Manager Assets.

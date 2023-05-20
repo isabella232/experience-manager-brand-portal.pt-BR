@@ -1,7 +1,7 @@
 ---
-title: Novidades no Experience Manager Assets Brand Portal
+title: Novidades do Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e aprimoramentos da versão 2032.05.0
+description: Quais são os novos recursos e aprimoramentos para 2032.05.0
 seo-description: What are the new features and enhancements for 2023.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -17,79 +17,79 @@ ht-degree: 2%
 
 ---
 
-# Novidades no Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Novidades do Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
-A Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização de ativos e reduz o risco de não conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja a seguir os novos recursos e aprimoramentos.
+O Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade e segurança os ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de entrada no mercado dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja aqui uma prévia dos novos recursos e aprimoramentos.
 
 ## O que mudou em 2023.05.0 {#what-changed-in-May-2023}
 
-O Brand Portal 2023.05.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2023.05.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2023.02.0 {#what-changed-in-February-2023}
 
-O Brand Portal 2023.02.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2023.02.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2022.10.0 {#what-changed-in-October-2022}
 
-O Brand Portal 2022.10.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2022.10.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2022.08.0 {#what-changed-in-August-2022}
 
-O Brand Portal 2022.08.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2022.08.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2022.05.0 {#what-changed-in-May-2022}
 
-O Brand Portal agora executa processos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite. Você também pode monitorar o status das tarefas de exclusão executadas automaticamente usando a variável **[!UICONTROL Ferramentas]** > **[!UICONTROL Status da contribuição de ativos]** > **[!UICONTROL Relatórios de exclusão]** no Brand Portal. O relatório de uma tarefa fornece os seguintes detalhes:
+O Brand Portal agora executa processos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite. Você também pode monitorar o status dos trabalhos de exclusão executados automaticamente usando o **[!UICONTROL Ferramentas]** > **[!UICONTROL Status de contribuição do ativo]** > **[!UICONTROL Relatórios de exclusão]** no Brand Portal. O relatório de uma tarefa fornece os seguintes detalhes:
 
-* Hora de início da tarefa
-* Hora de término da tarefa
-* Status da tarefa
-* Total dos ativos incluídos numa tarefa
-* Total de ativos excluídos com êxito em uma tarefa
+* Hora de início do trabalho
+* Hora de término do trabalho
+* Status do trabalho
+* Total de ativos incluídos em um trabalho
+* Total de ativos excluídos com êxito em um trabalho
 * Armazenamento total disponibilizado como resultado da execução do trabalho
 
 ![Relatório de exclusão](assets/deletion-reports.png)
 
-Também é possível fazer uma busca detalhada para exibir os detalhes de cada ativo incluído em um job de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório.
+Também é possível detalhar mais para exibir os detalhes de cada ativo incluído em um trabalho de exclusão. Detalhes como título do ativo, tamanho, autor, status de exclusão e tempo de exclusão são incluídos no relatório.
 
-![Relatório de Exclusão Detalhado](assets/deletion-reports-detailed.png)
+![Relatório de exclusão detalhado](assets/deletion-reports-detailed.png)
 
-Além disso, o Brand Portal 2022.05.0 inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+Além disso, o Brand Portal 2022.05.0 inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 
 ## O que mudou em 2022.02.0 {#what-changed-in-Feb-2022}
 
-O Brand Portal 2022.02.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2022.02.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2021.10.0 {#what-changed-in-october-2021}
 
-O Brand Portal 2021.10.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2021.10.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2021.08.0 {#what-changed-in-august-2021}
 
-O Brand Portal 2021.08.0 é uma versão interna que apresenta perfis de negócios para clientes corporativos e de equipes, para fornecer às organizações um melhor controle sobre seus ativos. Os usuários agora têm direito específico à organização nas organizações novas e migradas. Durante a migração, todas as contas existentes do Adobe ID são migradas para as IDs de negócios.
+O Brand Portal 2021.08.0 é uma versão interna que apresenta perfis empresariais para clientes corporativos e de equipes, a fim de oferecer às organizações melhor controle sobre seus ativos. Os usuários agora têm direito específico da organização nas organizações novas e migradas. Durante a migração, todas as contas existentes do Adobe ID são migradas para as Business IDs.
 
-* IDs de negócios para todas as organizações novas e existentes após a migração.
-* As IDs de negócios não exigem configuração específica, como reivindicar um domínio ou configurar o SSO.
+* IDs de negócios para todas as organizações novas e existentes depois que forem migradas.
+* As Business IDs não exigem nenhuma configuração específica, como solicitar um domínio ou configurar o SSO.
 * É possível adicionar usuários com qualquer endereço de email, incluindo domínios de email públicos, como gmail.com ou outlook.com.
 
 **Impacto nos usuários do Brand Portal**
 
-A migração não afeta o conjunto de dados, os ativos, os usuários ou qualquer configuração existente. A única alteração interna que ocorre durante a migração é o direito de sua organização existente aos perfis de negócios.
+A migração não afeta seus conjuntos de dados, ativos, usuários existentes ou qualquer configuração. A única alteração interna que ocorre durante a migração é o direito da sua organização existente aos perfis comerciais.
 
 >[!NOTE]
 >
->Os perfis de negócios estão atualmente aplicáveis às novas organizações criadas após 16 de agosto de 2021.
+>Os perfis empresariais estão atualmente aplicáveis às novas organizações criadas após 16 de agosto de 2021.
 >
->Até que sua organização seja migrada, você pode continuar a usar os tipos de Adobe ID, Enterprise ID ou Federated ID para acessar a organização.
+>Até que sua organização seja migrada, você pode continuar usando os tipos de Adobe ID, Enterprise ID ou Federated ID para acessar a organização.
 
 ### Artigos de referência {#reference-articles}
 
-* [Introdução aos perfis do Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [Introdução aos perfis de Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Gerenciar perfis do Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
+* [Gerenciar perfis de Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
 
-* [Atualização da experiência de logon para usuários e administradores](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [Atualização da experiência de Logon para usuários e administradores](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
 * [Restrição de logon durante a migração](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
 
@@ -144,59 +144,59 @@ For a new or migrated T2E orgnization, the users will have an organization speci
 
 ## O que mudou em 2021.06.0 {#what-changed-in-june-2021}
 
-O Brand Portal 2021.06.0 é uma versão interna que inclui correções para os problemas críticos. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2021.06.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 
 ## O que mudou em 2021.02.0 {#what-changed-in-feb-2021}
 
-O Brand Portal 2021.02.0 é uma versão de aprimoramento que inclui o fluxo de trabalho de ativação do Brand Portal no AEM Assets as a Cloud Service, facilita o recurso de origem de ativos no AEM Assets as a Cloud Service, aprimoramentos na experiência de download de ativos e inclui correções críticas. Também permite que os administradores configurem o comportamento padrão de download de pastas, coleções e download em massa de ativos no nível do locatário. A Brand Portal **[!UICONTROL Relatório de uso]** O também foi modificado para refletir os usuários ativos do Brand Portal.
+O Brand Portal 2021.02.0 é uma versão de aprimoramento que traz o fluxo de trabalho de ativação do Brand Portal no AEM Assets as a Cloud Service, facilita o recurso de Origem de ativos no AEM Assets as a Cloud Service, melhora a experiência de download de ativos e inclui correções críticas. Ela também permite que os administradores configurem o comportamento de download padrão de pastas, coleções e download em massa de ativos no nível do locatário. O BRAND PORTAL **[!UICONTROL Relatório de uso]** também foi modificado para refletir os usuários ativos do Brand Portal.
 
 ### Ativar o Brand Portal no AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
 O AEM Assets as a Cloud Service agora está qualificado para ter uma instância pré-configurada do Brand Portal. O usuário do Cloud Manager pode ativar o Brand Portal na instância as a Cloud Service do AEM Assets.
 
-Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o Adobe Developer Console.
+Anteriormente, o AEM Assets as a Cloud Service era configurado manualmente com o Brand Portal usando o console do Adobe Developer.
 
-O usuário do Cloud Manager aciona o fluxo de trabalho de ativação que cria as configurações necessárias no backend e ativa o Brand Portal na mesma organização IMS da instância do AEM Assets as a Cloud Service.
+O usuário do Cloud Manager aciona o fluxo de trabalho de ativação, que cria as configurações necessárias no back-end e ativa o Brand Portal na mesma organização IMS da instância as a Cloud Service do AEM Assets.
 
-Para ativar o Brand Portal na sua instância do AEM Assets as a Cloud Service:
+Para ativar o Brand Portal na sua instância as a Cloud Service do AEM Assets:
 
-1. Faça logon no Adobe Cloud Manager e navegue até **[!UICONTROL Ambientes]**.
-1. Selecione os ambientes (um por um) na lista. Depois de encontrar o ambiente associado ao Brand Portal, clique no link **[!UICONTROL Ativar o Brand Portal]** para iniciar o workflow de ativação.
-1. Quando o locatário do Brand Portal é ativado, o status é alterado para Ativado.
+1. Faça logon no Adobe Cloud Manager e acesse **[!UICONTROL Ambientes]**.
+1. Selecione os ambientes (um por um) na lista. Depois de encontrar o ambiente associado ao Brand Portal, clique no link **[!UICONTROL Ativar Brand Portal]** para iniciar o fluxo de trabalho de ativação.
+1. Depois que o locatário do Brand Portal é ativado, o status muda para Ativated.
 
-![Exibir status](assets/create-environment5.png)
+![Exibir Status](assets/create-environment5.png)
 
 Consulte [ativar o Brand Portal no AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Origem de ativos no AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-O recurso de origem dos ativos agora está disponível no AEM Assets as a Cloud Service. O recurso é ativado por padrão para todos os usuários do serviço de nuvem. Os usuários permitidos do Brand Portal podem contribuir com o fornecimento de ativos carregando novos ativos nas pastas de contribuição e publicando a pasta de contribuição do Brand Portal para a instância do AEM Assets as a Cloud Service. Os administradores podem revisar e aprovar a contribuição dos usuários do Brand Portal para distribuí-los ainda mais para outros usuários do Brand Portal.
+O recurso Origem de ativos agora está disponível no AEM Assets as a Cloud Service. Por padrão, o recurso é habilitado para todos os usuários do Cloud Service. Os usuários permitidos do Brand Portal podem contribuir para o fornecimento de ativos fazendo o upload de novos ativos para as pastas de contribuição e publicando a pasta de contribuição do Brand Portal para a instância as a Cloud Service do AEM Assets. Os administradores podem revisar e aprovar a contribuição dos usuários do Brand Portal para distribuí-la ainda mais para outros usuários do Brand Portal.
 
-Anteriormente, a origem dos ativos só estava disponível no AEM Assets (no local e no serviço gerenciado).
+Anteriormente, a Origem de ativos só estava disponível no AEM Assets (no local e no managed service).
 
 Consulte [Origem de ativos no Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=pt-BR).
 
 ### Download de ativo {#asset-download-setting}
 
-Além do **[!UICONTROL Configurações de download]**, os administradores do Brand Portal agora podem configurar a variável **[!UICONTROL Download de ativos]** configuração. Essa configuração permite que os administradores controlem o comportamento padrão de download de pastas, coleções e download em massa de ativos (mais de 20 ativos) no nível do locatário.
+Para além dos programas de **[!UICONTROL Configurações de download]**, os administradores do Brand Portal agora podem configurar o **[!UICONTROL Download de ativo]** configuração. Essa configuração permite que os administradores controlem o comportamento de download padrão de pastas, coleções e downloads em massa de ativos (mais de 20 ativos) no nível do locatário.
 
 <!--
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Anteriormente, todas as representações de ativos eram baixadas diretamente em uma pasta zip. O **[!UICONTROL Baixar]** foi ignorada para pastas e coleções, e não havia método para controlar o comportamento de download dos ativos, dificultando a pesquisa de uma representação específica de muitos downloads.
+Anteriormente, todas as representações de ativos eram baixadas diretamente em uma pasta zip. A variável **[!UICONTROL Baixar]** A caixa de diálogo foi ignorada para pastas e coleções e não havia nenhum método para controlar o comportamento de download dos ativos, dificultando a pesquisa de uma representação específica de muitos downloads.
 
-**[!UICONTROL Download de ativos]** A configuração agora fornece uma opção para criar uma pasta separada para cada ativo ao baixar as pastas, as coleções ou o download em massa dos ativos.
+**[!UICONTROL Download de ativo]** As configurações do agora fornecem uma opção para criar uma pasta separada para cada ativo ao baixar as pastas, coleções ou o download em massa de ativos.
 
-Se a variável **[!UICONTROL Download de ativos]** estiver desativada, as pastas ou coleções serão baixadas em uma pasta zip contendo todas as representações de ativos na mesma pasta, exceto para baixar os ativos usando o link de compartilhamento.
+Se a variável **[!UICONTROL Download de ativo]** Se a configuração estiver desativada, as pastas ou coleções serão baixadas em uma pasta zip que contém todas as representações de ativos na mesma pasta, exceto para baixar os ativos usando o link compartilhar.
 
 
-Faça logon no locatário do Brand Portal como administrador e acesse **[!UICONTROL Ferramentas]** > **[!UICONTROL Baixar]**. Os administradores podem ativar o **[!UICONTROL Download de ativos]** configuração para criar uma pasta separada para cada ativo durante o download de pastas, coleções e download em massa de ativos.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Baixar]**. Os administradores podem habilitar a variável **[!UICONTROL Download de ativo]** configuração para criar uma pasta separada para cada ativo ao baixar pastas, coleções e downloads em massa de ativos.
 
 ![](assets/download-settings-new.png)
 
-Consulte [baixar ativos do Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+Consulte [baixar ativos da Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -205,7 +205,7 @@ The default behavior of downloading the assets using share link is now independe
 
 ### Relatório de uso {#usage-report}
 
-A Brand Portal **[!UICONTROL Relatório de uso]** foi modificada para refletir somente os usuários ativos do Brand Portal. Os usuários do Brand Portal que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos na variável **[!UICONTROL Relatório de uso]**.
+O BRAND PORTAL **[!UICONTROL Relatório de uso]** foi modificado para refletir somente os usuários ativos do Brand Portal. Os usuários do Brand Portal que não estão atribuídos a nenhum perfil de produto no Admin Console são considerados usuários inativos e não são refletidos na variável **[!UICONTROL Relatório de uso]**.
 
 Anteriormente, os usuários ativos e inativos eram mostrados no Relatório de uso.
 
@@ -213,54 +213,54 @@ Anteriormente, os usuários ativos e inativos eram mostrados no Relatório de us
 
 ## O que mudou em 2020.10.0 {#what-changed-in-oct-2020}
 
-O Brand Portal 2020.10.0 é uma versão aprimorada que tem como foco simplificar a experiência de download de ativos e inclui correções críticas. O aprimoramento inclui fluxo de trabalho novo e aprimorado para download de ativos, opções adicionais para excluir renderizações, download direto de **[!UICONTROL Representações]** , configuração para permitir direitos de acesso e download para um grupo específico de usuários e navegação fácil para os arquivos, coleções e links compartilhados de todas as páginas do Brand Portal. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+O Brand Portal 2020.10.0 é uma versão de aprimoramento que tem como objetivo simplificar a experiência de download de ativos e inclui correções críticas. O aprimoramento inclui fluxo de trabalho novo e aprimorado para download de ativos, opções adicionais para excluir representações e download direto do **[!UICONTROL Representações]** painel, configuração para permitir direitos de acesso e download para grupos específicos de usuários e fácil navegação até os arquivos, coleções e links compartilhados de todas as páginas do Brand Portal. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 
 ### Experiência de download simplificada {#download-dialog}
 
-Anteriormente, a variável **[!UICONTROL Baixar]** apareceu com várias opções, como criar uma pasta separada para cada ativo, ativo de email, selecionar ativo original, representações personalizadas, representações dinâmicas, excluir representações do sistema e ativar a aceleração de download, que eram ambíguas a usuários não técnicos ou novos, especialmente quando vários ativos ou pastas foram selecionados para download. Além disso, o usuário não pôde ver todas as representações de ativos ou excluir uma representação personalizada ou dinâmica específica.
+Anteriormente, a variável **[!UICONTROL Baixar]** A caixa de diálogo apareceu com várias opções, como criar pasta separada para cada ativo, ativo de email, selecionar ativo original, representações personalizadas, representações dinâmicas, excluir representações do sistema e habilitar a aceleração de download, que eram ambíguas para usuários novos ou não técnicos, especialmente quando vários ativos ou pastas eram selecionados para download. Além disso, o usuário não podia ver todas as representações de ativos ou excluir uma representação personalizada ou dinâmica específica.
 
-O novo **[!UICONTROL Baixar]** O diálogo generaliza o processo de seleção e filtragem de ativos, o que facilita que os usuários do Brand Portal tomem decisões eficazes ao baixar as representações de ativos. Ela lista todos os ativos selecionados e suas representações, dependendo do [**[!UICONTROL Baixar]**](brand-portal-download-assets.md) configuração e **[!UICONTROL Baixar]** configurações.
+O novo **[!UICONTROL Baixar]** A caixa de diálogo generaliza o processo de seleção e filtragem de ativos, facilitando que os usuários do Brand Portal tomem decisões eficazes ao baixar as representações de ativos. Ele lista todos os ativos selecionados e suas representações, dependendo da [**[!UICONTROL Baixar]**](brand-portal-download-assets.md) configuração e **[!UICONTROL Baixar]** configurações.
 
 >[!NOTE]
 >
->Todos os usuários agora têm **[!UICONTROL Download rápido]** habilitado por padrão e requer o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) instalado na extensão do navegador antes de baixar os ativos do Brand Portal.
+>Todos os usuários agora têm **[!UICONTROL Download rápido]** habilitado por padrão e requer o IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) instalados na extensão do navegador antes de baixar os ativos da Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
-No **[!UICONTROL Baixar]** , os usuários podem:
+No **[!UICONTROL Baixar]** , os usuários poderão:
 
-* Exibir todas as representações disponíveis de qualquer ativo na lista de download.
-* Exclua representações dos ativos que não são necessárias para download.
-* Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes em um clique.
-* Aplique um conjunto diferente de representações para diferentes tipos de ativos.
+* Visualize todas as representações disponíveis de qualquer ativo na lista de downloads.
+* Exclua as representações dos ativos que não são necessárias para o download.
+* Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes com um só clique.
+* Aplique diferentes conjuntos de representações para diferentes tipos de ativos.
 * Criar uma pasta separada para cada ativo.
-* Baixe os ativos selecionados e suas representações.
+* Baixar ativos selecionados e suas representações.
 
-O fluxo de trabalho de download permanece constante para ativos autônomos, vários ativos, pastas contendo ativos, ativos licenciados ou não e baixando ativos usando o link de compartilhamento. Consulte [etapas para baixar ativos do Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+O fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e download de ativos usando o link compartilhado. Consulte [etapas para baixar ativos da Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
 
 ![caixa de diálogo de download](assets/download-dialog-box.png)
 
 ### Navegação rápida  {#quick-navigation}
 
-Anteriormente, a opção para exibir **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]** e **[!UICONTROL Links compartilhados]** estavam ocultos e exigiam vários cliques sempre que o usuário desejava alternar para outra visualização.
+Anteriormente, a opção de exibir **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]**, e **[!UICONTROL Links compartilhados]** eram ocultos e exigiam vários cliques toda vez que o usuário desejava mudar para outra visualização.
 
-No Brand Portal 2020.10.0, os usuários podem navegar até **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]** e **[!UICONTROL Links compartilhados]** em todas as páginas do Brand Portal com um clique usando os links de navegação rápida.
+No Brand Portal 2020.10.0, os usuários podem navegar para **[!UICONTROL Arquivos]**, **[!UICONTROL Coleções]**, e **[!UICONTROL Links compartilhados]** em todas as páginas do Brand Portal com um só clique usando os links de navegação rápida.
 
-![navegação em coleção](assets/collection-navigation.png)
+![coleção-navegação](assets/collection-navigation.png)
 
 ### Painel de representação aprimorado {#rendition-panel}
 
-Anteriormente, os usuários só podiam exibir o ativo original e suas representações no **[!UICONTROL Representações]** painel se qualquer um dos **[!UICONTROL Representação personalizada]** ou **[!UICONTROL Representação do sistema]** foi ativado no **[!UICONTROL Baixar]** configuração. Além disso, os usuários precisavam baixar todas as representações de ativos, pois não havia filtro para excluir representações personalizadas ou dinâmicas específicas que não eram necessárias.
+Anteriormente, os usuários só conseguiam visualizar o ativo original e suas representações na **[!UICONTROL Representações]** painel, se qualquer um dos **[!UICONTROL Representação personalizada]** ou **[!UICONTROL Representação do sistema]** foi ativado na variável **[!UICONTROL Baixar]** configuração. Além disso, os usuários precisavam baixar todas as representações de ativos, pois não havia filtro para excluir representações personalizadas ou dinâmicas específicas que não eram necessárias.
 
 <!--
 Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e diretamente [baixar as representações selecionadas no painel Representações](brand-portal-download-assets.md#download-assets-from-asset-details-page) na página de detalhes do ativo sem precisar abrir o **[!UICONTROL Baixar]** caixa de diálogo.
+No Brand Portal 2020.10.0, os usuários podem excluir representações específicas e diretamente [baixe as representações selecionadas no painel Representações](brand-portal-download-assets.md#download-assets-from-asset-details-page) na página de detalhes do ativo sem precisar abrir a variável **[!UICONTROL Baixar]** diálogo.
 
 
 <!-- 
@@ -269,33 +269,33 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![painel representações](assets/renditions-panel.png)
+![renditions-panel](assets/renditions-panel.png)
 
 
 ### Definir configurações de download {#download-permissions}
 
-Além do **[!UICONTROL Baixar]** configurações, os administradores do Brand Portal também podem definir configurações para diferentes grupos de usuários para visualizar e (ou) baixar o ativo original e suas representações na página de detalhes do ativo.
+Para além dos programas de **[!UICONTROL Baixar]** configurações, os administradores do Brand Portal também podem definir configurações para diferentes grupos de usuários para visualizar e (ou) baixar o ativo original e suas representações na página Detalhes do ativo.
 
-Faça logon no locatário do Brand Portal como administrador e acesse **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
+Faça logon no locatário do Brand Portal como administrador e navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Usuários]**.
 
-No **[!UICONTROL Funções do usuário]** navegue até a página **[!UICONTROL Grupos]** para definir as configurações de exibição e (ou) download para os grupos de usuários.
+No **[!UICONTROL Funções do usuário]** , navegue até o **[!UICONTROL Grupos]** guia para definir a visualização e (ou) baixar as configurações para os grupos de usuários.
 
 Anteriormente, as configurações estavam disponíveis apenas para impedir que os usuários do grupo baixassem o ativo original.
 
-O **[!UICONTROL Grupos]** na guia **[!UICONTROL Funções do usuário]** permite que os administradores definam as configurações de visualização e download:
+A variável **[!UICONTROL Grupos]** na guia **[!UICONTROL Funções do usuário]** permite que os administradores definam as configurações de exibição e download:
 
-* Se ambos **[!UICONTROL Baixar Original]** e **[!UICONTROL Fazer download de representações]** estiverem ativadas, os usuários do grupo selecionado poderão visualizar e baixar os ativos originais e suas representações.
-* Se ambas as configurações estiverem desativadas, os usuários só poderão visualizar os ativos originais. As representações de ativos não estão visíveis para os usuários na página de detalhes do ativo.
-* Somente se **[!UICONTROL Baixar Original]** estiver ativada, os usuários poderão exibir e baixar somente os ativos originais da página de detalhes do ativo.
-* Somente se **[!UICONTROL Fazer download de representações]** estiver ativada, os usuários poderão exibir o ativo original, mas não poderão baixá-lo. No entanto, o usuário pode exibir e baixar as representações do ativo.
+* Se ambos **[!UICONTROL Baixar original]** e **[!UICONTROL Baixar representações]** Quando as configurações estiverem ativadas, os usuários do grupo selecionado poderão visualizar e baixar os ativos originais e suas representações.
+* Se ambas as configurações estiverem desativadas, os usuários só poderão exibir os ativos originais. As representações de ativos não estão visíveis para os usuários na página de detalhes do ativo.
+* Se somente **[!UICONTROL Baixar original]** estiver ativada, os usuários poderão visualizar e baixar somente os ativos originais na página de detalhes do ativo.
+* Se somente **[!UICONTROL Baixar representações]** estiver ativada, os usuários poderão visualizar o ativo original, mas não poderão baixá-lo. No entanto, o usuário pode visualizar e baixar as representações do ativo.
 
-Consulte [configurar download de ativos](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Consulte [configurar o download de ativos](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
 >
->Se um usuário for adicionado a vários grupos e um desses grupos tiver restrições, as restrições se aplicarão ao usuário.
+>Se um usuário for adicionado a vários grupos e se um desses grupos tiver restrições, as restrições se aplicam ao usuário.
 
 
 <!--
@@ -305,9 +305,9 @@ Consulte [configurar download de ativos](https://experienceleague.adobe.com/docs
  >
 -->
 
-## O que mudou na 6.4.7 {#what-changed-in-647}
+## O que mudou na versão 6.4.7 {#what-changed-in-647}
 
-A versão Brand Portal 6.4.7 traz o Visualizador de documentos, aprimora a experiência para baixar ativos e inclui correções críticas. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+A versão 6.4.7 do Brand Portal traz o Visualizador de documentos, melhora a experiência de download de ativos e inclui correções críticas. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -315,11 +315,11 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### Visualizador de documentos {#doc-viewer}
 
-O Visualizador de documentos melhora a experiência de visualização de PDF. Ele fornece uma experiência semelhante à do Adobe Document Cloud enquanto visualiza os arquivos do PDF no Brand Portal.
+O Visualizador de documentos melhora a experiência de visualização de PDF. Ele fornece uma experiência semelhante à do Adobe Document Cloud ao visualizar os arquivos PDF no Brand Portal.
 
-Anteriormente, opções limitadas estavam disponíveis para exibir os arquivos PDF.
+Anteriormente, opções limitadas estavam disponíveis para visualizar os arquivos PDF.
 
-Com o Visualizador de documentos, os usuários do Brand Portal agora têm as opções de exibir páginas, visualizar marcadores, pesquisar texto na página, ampliar, diminuir o zoom, navegar para as páginas anteriores e posteriores, alternar para a página, ajustar para a janela, ajustar para a tela e ocultar ou mostrar a barra de ferramentas.
+Com o Visualizador de documentos, os usuários do Brand Portal agora têm as opções para exibir páginas, exibir marcadores, pesquisar texto na página, ampliar, reduzir, navegar até as páginas anteriores e seguintes, alternar para página, ajustar à janela, ajustar à tela e ocultar ou reexibir a barra de ferramentas.
 
 >[!NOTE]
 >
@@ -330,7 +330,7 @@ Com o Visualizador de documentos, os usuários do Brand Portal agora têm as op�
 
 ### Baixar experiência {#download-configurations}
 
-O processo de download de ativos é remodelado, fornecendo uma experiência simplificada ao usuário enquanto [download de ativos do Brand Portal](brand-portal-download-assets.md).
+O processo de download de ativos foi renovado, proporcionando uma experiência simplificada ao usuário e [download de ativos do Brand Portal](brand-portal-download-assets.md).
 
 O fluxo de trabalho existente de download de ativos do Brand Portal é inevitavelmente seguido pela aparência de um  **[!UICONTROL Baixar]** com várias opções de download para escolher.
 
@@ -344,16 +344,16 @@ O administrador do Brand Portal pode habilitar qualquer combinação para config
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Se ambos **[!UICONTROL Representações personalizadas]** e **[!UICONTROL Representações do sistema]** configurações estiverem desativadas, as representações originais dos ativos serão baixadas sem qualquer caixa de diálogo adicional que simplifique a experiência de download para os usuários do Brand Portal.
+* Se ambos **[!UICONTROL Representações personalizadas]** e **[!UICONTROL Representações do sistema]** Se as configurações estiverem desativadas, as representações originais dos ativos serão baixadas sem nenhuma caixa de diálogo adicional que simplifique a experiência de download para os usuários do Brand Portal.
 
-* Se alguma das **[!UICONTROL Representação personalizada]** ou **[!UICONTROL Representação do sistema]** estiver ativado, a variável **[!UICONTROL Baixar]** será exibida, e o ativo original juntamente com as representações do ativo serão baixados. Habilitar  **[!UICONTROL Download rápido]** acelera a configuração do processo de download.
+* Se qualquer um dos **[!UICONTROL Representação personalizada]** ou **[!UICONTROL Representação do sistema]** estiver ativado, a variável **[!UICONTROL Baixar]** será exibida e o ativo original junto com as representações do ativo será baixado. Ativando  **[!UICONTROL Download rápido]** A configuração do acelera o processo de download.
 
-Com base na configuração, o fluxo de trabalho de download permanece constante para ativos autônomos, vários ativos, pastas contendo ativos, ativos licenciados ou não licenciados e download de ativos usando o link de compartilhamento.
+Com base na configuração, o fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e ativos baixados usando o link compartilhado.
 
 
-## O que mudou na 6.4.6 {#what-changed-in-646}
+## O que mudou na versão 6.4.6 {#what-changed-in-646}
 
-No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Portal é alterado. O Brand Portal agora é compatível com o AEM Assets as a Cloud Service, AEM Assets 6.3 e superior. No AEM Assets 6.3 e superior, a Brand Portal foi configurada anteriormente na interface clássica por meio do Gateway OAuth herdado, que usa a troca de token JWT para obter um token de Acesso IMS para autorização. Agora, o AEM Assets é configurado com o Brand Portal por meio do Console do Adobe Developer, que obtém um token IMS para autorização do locatário do Brand Portal.
+No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Portal é alterado. O Brand Portal agora é compatível com o AEM Assets as a Cloud Service, AEM Assets 6.3 e superior. No AEM Assets 6.3 e posterior, o Brand Portal foi configurado anteriormente na interface clássica por meio do gateway OAuth herdado, que usa a troca de tokens JWT para obter um token de acesso IMS para autorização. Agora o AEM Assets está configurado com o Brand Portal por meio do Adobe Developer Console, que obtém um token IMS para autorização do locatário do Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -369,7 +369,7 @@ No Brand Portal 6.4.6, o canal de autorização entre o AEM Assets e o Brand Por
 
    -->
 
-As etapas para configurar o AEM Assets com Brand Portal são diferentes dependendo da versão do AEM e se você está configurando pela primeira vez ou atualizando as configurações existentes:
+As etapas para configurar o AEM Assets com Brand Portal são diferentes, dependendo da versão do AEM e se você estiver configurando pela primeira vez ou atualizando as configurações existentes:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -385,46 +385,46 @@ As etapas para configurar o AEM Assets com Brand Portal são diferentes dependen
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above -->
 
-| **Versão do AEM** | **Nova configuração** | **Atualizar configuração** |
+| **Versão do AEM** | **Nova configuração** | **Configuração de atualização** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 e superior)** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Atualizar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.5 (6.5.4.0 e superior)** | [Criar configuração](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configuração de atualização](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 
 >[!NOTE]
 >
 >É recomendável atualizar sua instância do AEM para o service pack mais recente.
 
-Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
-Consulte [Perguntas frequentes do Brand Portal](brand-portal-faqs.md).
+Consulte [Perguntas frequentes sobre o Brand Portal](brand-portal-faqs.md).
 
-## O que mudou na 6.4.5 {#what-changed-in-645}
+## O que mudou na versão 6.4.5 {#what-changed-in-645}
 
 
-O Brand Portal 6.4.5 é uma versão do recurso que tem como objetivo fornecer aos usuários do Brand Portal (agências/equipes externas) a capacidade de carregar conteúdo no Brand Portal e publicá-lo nos AEM Assets, sem precisar acessar o ambiente de criação. Este recurso é chamado de **[Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md)** e melhora a experiência do cliente fornecendo um mecanismo bidirecional para que os usuários contribuam e compartilhem ativos com outros usuários globais da Brand Portal.
+O Brand Portal 6.4.5 é uma versão do recurso que tem como objetivo fornecer aos usuários do Brand Portal (agências/equipes externas) a capacidade de carregar conteúdo no Brand Portal e publicá-lo nos AEM Assets, sem precisar acessar o ambiente de criação. Esse recurso é chamado de **[Origem de ativos no Brand Portal](brand-portal-asset-sourcing.md)** e aprimora a experiência do cliente fornecendo um mecanismo bidirecional para que os usuários contribuam e compartilhem ativos com outros usuários globais do Brand Portal.
 
 ### Origem de ativos no Brand Portal {#asset-sourcing-in-bp}
 
-A origem dos ativos permite AEM usuários (administradores/usuários não administradores) criar pastas com um **Contribuição de ativos** , garantindo que a nova pasta criada seja aberta para o envio de ativos pelos usuários do Brand Portal. Ele aciona automaticamente um fluxo de trabalho que cria duas subpastas adicionais, chamadas NEW e SHARED, no arquivo recém-criado **Contribuição** pasta.
+A origem de ativos permite que os usuários do AEM (administradores/usuários não administradores) criem pastas com um **Contribuição de ativos** propriedade, garantindo que a nova pasta seja criada e aberta para o envio de ativos pelos usuários do Brand Portal. Ele aciona automaticamente um fluxo de trabalho que cria duas subpastas adicionais, chamadas NEW e SHARED, na pasta recém-criada **Contribuição** pasta.
 
-O usuário do AEM então define o requisito fazendo upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição e fazendo upload dos ativos da linha de base para a **COMPARTILHADO** para garantir que os usuários do Brand Portal tenham as informações de referência necessárias. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar o **Contribuição** para o Brand Portal.
+O usuário do AEM define o requisito fazendo o upload de um resumo sobre os tipos de ativos que devem ser adicionados à pasta de contribuição e fazendo o upload de ativos de linha de base para o **COMPARTILHADO** para garantir que os usuários do Brand Portal tenham as informações de referência de que precisam. O administrador pode conceder aos usuários ativos do Brand Portal acesso à pasta de contribuição antes de publicar o recém-criado **Contribuição** pasta para o Brand Portal.
 
 
-Quando o usuário terminar de adicionar conteúdo na **NOVO** , eles podem publicar a pasta de contribuição de volta no ambiente de criação do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
+Quando o usuário terminar de adicionar o conteúdo no **NOVO** , eles podem publicar a pasta de contribuição de volta no ambiente do autor do AEM. Observe que pode levar alguns minutos para concluir a importação e refletir o conteúdo recém-publicado no AEM Assets.
 
-Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem visualizar, pesquisar e baixar ativos da pasta de contribuição e das outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos às coleções.
+Além disso, todas as funcionalidades existentes permanecem inalteradas. Os usuários do Brand Portal podem exibir, pesquisar e baixar ativos da pasta contribuição e de outras pastas permitidas. Além disso, os administradores podem compartilhar a pasta de contribuição, modificar propriedades e adicionar ativos a coleções.
 
 >[!NOTE]
 >
->A origem dos ativos no Brand Portal é compatível com AEM 6.5.2.0 e superior.
+>A origem de ativos no Brand Portal é compatível com o AEM 6.5.2.0 e superior.
 >
 >O recurso não é compatível com as versões anteriores - AEM 6.3 e AEM 6.4.
 
 ### Fazer upload de ativos para a pasta de contribuição {#upload-assets-in-bp}
 
-Os usuários da Brand Portal com permissões apropriadas podem fazer upload de ativos individuais ou pastas (arquivo .zip) contendo vários ativos para a pasta de contribuição. Um usuário pode fazer upload de vários ativos para uma pasta de contribuição de ativos. No entanto, apenas uma pasta pode ser criada de cada vez.
+Os usuários do Brand Portal com permissões apropriadas podem fazer upload de ativos ou pastas individuais (arquivo .zip) contendo vários ativos para a pasta de contribuição. Um usuário pode fazer upload de vários ativos para uma pasta de contribuição de ativos. No entanto, somente uma pasta pode ser criada de cada vez.
 
-Os usuários da Brand Portal só podem fazer upload de ativos para a **NOVO** subpasta. O **COMPARTILHADO** destina-se à distribuição de requisitos e ativos de linha de base.
+Os usuários do Brand Portal só podem fazer upload de ativos para o **NOVO** subpasta. A variável **COMPARTILHADO** a pasta destina-se à distribuição de requisitos e ativos de linha de base.
 
 
 ![](assets/upload-asset6.png)
@@ -432,70 +432,70 @@ Os usuários da Brand Portal só podem fazer upload de ativos para a **NOVO** su
 ![](assets/upload-asset4.png)
 
 
-### Publicar a pasta de contribuição no AEM Assets {#publish-assets-to-aem}
+### Publicar pasta de contribuição para o AEM Assets {#publish-assets-to-aem}
 
-Quando o upload estiver concluído na **NOVO** , os usuários do Brand Portal podem publicar a pasta de contribuição de volta no AEM. Pode levar alguns minutos para importar e refletir o conteúdo/ativos publicados no AEM Assets. Consulte [publicar pasta de contribuição na AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Quando o upload estiver concluído para a **NOVO** , os usuários do Brand Portal podem publicar a pasta de contribuição de volta para o AEM. Pode levar alguns minutos para importar e refletir o conteúdo/ativos publicados no AEM Assets. Consulte [publicar pasta de contribuição para o AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
 
 
 ![](assets/upload-asset5.png)
 
-## O que mudou na 6.4.4 {#what-changed-in-644}
+## O que mudou na versão 6.4.4 {#what-changed-in-644}
 
-A versão 6.4.4 do Brand Portal foca em melhorias na pesquisa de texto e nas principais solicitações do cliente. Consulte mais recente [Notas de versão da Brand Portal](brand-portal-release-notes.md).
+A versão do Brand Portal 6.4.4 se concentra em melhorias na pesquisa de texto e nas solicitações dos principais clientes. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
-### Melhorias de pesquisa
+### Aprimoramentos de pesquisa
 
-O Brand Portal 6.4.4 em diante oferece suporte à pesquisa de texto parcial no predicado de propriedade no painel de filtragem. Para permitir a pesquisa de texto parcial, é necessário ativar **Pesquisa parcial** em Predicado de propriedade no formulário de pesquisa.
+O Brand Portal 6.4.4 em diante oferece suporte à pesquisa de texto parcial no predicado de propriedade no painel de filtragem. Para permitir a pesquisa de texto parcial, é necessário habilitar **Pesquisa parcial** no Predicado de propriedade no formulário de pesquisa.
 
-Leia para saber mais sobre pesquisa de texto parcial e pesquisa curinga.
+Leia para saber mais sobre pesquisa de texto parcial e pesquisa com curinga.
 
 #### Pesquisa de frase parcial {#partial-phrase-search}
 
-Agora é possível pesquisar ativos especificando apenas uma parte, ou seja, uma palavra ou duas, da frase pesquisada no painel de filtragem.
+Agora é possível pesquisar ativos especificando apenas uma parte (ou seja, uma ou duas palavras) da frase pesquisada no painel de filtragem.
 
 **Caso de uso**
 A pesquisa de frase parcial é útil quando você não tem certeza da combinação exata de palavras que ocorrem na frase pesquisada.
 
-Por exemplo, se o formulário de pesquisa no Brand Portal usar o Predicado de propriedade para pesquisa parcial no título do ativo, em seguida, especificar o termo **acampamento** retorna todos os ativos com o campo de palavras em sua frase de título.
+Por exemplo, se o formulário de pesquisa no Brand Portal usar o Predicado de propriedade para pesquisa parcial no título dos ativos, especifique o termo **camp** retorna todos os ativos com a palavra camp na frase de título.
 
 ![](assets/partialphrasesearch.png)
 
-#### Pesquisa curinga {#wildcard-search}
+#### Pesquisa com curinga {#wildcard-search}
 
-O Brand Portal permite usar o asterisco (&#42;) na consulta de pesquisa, juntamente com uma parte da palavra na frase pesquisada.
+A Brand Portal permite o uso do asterisco (&#42;) na consulta de pesquisa junto com uma parte da palavra na frase pesquisada.
 
-**Caso de uso. Se não tiver certeza das palavras exatas que ocorrem na frase pesquisada, você pode usar uma pesquisa curinga para preencher as lacunas em sua consulta de pesquisa.
+**Caso de uso. Se você não tiver certeza das palavras exatas que ocorrem na frase pesquisada, poderá usar uma pesquisa com curinga para preencher as lacunas na consulta de pesquisa.
 
-Por exemplo, especificar **subida&#42;** retorna todos os ativos com palavras começando com os caracteres **subida** na frase de título, se o formulário de pesquisa no Brand Portal usar o Predicado de propriedade para pesquisa parcial no título dos ativos.
+Por exemplo, especificar **subir&#42;** retorna todos os ativos que têm palavras que começam com os caracteres **subir** em sua frase de título, se o formulário de pesquisa no Brand Portal usar o Predicado de propriedade para pesquisa parcial no título de ativos.
 
 ![](assets/wildcard-prop.png)
 
 Da mesma forma, especificando:
 
-* **&#42;subida** retorna todos os ativos que têm palavras que terminam com caracteres **subida** na frase do título.
+* **&#42;subir** retorna todos os ativos que têm palavras que terminam com caracteres **subir** na frase de título.
 
-* **&#42;subida&#42;** retorna todos os ativos com palavras que incluem os caracteres **subida** na frase do título.
+* **&#42;subir&#42;** retorna todos os ativos que contêm palavras que incluem os caracteres **subir** na frase de título.
 
 >[!NOTE]
 >
->Ao selecionar **Pesquisa parcial** caixa de seleção, **Ignorar maiúsculas e minúsculas** é selecionada por padrão.
+>Ao selecionar **Pesquisa parcial** caixa de seleção **Ignorar maiúsculas e minúsculas** é selecionada por padrão.
 
 [![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
-## O que mudou na 6.4.3 {#what-changed-in}
+## O que mudou na versão 6.4.3 {#what-changed-in}
 
-A versão do Brand Portal 6.4.3 tem como foco — fornecer às organizações um alias alternativo além da ID do locatário no URL de acesso do Brand Portal, nova configuração de hierarquia de pastas, aprimoramentos no suporte a vídeo, publicação agendada da instância do autor do AEM para o Brand Portal, melhorias operacionais — e atender às solicitações do cliente.
+A versão do Brand Portal 6.4.3 tem como foco — fornecer às organizações um alias alternativo, além de sua ID de locatário no URL de acesso do Brand Portal, nova configuração da hierarquia de pastas, aprimoramentos no suporte de vídeo, publicação agendada da instância do AEM Author para o Brand Portal, aprimoramentos operacionais — e atende às solicitações do cliente.
 
 ### Navegação da hierarquia de pastas para não administradores
 
-Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (editores, visualizadores e usuários convidados) no logon. [Habilitar Hierarquia de Pastas](../using/brand-portal-general-configuration.md) é adicionada em **Configurações gerais**, no painel Ferramentas administrativas. Se a configuração for:
+Agora, os administradores podem configurar como as pastas são exibidas para usuários não administradores (Editores, Visualizadores e Usuários convidados) no logon. [Ativar hierarquia de pastas](../using/brand-portal-general-configuration.md) a configuração é adicionada em **Configurações gerais**, no painel ferramentas administrativas. Se a configuração for:
 
-* **ativado**, a árvore de pastas que começa na pasta raiz está visível para usuários não administradores. Dessa forma, a concessão de uma experiência de navegação semelhante aos administradores.
-* **desativado**, somente as pastas compartilhadas são exibidas na landing page.
+* **habilitado**, a árvore de pastas que começa na pasta raiz fica visível para usuários não administradores. Assim, concedendo a eles uma experiência de navegação semelhante aos administradores.
+* **desabilitado**, somente as pastas compartilhadas serão exibidas na landing page.
 
 ![](assets/enable-folder-hierarchy.png)
 
-O [Habilitar Hierarquia de Pastas](../using/brand-portal-general-configuration.md) A funcionalidade (quando ativada) ajuda a diferenciar as pastas com os mesmos nomes compartilhados de hierarquias diferentes. Ao fazer logon, usuários não administradores agora visualizam as pastas pai virtual (e ancestral) das pastas compartilhadas.
+A variável [Ativar hierarquia de pastas](../using/brand-portal-general-configuration.md) A funcionalidade (quando ativada) ajuda a diferenciar as pastas com os mesmos nomes compartilhados de hierarquias diferentes. Ao fazer logon, os usuários não administradores agora veem as pastas principais virtuais (e ancestrais) das pastas compartilhadas.
 
 ![](assets/disabled-folder-hierarchy1-2.png)
 
@@ -509,40 +509,40 @@ A miniatura padrão das pastas virtuais é a imagem em miniatura da primeira pas
 
 [![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
-### Pesquisar na hierarquia ou caminho de pasta específico
+### Pesquisar na hierarquia ou no caminho da pasta específica
 
-**Navegador de caminhos** o predicado é introduzido no Formulário de pesquisa para permitir a pesquisa de ativos em um diretório específico. O caminho de pesquisa padrão do predicado de pesquisa para Navegador de caminhos é `/content/dam/mac/<tenant-id>/`, que pode ser configurado ao editar o formulário de pesquisa padrão.
+**Navegador de caminhos** O predicado é introduzido no Formulário de pesquisa para permitir a pesquisa de ativos em um diretório específico. O caminho de pesquisa padrão do predicado de pesquisa para Navegador de caminho é `/content/dam/mac/<tenant-id>/`, que pode ser configurado ao editar o formulário de pesquisa padrão.
 
-* Os usuários administradores podem usar o Navegador de caminhos para navegar até qualquer diretório de pastas no Brand Portal.
-* Usuários não administradores podem usar o Navegador de caminhos para navegar somente para as pastas (e navegar de volta para as pastas pai) compartilhadas com eles.
+* Os usuários administradores podem usar o Navegador de caminhos para navegar para qualquer diretório de pastas no Brand Portal.
+* Usuários não administradores podem usar o Navegador de caminho para navegar somente até as pastas (e navegar de volta até as pastas principais) compartilhadas com eles.
 
-   Por exemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` é compartilhado com um usuário não administrador. O usuário pode pesquisar ativos na pastaC usando o Navegador de caminhos. Esse usuário também pode navegar para folderB e folderA (já que são ancestrais da folderC compartilhada com o usuário).
+   Por exemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` é compartilhado com um usuário não administrador. O usuário pode pesquisar ativos na folderC usando o Navegador de caminho. Esse usuário também pode navegar para a pasta B e a pasta A (já que são antecessores da pasta C compartilhada com o usuário).
 
 ![](assets/edit-search-form.png)
 
 
-Agora é possível restringir a pesquisa de ativos em uma pasta específica que você buscou, em vez de começar na pasta raiz.
+Agora é possível restringir a pesquisa de ativos em uma pasta específica para a qual você navegou, em vez de começar na pasta raiz.
 
-Pesquisar nessas pastas retorna somente os resultados dos ativos que foram compartilhados com o usuário.
+A pesquisa nessas pastas retorna resultados somente dos ativos que foram compartilhados com o usuário.
 
 ![](assets/filter-panel.png)
 
 [![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Suporte para representações de vídeo do Dynamic Media
+### Suporte a representações de vídeo do Dynamic Media
 
-Os usuários cuja instância do autor do AEM esteja no modo híbrido do Dynamic Media podem visualizar e baixar as representações de mídia dinâmica, além dos arquivos de vídeo originais.
+Os usuários cuja instância do Autor do AEM está no modo híbrido do Dynamic Media podem visualizar e baixar as representações do Dynamic Media, além dos arquivos de vídeo originais.
 
-Para permitir a visualização e o download de representações de mídia dinâmica em contas de locatários específicas, os administradores devem especificar **Configuração do Dynamic Media** (URL do serviço de vídeo (URL do gateway do DM) e ID de registro para buscar o vídeo dinâmico) em **Vídeo** configuração do painel ferramentas administrativas.
+Para permitir a pré-visualização e o download de representações de mídia dinâmica em contas de locatários específicas, os administradores devem especificar **Configuração do Dynamic Media** (URL do serviço de vídeo (URL do gateway DM) e ID de registro para buscar o vídeo dinâmico) no **Vídeo** configuração do painel ferramentas administrativas.
 
 
 Os vídeos do Dynamic Media podem ser visualizados em:
 
-* Página Detalhes do ativo
+* Página de detalhes do ativo
 * Exibição de cartão do ativo
-* Página de visualização de compartilhamento de link
+* Página de visualização do compartilhamento de link
 
-É possível baixar os códigos de vídeo do Dynamic Media em:
+Os códigos de vídeo do Dynamic Media podem ser baixados de:
 
 * Brand Portal
 * Link compartilhado
@@ -551,11 +551,11 @@ Os vídeos do Dynamic Media podem ser visualizados em:
 
 [![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
-### Publicação agendada para o Brand Portal
+### Publicação agendada no Brand Portal
 
-O fluxo de trabalho de publicação de ativos (e pastas) da instância do autor do AEM 6.4.2.0 para o Brand Portal pode ser agendado para uma data e hora posteriores.
+O fluxo de trabalho de publicação de ativos (e pastas) da instância do autor do AEM 6.4.2.0 no Brand Portal pode ser agendado para uma data e hora posteriores.
 
-Da mesma forma, os ativos publicados podem ser removidos do portal posteriormente, agendando o fluxo de trabalho Cancelar publicação do Brand Portal .
+Da mesma forma, os ativos publicados podem ser removidos do portal posteriormente agendando o fluxo de trabalho Desfazer publicação no Brand Portal.
 
 ![](assets/schedule-publish.png)
 
@@ -563,90 +563,90 @@ Da mesma forma, os ativos publicados podem ser removidos do portal posteriorment
 
 [![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
-### Alias do locatário configurável no URL
+### Alias de locatário configurável no URL
 
-As organizações podem personalizar o URL do portal, com um prefixo alternativo no URL. Para obter um alias para o nome do locatário em seu URL do portal existente, as organizações devem entrar em contato com o Suporte ao cliente.
+As organizações podem personalizar o URL do portal tendo um prefixo alternativo no URL. Para obter um alias para o nome do locatário no URL do portal existente, as organizações devem entrar em contato com o Suporte ao cliente.
 
-Somente o prefixo do URL do Brand Portal pode ser personalizado e não o URL inteiro.\
-Por exemplo, uma organização com domínio existente **geomettrix.brand-portal.adobe.com** pode obter **geomettrixinc.brand-portal.adobe.com** criado mediante solicitação.
+Somente o prefixo do URL do Brand Portal pode ser personalizado, e não o URL inteiro.\
+Por exemplo, uma organização com um domínio existente **geomettrix.brand-portal.adobe.com** pode obter **geomettrixinc.brand-portal.adobe.com** criado mediante solicitação.
 
-No entanto, a instância do autor do AEM pode ser [configurado](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) somente com o URL da id do locatário e não com o URL do alias do locatário (alternativo).
+No entanto, a instância do autor do AEM pode ser [configurado](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) somente com a URL da id do locatário e não com a URL do alias do locatário (alternativo).
 
-As organizações podem atender às suas necessidades de marca, personalizando o URL do portal, em vez de aderir ao URL fornecido pelo Adobe.
+As organizações podem atender às suas necessidades de marca, obtendo o URL do portal personalizado, em vez de aderir ao URL fornecido pelo Adobe.
 
 [![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
-### Fazer download de aprimoramentos de experiência
+### Baixar aprimoramentos de experiência
 
-O lançamento oferece uma experiência de download simplificada com um número reduzido de cliques e avisos, em:
+A versão oferece experiência de download simplificada com um número reduzido de cliques e avisos, em:
 
-* Optar por baixar apenas as representações (e não os ativos originais).
-* Baixar os ativos quando o acesso às renderizações originais é restrito.
+* Optar por baixar somente as representações (e não os ativos originais).
+* Baixar os ativos quando o acesso às representações originais for restrito.
 
-## O que mudou na 6.4.2 {#what-changed-in-1}
+## O que mudou na versão 6.4.2 {#what-changed-in-1}
 
-A versão Brand Portal 6.4.2 oferece uma variedade de recursos para atender às necessidades de distribuição de ativos das organizações e ajudá-las a alcançar muitos usuários distribuídos globalmente por meio do acesso de convidado e da experiência ideal com downloads acelerados. O Brand Portal também oferece maior controle às organizações por meio de novas configurações para administradores, relatórios recém adicionados e atende a solicitações de clientes.
+A versão 6.4.2 do Brand Portal oferece uma variedade de recursos para atender às necessidades de distribuição de ativos das organizações. Além disso, os recursos as ajuda a alcançar muitos usuários distribuídos globalmente pelo acesso de visitantes e experiência ideal com downloads acelerados. A Brand Portal também oferece maior controle às organizações por meio de novas configurações para administradores, relatórios recém-adicionados e atende às solicitações dos clientes.
 
 ### Acesso de convidado
 
 ![](assets/bp-login-screen-1.png)
 
-AEM Portal da Marca permite acesso de convidado ao portal. Um usuário convidado não precisa de credenciais para entrar no portal e pode acessar e baixar todas as pastas públicas e coleções. Os usuários convidados podem adicionar ativos a seu lightbox (coleção privada) e baixar o mesmo. Eles também podem visualizar a pesquisa de tags inteligentes e os predicados de pesquisa definidos pelos administradores. A sessão de convidado não permite que os usuários criem coleções e pesquisas salvas ou as compartilhe mais, acesse as configurações de pastas e coleções e compartilhe ativos como links.
+AEM Brand portal permite o acesso de visitantes ao portal. Um usuário convidado não exige credenciais para entrar no portal e pode acessar e baixar todas as pastas e coleções públicas. Os usuários convidados podem adicionar ativos à lightbox (coleção privada) e baixar os mesmos. Eles também podem exibir a pesquisa inteligente de tags e pesquisar predicados definidos pelos administradores. A sessão de convidado não permite que os usuários criem coleções e pesquisas salvas ou as compartilhem ainda mais, acessem configurações de pasta e coleções e compartilhem ativos como links.
 
-Em uma organização, várias sessões de convidado simultâneas são permitidas, o que é limitado a 10% da cota total do usuário por organização.
+Em uma organização, várias sessões simultâneas de convidado são permitidas, o que é limitado a 10% da cota total de usuários por organização.
 
-Uma sessão de convidado permanece ativa por duas horas. Portanto, o estado do lightbox também é preservado até duas horas a partir da hora de início da sessão. Após duas horas, a sessão de convidado deve ser reiniciada, para que o estado do lightbox seja perdido.
+Uma sessão de convidado permanece ativa por duas horas. Portanto, o estado da lightbox também é preservado até duas horas após o horário de início da sessão. Após duas horas, a sessão de convidado tem que ser reiniciada, então o estado lightbox é perdido.
 
 ### Downloads acelerados
 
-Os usuários da Brand Portal podem aplicar downloads rápidos baseados no IBM Aspera Connect para obter velocidades até 25 vezes mais rápidas e desfrutar de uma experiência de download contínua, independentemente de sua localização em todo o mundo. Para baixar os ativos mais rapidamente do Brand Portal ou do link compartilhado, os usuários precisam selecionar **Ativar a aceleração de download** na caixa de diálogo de download, desde que a aceleração de download esteja ativada em sua organização.
+Os usuários do Brand Portal podem aplicar downloads rápidos baseados no IBM Aspera Connect para obter velocidades até 25 vezes mais rápidas e uma experiência de download contínua, independentemente da sua localização no mundo. Para baixar os ativos mais rápido no Brand Portal ou no link compartilhado, os usuários precisam selecionar **Habilitar aceleração de download** opção na caixa de diálogo de download, desde que a aceleração de download esteja ativada em sua organização.
 
 ![](assets/donload-assets-dialog-2.png)
 
-Para habilitar o download acelerado baseado no IBM Aspera para a organização, os administradores **Ativar a aceleração de download** opção (que é desativada por padrão) de [Configurações gerais](brand-portal-general-configuration.md#allow-download-acceleration) no painel Ferramentas administrativas. Para saber mais sobre os pré-requisitos e as etapas de solução de problemas para baixar arquivos de ativos mais rapidamente do Brand Portal e links compartilhados, consulte [Guia para acelerar downloads no Brand Portal](../using/accelerated-download.md#main-pars-header).
+Para habilitar o download acelerado baseado no IBM Aspera para a organização, os administradores **Habilitar aceleração de download** (que está desabilitada por padrão) de [Configurações gerais](brand-portal-general-configuration.md#allow-download-acceleration) no painel ferramentas administrativas. Para saber mais sobre os pré-requisitos e as etapas de solução de problemas para baixar arquivos de ativos mais rapidamente do Brand Portal e de links compartilhados, consulte [Guia para acelerar downloads do Brand Portal](../using/accelerated-download.md#main-pars-header).
 
-### Relatório de logons do usuário
+### Relatório de logons de usuário
 
-Um novo relatório, para rastrear os logons de usuários, foi introduzido. O **Logons do usuário** pode ser fundamental para permitir que as organizações auditem e mantenham uma verificação dos administradores delegados e de outros usuários do Brand Portal.
+Um novo relatório, para rastrear os logons de usuários, foi introduzido. A variável **Logons de usuário** O relatório pode ser fundamental para permitir que as organizações auditem e mantenham uma verificação dos administradores delegados e outros usuários do Brand Portal.
 
-Os logs de relatório exibem nomes, IDs de email, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório. Os administradores podem exportar o relatório como .csv. Juntamente com outros relatórios, o relatório Logons de usuário permite que as organizações monitorem mais detalhadamente as interações do usuário com os recursos de marca aprovados, garantindo assim a conformidade com os escritórios de conformidade corporativa.
+Os logs do relatório exibem nomes, IDs de email, personas (administrador, visualizador, editor, convidado), grupos, último logon, status da atividade e contagem de logon de cada usuário da implantação do Brand Portal 6.4.2 até o momento da geração do relatório. Os administradores podem exportar o relatório como .csv. Juntamente com outros relatórios, o relatório de Logons de usuário permite que as organizações monitorem mais detalhadamente as interações do usuário com os recursos de marca aprovados, garantindo assim a conformidade com os escritórios de conformidade corporativa.
 
 ![](assets/user-logins-1.png)
 
-### Acesso a representações originais
+### Acesso às representações originais
 
-Os administradores podem restringir o acesso do usuário aos arquivos de imagem originais (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .gmbox, psd, image/vnd.adobe.photoshop) e dar acesso a representações de baixa resolução que baixam do Brand Portal ou link compartilhado. Esse acesso pode ser controlado no nível do grupo de usuários na guia Grupos da página Funções do usuário no painel Ferramentas administrativas.
+Os administradores podem restringir o acesso do usuário a arquivos de imagem originais (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) e conceder acesso a representações de baixa resolução que eles baixam do Brand Portal ou de links compartilhados. Esse acesso pode ser controlado no nível do grupo de usuários na guia Grupos da página Funções do usuário no painel Ferramentas administrativas.
 
 ![](assets/access-original-rend-1.png)
 
-* Por padrão, todos os usuários podem baixar representações originais, pois o Acesso ao Original está ativado para todos.
-* Os administradores precisam desmarcar as respectivas caixas de seleção para impedir que um grupo de usuários acesse as representações originais.
-* Se um usuário for membro de vários grupos, mas apenas um dos grupos tiver restrições, as restrições se aplicarão a esse usuário.
-* As restrições não se aplicam a administradores, mesmo sendo membros de grupos restritos.
-* As permissões do usuário que compartilha ativos como link se aplicam aos usuários que baixam ativos usando links compartilhados.
+* Por padrão, todos os usuários podem baixar representações originais, já que o Acesso ao Original está ativado para todos.
+* Os administradores precisam desmarcar as respectivas caixas de seleção para impedir que um grupo de usuários acesse representações originais.
+* Se um usuário for membro de vários grupos, mas apenas um dos grupos tiver restrições, as restrições se aplicam a esse usuário.
+* As restrições não se aplicam aos administradores, mesmo que sejam membros de grupos restritos.
+* As permissões do usuário que está compartilhando ativos como link se aplicam aos usuários que baixam ativos usando links compartilhados.
 
-### Caminho da hierarquia de pastas nas visualizações de Cartão e Lista
+### Caminho de hierarquia de pastas em visualizações de Cartão e Lista
 
-Os cartões de pastas, na Exibição de cartão, agora exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam o local das pastas que estão acessando, em relação à hierarquia principal.
+Os cartões de pastas, na Exibição de cartão, agora exibem informações de hierarquia de pastas para usuários não administradores (Editor, Visualizador e Usuário convidado). Essa funcionalidade permite que os usuários saibam o local das pastas que estão acessando em relação à hierarquia principal.
 
-As informações de hierarquia de pastas são particularmente úteis na diferenciação de pastas com nomes semelhantes a outras pastas compartilhadas de uma hierarquia de pasta diferente. Se os usuários não administradores não estiverem cientes da estrutura de pastas dos ativos compartilhados com eles, os ativos/pastas com nomes semelhantes parecerão confusos.
+As informações de hierarquia de pastas são particularmente úteis para diferenciar as pastas com nomes semelhantes a outras pastas compartilhadas de uma hierarquia de pastas diferente. Se os usuários não administradores não estiverem cientes da estrutura de pastas dos ativos compartilhados com eles, os ativos/pastas com nomes semelhantes parecerão confusos.
 
-* Os caminhos mostrados nos respectivos cartões são truncados para se ajustarem aos tamanhos dos cartões. No entanto, os usuários podem ver o caminho completo como uma dica de ferramenta ao passar o cursor do mouse sobre o caminho truncado.
+* Os caminhos mostrados nas respectivas placas estão truncados para se ajustarem aos tamanhos da placa. No entanto, os usuários podem ver o caminho completo como uma dica de ferramenta ao passar o mouse sobre o caminho truncado.
 
 ![](assets/folder-hierarchy1-1.png)
 
-Exibição de lista mostra o caminho da pasta de ativos em uma coluna para todos os usuários do Brand Portal.
+A Exibição de lista mostra a pasta Caminho dos ativos em uma coluna para todos os usuários do Brand Portal.
 
 ![](assets/list-view-1.png)
 
-### Opção de visão geral para exibir propriedades de ativos
+### Opção de visão geral para exibir as propriedades do ativo
 
-O Brand Portal fornece a opção Visão geral para usuários não administradores (Editores, Visualizadores, Usuários convidados) para exibir as Propriedades do ativo de ativos de ativos/pastas selecionadas. A opção Visão geral está visível:
+O Brand Portal fornece a opção Visão geral para usuários não administradores (Editores, Visualizadores, Usuários convidados) para visualizar as Propriedades dos ativos/pastas selecionados. A opção Visão geral está visível:
 
-1. Na barra de ferramentas, na parte superior, ao selecionar um ativo/pasta.
-2. Na lista suspensa ao selecionar o Seletor de painéis.
+1. Na barra de ferramentas na parte superior, ao selecionar um ativo/pasta.
+2. Na lista suspensa em Selecionar o seletor de painéis.
 
-Ao selecionar a opção Visão geral enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e o horário da criação do ativo. Enquanto isso, na página Detalhes do ativo, a opção Visão geral permite que os usuários vejam os metadados do ativo.
+Ao selecionar a opção Visão geral enquanto um ativo/pasta é selecionado, os usuários podem ver o título, o caminho e a hora da criação do ativo. Já na página de detalhes do ativo, a seleção da opção Visão geral permite que os usuários vejam os metadados do ativo.
 
 ![](assets/overview-option-2.png)
 
@@ -654,135 +654,135 @@ Ao selecionar a opção Visão geral enquanto um ativo/pasta é selecionado, os 
 
 ## Novas configurações
 
-Seis novas configurações são adicionadas aos administradores para ativar/desativar as seguintes funcionalidades em locatários específicos:
+Seis novas configurações são adicionadas para que os administradores ativem/desativem as seguintes funcionalidades em locatários específicos:
 
 * Permitir acesso de convidado
-* Permitir que usuários solicitem acesso ao Brand Portal
-* Permitir que administradores excluam ativos do Brand Portal
+* Permitir que os usuários solicitem acesso ao Brand Portal
+* Permitir que administradores excluam ativos da Brand Portal
 * Permitir criação de coleções públicas
-* Permitir a criação de coleções inteligentes públicas
+* Permitir criação de coleções públicas inteligentes
 * Permitir aceleração de download
 
-As configurações acima estão disponíveis em Access e General settings no painel de ferramentas administrativas.
+As configurações acima estão disponíveis em Configurações gerais e de acesso no painel Ferramentas administrativas.
 
 ![](assets/access-configs-1.png)
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Interface do usuário do Adobe I/O para configurar integrações de oAuth
+### Adobe I/O UI para configurar integrações oAuth
 
-O Brand Portal 6.4.2 em diante usa o OAuth herdado (`https://legacy-oauth.cloud.adobe.io/`) para criar o aplicativo JWT, que permite a configuração de integrações oAuth para permitir a integração do AEM Assets com o Brand Portal. Anteriormente, a interface do usuário para configurar integrações do OAuth era hospedada em `https://marketing.adobe.com/developer/`. Para saber mais sobre a integração do AEM Assets com o Brand Portal para publicação de ativos e coleções no Brand Portal, consulte [Configurar a integração do AEM Assets com o Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+O Brand Portal 6.4.2 em diante usa o OAuth herdado (`https://legacy-oauth.cloud.adobe.io/`) para criar um aplicativo JWT, que permite configurar integrações oAuth para permitir a integração do AEM Assets com o Brand Portal. Anteriormente, a interface para configurar integrações OAuth era hospedada no `https://marketing.adobe.com/developer/`. Para saber mais sobre a integração do AEM Assets com o Brand Portal para publicação de ativos e coleções no Brand Portal, consulte [Configurar a integração do AEM Assets com o Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
-## Melhorias de pesquisa
+## Aprimoramentos de pesquisa
 
-Os administradores podem fazer a propriedade predicar não diferencia maiúsculas de minúsculas usando o predicado de propriedade atualizado, que tem uma verificação para Ignorar maiúsculas e minúsculas. Essa opção está disponível para predicado de propriedade e predicado de propriedade de vários valores.\
-No entanto, a pesquisa que não diferencia maiúsculas de minúsculas é comparativamente mais lenta que a pesquisa padrão por predicado de propriedade. Se houver muitos predicados que não diferenciam maiúsculas de minúsculas no filtro de pesquisa, a pesquisa poderá desacelerar. É, portanto, aconselhável usar judiciosamente a pesquisa que não diferencia maiúsculas de minúsculas.
+Os administradores podem tornar os predicados de propriedade não sensíveis a maiúsculas e minúsculas usando o predicado de propriedade atualizado, que tem uma verificação para Ignorar maiúsculas e minúsculas. Essa opção está disponível para o predicado de propriedade e o predicado de propriedade de vários valores.\
+No entanto, a pesquisa que não diferencia maiúsculas de minúsculas é comparativamente mais lenta do que a pesquisa padrão para o predicado de propriedade. Se houver muitos predicados que não diferenciam maiúsculas de minúsculas no filtro de pesquisa, a pesquisa poderá ficar lenta. Portanto, é recomendável usar a pesquisa que não diferencia maiúsculas de minúsculas de maneira criteriosa.
 
-## O que mudou na 6.4.1 {#what-changed-in-2}
+## O que mudou na versão 6.4.1 {#what-changed-in-2}
 
-O Brand Portal 6.4.1 é uma versão de atualização da plataforma que traz vários novos recursos e aprimoramentos vitais, como navegar, pesquisar e aprimoramentos de desempenho para proporcionar uma experiência completa ao cliente.
+O Brand Portal 6.4.1 é uma versão de atualização da plataforma que traz vários novos recursos e aprimoramentos vitais, como navegação, pesquisa e aprimoramentos de desempenho para fornecer experiências completas aos clientes.
 
-### Melhorias de navegação
+### Aprimoramentos de navegação
 
 * Novo painel Árvore de conteúdo para navegar rapidamente por uma hierarquia de ativos.
 
 ![](assets/contenttree-2.png)
 
-* Novos atalhos de teclado introduzidos, por exemplo _p)_ para navegação até a página de propriedades, _e)_ para Editar e _(ctrl+c)_ para operações de cópia.
-* Melhoria na rolagem e na experiência de carregamento lento na exibição de cartão e lista para a navegação de um grande número de ativos.
-* Exibição de cartão aprimorada com suporte para placas de tamanho diferente com base na configuração de exibição.
+* Introdução de novos atalhos de teclado, por exemplo _p)_ para navegar até a página de propriedades, _e)_ para Editar, e _(ctrl+c)_ para operações de cópia.
+* Experiência de carregamento lento e com rolagem aprimorada na exibição de cartão e lista para navegar por um grande número de ativos.
+* Visualização de cartão aprimorada com suporte para cartões de tamanhos diferentes com base na configuração de visualização.
 
 ![](assets/cardviewsettings-1.png)
 
-* A exibição de cartão agora exibe o carimbo de data/hora ao passar o cursor do mouse sobre o rótulo de data.
+* A exibição de cartão agora exibe o carimbo de data/hora ao passar o mouse sobre o rótulo de data.
 
-* Exibição de Coluna aprimorada com **Mais detalhes** no instantâneo do ativo, que permite navegar até a página de detalhes de um ativo.
+* Exibição de coluna aprimorada com **Mais detalhes** no instantâneo de ativo, que permite navegar até a página de detalhes de um ativo.
 
 ![](assets/columnmoredetail.png)
 
-* A exibição em Lista agora exibe os nomes de arquivo dos ativos na primeira coluna por padrão, além das informações de local, tipo de ativo, dimensões, tamanho, classificação e publicação. Novo **Exibir configurações** pode ser usada para configurar a quantidade de detalhes a serem exibidos na exibição em Lista.
+* A exibição em Lista agora exibe os nomes de arquivos dos ativos na primeira coluna por padrão, além das informações de localidade, tipo de ativo, dimensões, tamanho, classificação e publicação. Novo **Configurações de exibição** pode ser usado para configurar a quantidade de detalhes a serem exibidos na exibição em Lista.
 
-* Melhoria na experiência de detalhes do ativo com a capacidade de navegar para frente e para trás entre ativos usando novos botões de navegação e visualizar a contagem de ativos.
+* Experiência de detalhes de ativos aprimorada com a capacidade de navegar para frente e para trás entre ativos usando novos botões de navegação e visualizar a contagem de ativos.
 
 ![](assets/navbtn.png)
 
 * Novo recurso para visualizar arquivos de áudio, carregados do AEM, na página de detalhes do ativo.
-* Novo recurso Ativos relacionados fornecido nas propriedades dos Ativos. Os ativos relacionados a outros ativos de origem/derivados no AEM e publicados no Brand Portal agora têm seu relacionamento intacto no Brand Portal, com links para os ativos relacionados na página de propriedades.
-* Uma nova configuração para impedir que usuários não administradores criem coleções públicas foi introduzida. As organizações podem trabalhar com a equipe de Suporte ao cliente para configurar esse recurso em contas específicas.
+* Novo recurso Ativos relacionados fornecido nas propriedades do Ativo. Os ativos relacionados a outros ativos de origem/derivados no AEM e publicados no Brand Portal agora têm sua relação intacta no Brand Portal, com links para os ativos relacionados na página de propriedades.
+* Foi introduzida uma nova configuração para impedir que usuários não administradores criem coleções públicas. As organizações podem trabalhar com a equipe de suporte ao cliente para configurar esse recurso em contas específicas.
 
-### Melhorias de pesquisa
+### Aprimoramentos de pesquisa
 
 * Recurso introduzido para retornar à mesma posição nos resultados da pesquisa, após navegar até um item de pesquisa, sem executar a consulta de pesquisa novamente.
-* Novos resultados da Pesquisa contam para exibir o número de resultados da pesquisa fornecidos.
-* Filtro de pesquisa do tipo de arquivo aprimorado com a capacidade de filtrar resultados de pesquisa com base em tipos MIME refinados, como .jpg, .png e .psd, em comparação com as opções de imagens, documentos, multimídia anteriores.
-* Filtros de pesquisa aprimorados para coleções, com carimbos de data e hora precisos em vez da funcionalidade de controle deslizante de hora anterior.
-* Novos filtros de tipo de acesso foram introduzidos para procurar coleções que são públicas ou não.
+* Foi fornecida uma nova contagem de resultados da pesquisa para exibir o número de resultados da pesquisa.
+* Filtro de pesquisa de tipo de arquivo aprimorado com a capacidade de filtrar resultados de pesquisa com base em tipos MIME refinados, como .jpg, .png e .psd, em comparação às opções anteriores de Imagens, Documentos e Multimídia.
+* Filtros de pesquisa aprimorados para coleções, com carimbos de data e hora precisos em vez da funcionalidade do controle deslizante de hora anterior.
+* Foram introduzidos novos filtros do tipo Acesso para pesquisar pelas coleções que são Públicas ou não Públicas.
 
 ![](assets/accesstypefilter.png)
 
 ### Otimizações de download
 
-* Um único arquivo grande é baixado diretamente, sem a criação do arquivo zip, melhorando assim a velocidade e a taxa de transferência.
-* O limite de download por tamanho de arquivo do recurso de compartilhamento de link é **1** PT
+* Um único arquivo grande é baixado diretamente, sem a criação de um arquivo zip, melhorando assim a velocidade e a taxa de transferência.
+* O limite de download por tamanho de arquivo para o recurso de compartilhamento de link é **1** GB.
 
-* Agora os usuários podem optar por baixar somente os arquivos personalizados e originais e evitar representações prontas para uso, enquanto baixam ativos do Brand Portal ou por meio do recurso de links compartilhados.
+* Agora, os usuários podem optar por baixar somente os arquivos personalizados e originais e evitar representações predefinidas ao baixar ativos do Brand Portal ou por meio do recurso de links compartilhados.
 
 ![](assets/excludeautorendition.png)
 
-### Melhorias de desempenho
+### Aprimoramentos de desempenho
 
-* Melhoria de até 100% na velocidade de download de ativos.
-* Aprimoramento de até 40% na resposta de pesquisa para ativos.
-* Melhoria de até 40% no desempenho da navegação.
+* Até 100% de melhoria na velocidade de download de ativos.
+* Até 40% de melhoria na resposta de pesquisa de ativos.
+* Desempenho de navegação até 40% melhor.
 
-**Observação**: As melhorias citadas são conforme os testes feitos em laboratório.
+**Nota**: As melhorias mencionadas correspondem aos testes realizados no laboratório.
 
-### Recursos de relatório aprimorados
+### Recursos aprimorados de relatórios
 
-**Relatório de compartilhamento de link introduzido**
-Um novo relatório, que fornece informações sobre links compartilhados, foi introduzido. O relatório Compartilhamento de links lista todos os URLs, para os ativos, compartilhados com usuários internos e externos em toda a organização no período de tempo especificado. Ele também informa quando o link foi compartilhado, por quem e quando ele expira.
+**Relatório de compartilhamento de links introduzido**
+Um novo relatório, para fornecer informações sobre links compartilhados, foi introduzido. O relatório Compartilhamento de links lista todos os URLs, para os ativos, compartilhados com usuários internos e externos em toda a organização no período especificado. Também informa quando o link foi compartilhado, por quem e quando ele expira.
 
 ![](assets/navigatereport.png)
 
-**Modificado o ponto de entrada para acessar o Relatório de uso**
-Os relatórios de uso agora são consolidados com outros relatórios e agora podem ser exibidos no console Relatórios de ativos . Para acessar o console Relatórios de ativos , navegue até **Criar/gerenciar relatórios** do painel de ferramentas administrativas.
+**Ponto de entrada modificado para acessar o relatório de Uso**
+Os relatórios de uso agora estão consolidados com outros relatórios e podem ser exibidos no console de Relatórios de ativos. Para acessar o console Relatórios de ativos, navegue até **Criar/gerenciar relatórios** no painel ferramentas administrativas.
 
 ![](assets/accessassetreport.png)
 
 **Experiência do usuário aprimorada com relatórios**
-A interface de relatórios no Brand Portal tornou-se mais intuitiva e confere maior controle às organizações. Além de criar vários relatórios, os administradores agora podem revisitar os relatórios gerados e baixá-los ou excluí-los, pois esses relatórios são salvos no Brand Portal.
+A interface de relatórios no Brand Portal tornou-se mais intuitiva e oferece maior controle às organizações. Além de criar vários relatórios, os administradores agora podem revisitar os relatórios gerados e baixá-los ou excluí-los, pois esses relatórios são salvos no Brand Portal.
 
-Cada relatório que está sendo criado pode ser personalizado adicionando ou removendo colunas padrão. Além disso, colunas personalizadas podem ser adicionadas aos relatórios Download, Expiração e Publicação para controlar o grau de granularidade.
+Cada um dos relatórios que estão sendo criados pode ser personalizado adicionando ou removendo colunas padrão. Além disso, colunas personalizadas podem ser adicionadas aos relatórios de Download, Expiração e Publicação para controlar seu grau de granularidade.
 
 ### Ferramentas administrativas aprimoradas
 
-O seletor de propriedades foi aprimorado nas ferramentas de administração para Metadados, Pesquisa e Relatórios com recursos de navegação e Type-ahead para simplificar a experiência administrativa.
+Aprimoramento do Seletor de propriedades nas ferramentas de administração para metadados, pesquisa e relatórios com recurso de digitação antecipada e navegação para simplificar a experiência do administrador.
 
 ### Outras melhorias
 
-* Os ativos publicados no Brand Portal a partir dos AEM 6.3.2.1 e 6.4 agora podem ser disponibilizados publicamente para usuários gerais do Brand Portal, marcando a caixa de seleção Publicação de pasta pública na caixa de diálogo Replicação de AEM Assets Brand Portal .
+* Os ativos publicados no Brand Portal a partir do AEM 6.3.2.1 e 6.4 agora podem ser disponibilizados publicamente para usuários gerais do Brand Portal, marcando a caixa de seleção Publicação de pasta pública na caixa de diálogo Replicação do AEM Assets Brand Portal.
 
 ![](assets/public-folder-publish.png)
 
-* Os administradores são notificados por meio de emails de solicitação de acesso, além das notificações na área de notificação do Brand Portal, se alguém tiver solicitado acesso à Brand Portal.
+* Os administradores são notificados por meio de emails de solicitação de acesso, além das notificações na área de notificação do Brand Portal, se alguém tiver solicitado acesso ao Brand Portal.
 
-## O que mudou na 6.3.2 {#what-changed-in-3}
+## O que mudou na versão 6.3.2 {#what-changed-in-3}
 
 O Brand Portal 6.3.2 inclui funcionalidades novas e aprimoradas voltadas para as principais solicitações do cliente e melhorias gerais de desempenho.
 
 ### Solicitar acesso ao Brand Portal {#request-access-to-brand-portal}
 
-Agora os usuários podem solicitar acesso ao Brand Portal usando o novo **acesso necessário** disponível na tela de logon do Brand Portal.
+Os usuários agora podem solicitar acesso ao Brand Portal usando o novo **acesso necessário** recurso disponível na tela de logon do Brand Portal.
 
 ![](assets/bplogin_request_access.png)
 
-Dependendo de os usuários terem uma Adobe ID ou precisarem criar uma Adobe ID, os usuários podem seguir o fluxo de trabalho apropriado para enviar uma solicitação. Os administradores de produtos Brand Portal recebem essas solicitações na área de notificação e concedem acesso por meio do Adobe Admin Console.
+Se os usuários tiverem uma Adobe ID ou precisarem criar uma Adobe ID, eles poderão seguir o fluxo de trabalho apropriado para enviar uma solicitação. Os administradores de produtos do Brand Portal recebem essas solicitações na área de notificação e concedem acesso por meio do Adobe Admin Console.
 
 Para obter mais informações, consulte [Solicitar acesso ao Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Aprimoramento no relatório de ativos baixados {#enhancement-in-the-assets-downloaded-report}
+### Aprimoramento no relatório de download de ativos {#enhancement-in-the-assets-downloaded-report}
 
-O relatório de ativos baixados agora inclui a contagem de download de ativos por usuário dentro da data e do intervalo de tempo especificados. Os usuários podem baixar esse relatório no formato .csv e compilar dados como a contagem total de download de um ativo licenciado.
+O relatório Ativos baixados agora inclui a contagem de download de ativos por usuário dentro do intervalo de data e hora especificado. Os usuários podem baixar esse relatório no formato .csv e compilar dados, como a contagem total de downloads de um ativo licenciado.
 
 ![](assets/reports_download_downloaded_by.png)
 
@@ -796,7 +796,7 @@ O Brand Portal agora exibe um banner de notificação alguns dias antes de uma a
 
 Para obter mais informações, consulte [Notificação de manutenção do Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
 
-### Aprimoramento de ativos licenciados compartilhados usando o recurso de compartilhamento de link {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
+### Aprimoramento para ativos licenciados compartilhados usando o recurso compartilhamento de link {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
 Ao baixar ativos licenciados usando o recurso de compartilhamento de link, agora é solicitado que você concorde com o contrato de licença desses ativos.
 
@@ -806,33 +806,33 @@ Para obter mais informações, consulte a Etapa 12 em [Compartilhar ativos como 
 
 ### Aprimoramento do seletor de usuários {#user-picker-enhancement}
 
-O desempenho do seletor de usuários agora é aprimorado para atender às necessidades dos clientes com uma grande base de usuários.
+O desempenho do seletor de usuários agora é aprimorado para atender às necessidades de clientes com uma grande base de usuários.
 
-### Alterações na marca da Experience Cloud {#experience-cloud-branding-changes}
+### Alterações na identidade visual da Experience Cloud {#experience-cloud-branding-changes}
 
 O Brand Portal agora está em conformidade com a nova marca Adobe Experience Cloud.
 
 ![](assets/bp_solution_switcher.png)
 
-## O que mudou na 6.3.1 {#what-changed-in-4}
+## O que mudou na versão 6.3.1 {#what-changed-in-4}
 
 O Brand Portal 6.3.1 inclui funcionalidades novas e aprimoradas voltadas para o alinhamento do Brand Portal com o AEM.
 
 ### Interface do usuário atualizada {#upgraded-user-interface}
 
-Para alinhar a experiência do usuário do Brand Portal com o AEM, o Adobe está fazendo a transição para a interface do usuário do Coral 3. Essa alteração melhora a utilização geral, incluindo navegação e aparência.
+Para alinhar a experiência do usuário do Brand Portal com o AEM, o Adobe está fazendo a transição para a interface do usuário Coral 3. Essa alteração melhora a usabilidade geral, incluindo navegação e aparência.
 
 #### Experiência de navegação aprimorada {#enhanced-navigational-experience}
 
-* Acesso rápido às ferramentas administrativas por meio do novo logotipo do Adobe:
+* Acesso rápido a ferramentas administrativas através do novo logotipo Adobe:
 
 ![](assets/aemlogo-3.png)
 
-* Navegação do produto por meio de uma sobreposição:
+* Navegação do produto por uma sobreposição:
 
 ![](assets/overlay_navigation.png)
 
-* Navegação rápida para pastas principais:
+* Navegação rápida para as pastas principais:
 
 ![](assets/navigationparentfolders.png)
 
@@ -850,38 +850,38 @@ Para alinhar a experiência do usuário do Brand Portal com o AEM, o Adobe está
 
 ### Experiência de pesquisa aprimorada {#enhanced-search-experience}
 
-* O novo recurso de pesquisa Omni facilita o acesso rápido a conteúdo, recursos ou tags relevantes por meio de sugestões automáticas ao digitar palavras-chave de pesquisa. A pesquisa Omni está disponível em todos os recursos de pesquisa.
+* O novo recurso de pesquisa Omni facilita o acesso rápido a conteúdo, recursos ou tags relevantes por meio de sugestões automáticas à medida que você digita palavras-chave de pesquisa. A pesquisa omni está disponível em todos os recursos de pesquisa.
 
 ![](assets/omnisearch_whatsnew.png)
 
-* Você também pode adicionar filtros de pesquisa à pesquisa Omni para restringir ainda mais e agilizar sua pesquisa.
+* Você também pode adicionar filtros de pesquisa à pesquisa Omni para restringir ainda mais e acelerar sua pesquisa.
 
 ![](assets/omnisearch_withfilters.png)
 
-* A nova pesquisa baseada na classificação de ativos permite pesquisar ativos com classificações, se publicada pela AEM Assets.
-* O novo recurso de pesquisa de vários valores aceita várias palavras-chave com o operador AND para descobrir ativos mais rapidamente.
-* O novo recurso de reforço de pesquisa permite melhorar a relevância da pesquisa para que ativos específicos apareçam na parte superior dos resultados da pesquisa.
-* O novo recurso de pesquisa baseado em caminho permite fornecer o caminho para uma pasta aninhada para poder pesquisar ativos nessa pasta.
+* A nova pesquisa baseada em classificação de ativos permite procurar ativos com classificação, se publicada no AEM Assets.
+* O novo recurso de pesquisa de vários valores aceita várias palavras-chave com o operador AND para detectar ativos mais rapidamente.
+* O novo recurso de aumento de pesquisa permite melhorar a relevância da pesquisa para que ativos específicos apareçam na parte superior dos resultados da pesquisa.
+* O novo recurso de pesquisa baseada em caminho permite fornecer o caminho para uma pasta aninhada para poder pesquisar ativos nessa pasta.
 
 #### Nova pesquisa baseada em tags inteligentes {#new-smart-tags-based-search}
 
-Se imagens com tags inteligentes forem publicadas do AEM Assets para o Brand Portal, você poderá pesquisar por essas imagens no Brand Portal usando os nomes das tags inteligentes como palavras-chave de pesquisa. Este recurso está disponível somente para arquivos.
+Se as imagens com tags inteligentes forem publicadas do AEM Assets para o Brand Portal, você poderá pesquisar essas imagens no Brand Portal usando os nomes de tags inteligentes como palavras-chave de pesquisa. Esse recurso está disponível somente para arquivos.
 
 ### Experiência de download aprimorada {#enhanced-downloading-experience}
 
-Após baixar uma pasta aninhada, é possível preservar a hierarquia da pasta original. Os ativos dentro de uma pasta aninhada podem ser baixados em uma única pasta, em vez de pastas separadas.
+Após baixar uma pasta aninhada, é possível preservar a hierarquia de pastas original. Os ativos dentro de uma pasta aninhada podem ser baixados em uma única pasta, em vez de pastas separadas.
 
-### Melhor desempenho {#improved-performance}
+### Desempenho aprimorado {#improved-performance}
 
-Aprimoramentos nos recursos de navegação, pesquisa e download melhoram significativamente o desempenho do Brand Portal.
+As melhorias nos recursos de navegação, pesquisa e download melhoram significativamente o desempenho do Brand Portal.
 
 ### Novo gerenciamento de direitos digitais para ativos {#new-digital-rights-management-for-assets}
 
-Os administradores podem definir a data e a hora de expiração dos ativos antes de compartilhá-los. Depois que um ativo expira, ele fica visível para visualizadores e editores, mas não é baixável. Quando um ativo expira, os administradores recebem uma notificação.
+Os administradores podem definir a data e a hora de expiração dos ativos antes de compartilhá-los. Depois que um ativo expira, ele fica visível para visualizadores e editores, mas não pode ser baixado. Quando um ativo expira, os administradores recebem uma notificação.
 
 ### Classificação de ativos aprimorada {#enhanced-asset-sorting}
 
-A classificação de ativos em uma pasta na exibição de lista não está mais restrita ao número de ativos que estão sendo exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
+A classificação de ativos em uma pasta na exibição em lista não está mais restrita ao número de ativos que estão sendo exibidos na primeira página. Todos os ativos em uma pasta são classificados, independentemente de todos estarem listados na primeira página.
 
 ### Relatórios aprimorados {#reporting-capabilities}
 
@@ -891,7 +891,7 @@ Os administradores podem criar e gerenciar três tipos de relatórios: ativos ba
 
 ### Metadados adicionais {#additional-metadata}
 
-O Brand Portal 6.3.1 apresenta metadados adicionais, que estão ao mesmo nível do AEM Assets 6.3. Você pode usar o formulário do Editor de esquema para controlar os metadados que devem estar visíveis na página Propriedades do ativo. Os metadados do ativo não estão visíveis para os usuários externos do compartilhamento de link, que só podem visualizar e baixar ativos usando o URL de compartilhamento de link.
+O Brand Portal 6.3.1 apresenta metadados adicionais, que estão em conformidade com o AEM Assets 6.3. Você pode usar o formulário Editor de esquemas para controlar os metadados que devem estar visíveis na página Propriedades dos ativos. Os metadados de ativos não estão visíveis para usuários de compartilhamento de links externos, que só podem visualizar e baixar ativos usando o URL de compartilhamento de links.
 
 ![](assets/additionsinmetadata.png)
 
@@ -901,16 +901,16 @@ O Brand Portal 6.3.1 apresenta metadados adicionais, que estão ao mesmo nível 
 
 ![](assets/wallpaperpreview.png)
 
-* Depois que um administrador adiciona novos usuários, eles não precisam aceitar convites para serem adicionados ao Brand Portal, então eles são adicionados automaticamente.
+* Depois que um administrador adiciona novos usuários, ele não precisa aceitar convites para ser adicionado ao Brand Portal. Ele é adicionado automaticamente.
 
 ### Novos recursos de publicação no AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
-* AEM administradores podem publicar esquema de metadados do AEM Assets para o Brand Portal usando o AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponível no quarto trimestre de 2017.
+* Os administradores do AEM podem publicar o esquema de metadados do AEM Assets no Brand Portal usando o AEM 6.3 SP 1-CFP 1 (6.3.1.1), que estará disponível no quarto trimestre de 2017.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
-* AEM administradores podem publicar todas as tags do AEM Assets no Brand Portal usando o AEM 6.2 SP1-CFP7 e o AEM 6.3 SP 1-CFP 1 (6.3.1.1).
+* Os administradores do AEM podem publicar todas as tags do AEM Assets no Brand Portal usando o AEM AEM 6.2 SP1-CFP7 e o 6.3 SP 1-CFP 1 (6.3.1.1).
 
 ![](assets/publish_tags_aemassets.png)
 
-* No AEM Assets, é possível publicar ativos e coleções que têm tags, incluindo tags inteligentes. Em seguida, você pode pesquisar por esses ativos ou coleções usando essas tags como palavras-chave de pesquisa no Brand Portal.
+* No AEM Assets, você pode publicar ativos e coleções que tenham tags, incluindo tags inteligentes. Em seguida, você pode pesquisar esses ativos ou coleções usando essas tags como palavras-chave de pesquisa no Brand Portal.
