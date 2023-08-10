@@ -1,8 +1,8 @@
 ---
 title: Novidades do Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e aprimoramentos para 2032.05.0
-seo-description: What are the new features and enhancements for 2023.05.0
+description: Quais são os novos recursos e melhorias para 2032.08.0?
+seo-description: What are the new features and enhancements for 2023.08.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
+source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
 workflow-type: tm+mt
-source-wordcount: '6514'
+source-wordcount: '6536'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Novidades do Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 O Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade e segurança os ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de entrada no mercado dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja aqui uma prévia dos novos recursos e aprimoramentos.
+
+## O que mudou em 2023.08.0 {#what-changed-in-August-2023}
+
+O Brand Portal 2023.08.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2023.05.0 {#what-changed-in-May-2023}
 
@@ -484,7 +488,7 @@ Da mesma forma, especificando:
 
 ## O que mudou na versão 6.4.3 {#what-changed-in}
 
-A versão do Brand Portal 6.4.3 tem como foco — fornecer às organizações um alias alternativo, além de sua ID de locatário no URL de acesso do Brand Portal, nova configuração da hierarquia de pastas, aprimoramentos no suporte de vídeo, publicação agendada da instância do AEM Author para o Brand Portal, aprimoramentos operacionais — e atende às solicitações do cliente.
+A versão do Brand Portal 6.4.3 tem como foco — fornecer às organizações um alias alternativo, além de sua ID de locatário no URL de acesso do Brand Portal, nova configuração da hierarquia de pastas, melhorias no suporte de vídeo, publicação agendada da instância do AEM Author para o Brand Portal, melhorias operacionais — e atende às solicitações do cliente.
 
 ### Navegação da hierarquia de pastas para não administradores
 
@@ -516,7 +520,7 @@ A miniatura padrão das pastas virtuais é a imagem em miniatura da primeira pas
 * Os usuários administradores podem usar o Navegador de caminhos para navegar para qualquer diretório de pastas no Brand Portal.
 * Usuários não administradores podem usar o Navegador de caminho para navegar somente até as pastas (e navegar de volta até as pastas principais) compartilhadas com eles.
 
-   Por exemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` é compartilhado com um usuário não administrador. O usuário pode pesquisar ativos na folderC usando o Navegador de caminho. Esse usuário também pode navegar para a pasta B e a pasta A (já que são antecessores da pasta C compartilhada com o usuário).
+  Por exemplo, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` é compartilhado com um usuário não administrador. O usuário pode pesquisar ativos na folderC usando o Navegador de caminho. Esse usuário também pode navegar para a pasta B e a pasta A (já que são antecessores da pasta C compartilhada com o usuário).
 
 ![](assets/edit-search-form.png)
 
