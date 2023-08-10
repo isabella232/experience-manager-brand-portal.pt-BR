@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 10%
 
 ---
@@ -72,7 +72,7 @@ Para adicionar um predicado de pesquisa à variável **[!UICONTROL Filtros]** pa
 
    >[!NOTE]
    >
-   >No Brand Portal, todas as propriedades (exceto as que começam com `xmp`) no `jcrcontent/metadata` de `dam:asset` são indexados por padrão.
+   >No Brand Portal, todas as propriedades de string (exceto as que começam com `xmp`) no `jcrcontent/metadata` de `dam:asset` são indexados por padrão.
    >
    >Qualquer propriedade indexada pode ser usada ao criar um predicado de propriedade. Se qualquer propriedade não indexada for configurada, a consulta de pesquisa em uma propriedade não indexada poderá não fornecer nenhum resultado de pesquisa.
 
@@ -91,16 +91,16 @@ Semelhante à maneira como você adiciona um **[!UICONTROL Propriedade]** predic
 
 | **Nome do predicado** | **Descrição** | **Propriedades** |
 |-------|-------|----------|
-| **[!UICONTROL Navegador de caminhos]** | Pesquisar predicado para pesquisar ativos em um local específico. **Nota:** *Para um usuário conectado, o navegador de caminho no Filtro mostra somente a estrutura de conteúdo das pastas (e seus antecessores) compartilhadas com o usuário.* <br> Os usuários administradores podem pesquisar ativos em qualquer pasta navegando até essa pasta usando o Navegador de caminho. <br> Ao passo que os usuários não administradores podem pesquisar ativos em uma pasta (acessível a eles) navegando até essa pasta no Navegador de caminho. | <ul><li>Rótulo do campo</li><li>Caminho </li><li>Descrição</li></ul> |
+| **[!UICONTROL Navegador de caminhos]** | Pesquisar predicado para pesquisar ativos em um local específico. **Nota:** *Para um usuário conectado, o navegador de caminho no Filtro mostra somente a estrutura de conteúdo das pastas (e seus antecessores) compartilhadas com o usuário.* <br> Os usuários administradores podem pesquisar ativos em qualquer pasta navegando até essa pasta usando o Navegador de caminho. <br> Ao passo que os usuários não administradores podem pesquisar ativos em uma pasta (acessível a eles) navegando até essa pasta no Navegador de caminho. | <ul><li>Rótulo do campo</li><li>Caminho</li><li>Descrição</li></ul> |
 | **[!UICONTROL Propriedade]** | Pesquise ativos com base em uma propriedade de metadados específica. **Nota:** *Ao selecionar Pesquisa parcial, Ignorar maiúsculas e minúsculas é selecionado por padrão*. | <ul><li>Rótulo do campo</li><li>Espaço reservado</li><li>Nome da Propriedade</li><li>Pesquisa parcial</li><li>Ignorar diferença entre maiúsculas e minúsculas</li><li> Descrição</li></ul> |
 | **[!UICONTROL Propriedade multivalor]** | Semelhante ao predicado da propriedade, mas permite vários valores de entrada, separados por um delimitador (o padrão é VÍRGULA[,]) ativos que correspondem a qualquer um dos valores de entrada são retornados em resultados. | <ul><li>Rótulo do campo</li><li>Espaço reservado</li><li>Nome da propriedade</li><li>Suporte do delimitador</li><li>Ignorar diferença entre maiúsculas e minúsculas</li><li>Descrição</li></ul> |
-| **[!UICONTROL Tags]** | Pesquisar predicado para pesquisar ativos com base em tags. Você pode configurar a propriedade Caminho para preencher várias tags na lista Tags. *Observação: talvez os administradores precisem alterar o valor do caminho, por exemplo, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], se eles publicarem o formulário de pesquisa do AEM, onde o caminho não inclui informações do locatário, por exemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Caminho </li><li>Descrição</li></ul> |
-| **[!UICONTROL Caminho]** | Pesquisar predicado para pesquisar ativos em um local específico. | <ul><li>Rótulo do campo</li><li>Caminho </li><li>Descrição</li></ul> |  |
+| **[!UICONTROL Tags]** | Pesquisar predicado para pesquisar ativos com base em tags. Você pode configurar a propriedade Caminho para preencher várias tags na lista Tags. *Observação: talvez os administradores precisem alterar o valor do caminho, por exemplo, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], se eles publicarem o formulário de pesquisa do AEM, onde o caminho não inclui informações do locatário, por exemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Caminho</li><li>Descrição</li></ul> |
+| **[!UICONTROL Caminho]** | Pesquisar predicado para pesquisar ativos em um local específico. | <ul><li>Rótulo do campo</li><li>Caminho</li><li>Descrição</li></ul> |                                                     |
 | **[!UICONTROL Data relativa]** | Predicado de pesquisa para pesquisar ativos com base na data relativa de sua criação. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Data relativa</li></ul> |
 | **[!UICONTROL Intervalo]** | Pesquisar predicado para pesquisar ativos que estão dentro de um intervalo especificado de valores de propriedade. No painel Filtros, você pode especificar valores de propriedade mínimos e máximos para o intervalo. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Descrição</li></ul> |
 | **[!UICONTROL Intervalo de datas]** | Pesquisar predicado para pesquisar ativos criados em um intervalo especificado para uma propriedade de data. No painel Filtros, você pode especificar datas de início e término. | <ul><li>Rótulo do campo</li><li>Espaço reservado</li><li>Nome da propriedade</li><li>Texto do intervalo (de)</li><li>Texto do intervalo (até)</li><li>Descrição</li></ul> |
 | **[!UICONTROL Data]** | Pesquisar predicado para uma pesquisa com base em controle deslizante de ativos com base em uma propriedade de data. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Descrição</li></ul> |
-| **[!UICONTROL Tamanho do arquivo]** | Pesquisar predicado para pesquisar ativos com base em seu tamanho. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Caminho </li><li>Descrição</li></ul> |
+| **[!UICONTROL Tamanho do arquivo]** | Pesquisar predicado para pesquisar ativos com base em seu tamanho. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Caminho</li><li>Descrição</li></ul> |
 | **[!UICONTROL Última modificação do ativo]** | Pesquisar predicado para pesquisar ativos com base na data da última modificação. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Descrição</li></ul> |
 | **[!UICONTROL Status de aprovação]** | Predicado de pesquisa para pesquisar ativos com base na propriedade de metadados de aprovação. O nome padrão da propriedade é **dam:status**. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Descrição</li></ul> |
 | **[!UICONTROL Status da retirada]** | Pesquisar predicado para pesquisar ativos com base no status de check-out de um ativo quando ele foi publicado na AEM Assets. | <ul><li>Rótulo do campo</li><li>Nome da propriedade</li><li>Descrição</li></ul> |
