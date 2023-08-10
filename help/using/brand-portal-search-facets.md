@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ Para adicionar um predicado de pesquisa à variável **[!UICONTROL Filtros]** pa
    >
    >Ao selecionar **[!UICONTROL Pesquisa parcial]** caixa de seleção **[!UICONTROL Ignorar maiúsculas e minúsculas]** é selecionada por padrão.
 
-1. No **[!UICONTROL Nome da propriedade]** , abra o seletor de propriedades e selecione a propriedade com base na qual a pesquisa é realizada. Como alternativa, insira um nome para a propriedade. Por exemplo, insira `  jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
+1. No **[!UICONTROL Nome da propriedade]** , abra o seletor de propriedades e selecione a propriedade com base na qual a pesquisa é realizada. Como alternativa, insira um nome para a propriedade. Por exemplo, insira `jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Semelhante à maneira como você adiciona um **[!UICONTROL Propriedade]** predic
 
 >[!NOTE]
 >
->Não usar **[!UICONTROL Predicado de opções]**, **[!UICONTROL Publicar o status do predicado]**, e **[!UICONTROL Predicado de classificação]** já que esses predicados não são funcionais no Brand Portal.
+>* Não usar **[!UICONTROL Predicado de opções]**, **[!UICONTROL Publicar o status do predicado]**, e **[!UICONTROL Predicado de classificação]** já que esses predicados não são funcionais no Brand Portal.
+>* Predicado de tipo de pasta `(nt:folder type)` O não é compatível com o Brand Portal e pode causar problemas de desempenho. Se estiver presente no formulário de pesquisa personalizada publicado, ele poderá ser excluído editando o formulário de pesquisa.
 
 ## Excluir um predicado de pesquisa {#delete-a-search-predicate}
 
