@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
+source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
 
 # Acesso de convidado ao Brand Portal {#guest-access-to-brand-portal}
 
-O Experience Manager Assets Brand Portal permite o acesso de visitantes ao portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso aos ativos públicos (e coleções) do portal. Os usuários na sessão de convidado podem adicionar ativos ao lightbox (coleção privada) e baixar os mesmos até que a sessão dure, o que significa 2 horas a partir do início da sessão, a menos que o usuário convidado opte por [[!UICONTROL Encerrar sessão]](#exit-guest-session).
+O Experience Manager Assets Brand Portal permite o acesso de visitantes ao portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso aos ativos públicos (e coleções) do portal. Os usuários na sessão de convidado podem adicionar ativos ao lightbox (coleção privada) e baixar os mesmos até que a sessão dure ou a menos que o usuário convidado opte por [[!UICONTROL Encerrar sessão]](#exit-guest-session). Uma sessão de usuário convidado permanece ativa por 15 minutos, enquanto o tempo limite do usuário convidado real é de 2 horas.
 
 A funcionalidade de acesso de visitantes permite que as organizações [compartilhar ativos aprovados rapidamente](../using/brand-portal-sharing-folders.md#how-to-share-folders) com o público-alvo pretendido em escala sem ter de os integrar. O Brand Portal 6.4.2 em diante está equipado para atender vários usuários convidados simultâneos, o que representa 10% da cota total de usuários por organização. Permitir o acesso do convidado economiza tempo para gerenciar e integrar pontuações de usuários com funcionalidades limitadas no Brand Portal.\
 As organizações podem habilitar (ou desabilitar) o acesso de convidado na conta da Brand Portal da organização usando **[!UICONTROL Permitir acesso de convidado]** opção de **[!UICONTROL Access]** configurações no painel ferramentas administrativas.
@@ -40,7 +40,6 @@ Para entrar no Brand Portal anonimamente, selecione **[!UICONTROL Clique aqui]**
 ![](assets/bp-login-screen.png)
 
 ## Duração da sessão de convidado {#guest-session-duration}
-
 
 Uma sessão de usuário convidado permanece ativa por 15 minutos.
 Isto significa que o estado da **[!UICONTROL Lightbox]** é preservado por 15 minutos a partir da hora de início da sessão e, depois disso, a sessão de convidado atual é reiniciada para que o estado Lightbox seja perdido.
