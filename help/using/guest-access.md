@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: b66b8ea6a88dba41380ca94e613e77b3a2c1e253
+source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # Acesso de convidado ao Brand Portal {#guest-access-to-brand-portal}
 
-O Experience Manager Assets Brand Portal permite o acesso de visitantes ao portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso aos ativos públicos (e coleções) do portal. Os usuários na sessão de convidado podem adicionar ativos ao lightbox (coleção privada) e baixar os mesmos até que a sessão dure ou a menos que o usuário convidado opte por [[!UICONTROL Encerrar sessão]](#exit-guest-session). Uma sessão de usuário convidado permanece ativa por 15 minutos, enquanto o tempo limite do usuário convidado real é de 2 horas.
+O Experience Manager Assets Brand Portal permite o acesso de visitantes ao portal. Um usuário convidado não precisa de credenciais para entrar no portal e tem acesso aos ativos públicos (e coleções) do portal. Os usuários na sessão de convidado podem adicionar ativos ao lightbox (coleção privada) e baixar os mesmos até que a sessão dure ou a menos que o usuário convidado opte por [[!UICONTROL Encerrar sessão]](#exit-guest-session). Uma sessão de usuário convidado permanece ativa por 15 minutos.
 
 A funcionalidade de acesso de visitantes permite que as organizações [compartilhar ativos aprovados rapidamente](../using/brand-portal-sharing-folders.md#how-to-share-folders) com o público-alvo pretendido em escala sem ter de os integrar. O Brand Portal 6.4.2 em diante está equipado para atender vários usuários convidados simultâneos, o que representa 10% da cota total de usuários por organização. Permitir o acesso do convidado economiza tempo para gerenciar e integrar pontuações de usuários com funcionalidades limitadas no Brand Portal.\
 As organizações podem habilitar (ou desabilitar) o acesso de convidado na conta da Brand Portal da organização usando **[!UICONTROL Permitir acesso de convidado]** opção de **[!UICONTROL Access]** configurações no painel ferramentas administrativas.
