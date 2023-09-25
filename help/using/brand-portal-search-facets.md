@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1325'
 ht-degree: 10%
 
 ---
@@ -72,7 +72,7 @@ Para adicionar um predicado de pesquisa à variável **[!UICONTROL Filtros]** pa
 
    >[!NOTE]
    >
-   >No Brand Portal, todas as propriedades de string (exceto as que começam com `xmp`) no `jcrcontent/metadata` de `dam:asset` são indexados por padrão.
+   >No Brand Portal, todas as propriedades de string (exceto as que começam com `xmp`) no `jcrcontent/metadata` de `dam:asset` são indexados por padrão. Por padrão, todas as outras propriedades personalizadas de qualquer tipo não são indexadas.
    >
    >Qualquer propriedade indexada pode ser usada ao criar um predicado de propriedade. Se qualquer propriedade não indexada for configurada, a consulta de pesquisa em uma propriedade não indexada poderá não fornecer nenhum resultado de pesquisa.
 
