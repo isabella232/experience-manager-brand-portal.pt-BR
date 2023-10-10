@@ -1,8 +1,8 @@
 ---
 title: Novidades do Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e melhorias para 2032.08.0?
-seo-description: What are the new features and enhancements for 2023.08.0
+description: Quais são os novos recursos e melhorias do 2032.10.0?
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
 workflow-type: tm+mt
-source-wordcount: '6536'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Novidades do Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 O Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade e segurança os ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de entrada no mercado dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja aqui uma prévia dos novos recursos e aprimoramentos.
+
+## O que mudou em 2023.10.0 {#what-changed-in-October-2023}
+
+O Brand Portal 2023.10.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2023.08.0 {#what-changed-in-August-2023}
 
@@ -488,7 +492,7 @@ Da mesma forma, especificando:
 
 ## O que mudou na versão 6.4.3 {#what-changed-in}
 
-A versão do Brand Portal 6.4.3 tem como foco — fornecer às organizações um alias alternativo, além de sua ID de locatário no URL de acesso do Brand Portal, nova configuração da hierarquia de pastas, melhorias no suporte de vídeo, publicação agendada da instância do AEM Author para o Brand Portal, melhorias operacionais — e atende às solicitações do cliente.
+A versão do Brand Portal 6.4.3 tem como foco — fornecer às organizações um alias alternativo além de sua ID de locatário no URL de acesso do Brand Portal, novas configurações de hierarquia de pastas, aprimoramentos de suporte de vídeo, publicação agendada da instância do AEM Author para o Brand Portal, aprimoramentos operacionais — e atende às solicitações do cliente.
 
 ### Navegação da hierarquia de pastas para não administradores
 
@@ -535,7 +539,7 @@ A pesquisa nessas pastas retorna resultados somente dos ativos que foram compart
 
 ### Suporte a representações de vídeo do Dynamic Media
 
-Os usuários cuja instância do Autor do AEM está no modo híbrido do Dynamic Media podem visualizar e baixar as representações do Dynamic Media, além dos arquivos de vídeo originais.
+Os usuários cuja instância de autor do AEM está no modo híbrido do Dynamic Media podem visualizar e baixar as representações do Dynamic Media, além dos arquivos de vídeo originais.
 
 Para permitir a pré-visualização e o download de representações de mídia dinâmica em contas de locatários específicas, os administradores devem especificar **Configuração do Dynamic Media** (URL do serviço de vídeo (URL do gateway DM) e ID de registro para buscar o vídeo dinâmico) no **Vídeo** configuração do painel ferramentas administrativas.
 

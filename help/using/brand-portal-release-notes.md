@@ -1,7 +1,7 @@
 ---
 title: Notas de versão
 seo-title: Release Notes
-description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2023.08.0 do Adobe Experience Manager Assets Brand Portal.
+description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2023.10.0 do Adobe Experience Manager Assets Brand Portal.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1312'
 ht-degree: 6%
 
 ---
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2023.08.0 do Adobe Experience Manager Assets Brand Portal.
+Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2023.10.0 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
 | Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versão | 2023.08.0 |
-| Data | Agosto de 2023 |
+| Versão | 2023.10.0 |
+| Data | Outubro de 2023 |
 
 ## Visão geral {#overview}
 
 O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados — a qualquer momento e em qualquer lugar.
 
-## Novidades em 2023.08.0 {#whats-new-in-2023.08.0}
+## Novidades em 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Problemas Críticos Corrigidos {#critical-issues-fixed}
 
-#### Correções de erros e aprimoramentos {#bug-fixes-enhancements}
+#### Correções de erros {#bug-fixes}
 
+Esta versão inclui as seguintes correções de erros:
+
+* Não é possível salvar [!UICONTROL Data] e [!UICONTROL Opções] predicados para o [!UICONTROL Conjunto inteligente].
+
+* A variável [!UICONTROL Data e hora] O formato do é inconsistente durante o trabalho em um local diferente do inglês.
+
+* Ao realizar a pesquisa de ativos, a variável [!UICONTROL Excluir] botão ausente.
+
+* Se a variável [!UICONTROL Título] o campo contém símbolos multibyte em [!UICONTROL Compartilhamento de link], o relatório não poderá ser baixado.
+
+* Ao visualizar um documento do tipo PDF, os rótulos e as dicas de ferramenta não estão localizados.
+
+#### Aprimoramentos {#enhancements}
+
+Esta versão inclui os seguintes aprimoramentos:
+
+* Melhorias de desempenho ao navegar pela [!UICONTROL Coleções].
+
+* Quando você executa uma pesquisa parcial usando o campo OmniSearch, os resultados não são precisos.
+
+## Versões anteriores
+
+### Versão de agosto de 2023 {#aug-2023}
+
+**Correções de erros e aprimoramentos**
 Esta versão inclui os seguintes aprimoramentos:
 
 * Melhorias de desempenho ao carregar ativos no [!UICONTROL Baixar] aparecer.
@@ -48,9 +73,6 @@ Esta versão inclui as seguintes correções de erros:
 * Os rótulos longos ou as tags não são exibidos adequadamente para filtros de pesquisa.
 * Não é possível exibir nomes longos de representação na caixa de diálogo Download.
 * Não é possível visualizar os ativos de vídeo no modo de exibição Cartão.
-
-
-## Versões anteriores
 
 ### Versão de maio de 2023 {#may-2023}
 
@@ -100,7 +122,7 @@ Esta versão inclui os seguintes problemas conhecidos:
 
 **Problemas Críticos Corrigidos**
 
-Essa versão inclui correções para os seguintes problemas críticos:
+Esta versão inclui correções para os seguintes problemas críticos:
 
 * Tempos de resposta lentos ao copiar arquivos grandes do Brand Portal para uma ferramenta de terceiros.
 * Ao marcar a caixa de seleção Contagem de representações, as caixas de seleção para selecionar representações individuais são desativadas.
