@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 1%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,15 @@ ht-degree: 1%
 
 Uma coleção representa um grupo de ativos relacionados armazenados juntos no Adobe Experience Manager Assets Brand Portal. Os usuários podem criar coleções inteligentes ao [aplicação da pesquisa omnisearch ou facet para filtrar ativos relacionados](brand-portal-searching.md) e armazene-os juntos para facilitar o acesso e compartilhar o conteúdo com outros usuários do Brand Portal.
 
-Os administradores podem compartilhar e descompartilhar uma coleção com os usuários autorizados do Brand Portal. Editores e visualizadores podem visualizar e compartilhar as coleções criadas por eles, compartilhadas com eles e coleções públicas.
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+As coleções são compartilhadas como link por email. Todos com acesso ao link de compartilhamento podem abrir a coleção, enquanto emails compartilhados podem ser encaminhados a qualquer pessoa. Além disso, [links compartilhados](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) são temporárias e acessíveis apenas por um período limitado. Como alternativa, os usuários podem ser convidados como membros permanentes para coleções. Há os seguintes tipos de usuários para as coleções:
+
+* **Administradores** O pode compartilhar ou descompartilhar uma coleção com usuários autorizados do Brand Portal. Eles podem convidar outros usuários para uma coleção específica e definir sua função nessa coleção. Além disso, os administradores podem criar coleções públicas.
+
+* **Editores** têm permissão para criar e compartilhar coleções. Eles podem convidar outros usuários para uma coleção específica e definir sua função nessa coleção. Além disso, eles também podem compartilhar coleções se tiverem sido convidados para a coleção como editor ou proprietário.
+
+* **Visualizadores** O pode criar apenas coleções privadas. Eles não têm permissão para compartilhar uma coleção mesmo quando foram convidados como proprietários.
 
 >[!NOTE]
 >
@@ -33,17 +41,17 @@ Veja a seguir as etapas para compartilhar uma coleção com os usuários autoriz
 
 1. Faça logon no seu locatário do Brand Portal. Por padrão, a variável **[!UICONTROL Arquivos]** a visualização abre, que contém todos os ativos e pastas publicados.
 
-1. Nas navegações rápidas na parte superior, clique em **[!UICONTROL Coleções]**.
+1. Na navegação rápida na parte superior, clique em **[!UICONTROL Coleções]**.
 
 1. No **[!UICONTROL Coleções]** execute um dos procedimentos a seguir:
 
    * Passe o ponteiro sobre a coleção que você deseja compartilhar. Nas miniaturas de ação rápida disponíveis para a coleção, clique no link **[!UICONTROL Configurações]** ícone.
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
    * Selecione a coleção que deseja compartilhar. Na barra de ferramentas na parte superior, clique em **[!UICONTROL Configurações]**.
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
 1. No **[!UICONTROL Configurações da coleção]** , selecione os usuários com os quais deseja compartilhar a coleção e selecione a função para o usuário que corresponda à sua função global. Por exemplo, atribuir a função Editor a um editor global, função Visualizador a um visualizador global.
 
