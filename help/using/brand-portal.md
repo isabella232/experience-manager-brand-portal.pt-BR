@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
+source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ O ambiente do portal baseado em navegador permite que você faça upload, navegu
 
 ## Configurar o Experience Manager Assets com o Brand Portal {#configure-brand-portal}
 
-A configuração do Adobe Experience Manager Assets com o Brand Portal habilita a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal.
+A configuração do Adobe Experience Manager Assets com Brand Portal habilita a publicação de ativos, a distribuição de ativos e os recursos de contribuição de ativos para os usuários do Brand Portal.
 
 >[!NOTE]
 >
@@ -144,6 +144,7 @@ Além das tarefas acima, um Autor no AEM Assets pode executar as seguintes taref
 ## Alias alternativo para o URL do Brand Portal {#tenant-alias-for-portal-url}
 
 A partir do Brand Portal 6.4.3, as organizações podem ter um URL alternativo (alias) para o URL existente de seu locatário do Brand Portal. O URL alias pode ser criado tendo um prefixo alternativo no URL.\
+Se o nome do locatário tiver mais de 32 caracteres, o alias do locatário precisará ser criado.
 Observe que somente o prefixo do URL do Brand Portal pode ser personalizado, e não o URL inteiro. Por exemplo, uma organização com um domínio existente `geomettrix.brand-portal.adobe.com` pode obter `geomettrixinc.brand-portal.adobe.com` criado mediante solicitação.
 
 No entanto, a instância do autor do AEM pode ser [configurado](../using/configure-aem-assets-with-brand-portal.md) somente com a URL da id do locatário e não com a URL do alias do locatário (alternativo).
@@ -180,6 +181,7 @@ A variável [!UICONTROL Fazer logon] é aberta.
    1. Forneça o seu [!UICONTROL Adobe ID] e clique em **[!UICONTROL Fazer logon]**.
 
       ![Adobe de entrada](assets/bplogin_request_access_3.png)
+
    Você será redirecionado para a [!UICONTROL Solicitar acesso] página.
 
    **Cenário 2**
@@ -192,6 +194,7 @@ A variável [!UICONTROL Inscrever-se] é aberta.
    1. Selecionar **[!UICONTROL Inscrever-se]**.
 
       ![](assets/bplogin_request_access_5.png)
+
    Você será redirecionado para a [!UICONTROL Solicitar acesso] página.
 
 1. A próxima página exibe seu nome e a ID de e-mail usada para solicitar acesso. Deixe um comentário para o administrador e clique em **[!UICONTROL Enviar]**.
@@ -243,4 +246,4 @@ Você pode ignorar esta notificação e continuar usando o Brand Portal. Essa no
 * [Adobe Customer Support]()
 -->
 
-* [Fóruns sobre AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [Fóruns sobre AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=pt)

@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: b91e0b4f03beb37d826ce75ac49498b7b79e4a39
+source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,8 @@ A variável **[!UICONTROL Download rápido]** A configuração do é ativada por
 Para baixar os arquivos mais rapidamente, verifique o seguinte:
 
 * Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Baixar]** e verificar se o **[!UICONTROL Download rápido]** a configuração do está ativada no **[!UICONTROL Configurações de download]**.
-* Verifique se a porta 33001 (TCP e UDP) está aberta no firewall. Para obter mais informações sobre os pré-requisitos, consulte [Documentação do cliente do IBM® Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* **Instale o IBM® Aspera Connect 3.9.9** na extensão do seu navegador usando privilégios de administrador (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
-* Para suporte de plataforma de cliente de transferência Aspera, consulte [Matriz de suporte da plataforma IBM® Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+* Verifique se a porta 33001 (TCP e UDP) está aberta no firewall.
+* **Instale o IBM® Aspera Connect 3.9.9** na extensão do seu navegador usando privilégios de administrador ([Downloads do IBM® Asperra Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
@@ -82,11 +81,11 @@ Para baixar ativos mais rapidamente da Brand Portal:
 
    * Selecione os ativos ou pastas que deseja baixar. Na barra de ferramentas na parte superior, clique no botão **[!UICONTROL Baixar]** ícone.
 
-      ![select-multiple-assets](assets/select-assets-new.png)
+     ![select-multiple-assets](assets/select-assets-new.png)
 
    * Para baixar representações de ativos específicos de um ativo, passe o mouse sobre o ativo e clique no link **[!UICONTROL Baixar]** ícone disponível nas miniaturas de ação rápida.
 
-      ![select-asset](assets/select-asset.png)
+     ![select-asset](assets/select-asset.png)
 
 1. A variável **[!UICONTROL Baixar]** caixa de diálogo listando todos os ativos selecionados é aberta.
 
@@ -119,6 +118,7 @@ Para baixar ativos mais rapidamente da Brand Portal:
    Se não quiser usar o IBM® Aspera Connect, clique em **[!UICONTROL Negar]**. Se **[!UICONTROL Download rápido]** for negado ou falhar, o sistema preencherá uma mensagem de erro. Clique em **[!UICONTROL Download normal]** botão para continuar baixando os ativos.
 
 >[!NOTE]
+>
 Se a variável **[!UICONTROL Download rápido]** for desativada pelo administrador, as representações selecionadas serão baixadas diretamente em uma pasta zip sem usar o IBM® Aspera Connect.
 
 <!-- 
