@@ -5,10 +5,11 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
 index: y
-source-git-commit: 3cecf26345fee25c60b5e4bf7063a30da28de2a6
+recommendations: noDisplay
+source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 87%
+source-wordcount: '109'
+ht-degree: 89%
 
 ---
 
@@ -25,4 +26,4 @@ O arquivo metadata.md inclui metadados de nível de repositório que passam para
 | getting-started-url | Link para a página de introdução |
 | tutorials-url | Link para tutoriais em vídeo — tutoriais de ajuda ou tutoriais de KT |
 | mini-toc-levels | Calcula o número de níveis de cabeçalho exibidos no painel direito. O padrão é 2 |
-| git-repo | Especifica o local do acordo de recompra principal para uso interno |
+| git-repo | Especifica o local do repositório principal para uso interno |
