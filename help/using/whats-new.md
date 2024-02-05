@@ -1,8 +1,8 @@
 ---
 title: Novidades do Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quais são os novos recursos e melhorias do 2023.10.0
-seo-description: What are the new features and enhancements for 2023.10.0
+description: Quais são os novos recursos e melhorias do 2024.02.0
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
 workflow-type: tm+mt
-source-wordcount: '6558'
-ht-degree: 2%
+source-wordcount: '6616'
+ht-degree: 1%
 
 ---
 
 # Novidades do Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 O Adobe Experience Manager Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade e segurança os ativos criativos aprovados para terceiros e usuários empresariais internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de entrada no mercado dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Adobe está trabalhando para melhorar a experiência geral do Brand Portal. Veja aqui uma prévia dos novos recursos e aprimoramentos.
+
+## O que mudou em 2024.02.0 {#what-changed-in-February-2024}
+
+O Brand Portal 2024.02.0 é uma versão interna que inclui correções para os problemas críticos. Ver mais recente [Notas de versão do Brand Portal](brand-portal-release-notes.md).
 
 ## O que mudou em 2023.10.0 {#what-changed-in-October-2023}
 
@@ -244,7 +248,7 @@ No **[!UICONTROL Baixar]** , os usuários poderão:
 * Exclua as representações dos ativos que não são necessárias para o download.
 * Aplique o mesmo conjunto de representações a todos os tipos de ativos semelhantes com um só clique.
 * Aplique diferentes conjuntos de representações para diferentes tipos de ativos.
-* Criar uma pasta separada para cada ativo.
+* Crie uma pasta separada para cada ativo.
 * Baixar ativos selecionados e suas representações.
 
 O fluxo de trabalho de download permanece constante para ativos independentes, vários ativos, pastas que contêm ativos, ativos licenciados ou não licenciados e download de ativos usando o link compartilhado. Consulte [etapas para baixar ativos da Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).

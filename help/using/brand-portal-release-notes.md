@@ -1,8 +1,8 @@
 ---
 title: Notas de versão
 seo-title: Release Notes
-description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2023.10.0 do Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Saiba mais sobre recursos, aprimoramentos, problemas críticos corrigidos e problemas conhecidos na versão 2024.02.0 do Adobe Experience Manager Assets Brand Portal.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 6%
+source-wordcount: '1475'
+ht-degree: 2%
 
 ---
 
 # Notas de versão {#release-notes}
 
-Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2023.10.0 do Adobe Experience Manager Assets Brand Portal.
+Saiba mais sobre os novos recursos, melhorias, problemas críticos corrigidos e problemas conhecidos na versão 2024.02.0 do Adobe Experience Manager Assets Brand Portal.
 
 ## Informações da versão {#release-information}
 
 | Produto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versão | 2023.10.0 |
-| Data | Outubro de 2023 |
+| Versão | 2024.02.0 |
+| Data | Fevereiro de 2024 |
 
 ## Visão geral {#overview}
 
 O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, controlar e distribuir com facilidade ativos criativos aprovados para terceiros e usuários de negócios internos em todos os dispositivos. Ele ajuda a melhorar a eficiência do compartilhamento de ativos, acelera o tempo de comercialização dos ativos e reduz o risco de não-conformidade e acesso não autorizado. O Brand Portal permite que os usuários naveguem, pesquisem, visualizem, baixem e exportem ativos em formatos corporativos aprovados — a qualquer momento e em qualquer lugar.
 
-## Novidades em 2023.10.0 {#whats-new-in-2023.10.0}
+## Novidades em 2024.02.0 {#whats-new-in-2024.02.0}
 
 ### Problemas Críticos Corrigidos {#critical-issues-fixed}
 
 #### Correções de erros {#bug-fixes}
+
+Esta versão inclui as seguintes correções de erros:
+
+* Não é possível baixar ativos digitais protegidos por DRM na localidade turca.
+
+* Não é possível abrir e baixar os relatórios existentes que contêm ativos com título de várias linhas.
+
+* Ao baixar ativos usando [!UICONTROL Baixar] na barra de ações, é possível baixar no máximo 1000 ativos.
+
+* Nome incorreto de ativos do tipo PSD ao visualizar na Árvore de conteúdo.
+
+* [!UICONTROL Excluir representação] a opção na página detalhes do ativo não está funcionando.
+
+* Título e tamanho dos ativos desalinhados na janela pop-up de download.
+
+* Não é possível carregar pastas em uma exibição de cartão se você alternar da exibição em árvore.
+
+* Mesmo que a [!UICONTROL Download rápido] está ativado na variável [!UICONTROL Configurações de download] para editores e administradores, os locatários específicos não podem baixar os ativos expirados.
+
+* O erro de interface do usuário não é localizado ao criar um relatório quando todas as caixas de seleção não estão selecionadas.
+
+* Ao criar um relatório, os rótulos não são localizados.
+
+* Os administradores de suporte eram chamados de administradores no Brand Portal.
+
+## Versões anteriores
+
+### Versão de outubro de 2023 {#oct-2023}
+
+**Correções de erros e aprimoramentos**
+Esta versão inclui os seguintes aprimoramentos:
+
+* Melhorias de desempenho ao navegar pela [!UICONTROL Coleções].
+
+* Melhorias nos resultados da pesquisa ao executar uma pesquisa parcial usando o campo OmniSearch.
 
 Esta versão inclui as seguintes correções de erros:
 
@@ -49,16 +84,6 @@ Esta versão inclui as seguintes correções de erros:
 * Se a variável [!UICONTROL Título] o campo contém símbolos multibyte em [!UICONTROL Compartilhamento de link], o relatório não poderá ser baixado.
 
 * Ao visualizar um documento do tipo PDF, os rótulos e as dicas de ferramenta não estão localizados.
-
-#### Aprimoramentos {#enhancements}
-
-Esta versão inclui os seguintes aprimoramentos:
-
-* Melhorias de desempenho ao navegar pela [!UICONTROL Coleções].
-
-* Melhorias nos resultados da pesquisa ao executar uma pesquisa parcial usando o campo OmniSearch.
-
-## Versões anteriores
 
 ### Versão de agosto de 2023 {#aug-2023}
 
@@ -142,7 +167,7 @@ Esta versão inclui correções para os seguintes problemas críticos:
 
 **Problemas Críticos Corrigidos**
 
-Essa versão inclui correções para os seguintes problemas críticos:
+Esta versão inclui correções para os seguintes problemas críticos:
 
 * Quando a NUI não processa um ativo no Experience Manager, o Brand Portal exibe um status de importação de ativo impreciso.
 * Quando a ação de visualização falha, não há notificação para comunicar a falha.
@@ -154,7 +179,7 @@ Essa versão inclui correções para os seguintes problemas críticos:
 
 **Novos recursos**
 
-O Brand Portal agora executa processos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir manualmente os ativos na pasta Contribuição para manter o tamanho da pasta abaixo do limite.
+O Brand Portal agora executa processos automáticos a cada doze horas para excluir todos os ativos do Brand Portal publicados no AEM. Como resultado, não é necessário excluir os ativos na pasta Contribuição manualmente para manter o tamanho da pasta abaixo do limite.
 
 **Problemas Críticos Corrigidos**
 
