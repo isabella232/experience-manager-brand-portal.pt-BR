@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1416'
 ht-degree: 2%
 
 ---
@@ -41,25 +41,12 @@ O Adobe Experience Manager (AEM) Assets Brand Portal ajuda você a adquirir, con
 Esta versão inclui as seguintes correções de erros:
 
 * Não é possível baixar ativos digitais protegidos por DRM na localidade turca.
-
 * Não é possível abrir e baixar os relatórios existentes que contêm ativos com título de várias linhas.
-
 * Ao baixar ativos usando [!UICONTROL Baixar] na barra de ações, é possível baixar no máximo 1000 ativos.
-
 * Nome incorreto de ativos do tipo PSD ao visualizar na Árvore de conteúdo.
-
 * [!UICONTROL Excluir representação] a opção na página detalhes do ativo não está funcionando.
-
 * Título e tamanho dos ativos desalinhados na janela pop-up de download.
-
-* Não é possível carregar pastas em uma exibição de cartão se você alternar da exibição em árvore.
-
-* Mesmo que a [!UICONTROL Download rápido] está ativado na variável [!UICONTROL Configurações de download] para editores e administradores, os locatários específicos não podem baixar os ativos expirados.
-
-* O erro de interface do usuário não é localizado ao criar um relatório quando todas as caixas de seleção não estão selecionadas.
-
 * Ao criar um relatório, os rótulos não são localizados.
-
 * Os administradores de suporte eram chamados de administradores no Brand Portal.
 
 ## Versões anteriores
